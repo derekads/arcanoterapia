@@ -1,0 +1,2422 @@
+{
+  "0-0": {
+    "insight": "O Louco encontra O Louco: A energia de Liberdade e Caos é hoje catalisada por Liberdade e Caos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Liberdade bloqueie sua essência de O Louco.",
+    "acao": "Aventure-se no desconhecido hoje."
+  },
+  "0-1": {
+    "insight": "O Louco encontra O Mago: A energia de Liberdade e Caos é hoje catalisada por Vontade e Início. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vontade bloqueie sua essência de O Louco.",
+    "acao": "Inicie um projeto prático hoje."
+  },
+  "0-2": {
+    "insight": "O Louco encontra A Sacerdotisa: A energia de Liberdade e Caos é hoje catalisada por Intuição e Mistério. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Intuição bloqueie sua essência de O Louco.",
+    "acao": "Silencie e medite hoje."
+  },
+  "0-3": {
+    "insight": "O Louco encontra A Imperatriz: A energia de Liberdade e Caos é hoje catalisada por Criatividade e Abundância. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Criatividade bloqueie sua essência de O Louco.",
+    "acao": "Crie algo belo hoje."
+  },
+  "0-4": {
+    "insight": "O Louco encontra O Imperador: A energia de Liberdade e Caos é hoje catalisada por Estrutura e Ordem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Estrutura bloqueie sua essência de O Louco.",
+    "acao": "Organize suas finanças hoje."
+  },
+  "0-5": {
+    "insight": "O Louco encontra O Papa: A energia de Liberdade e Caos é hoje catalisada por Sabedoria e Tradição. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sabedoria bloqueie sua essência de O Louco.",
+    "acao": "Busque um conselho sábio hoje."
+  },
+  "0-6": {
+    "insight": "O Louco encontra Os Enamorados: A energia de Liberdade e Caos é hoje catalisada por Escolha e União. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Escolha bloqueie sua essência de O Louco.",
+    "acao": "Siga seu coração hoje."
+  },
+  "0-7": {
+    "insight": "O Louco encontra O Carro: A energia de Liberdade e Caos é hoje catalisada por Vitória e Movimento. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vitória bloqueie sua essência de O Louco.",
+    "acao": "Avance com determinação hoje."
+  },
+  "0-8": {
+    "insight": "O Louco encontra A Justiça: A energia de Liberdade e Caos é hoje catalisada por Equilíbrio e Verdade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Equilíbrio bloqueie sua essência de O Louco.",
+    "acao": "Seja honesto consigo mesmo hoje."
+  },
+  "0-9": {
+    "insight": "O Louco encontra O Eremita: A energia de Liberdade e Caos é hoje catalisada por Introspecção e Luz. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Introspecção bloqueie sua essência de O Louco.",
+    "acao": "Busque a resposta no silêncio hoje."
+  },
+  "0-10": {
+    "insight": "O Louco encontra A Roda da Fortuna: A energia de Liberdade e Caos é hoje catalisada por Mudança e Ciclos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Mudança bloqueie sua essência de O Louco.",
+    "acao": "Aceite as voltas que a vida dá hoje."
+  },
+  "0-11": {
+    "insight": "O Louco encontra A Força: A energia de Liberdade e Caos é hoje catalisada por Domínio e Coragem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Domínio bloqueie sua essência de O Louco.",
+    "acao": "Domine seus impulsos com amor hoje."
+  },
+  "0-12": {
+    "insight": "O Louco encontra O Pendurado: A energia de Liberdade e Caos é hoje catalisada por Perspectiva e Pausa. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Perspectiva bloqueie sua essência de O Louco.",
+    "acao": "Mude seu ponto de vista hoje."
+  },
+  "0-13": {
+    "insight": "O Louco encontra A Morte: A energia de Liberdade e Caos é hoje catalisada por Transformação e Fim. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Transformação bloqueie sua essência de O Louco.",
+    "acao": "Deixe o velho para trás hoje."
+  },
+  "0-14": {
+    "insight": "O Louco encontra A Temperança: A energia de Liberdade e Caos é hoje catalisada por Alquimia e Paciência. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Alquimia bloqueie sua essência de O Louco.",
+    "acao": "Equilibre seus opostos hoje."
+  },
+  "0-15": {
+    "insight": "O Louco encontra O Diabo: A energia de Liberdade e Caos é hoje catalisada por Paixão e Sombra. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Paixão bloqueie sua essência de O Louco.",
+    "acao": "Enfrente seus desejos ocultos hoje."
+  },
+  "0-16": {
+    "insight": "O Louco encontra A Torre: A energia de Liberdade e Caos é hoje catalisada por Ruptura e Libertação. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Ruptura bloqueie sua essência de O Louco.",
+    "acao": "Deixe o falso cair hoje."
+  },
+  "0-17": {
+    "insight": "O Louco encontra A Estrela: A energia de Liberdade e Caos é hoje catalisada por Esperança e Fé. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Esperança bloqueie sua essência de O Louco.",
+    "acao": "Confie no fluxo do universo hoje."
+  },
+  "0-18": {
+    "insight": "O Louco encontra A Lua: A energia de Liberdade e Caos é hoje catalisada por Sonhos e Ilusão. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sonhos bloqueie sua essência de O Louco.",
+    "acao": "Cuidado com o que parece ser hoje."
+  },
+  "0-19": {
+    "insight": "O Louco encontra O Sol: A energia de Liberdade e Caos é hoje catalisada por Sucesso e Alegria. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sucesso bloqueie sua essência de O Louco.",
+    "acao": "Brilhe e compartilhe sua luz hoje."
+  },
+  "0-20": {
+    "insight": "O Louco encontra O Julgamento: A energia de Liberdade e Caos é hoje catalisada por Despertar e Chamado. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Despertar bloqueie sua essência de O Louco.",
+    "acao": "Ouça sua voz interior agora hoje."
+  },
+  "0-21": {
+    "insight": "O Louco encontra O Mundo: A energia de Liberdade e Caos é hoje catalisada por Plenitude e Unidade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Plenitude bloqueie sua essência de O Louco.",
+    "acao": "Celebre sua jornada completa hoje."
+  },
+  "1-0": {
+    "insight": "O Mago encontra O Louco: A energia de Vontade e Início é hoje catalisada por Liberdade e Caos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Liberdade bloqueie sua essência de O Mago.",
+    "acao": "Aventure-se no desconhecido hoje."
+  },
+  "1-1": {
+    "insight": "O Mago encontra O Mago: A energia de Vontade e Início é hoje catalisada por Vontade e Início. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vontade bloqueie sua essência de O Mago.",
+    "acao": "Inicie um projeto prático hoje."
+  },
+  "1-2": {
+    "insight": "O Mago encontra A Sacerdotisa: A energia de Vontade e Início é hoje catalisada por Intuição e Mistério. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Intuição bloqueie sua essência de O Mago.",
+    "acao": "Silencie e medite hoje."
+  },
+  "1-3": {
+    "insight": "O Mago encontra A Imperatriz: A energia de Vontade e Início é hoje catalisada por Criatividade e Abundância. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Criatividade bloqueie sua essência de O Mago.",
+    "acao": "Crie algo belo hoje."
+  },
+  "1-4": {
+    "insight": "O Mago encontra O Imperador: A energia de Vontade e Início é hoje catalisada por Estrutura e Ordem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Estrutura bloqueie sua essência de O Mago.",
+    "acao": "Organize suas finanças hoje."
+  },
+  "1-5": {
+    "insight": "O Mago encontra O Papa: A energia de Vontade e Início é hoje catalisada por Sabedoria e Tradição. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sabedoria bloqueie sua essência de O Mago.",
+    "acao": "Busque um conselho sábio hoje."
+  },
+  "1-6": {
+    "insight": "O Mago encontra Os Enamorados: A energia de Vontade e Início é hoje catalisada por Escolha e União. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Escolha bloqueie sua essência de O Mago.",
+    "acao": "Siga seu coração hoje."
+  },
+  "1-7": {
+    "insight": "O Mago encontra O Carro: A energia de Vontade e Início é hoje catalisada por Vitória e Movimento. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vitória bloqueie sua essência de O Mago.",
+    "acao": "Avance com determinação hoje."
+  },
+  "1-8": {
+    "insight": "O Mago encontra A Justiça: A energia de Vontade e Início é hoje catalisada por Equilíbrio e Verdade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Equilíbrio bloqueie sua essência de O Mago.",
+    "acao": "Seja honesto consigo mesmo hoje."
+  },
+  "1-9": {
+    "insight": "O Mago encontra O Eremita: A energia de Vontade e Início é hoje catalisada por Introspecção e Luz. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Introspecção bloqueie sua essência de O Mago.",
+    "acao": "Busque a resposta no silêncio hoje."
+  },
+  "1-10": {
+    "insight": "O Mago encontra A Roda da Fortuna: A energia de Vontade e Início é hoje catalisada por Mudança e Ciclos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Mudança bloqueie sua essência de O Mago.",
+    "acao": "Aceite as voltas que a vida dá hoje."
+  },
+  "1-11": {
+    "insight": "O Mago encontra A Força: A energia de Vontade e Início é hoje catalisada por Domínio e Coragem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Domínio bloqueie sua essência de O Mago.",
+    "acao": "Domine seus impulsos com amor hoje."
+  },
+  "1-12": {
+    "insight": "O Mago encontra O Pendurado: A energia de Vontade e Início é hoje catalisada por Perspectiva e Pausa. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Perspectiva bloqueie sua essência de O Mago.",
+    "acao": "Mude seu ponto de vista hoje."
+  },
+  "1-13": {
+    "insight": "O Mago encontra A Morte: A energia de Vontade e Início é hoje catalisada por Transformação e Fim. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Transformação bloqueie sua essência de O Mago.",
+    "acao": "Deixe o velho para trás hoje."
+  },
+  "1-14": {
+    "insight": "O Mago encontra A Temperança: A energia de Vontade e Início é hoje catalisada por Alquimia e Paciência. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Alquimia bloqueie sua essência de O Mago.",
+    "acao": "Equilibre seus opostos hoje."
+  },
+  "1-15": {
+    "insight": "O Mago encontra O Diabo: A energia de Vontade e Início é hoje catalisada por Paixão e Sombra. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Paixão bloqueie sua essência de O Mago.",
+    "acao": "Enfrente seus desejos ocultos hoje."
+  },
+  "1-16": {
+    "insight": "O Mago encontra A Torre: A energia de Vontade e Início é hoje catalisada por Ruptura e Libertação. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Ruptura bloqueie sua essência de O Mago.",
+    "acao": "Deixe o falso cair hoje."
+  },
+  "1-17": {
+    "insight": "O Mago encontra A Estrela: A energia de Vontade e Início é hoje catalisada por Esperança e Fé. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Esperança bloqueie sua essência de O Mago.",
+    "acao": "Confie no fluxo do universo hoje."
+  },
+  "1-18": {
+    "insight": "O Mago encontra A Lua: A energia de Vontade e Início é hoje catalisada por Sonhos e Ilusão. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sonhos bloqueie sua essência de O Mago.",
+    "acao": "Cuidado com o que parece ser hoje."
+  },
+  "1-19": {
+    "insight": "O Mago encontra O Sol: A energia de Vontade e Início é hoje catalisada por Sucesso e Alegria. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sucesso bloqueie sua essência de O Mago.",
+    "acao": "Brilhe e compartilhe sua luz hoje."
+  },
+  "1-20": {
+    "insight": "O Mago encontra O Julgamento: A energia de Vontade e Início é hoje catalisada por Despertar e Chamado. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Despertar bloqueie sua essência de O Mago.",
+    "acao": "Ouça sua voz interior agora hoje."
+  },
+  "1-21": {
+    "insight": "O Mago encontra O Mundo: A energia de Vontade e Início é hoje catalisada por Plenitude e Unidade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Plenitude bloqueie sua essência de O Mago.",
+    "acao": "Celebre sua jornada completa hoje."
+  },
+  "2-0": {
+    "insight": "A Sacerdotisa encontra O Louco: A energia de Intuição e Mistério é hoje catalisada por Liberdade e Caos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Liberdade bloqueie sua essência de A Sacerdotisa.",
+    "acao": "Aventure-se no desconhecido hoje."
+  },
+  "2-1": {
+    "insight": "A Sacerdotisa encontra O Mago: A energia de Intuição e Mistério é hoje catalisada por Vontade e Início. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vontade bloqueie sua essência de A Sacerdotisa.",
+    "acao": "Inicie um projeto prático hoje."
+  },
+  "2-2": {
+    "insight": "A Sacerdotisa encontra A Sacerdotisa: A energia de Intuição e Mistério é hoje catalisada por Intuição e Mistério. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Intuição bloqueie sua essência de A Sacerdotisa.",
+    "acao": "Silencie e medite hoje."
+  },
+  "2-3": {
+    "insight": "A Sacerdotisa encontra A Imperatriz: A energia de Intuição e Mistério é hoje catalisada por Criatividade e Abundância. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Criatividade bloqueie sua essência de A Sacerdotisa.",
+    "acao": "Crie algo belo hoje."
+  },
+  "2-4": {
+    "insight": "A Sacerdotisa encontra O Imperador: A energia de Intuição e Mistério é hoje catalisada por Estrutura e Ordem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Estrutura bloqueie sua essência de A Sacerdotisa.",
+    "acao": "Organize suas finanças hoje."
+  },
+  "2-5": {
+    "insight": "A Sacerdotisa encontra O Papa: A energia de Intuição e Mistério é hoje catalisada por Sabedoria e Tradição. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sabedoria bloqueie sua essência de A Sacerdotisa.",
+    "acao": "Busque um conselho sábio hoje."
+  },
+  "2-6": {
+    "insight": "A Sacerdotisa encontra Os Enamorados: A energia de Intuição e Mistério é hoje catalisada por Escolha e União. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Escolha bloqueie sua essência de A Sacerdotisa.",
+    "acao": "Siga seu coração hoje."
+  },
+  "2-7": {
+    "insight": "A Sacerdotisa encontra O Carro: A energia de Intuição e Mistério é hoje catalisada por Vitória e Movimento. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vitória bloqueie sua essência de A Sacerdotisa.",
+    "acao": "Avance com determinação hoje."
+  },
+  "2-8": {
+    "insight": "A Sacerdotisa encontra A Justiça: A energia de Intuição e Mistério é hoje catalisada por Equilíbrio e Verdade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Equilíbrio bloqueie sua essência de A Sacerdotisa.",
+    "acao": "Seja honesto consigo mesmo hoje."
+  },
+  "2-9": {
+    "insight": "A Sacerdotisa encontra O Eremita: A energia de Intuição e Mistério é hoje catalisada por Introspecção e Luz. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Introspecção bloqueie sua essência de A Sacerdotisa.",
+    "acao": "Busque a resposta no silêncio hoje."
+  },
+  "2-10": {
+    "insight": "A Sacerdotisa encontra A Roda da Fortuna: A energia de Intuição e Mistério é hoje catalisada por Mudança e Ciclos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Mudança bloqueie sua essência de A Sacerdotisa.",
+    "acao": "Aceite as voltas que a vida dá hoje."
+  },
+  "2-11": {
+    "insight": "A Sacerdotisa encontra A Força: A energia de Intuição e Mistério é hoje catalisada por Domínio e Coragem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Domínio bloqueie sua essência de A Sacerdotisa.",
+    "acao": "Domine seus impulsos com amor hoje."
+  },
+  "2-12": {
+    "insight": "A Sacerdotisa encontra O Pendurado: A energia de Intuição e Mistério é hoje catalisada por Perspectiva e Pausa. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Perspectiva bloqueie sua essência de A Sacerdotisa.",
+    "acao": "Mude seu ponto de vista hoje."
+  },
+  "2-13": {
+    "insight": "A Sacerdotisa encontra A Morte: A energia de Intuição e Mistério é hoje catalisada por Transformação e Fim. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Transformação bloqueie sua essência de A Sacerdotisa.",
+    "acao": "Deixe o velho para trás hoje."
+  },
+  "2-14": {
+    "insight": "A Sacerdotisa encontra A Temperança: A energia de Intuição e Mistério é hoje catalisada por Alquimia e Paciência. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Alquimia bloqueie sua essência de A Sacerdotisa.",
+    "acao": "Equilibre seus opostos hoje."
+  },
+  "2-15": {
+    "insight": "A Sacerdotisa encontra O Diabo: A energia de Intuição e Mistério é hoje catalisada por Paixão e Sombra. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Paixão bloqueie sua essência de A Sacerdotisa.",
+    "acao": "Enfrente seus desejos ocultos hoje."
+  },
+  "2-16": {
+    "insight": "A Sacerdotisa encontra A Torre: A energia de Intuição e Mistério é hoje catalisada por Ruptura e Libertação. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Ruptura bloqueie sua essência de A Sacerdotisa.",
+    "acao": "Deixe o falso cair hoje."
+  },
+  "2-17": {
+    "insight": "A Sacerdotisa encontra A Estrela: A energia de Intuição e Mistério é hoje catalisada por Esperança e Fé. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Esperança bloqueie sua essência de A Sacerdotisa.",
+    "acao": "Confie no fluxo do universo hoje."
+  },
+  "2-18": {
+    "insight": "A Sacerdotisa encontra A Lua: A energia de Intuição e Mistério é hoje catalisada por Sonhos e Ilusão. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sonhos bloqueie sua essência de A Sacerdotisa.",
+    "acao": "Cuidado com o que parece ser hoje."
+  },
+  "2-19": {
+    "insight": "A Sacerdotisa encontra O Sol: A energia de Intuição e Mistério é hoje catalisada por Sucesso e Alegria. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sucesso bloqueie sua essência de A Sacerdotisa.",
+    "acao": "Brilhe e compartilhe sua luz hoje."
+  },
+  "2-20": {
+    "insight": "A Sacerdotisa encontra O Julgamento: A energia de Intuição e Mistério é hoje catalisada por Despertar e Chamado. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Despertar bloqueie sua essência de A Sacerdotisa.",
+    "acao": "Ouça sua voz interior agora hoje."
+  },
+  "2-21": {
+    "insight": "A Sacerdotisa encontra O Mundo: A energia de Intuição e Mistério é hoje catalisada por Plenitude e Unidade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Plenitude bloqueie sua essência de A Sacerdotisa.",
+    "acao": "Celebre sua jornada completa hoje."
+  },
+  "3-0": {
+    "insight": "A Imperatriz encontra O Louco: A energia de Criatividade e Abundância é hoje catalisada por Liberdade e Caos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Liberdade bloqueie sua essência de A Imperatriz.",
+    "acao": "Aventure-se no desconhecido hoje."
+  },
+  "3-1": {
+    "insight": "A Imperatriz encontra O Mago: A energia de Criatividade e Abundância é hoje catalisada por Vontade e Início. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vontade bloqueie sua essência de A Imperatriz.",
+    "acao": "Inicie um projeto prático hoje."
+  },
+  "3-2": {
+    "insight": "A Imperatriz encontra A Sacerdotisa: A energia de Criatividade e Abundância é hoje catalisada por Intuição e Mistério. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Intuição bloqueie sua essência de A Imperatriz.",
+    "acao": "Silencie e medite hoje."
+  },
+  "3-3": {
+    "insight": "A Imperatriz encontra A Imperatriz: A energia de Criatividade e Abundância é hoje catalisada por Criatividade e Abundância. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Criatividade bloqueie sua essência de A Imperatriz.",
+    "acao": "Crie algo belo hoje."
+  },
+  "3-4": {
+    "insight": "A Imperatriz encontra O Imperador: A energia de Criatividade e Abundância é hoje catalisada por Estrutura e Ordem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Estrutura bloqueie sua essência de A Imperatriz.",
+    "acao": "Organize suas finanças hoje."
+  },
+  "3-5": {
+    "insight": "A Imperatriz encontra O Papa: A energia de Criatividade e Abundância é hoje catalisada por Sabedoria e Tradição. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sabedoria bloqueie sua essência de A Imperatriz.",
+    "acao": "Busque um conselho sábio hoje."
+  },
+  "3-6": {
+    "insight": "A Imperatriz encontra Os Enamorados: A energia de Criatividade e Abundância é hoje catalisada por Escolha e União. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Escolha bloqueie sua essência de A Imperatriz.",
+    "acao": "Siga seu coração hoje."
+  },
+  "3-7": {
+    "insight": "A Imperatriz encontra O Carro: A energia de Criatividade e Abundância é hoje catalisada por Vitória e Movimento. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vitória bloqueie sua essência de A Imperatriz.",
+    "acao": "Avance com determinação hoje."
+  },
+  "3-8": {
+    "insight": "A Imperatriz encontra A Justiça: A energia de Criatividade e Abundância é hoje catalisada por Equilíbrio e Verdade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Equilíbrio bloqueie sua essência de A Imperatriz.",
+    "acao": "Seja honesto consigo mesmo hoje."
+  },
+  "3-9": {
+    "insight": "A Imperatriz encontra O Eremita: A energia de Criatividade e Abundância é hoje catalisada por Introspecção e Luz. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Introspecção bloqueie sua essência de A Imperatriz.",
+    "acao": "Busque a resposta no silêncio hoje."
+  },
+  "3-10": {
+    "insight": "A Imperatriz encontra A Roda da Fortuna: A energia de Criatividade e Abundância é hoje catalisada por Mudança e Ciclos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Mudança bloqueie sua essência de A Imperatriz.",
+    "acao": "Aceite as voltas que a vida dá hoje."
+  },
+  "3-11": {
+    "insight": "A Imperatriz encontra A Força: A energia de Criatividade e Abundância é hoje catalisada por Domínio e Coragem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Domínio bloqueie sua essência de A Imperatriz.",
+    "acao": "Domine seus impulsos com amor hoje."
+  },
+  "3-12": {
+    "insight": "A Imperatriz encontra O Pendurado: A energia de Criatividade e Abundância é hoje catalisada por Perspectiva e Pausa. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Perspectiva bloqueie sua essência de A Imperatriz.",
+    "acao": "Mude seu ponto de vista hoje."
+  },
+  "3-13": {
+    "insight": "A Imperatriz encontra A Morte: A energia de Criatividade e Abundância é hoje catalisada por Transformação e Fim. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Transformação bloqueie sua essência de A Imperatriz.",
+    "acao": "Deixe o velho para trás hoje."
+  },
+  "3-14": {
+    "insight": "A Imperatriz encontra A Temperança: A energia de Criatividade e Abundância é hoje catalisada por Alquimia e Paciência. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Alquimia bloqueie sua essência de A Imperatriz.",
+    "acao": "Equilibre seus opostos hoje."
+  },
+  "3-15": {
+    "insight": "A Imperatriz encontra O Diabo: A energia de Criatividade e Abundância é hoje catalisada por Paixão e Sombra. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Paixão bloqueie sua essência de A Imperatriz.",
+    "acao": "Enfrente seus desejos ocultos hoje."
+  },
+  "3-16": {
+    "insight": "A Imperatriz encontra A Torre: A energia de Criatividade e Abundância é hoje catalisada por Ruptura e Libertação. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Ruptura bloqueie sua essência de A Imperatriz.",
+    "acao": "Deixe o falso cair hoje."
+  },
+  "3-17": {
+    "insight": "A Imperatriz encontra A Estrela: A energia de Criatividade e Abundância é hoje catalisada por Esperança e Fé. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Esperança bloqueie sua essência de A Imperatriz.",
+    "acao": "Confie no fluxo do universo hoje."
+  },
+  "3-18": {
+    "insight": "A Imperatriz encontra A Lua: A energia de Criatividade e Abundância é hoje catalisada por Sonhos e Ilusão. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sonhos bloqueie sua essência de A Imperatriz.",
+    "acao": "Cuidado com o que parece ser hoje."
+  },
+  "3-19": {
+    "insight": "A Imperatriz encontra O Sol: A energia de Criatividade e Abundância é hoje catalisada por Sucesso e Alegria. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sucesso bloqueie sua essência de A Imperatriz.",
+    "acao": "Brilhe e compartilhe sua luz hoje."
+  },
+  "3-20": {
+    "insight": "A Imperatriz encontra O Julgamento: A energia de Criatividade e Abundância é hoje catalisada por Despertar e Chamado. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Despertar bloqueie sua essência de A Imperatriz.",
+    "acao": "Ouça sua voz interior agora hoje."
+  },
+  "3-21": {
+    "insight": "A Imperatriz encontra O Mundo: A energia de Criatividade e Abundância é hoje catalisada por Plenitude e Unidade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Plenitude bloqueie sua essência de A Imperatriz.",
+    "acao": "Celebre sua jornada completa hoje."
+  },
+  "4-0": {
+    "insight": "O Imperador encontra O Louco: A energia de Estrutura e Ordem é hoje catalisada por Liberdade e Caos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Liberdade bloqueie sua essência de O Imperador.",
+    "acao": "Aventure-se no desconhecido hoje."
+  },
+  "4-1": {
+    "insight": "O Imperador encontra O Mago: A energia de Estrutura e Ordem é hoje catalisada por Vontade e Início. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vontade bloqueie sua essência de O Imperador.",
+    "acao": "Inicie um projeto prático hoje."
+  },
+  "4-2": {
+    "insight": "O Imperador encontra A Sacerdotisa: A energia de Estrutura e Ordem é hoje catalisada por Intuição e Mistério. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Intuição bloqueie sua essência de O Imperador.",
+    "acao": "Silencie e medite hoje."
+  },
+  "4-3": {
+    "insight": "O Imperador encontra A Imperatriz: A energia de Estrutura e Ordem é hoje catalisada por Criatividade e Abundância. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Criatividade bloqueie sua essência de O Imperador.",
+    "acao": "Crie algo belo hoje."
+  },
+  "4-4": {
+    "insight": "O Imperador encontra O Imperador: A energia de Estrutura e Ordem é hoje catalisada por Estrutura e Ordem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Estrutura bloqueie sua essência de O Imperador.",
+    "acao": "Organize suas finanças hoje."
+  },
+  "4-5": {
+    "insight": "O Imperador encontra O Papa: A energia de Estrutura e Ordem é hoje catalisada por Sabedoria e Tradição. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sabedoria bloqueie sua essência de O Imperador.",
+    "acao": "Busque um conselho sábio hoje."
+  },
+  "4-6": {
+    "insight": "O Imperador encontra Os Enamorados: A energia de Estrutura e Ordem é hoje catalisada por Escolha e União. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Escolha bloqueie sua essência de O Imperador.",
+    "acao": "Siga seu coração hoje."
+  },
+  "4-7": {
+    "insight": "O Imperador encontra O Carro: A energia de Estrutura e Ordem é hoje catalisada por Vitória e Movimento. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vitória bloqueie sua essência de O Imperador.",
+    "acao": "Avance com determinação hoje."
+  },
+  "4-8": {
+    "insight": "O Imperador encontra A Justiça: A energia de Estrutura e Ordem é hoje catalisada por Equilíbrio e Verdade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Equilíbrio bloqueie sua essência de O Imperador.",
+    "acao": "Seja honesto consigo mesmo hoje."
+  },
+  "4-9": {
+    "insight": "O Imperador encontra O Eremita: A energia de Estrutura e Ordem é hoje catalisada por Introspecção e Luz. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Introspecção bloqueie sua essência de O Imperador.",
+    "acao": "Busque a resposta no silêncio hoje."
+  },
+  "4-10": {
+    "insight": "O Imperador encontra A Roda da Fortuna: A energia de Estrutura e Ordem é hoje catalisada por Mudança e Ciclos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Mudança bloqueie sua essência de O Imperador.",
+    "acao": "Aceite as voltas que a vida dá hoje."
+  },
+  "4-11": {
+    "insight": "O Imperador encontra A Força: A energia de Estrutura e Ordem é hoje catalisada por Domínio e Coragem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Domínio bloqueie sua essência de O Imperador.",
+    "acao": "Domine seus impulsos com amor hoje."
+  },
+  "4-12": {
+    "insight": "O Imperador encontra O Pendurado: A energia de Estrutura e Ordem é hoje catalisada por Perspectiva e Pausa. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Perspectiva bloqueie sua essência de O Imperador.",
+    "acao": "Mude seu ponto de vista hoje."
+  },
+  "4-13": {
+    "insight": "O Imperador encontra A Morte: A energia de Estrutura e Ordem é hoje catalisada por Transformação e Fim. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Transformação bloqueie sua essência de O Imperador.",
+    "acao": "Deixe o velho para trás hoje."
+  },
+  "4-14": {
+    "insight": "O Imperador encontra A Temperança: A energia de Estrutura e Ordem é hoje catalisada por Alquimia e Paciência. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Alquimia bloqueie sua essência de O Imperador.",
+    "acao": "Equilibre seus opostos hoje."
+  },
+  "4-15": {
+    "insight": "O Imperador encontra O Diabo: A energia de Estrutura e Ordem é hoje catalisada por Paixão e Sombra. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Paixão bloqueie sua essência de O Imperador.",
+    "acao": "Enfrente seus desejos ocultos hoje."
+  },
+  "4-16": {
+    "insight": "O Imperador encontra A Torre: A energia de Estrutura e Ordem é hoje catalisada por Ruptura e Libertação. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Ruptura bloqueie sua essência de O Imperador.",
+    "acao": "Deixe o falso cair hoje."
+  },
+  "4-17": {
+    "insight": "O Imperador encontra A Estrela: A energia de Estrutura e Ordem é hoje catalisada por Esperança e Fé. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Esperança bloqueie sua essência de O Imperador.",
+    "acao": "Confie no fluxo do universo hoje."
+  },
+  "4-18": {
+    "insight": "O Imperador encontra A Lua: A energia de Estrutura e Ordem é hoje catalisada por Sonhos e Ilusão. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sonhos bloqueie sua essência de O Imperador.",
+    "acao": "Cuidado com o que parece ser hoje."
+  },
+  "4-19": {
+    "insight": "O Imperador encontra O Sol: A energia de Estrutura e Ordem é hoje catalisada por Sucesso e Alegria. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sucesso bloqueie sua essência de O Imperador.",
+    "acao": "Brilhe e compartilhe sua luz hoje."
+  },
+  "4-20": {
+    "insight": "O Imperador encontra O Julgamento: A energia de Estrutura e Ordem é hoje catalisada por Despertar e Chamado. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Despertar bloqueie sua essência de O Imperador.",
+    "acao": "Ouça sua voz interior agora hoje."
+  },
+  "4-21": {
+    "insight": "O Imperador encontra O Mundo: A energia de Estrutura e Ordem é hoje catalisada por Plenitude e Unidade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Plenitude bloqueie sua essência de O Imperador.",
+    "acao": "Celebre sua jornada completa hoje."
+  },
+  "5-0": {
+    "insight": "O Papa encontra O Louco: A energia de Sabedoria e Tradição é hoje catalisada por Liberdade e Caos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Liberdade bloqueie sua essência de O Papa.",
+    "acao": "Aventure-se no desconhecido hoje."
+  },
+  "5-1": {
+    "insight": "O Papa encontra O Mago: A energia de Sabedoria e Tradição é hoje catalisada por Vontade e Início. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vontade bloqueie sua essência de O Papa.",
+    "acao": "Inicie um projeto prático hoje."
+  },
+  "5-2": {
+    "insight": "O Papa encontra A Sacerdotisa: A energia de Sabedoria e Tradição é hoje catalisada por Intuição e Mistério. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Intuição bloqueie sua essência de O Papa.",
+    "acao": "Silencie e medite hoje."
+  },
+  "5-3": {
+    "insight": "O Papa encontra A Imperatriz: A energia de Sabedoria e Tradição é hoje catalisada por Criatividade e Abundância. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Criatividade bloqueie sua essência de O Papa.",
+    "acao": "Crie algo belo hoje."
+  },
+  "5-4": {
+    "insight": "O Papa encontra O Imperador: A energia de Sabedoria e Tradição é hoje catalisada por Estrutura e Ordem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Estrutura bloqueie sua essência de O Papa.",
+    "acao": "Organize suas finanças hoje."
+  },
+  "5-5": {
+    "insight": "O Papa encontra O Papa: A energia de Sabedoria e Tradição é hoje catalisada por Sabedoria e Tradição. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sabedoria bloqueie sua essência de O Papa.",
+    "acao": "Busque um conselho sábio hoje."
+  },
+  "5-6": {
+    "insight": "O Papa encontra Os Enamorados: A energia de Sabedoria e Tradição é hoje catalisada por Escolha e União. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Escolha bloqueie sua essência de O Papa.",
+    "acao": "Siga seu coração hoje."
+  },
+  "5-7": {
+    "insight": "O Papa encontra O Carro: A energia de Sabedoria e Tradição é hoje catalisada por Vitória e Movimento. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vitória bloqueie sua essência de O Papa.",
+    "acao": "Avance com determinação hoje."
+  },
+  "5-8": {
+    "insight": "O Papa encontra A Justiça: A energia de Sabedoria e Tradição é hoje catalisada por Equilíbrio e Verdade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Equilíbrio bloqueie sua essência de O Papa.",
+    "acao": "Seja honesto consigo mesmo hoje."
+  },
+  "5-9": {
+    "insight": "O Papa encontra O Eremita: A energia de Sabedoria e Tradição é hoje catalisada por Introspecção e Luz. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Introspecção bloqueie sua essência de O Papa.",
+    "acao": "Busque a resposta no silêncio hoje."
+  },
+  "5-10": {
+    "insight": "O Papa encontra A Roda da Fortuna: A energia de Sabedoria e Tradição é hoje catalisada por Mudança e Ciclos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Mudança bloqueie sua essência de O Papa.",
+    "acao": "Aceite as voltas que a vida dá hoje."
+  },
+  "5-11": {
+    "insight": "O Papa encontra A Força: A energia de Sabedoria e Tradição é hoje catalisada por Domínio e Coragem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Domínio bloqueie sua essência de O Papa.",
+    "acao": "Domine seus impulsos com amor hoje."
+  },
+  "5-12": {
+    "insight": "O Papa encontra O Pendurado: A energia de Sabedoria e Tradição é hoje catalisada por Perspectiva e Pausa. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Perspectiva bloqueie sua essência de O Papa.",
+    "acao": "Mude seu ponto de vista hoje."
+  },
+  "5-13": {
+    "insight": "O Papa encontra A Morte: A energia de Sabedoria e Tradição é hoje catalisada por Transformação e Fim. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Transformação bloqueie sua essência de O Papa.",
+    "acao": "Deixe o velho para trás hoje."
+  },
+  "5-14": {
+    "insight": "O Papa encontra A Temperança: A energia de Sabedoria e Tradição é hoje catalisada por Alquimia e Paciência. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Alquimia bloqueie sua essência de O Papa.",
+    "acao": "Equilibre seus opostos hoje."
+  },
+  "5-15": {
+    "insight": "O Papa encontra O Diabo: A energia de Sabedoria e Tradição é hoje catalisada por Paixão e Sombra. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Paixão bloqueie sua essência de O Papa.",
+    "acao": "Enfrente seus desejos ocultos hoje."
+  },
+  "5-16": {
+    "insight": "O Papa encontra A Torre: A energia de Sabedoria e Tradição é hoje catalisada por Ruptura e Libertação. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Ruptura bloqueie sua essência de O Papa.",
+    "acao": "Deixe o falso cair hoje."
+  },
+  "5-17": {
+    "insight": "O Papa encontra A Estrela: A energia de Sabedoria e Tradição é hoje catalisada por Esperança e Fé. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Esperança bloqueie sua essência de O Papa.",
+    "acao": "Confie no fluxo do universo hoje."
+  },
+  "5-18": {
+    "insight": "O Papa encontra A Lua: A energia de Sabedoria e Tradição é hoje catalisada por Sonhos e Ilusão. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sonhos bloqueie sua essência de O Papa.",
+    "acao": "Cuidado com o que parece ser hoje."
+  },
+  "5-19": {
+    "insight": "O Papa encontra O Sol: A energia de Sabedoria e Tradição é hoje catalisada por Sucesso e Alegria. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sucesso bloqueie sua essência de O Papa.",
+    "acao": "Brilhe e compartilhe sua luz hoje."
+  },
+  "5-20": {
+    "insight": "O Papa encontra O Julgamento: A energia de Sabedoria e Tradição é hoje catalisada por Despertar e Chamado. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Despertar bloqueie sua essência de O Papa.",
+    "acao": "Ouça sua voz interior agora hoje."
+  },
+  "5-21": {
+    "insight": "O Papa encontra O Mundo: A energia de Sabedoria e Tradição é hoje catalisada por Plenitude e Unidade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Plenitude bloqueie sua essência de O Papa.",
+    "acao": "Celebre sua jornada completa hoje."
+  },
+  "6-0": {
+    "insight": "Os Enamorados encontra O Louco: A energia de Escolha e União é hoje catalisada por Liberdade e Caos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Liberdade bloqueie sua essência de Os Enamorados.",
+    "acao": "Aventure-se no desconhecido hoje."
+  },
+  "6-1": {
+    "insight": "Os Enamorados encontra O Mago: A energia de Escolha e União é hoje catalisada por Vontade e Início. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vontade bloqueie sua essência de Os Enamorados.",
+    "acao": "Inicie um projeto prático hoje."
+  },
+  "6-2": {
+    "insight": "Os Enamorados encontra A Sacerdotisa: A energia de Escolha e União é hoje catalisada por Intuição e Mistério. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Intuição bloqueie sua essência de Os Enamorados.",
+    "acao": "Silencie e medite hoje."
+  },
+  "6-3": {
+    "insight": "Os Enamorados encontra A Imperatriz: A energia de Escolha e União é hoje catalisada por Criatividade e Abundância. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Criatividade bloqueie sua essência de Os Enamorados.",
+    "acao": "Crie algo belo hoje."
+  },
+  "6-4": {
+    "insight": "Os Enamorados encontra O Imperador: A energia de Escolha e União é hoje catalisada por Estrutura e Ordem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Estrutura bloqueie sua essência de Os Enamorados.",
+    "acao": "Organize suas finanças hoje."
+  },
+  "6-5": {
+    "insight": "Os Enamorados encontra O Papa: A energia de Escolha e União é hoje catalisada por Sabedoria e Tradição. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sabedoria bloqueie sua essência de Os Enamorados.",
+    "acao": "Busque um conselho sábio hoje."
+  },
+  "6-6": {
+    "insight": "Os Enamorados encontra Os Enamorados: A energia de Escolha e União é hoje catalisada por Escolha e União. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Escolha bloqueie sua essência de Os Enamorados.",
+    "acao": "Siga seu coração hoje."
+  },
+  "6-7": {
+    "insight": "Os Enamorados encontra O Carro: A energia de Escolha e União é hoje catalisada por Vitória e Movimento. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vitória bloqueie sua essência de Os Enamorados.",
+    "acao": "Avance com determinação hoje."
+  },
+  "6-8": {
+    "insight": "Os Enamorados encontra A Justiça: A energia de Escolha e União é hoje catalisada por Equilíbrio e Verdade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Equilíbrio bloqueie sua essência de Os Enamorados.",
+    "acao": "Seja honesto consigo mesmo hoje."
+  },
+  "6-9": {
+    "insight": "Os Enamorados encontra O Eremita: A energia de Escolha e União é hoje catalisada por Introspecção e Luz. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Introspecção bloqueie sua essência de Os Enamorados.",
+    "acao": "Busque a resposta no silêncio hoje."
+  },
+  "6-10": {
+    "insight": "Os Enamorados encontra A Roda da Fortuna: A energia de Escolha e União é hoje catalisada por Mudança e Ciclos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Mudança bloqueie sua essência de Os Enamorados.",
+    "acao": "Aceite as voltas que a vida dá hoje."
+  },
+  "6-11": {
+    "insight": "Os Enamorados encontra A Força: A energia de Escolha e União é hoje catalisada por Domínio e Coragem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Domínio bloqueie sua essência de Os Enamorados.",
+    "acao": "Domine seus impulsos com amor hoje."
+  },
+  "6-12": {
+    "insight": "Os Enamorados encontra O Pendurado: A energia de Escolha e União é hoje catalisada por Perspectiva e Pausa. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Perspectiva bloqueie sua essência de Os Enamorados.",
+    "acao": "Mude seu ponto de vista hoje."
+  },
+  "6-13": {
+    "insight": "Os Enamorados encontra A Morte: A energia de Escolha e União é hoje catalisada por Transformação e Fim. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Transformação bloqueie sua essência de Os Enamorados.",
+    "acao": "Deixe o velho para trás hoje."
+  },
+  "6-14": {
+    "insight": "Os Enamorados encontra A Temperança: A energia de Escolha e União é hoje catalisada por Alquimia e Paciência. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Alquimia bloqueie sua essência de Os Enamorados.",
+    "acao": "Equilibre seus opostos hoje."
+  },
+  "6-15": {
+    "insight": "Os Enamorados encontra O Diabo: A energia de Escolha e União é hoje catalisada por Paixão e Sombra. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Paixão bloqueie sua essência de Os Enamorados.",
+    "acao": "Enfrente seus desejos ocultos hoje."
+  },
+  "6-16": {
+    "insight": "Os Enamorados encontra A Torre: A energia de Escolha e União é hoje catalisada por Ruptura e Libertação. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Ruptura bloqueie sua essência de Os Enamorados.",
+    "acao": "Deixe o falso cair hoje."
+  },
+  "6-17": {
+    "insight": "Os Enamorados encontra A Estrela: A energia de Escolha e União é hoje catalisada por Esperança e Fé. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Esperança bloqueie sua essência de Os Enamorados.",
+    "acao": "Confie no fluxo do universo hoje."
+  },
+  "6-18": {
+    "insight": "Os Enamorados encontra A Lua: A energia de Escolha e União é hoje catalisada por Sonhos e Ilusão. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sonhos bloqueie sua essência de Os Enamorados.",
+    "acao": "Cuidado com o que parece ser hoje."
+  },
+  "6-19": {
+    "insight": "Os Enamorados encontra O Sol: A energia de Escolha e União é hoje catalisada por Sucesso e Alegria. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sucesso bloqueie sua essência de Os Enamorados.",
+    "acao": "Brilhe e compartilhe sua luz hoje."
+  },
+  "6-20": {
+    "insight": "Os Enamorados encontra O Julgamento: A energia de Escolha e União é hoje catalisada por Despertar e Chamado. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Despertar bloqueie sua essência de Os Enamorados.",
+    "acao": "Ouça sua voz interior agora hoje."
+  },
+  "6-21": {
+    "insight": "Os Enamorados encontra O Mundo: A energia de Escolha e União é hoje catalisada por Plenitude e Unidade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Plenitude bloqueie sua essência de Os Enamorados.",
+    "acao": "Celebre sua jornada completa hoje."
+  },
+  "7-0": {
+    "insight": "O Carro encontra O Louco: A energia de Vitória e Movimento é hoje catalisada por Liberdade e Caos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Liberdade bloqueie sua essência de O Carro.",
+    "acao": "Aventure-se no desconhecido hoje."
+  },
+  "7-1": {
+    "insight": "O Carro encontra O Mago: A energia de Vitória e Movimento é hoje catalisada por Vontade e Início. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vontade bloqueie sua essência de O Carro.",
+    "acao": "Inicie um projeto prático hoje."
+  },
+  "7-2": {
+    "insight": "O Carro encontra A Sacerdotisa: A energia de Vitória e Movimento é hoje catalisada por Intuição e Mistério. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Intuição bloqueie sua essência de O Carro.",
+    "acao": "Silencie e medite hoje."
+  },
+  "7-3": {
+    "insight": "O Carro encontra A Imperatriz: A energia de Vitória e Movimento é hoje catalisada por Criatividade e Abundância. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Criatividade bloqueie sua essência de O Carro.",
+    "acao": "Crie algo belo hoje."
+  },
+  "7-4": {
+    "insight": "O Carro encontra O Imperador: A energia de Vitória e Movimento é hoje catalisada por Estrutura e Ordem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Estrutura bloqueie sua essência de O Carro.",
+    "acao": "Organize suas finanças hoje."
+  },
+  "7-5": {
+    "insight": "O Carro encontra O Papa: A energia de Vitória e Movimento é hoje catalisada por Sabedoria e Tradição. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sabedoria bloqueie sua essência de O Carro.",
+    "acao": "Busque um conselho sábio hoje."
+  },
+  "7-6": {
+    "insight": "O Carro encontra Os Enamorados: A energia de Vitória e Movimento é hoje catalisada por Escolha e União. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Escolha bloqueie sua essência de O Carro.",
+    "acao": "Siga seu coração hoje."
+  },
+  "7-7": {
+    "insight": "O Carro encontra O Carro: A energia de Vitória e Movimento é hoje catalisada por Vitória e Movimento. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vitória bloqueie sua essência de O Carro.",
+    "acao": "Avance com determinação hoje."
+  },
+  "7-8": {
+    "insight": "O Carro encontra A Justiça: A energia de Vitória e Movimento é hoje catalisada por Equilíbrio e Verdade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Equilíbrio bloqueie sua essência de O Carro.",
+    "acao": "Seja honesto consigo mesmo hoje."
+  },
+  "7-9": {
+    "insight": "O Carro encontra O Eremita: A energia de Vitória e Movimento é hoje catalisada por Introspecção e Luz. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Introspecção bloqueie sua essência de O Carro.",
+    "acao": "Busque a resposta no silêncio hoje."
+  },
+  "7-10": {
+    "insight": "O Carro encontra A Roda da Fortuna: A energia de Vitória e Movimento é hoje catalisada por Mudança e Ciclos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Mudança bloqueie sua essência de O Carro.",
+    "acao": "Aceite as voltas que a vida dá hoje."
+  },
+  "7-11": {
+    "insight": "O Carro encontra A Força: A energia de Vitória e Movimento é hoje catalisada por Domínio e Coragem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Domínio bloqueie sua essência de O Carro.",
+    "acao": "Domine seus impulsos com amor hoje."
+  },
+  "7-12": {
+    "insight": "O Carro encontra O Pendurado: A energia de Vitória e Movimento é hoje catalisada por Perspectiva e Pausa. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Perspectiva bloqueie sua essência de O Carro.",
+    "acao": "Mude seu ponto de vista hoje."
+  },
+  "7-13": {
+    "insight": "O Carro encontra A Morte: A energia de Vitória e Movimento é hoje catalisada por Transformação e Fim. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Transformação bloqueie sua essência de O Carro.",
+    "acao": "Deixe o velho para trás hoje."
+  },
+  "7-14": {
+    "insight": "O Carro encontra A Temperança: A energia de Vitória e Movimento é hoje catalisada por Alquimia e Paciência. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Alquimia bloqueie sua essência de O Carro.",
+    "acao": "Equilibre seus opostos hoje."
+  },
+  "7-15": {
+    "insight": "O Carro encontra O Diabo: A energia de Vitória e Movimento é hoje catalisada por Paixão e Sombra. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Paixão bloqueie sua essência de O Carro.",
+    "acao": "Enfrente seus desejos ocultos hoje."
+  },
+  "7-16": {
+    "insight": "O Carro encontra A Torre: A energia de Vitória e Movimento é hoje catalisada por Ruptura e Libertação. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Ruptura bloqueie sua essência de O Carro.",
+    "acao": "Deixe o falso cair hoje."
+  },
+  "7-17": {
+    "insight": "O Carro encontra A Estrela: A energia de Vitória e Movimento é hoje catalisada por Esperança e Fé. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Esperança bloqueie sua essência de O Carro.",
+    "acao": "Confie no fluxo do universo hoje."
+  },
+  "7-18": {
+    "insight": "O Carro encontra A Lua: A energia de Vitória e Movimento é hoje catalisada por Sonhos e Ilusão. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sonhos bloqueie sua essência de O Carro.",
+    "acao": "Cuidado com o que parece ser hoje."
+  },
+  "7-19": {
+    "insight": "O Carro encontra O Sol: A energia de Vitória e Movimento é hoje catalisada por Sucesso e Alegria. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sucesso bloqueie sua essência de O Carro.",
+    "acao": "Brilhe e compartilhe sua luz hoje."
+  },
+  "7-20": {
+    "insight": "O Carro encontra O Julgamento: A energia de Vitória e Movimento é hoje catalisada por Despertar e Chamado. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Despertar bloqueie sua essência de O Carro.",
+    "acao": "Ouça sua voz interior agora hoje."
+  },
+  "7-21": {
+    "insight": "O Carro encontra O Mundo: A energia de Vitória e Movimento é hoje catalisada por Plenitude e Unidade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Plenitude bloqueie sua essência de O Carro.",
+    "acao": "Celebre sua jornada completa hoje."
+  },
+  "8-0": {
+    "insight": "A Justiça encontra O Louco: A energia de Equilíbrio e Verdade é hoje catalisada por Liberdade e Caos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Liberdade bloqueie sua essência de A Justiça.",
+    "acao": "Aventure-se no desconhecido hoje."
+  },
+  "8-1": {
+    "insight": "A Justiça encontra O Mago: A energia de Equilíbrio e Verdade é hoje catalisada por Vontade e Início. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vontade bloqueie sua essência de A Justiça.",
+    "acao": "Inicie um projeto prático hoje."
+  },
+  "8-2": {
+    "insight": "A Justiça encontra A Sacerdotisa: A energia de Equilíbrio e Verdade é hoje catalisada por Intuição e Mistério. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Intuição bloqueie sua essência de A Justiça.",
+    "acao": "Silencie e medite hoje."
+  },
+  "8-3": {
+    "insight": "A Justiça encontra A Imperatriz: A energia de Equilíbrio e Verdade é hoje catalisada por Criatividade e Abundância. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Criatividade bloqueie sua essência de A Justiça.",
+    "acao": "Crie algo belo hoje."
+  },
+  "8-4": {
+    "insight": "A Justiça encontra O Imperador: A energia de Equilíbrio e Verdade é hoje catalisada por Estrutura e Ordem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Estrutura bloqueie sua essência de A Justiça.",
+    "acao": "Organize suas finanças hoje."
+  },
+  "8-5": {
+    "insight": "A Justiça encontra O Papa: A energia de Equilíbrio e Verdade é hoje catalisada por Sabedoria e Tradição. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sabedoria bloqueie sua essência de A Justiça.",
+    "acao": "Busque um conselho sábio hoje."
+  },
+  "8-6": {
+    "insight": "A Justiça encontra Os Enamorados: A energia de Equilíbrio e Verdade é hoje catalisada por Escolha e União. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Escolha bloqueie sua essência de A Justiça.",
+    "acao": "Siga seu coração hoje."
+  },
+  "8-7": {
+    "insight": "A Justiça encontra O Carro: A energia de Equilíbrio e Verdade é hoje catalisada por Vitória e Movimento. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vitória bloqueie sua essência de A Justiça.",
+    "acao": "Avance com determinação hoje."
+  },
+  "8-8": {
+    "insight": "A Justiça encontra A Justiça: A energia de Equilíbrio e Verdade é hoje catalisada por Equilíbrio e Verdade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Equilíbrio bloqueie sua essência de A Justiça.",
+    "acao": "Seja honesto consigo mesmo hoje."
+  },
+  "8-9": {
+    "insight": "A Justiça encontra O Eremita: A energia de Equilíbrio e Verdade é hoje catalisada por Introspecção e Luz. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Introspecção bloqueie sua essência de A Justiça.",
+    "acao": "Busque a resposta no silêncio hoje."
+  },
+  "8-10": {
+    "insight": "A Justiça encontra A Roda da Fortuna: A energia de Equilíbrio e Verdade é hoje catalisada por Mudança e Ciclos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Mudança bloqueie sua essência de A Justiça.",
+    "acao": "Aceite as voltas que a vida dá hoje."
+  },
+  "8-11": {
+    "insight": "A Justiça encontra A Força: A energia de Equilíbrio e Verdade é hoje catalisada por Domínio e Coragem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Domínio bloqueie sua essência de A Justiça.",
+    "acao": "Domine seus impulsos com amor hoje."
+  },
+  "8-12": {
+    "insight": "A Justiça encontra O Pendurado: A energia de Equilíbrio e Verdade é hoje catalisada por Perspectiva e Pausa. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Perspectiva bloqueie sua essência de A Justiça.",
+    "acao": "Mude seu ponto de vista hoje."
+  },
+  "8-13": {
+    "insight": "A Justiça encontra A Morte: A energia de Equilíbrio e Verdade é hoje catalisada por Transformação e Fim. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Transformação bloqueie sua essência de A Justiça.",
+    "acao": "Deixe o velho para trás hoje."
+  },
+  "8-14": {
+    "insight": "A Justiça encontra A Temperança: A energia de Equilíbrio e Verdade é hoje catalisada por Alquimia e Paciência. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Alquimia bloqueie sua essência de A Justiça.",
+    "acao": "Equilibre seus opostos hoje."
+  },
+  "8-15": {
+    "insight": "A Justiça encontra O Diabo: A energia de Equilíbrio e Verdade é hoje catalisada por Paixão e Sombra. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Paixão bloqueie sua essência de A Justiça.",
+    "acao": "Enfrente seus desejos ocultos hoje."
+  },
+  "8-16": {
+    "insight": "A Justiça encontra A Torre: A energia de Equilíbrio e Verdade é hoje catalisada por Ruptura e Libertação. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Ruptura bloqueie sua essência de A Justiça.",
+    "acao": "Deixe o falso cair hoje."
+  },
+  "8-17": {
+    "insight": "A Justiça encontra A Estrela: A energia de Equilíbrio e Verdade é hoje catalisada por Esperança e Fé. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Esperança bloqueie sua essência de A Justiça.",
+    "acao": "Confie no fluxo do universo hoje."
+  },
+  "8-18": {
+    "insight": "A Justiça encontra A Lua: A energia de Equilíbrio e Verdade é hoje catalisada por Sonhos e Ilusão. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sonhos bloqueie sua essência de A Justiça.",
+    "acao": "Cuidado com o que parece ser hoje."
+  },
+  "8-19": {
+    "insight": "A Justiça encontra O Sol: A energia de Equilíbrio e Verdade é hoje catalisada por Sucesso e Alegria. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sucesso bloqueie sua essência de A Justiça.",
+    "acao": "Brilhe e compartilhe sua luz hoje."
+  },
+  "8-20": {
+    "insight": "A Justiça encontra O Julgamento: A energia de Equilíbrio e Verdade é hoje catalisada por Despertar e Chamado. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Despertar bloqueie sua essência de A Justiça.",
+    "acao": "Ouça sua voz interior agora hoje."
+  },
+  "8-21": {
+    "insight": "A Justiça encontra O Mundo: A energia de Equilíbrio e Verdade é hoje catalisada por Plenitude e Unidade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Plenitude bloqueie sua essência de A Justiça.",
+    "acao": "Celebre sua jornada completa hoje."
+  },
+  "9-0": {
+    "insight": "O Eremita encontra O Louco: A energia de Introspecção e Luz é hoje catalisada por Liberdade e Caos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Liberdade bloqueie sua essência de O Eremita.",
+    "acao": "Aventure-se no desconhecido hoje."
+  },
+  "9-1": {
+    "insight": "O Eremita encontra O Mago: A energia de Introspecção e Luz é hoje catalisada por Vontade e Início. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vontade bloqueie sua essência de O Eremita.",
+    "acao": "Inicie um projeto prático hoje."
+  },
+  "9-2": {
+    "insight": "O Eremita encontra A Sacerdotisa: A energia de Introspecção e Luz é hoje catalisada por Intuição e Mistério. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Intuição bloqueie sua essência de O Eremita.",
+    "acao": "Silencie e medite hoje."
+  },
+  "9-3": {
+    "insight": "O Eremita encontra A Imperatriz: A energia de Introspecção e Luz é hoje catalisada por Criatividade e Abundância. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Criatividade bloqueie sua essência de O Eremita.",
+    "acao": "Crie algo belo hoje."
+  },
+  "9-4": {
+    "insight": "O Eremita encontra O Imperador: A energia de Introspecção e Luz é hoje catalisada por Estrutura e Ordem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Estrutura bloqueie sua essência de O Eremita.",
+    "acao": "Organize suas finanças hoje."
+  },
+  "9-5": {
+    "insight": "O Eremita encontra O Papa: A energia de Introspecção e Luz é hoje catalisada por Sabedoria e Tradição. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sabedoria bloqueie sua essência de O Eremita.",
+    "acao": "Busque um conselho sábio hoje."
+  },
+  "9-6": {
+    "insight": "O Eremita encontra Os Enamorados: A energia de Introspecção e Luz é hoje catalisada por Escolha e União. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Escolha bloqueie sua essência de O Eremita.",
+    "acao": "Siga seu coração hoje."
+  },
+  "9-7": {
+    "insight": "O Eremita encontra O Carro: A energia de Introspecção e Luz é hoje catalisada por Vitória e Movimento. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vitória bloqueie sua essência de O Eremita.",
+    "acao": "Avance com determinação hoje."
+  },
+  "9-8": {
+    "insight": "O Eremita encontra A Justiça: A energia de Introspecção e Luz é hoje catalisada por Equilíbrio e Verdade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Equilíbrio bloqueie sua essência de O Eremita.",
+    "acao": "Seja honesto consigo mesmo hoje."
+  },
+  "9-9": {
+    "insight": "O Eremita encontra O Eremita: A energia de Introspecção e Luz é hoje catalisada por Introspecção e Luz. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Introspecção bloqueie sua essência de O Eremita.",
+    "acao": "Busque a resposta no silêncio hoje."
+  },
+  "9-10": {
+    "insight": "O Eremita encontra A Roda da Fortuna: A energia de Introspecção e Luz é hoje catalisada por Mudança e Ciclos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Mudança bloqueie sua essência de O Eremita.",
+    "acao": "Aceite as voltas que a vida dá hoje."
+  },
+  "9-11": {
+    "insight": "O Eremita encontra A Força: A energia de Introspecção e Luz é hoje catalisada por Domínio e Coragem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Domínio bloqueie sua essência de O Eremita.",
+    "acao": "Domine seus impulsos com amor hoje."
+  },
+  "9-12": {
+    "insight": "O Eremita encontra O Pendurado: A energia de Introspecção e Luz é hoje catalisada por Perspectiva e Pausa. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Perspectiva bloqueie sua essência de O Eremita.",
+    "acao": "Mude seu ponto de vista hoje."
+  },
+  "9-13": {
+    "insight": "O Eremita encontra A Morte: A energia de Introspecção e Luz é hoje catalisada por Transformação e Fim. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Transformação bloqueie sua essência de O Eremita.",
+    "acao": "Deixe o velho para trás hoje."
+  },
+  "9-14": {
+    "insight": "O Eremita encontra A Temperança: A energia de Introspecção e Luz é hoje catalisada por Alquimia e Paciência. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Alquimia bloqueie sua essência de O Eremita.",
+    "acao": "Equilibre seus opostos hoje."
+  },
+  "9-15": {
+    "insight": "O Eremita encontra O Diabo: A energia de Introspecção e Luz é hoje catalisada por Paixão e Sombra. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Paixão bloqueie sua essência de O Eremita.",
+    "acao": "Enfrente seus desejos ocultos hoje."
+  },
+  "9-16": {
+    "insight": "O Eremita encontra A Torre: A energia de Introspecção e Luz é hoje catalisada por Ruptura e Libertação. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Ruptura bloqueie sua essência de O Eremita.",
+    "acao": "Deixe o falso cair hoje."
+  },
+  "9-17": {
+    "insight": "O Eremita encontra A Estrela: A energia de Introspecção e Luz é hoje catalisada por Esperança e Fé. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Esperança bloqueie sua essência de O Eremita.",
+    "acao": "Confie no fluxo do universo hoje."
+  },
+  "9-18": {
+    "insight": "O Eremita encontra A Lua: A energia de Introspecção e Luz é hoje catalisada por Sonhos e Ilusão. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sonhos bloqueie sua essência de O Eremita.",
+    "acao": "Cuidado com o que parece ser hoje."
+  },
+  "9-19": {
+    "insight": "O Eremita encontra O Sol: A energia de Introspecção e Luz é hoje catalisada por Sucesso e Alegria. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sucesso bloqueie sua essência de O Eremita.",
+    "acao": "Brilhe e compartilhe sua luz hoje."
+  },
+  "9-20": {
+    "insight": "O Eremita encontra O Julgamento: A energia de Introspecção e Luz é hoje catalisada por Despertar e Chamado. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Despertar bloqueie sua essência de O Eremita.",
+    "acao": "Ouça sua voz interior agora hoje."
+  },
+  "9-21": {
+    "insight": "O Eremita encontra O Mundo: A energia de Introspecção e Luz é hoje catalisada por Plenitude e Unidade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Plenitude bloqueie sua essência de O Eremita.",
+    "acao": "Celebre sua jornada completa hoje."
+  },
+  "10-0": {
+    "insight": "A Roda da Fortuna encontra O Louco: A energia de Mudança e Ciclos é hoje catalisada por Liberdade e Caos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Liberdade bloqueie sua essência de A Roda da Fortuna.",
+    "acao": "Aventure-se no desconhecido hoje."
+  },
+  "10-1": {
+    "insight": "A Roda da Fortuna encontra O Mago: A energia de Mudança e Ciclos é hoje catalisada por Vontade e Início. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vontade bloqueie sua essência de A Roda da Fortuna.",
+    "acao": "Inicie um projeto prático hoje."
+  },
+  "10-2": {
+    "insight": "A Roda da Fortuna encontra A Sacerdotisa: A energia de Mudança e Ciclos é hoje catalisada por Intuição e Mistério. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Intuição bloqueie sua essência de A Roda da Fortuna.",
+    "acao": "Silencie e medite hoje."
+  },
+  "10-3": {
+    "insight": "A Roda da Fortuna encontra A Imperatriz: A energia de Mudança e Ciclos é hoje catalisada por Criatividade e Abundância. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Criatividade bloqueie sua essência de A Roda da Fortuna.",
+    "acao": "Crie algo belo hoje."
+  },
+  "10-4": {
+    "insight": "A Roda da Fortuna encontra O Imperador: A energia de Mudança e Ciclos é hoje catalisada por Estrutura e Ordem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Estrutura bloqueie sua essência de A Roda da Fortuna.",
+    "acao": "Organize suas finanças hoje."
+  },
+  "10-5": {
+    "insight": "A Roda da Fortuna encontra O Papa: A energia de Mudança e Ciclos é hoje catalisada por Sabedoria e Tradição. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sabedoria bloqueie sua essência de A Roda da Fortuna.",
+    "acao": "Busque um conselho sábio hoje."
+  },
+  "10-6": {
+    "insight": "A Roda da Fortuna encontra Os Enamorados: A energia de Mudança e Ciclos é hoje catalisada por Escolha e União. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Escolha bloqueie sua essência de A Roda da Fortuna.",
+    "acao": "Siga seu coração hoje."
+  },
+  "10-7": {
+    "insight": "A Roda da Fortuna encontra O Carro: A energia de Mudança e Ciclos é hoje catalisada por Vitória e Movimento. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vitória bloqueie sua essência de A Roda da Fortuna.",
+    "acao": "Avance com determinação hoje."
+  },
+  "10-8": {
+    "insight": "A Roda da Fortuna encontra A Justiça: A energia de Mudança e Ciclos é hoje catalisada por Equilíbrio e Verdade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Equilíbrio bloqueie sua essência de A Roda da Fortuna.",
+    "acao": "Seja honesto consigo mesmo hoje."
+  },
+  "10-9": {
+    "insight": "A Roda da Fortuna encontra O Eremita: A energia de Mudança e Ciclos é hoje catalisada por Introspecção e Luz. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Introspecção bloqueie sua essência de A Roda da Fortuna.",
+    "acao": "Busque a resposta no silêncio hoje."
+  },
+  "10-10": {
+    "insight": "A Roda da Fortuna encontra A Roda da Fortuna: A energia de Mudança e Ciclos é hoje catalisada por Mudança e Ciclos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Mudança bloqueie sua essência de A Roda da Fortuna.",
+    "acao": "Aceite as voltas que a vida dá hoje."
+  },
+  "10-11": {
+    "insight": "A Roda da Fortuna encontra A Força: A energia de Mudança e Ciclos é hoje catalisada por Domínio e Coragem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Domínio bloqueie sua essência de A Roda da Fortuna.",
+    "acao": "Domine seus impulsos com amor hoje."
+  },
+  "10-12": {
+    "insight": "A Roda da Fortuna encontra O Pendurado: A energia de Mudança e Ciclos é hoje catalisada por Perspectiva e Pausa. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Perspectiva bloqueie sua essência de A Roda da Fortuna.",
+    "acao": "Mude seu ponto de vista hoje."
+  },
+  "10-13": {
+    "insight": "A Roda da Fortuna encontra A Morte: A energia de Mudança e Ciclos é hoje catalisada por Transformação e Fim. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Transformação bloqueie sua essência de A Roda da Fortuna.",
+    "acao": "Deixe o velho para trás hoje."
+  },
+  "10-14": {
+    "insight": "A Roda da Fortuna encontra A Temperança: A energia de Mudança e Ciclos é hoje catalisada por Alquimia e Paciência. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Alquimia bloqueie sua essência de A Roda da Fortuna.",
+    "acao": "Equilibre seus opostos hoje."
+  },
+  "10-15": {
+    "insight": "A Roda da Fortuna encontra O Diabo: A energia de Mudança e Ciclos é hoje catalisada por Paixão e Sombra. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Paixão bloqueie sua essência de A Roda da Fortuna.",
+    "acao": "Enfrente seus desejos ocultos hoje."
+  },
+  "10-16": {
+    "insight": "A Roda da Fortuna encontra A Torre: A energia de Mudança e Ciclos é hoje catalisada por Ruptura e Libertação. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Ruptura bloqueie sua essência de A Roda da Fortuna.",
+    "acao": "Deixe o falso cair hoje."
+  },
+  "10-17": {
+    "insight": "A Roda da Fortuna encontra A Estrela: A energia de Mudança e Ciclos é hoje catalisada por Esperança e Fé. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Esperança bloqueie sua essência de A Roda da Fortuna.",
+    "acao": "Confie no fluxo do universo hoje."
+  },
+  "10-18": {
+    "insight": "A Roda da Fortuna encontra A Lua: A energia de Mudança e Ciclos é hoje catalisada por Sonhos e Ilusão. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sonhos bloqueie sua essência de A Roda da Fortuna.",
+    "acao": "Cuidado com o que parece ser hoje."
+  },
+  "10-19": {
+    "insight": "A Roda da Fortuna encontra O Sol: A energia de Mudança e Ciclos é hoje catalisada por Sucesso e Alegria. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sucesso bloqueie sua essência de A Roda da Fortuna.",
+    "acao": "Brilhe e compartilhe sua luz hoje."
+  },
+  "10-20": {
+    "insight": "A Roda da Fortuna encontra O Julgamento: A energia de Mudança e Ciclos é hoje catalisada por Despertar e Chamado. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Despertar bloqueie sua essência de A Roda da Fortuna.",
+    "acao": "Ouça sua voz interior agora hoje."
+  },
+  "10-21": {
+    "insight": "A Roda da Fortuna encontra O Mundo: A energia de Mudança e Ciclos é hoje catalisada por Plenitude e Unidade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Plenitude bloqueie sua essência de A Roda da Fortuna.",
+    "acao": "Celebre sua jornada completa hoje."
+  },
+  "11-0": {
+    "insight": "A Força encontra O Louco: A energia de Domínio e Coragem é hoje catalisada por Liberdade e Caos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Liberdade bloqueie sua essência de A Força.",
+    "acao": "Aventure-se no desconhecido hoje."
+  },
+  "11-1": {
+    "insight": "A Força encontra O Mago: A energia de Domínio e Coragem é hoje catalisada por Vontade e Início. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vontade bloqueie sua essência de A Força.",
+    "acao": "Inicie um projeto prático hoje."
+  },
+  "11-2": {
+    "insight": "A Força encontra A Sacerdotisa: A energia de Domínio e Coragem é hoje catalisada por Intuição e Mistério. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Intuição bloqueie sua essência de A Força.",
+    "acao": "Silencie e medite hoje."
+  },
+  "11-3": {
+    "insight": "A Força encontra A Imperatriz: A energia de Domínio e Coragem é hoje catalisada por Criatividade e Abundância. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Criatividade bloqueie sua essência de A Força.",
+    "acao": "Crie algo belo hoje."
+  },
+  "11-4": {
+    "insight": "A Força encontra O Imperador: A energia de Domínio e Coragem é hoje catalisada por Estrutura e Ordem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Estrutura bloqueie sua essência de A Força.",
+    "acao": "Organize suas finanças hoje."
+  },
+  "11-5": {
+    "insight": "A Força encontra O Papa: A energia de Domínio e Coragem é hoje catalisada por Sabedoria e Tradição. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sabedoria bloqueie sua essência de A Força.",
+    "acao": "Busque um conselho sábio hoje."
+  },
+  "11-6": {
+    "insight": "A Força encontra Os Enamorados: A energia de Domínio e Coragem é hoje catalisada por Escolha e União. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Escolha bloqueie sua essência de A Força.",
+    "acao": "Siga seu coração hoje."
+  },
+  "11-7": {
+    "insight": "A Força encontra O Carro: A energia de Domínio e Coragem é hoje catalisada por Vitória e Movimento. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vitória bloqueie sua essência de A Força.",
+    "acao": "Avance com determinação hoje."
+  },
+  "11-8": {
+    "insight": "A Força encontra A Justiça: A energia de Domínio e Coragem é hoje catalisada por Equilíbrio e Verdade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Equilíbrio bloqueie sua essência de A Força.",
+    "acao": "Seja honesto consigo mesmo hoje."
+  },
+  "11-9": {
+    "insight": "A Força encontra O Eremita: A energia de Domínio e Coragem é hoje catalisada por Introspecção e Luz. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Introspecção bloqueie sua essência de A Força.",
+    "acao": "Busque a resposta no silêncio hoje."
+  },
+  "11-10": {
+    "insight": "A Força encontra A Roda da Fortuna: A energia de Domínio e Coragem é hoje catalisada por Mudança e Ciclos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Mudança bloqueie sua essência de A Força.",
+    "acao": "Aceite as voltas que a vida dá hoje."
+  },
+  "11-11": {
+    "insight": "A Força encontra A Força: A energia de Domínio e Coragem é hoje catalisada por Domínio e Coragem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Domínio bloqueie sua essência de A Força.",
+    "acao": "Domine seus impulsos com amor hoje."
+  },
+  "11-12": {
+    "insight": "A Força encontra O Pendurado: A energia de Domínio e Coragem é hoje catalisada por Perspectiva e Pausa. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Perspectiva bloqueie sua essência de A Força.",
+    "acao": "Mude seu ponto de vista hoje."
+  },
+  "11-13": {
+    "insight": "A Força encontra A Morte: A energia de Domínio e Coragem é hoje catalisada por Transformação e Fim. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Transformação bloqueie sua essência de A Força.",
+    "acao": "Deixe o velho para trás hoje."
+  },
+  "11-14": {
+    "insight": "A Força encontra A Temperança: A energia de Domínio e Coragem é hoje catalisada por Alquimia e Paciência. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Alquimia bloqueie sua essência de A Força.",
+    "acao": "Equilibre seus opostos hoje."
+  },
+  "11-15": {
+    "insight": "A Força encontra O Diabo: A energia de Domínio e Coragem é hoje catalisada por Paixão e Sombra. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Paixão bloqueie sua essência de A Força.",
+    "acao": "Enfrente seus desejos ocultos hoje."
+  },
+  "11-16": {
+    "insight": "A Força encontra A Torre: A energia de Domínio e Coragem é hoje catalisada por Ruptura e Libertação. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Ruptura bloqueie sua essência de A Força.",
+    "acao": "Deixe o falso cair hoje."
+  },
+  "11-17": {
+    "insight": "A Força encontra A Estrela: A energia de Domínio e Coragem é hoje catalisada por Esperança e Fé. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Esperança bloqueie sua essência de A Força.",
+    "acao": "Confie no fluxo do universo hoje."
+  },
+  "11-18": {
+    "insight": "A Força encontra A Lua: A energia de Domínio e Coragem é hoje catalisada por Sonhos e Ilusão. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sonhos bloqueie sua essência de A Força.",
+    "acao": "Cuidado com o que parece ser hoje."
+  },
+  "11-19": {
+    "insight": "A Força encontra O Sol: A energia de Domínio e Coragem é hoje catalisada por Sucesso e Alegria. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sucesso bloqueie sua essência de A Força.",
+    "acao": "Brilhe e compartilhe sua luz hoje."
+  },
+  "11-20": {
+    "insight": "A Força encontra O Julgamento: A energia de Domínio e Coragem é hoje catalisada por Despertar e Chamado. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Despertar bloqueie sua essência de A Força.",
+    "acao": "Ouça sua voz interior agora hoje."
+  },
+  "11-21": {
+    "insight": "A Força encontra O Mundo: A energia de Domínio e Coragem é hoje catalisada por Plenitude e Unidade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Plenitude bloqueie sua essência de A Força.",
+    "acao": "Celebre sua jornada completa hoje."
+  },
+  "12-0": {
+    "insight": "O Pendurado encontra O Louco: A energia de Perspectiva e Pausa é hoje catalisada por Liberdade e Caos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Liberdade bloqueie sua essência de O Pendurado.",
+    "acao": "Aventure-se no desconhecido hoje."
+  },
+  "12-1": {
+    "insight": "O Pendurado encontra O Mago: A energia de Perspectiva e Pausa é hoje catalisada por Vontade e Início. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vontade bloqueie sua essência de O Pendurado.",
+    "acao": "Inicie um projeto prático hoje."
+  },
+  "12-2": {
+    "insight": "O Pendurado encontra A Sacerdotisa: A energia de Perspectiva e Pausa é hoje catalisada por Intuição e Mistério. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Intuição bloqueie sua essência de O Pendurado.",
+    "acao": "Silencie e medite hoje."
+  },
+  "12-3": {
+    "insight": "O Pendurado encontra A Imperatriz: A energia de Perspectiva e Pausa é hoje catalisada por Criatividade e Abundância. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Criatividade bloqueie sua essência de O Pendurado.",
+    "acao": "Crie algo belo hoje."
+  },
+  "12-4": {
+    "insight": "O Pendurado encontra O Imperador: A energia de Perspectiva e Pausa é hoje catalisada por Estrutura e Ordem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Estrutura bloqueie sua essência de O Pendurado.",
+    "acao": "Organize suas finanças hoje."
+  },
+  "12-5": {
+    "insight": "O Pendurado encontra O Papa: A energia de Perspectiva e Pausa é hoje catalisada por Sabedoria e Tradição. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sabedoria bloqueie sua essência de O Pendurado.",
+    "acao": "Busque um conselho sábio hoje."
+  },
+  "12-6": {
+    "insight": "O Pendurado encontra Os Enamorados: A energia de Perspectiva e Pausa é hoje catalisada por Escolha e União. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Escolha bloqueie sua essência de O Pendurado.",
+    "acao": "Siga seu coração hoje."
+  },
+  "12-7": {
+    "insight": "O Pendurado encontra O Carro: A energia de Perspectiva e Pausa é hoje catalisada por Vitória e Movimento. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vitória bloqueie sua essência de O Pendurado.",
+    "acao": "Avance com determinação hoje."
+  },
+  "12-8": {
+    "insight": "O Pendurado encontra A Justiça: A energia de Perspectiva e Pausa é hoje catalisada por Equilíbrio e Verdade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Equilíbrio bloqueie sua essência de O Pendurado.",
+    "acao": "Seja honesto consigo mesmo hoje."
+  },
+  "12-9": {
+    "insight": "O Pendurado encontra O Eremita: A energia de Perspectiva e Pausa é hoje catalisada por Introspecção e Luz. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Introspecção bloqueie sua essência de O Pendurado.",
+    "acao": "Busque a resposta no silêncio hoje."
+  },
+  "12-10": {
+    "insight": "O Pendurado encontra A Roda da Fortuna: A energia de Perspectiva e Pausa é hoje catalisada por Mudança e Ciclos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Mudança bloqueie sua essência de O Pendurado.",
+    "acao": "Aceite as voltas que a vida dá hoje."
+  },
+  "12-11": {
+    "insight": "O Pendurado encontra A Força: A energia de Perspectiva e Pausa é hoje catalisada por Domínio e Coragem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Domínio bloqueie sua essência de O Pendurado.",
+    "acao": "Domine seus impulsos com amor hoje."
+  },
+  "12-12": {
+    "insight": "O Pendurado encontra O Pendurado: A energia de Perspectiva e Pausa é hoje catalisada por Perspectiva e Pausa. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Perspectiva bloqueie sua essência de O Pendurado.",
+    "acao": "Mude seu ponto de vista hoje."
+  },
+  "12-13": {
+    "insight": "O Pendurado encontra A Morte: A energia de Perspectiva e Pausa é hoje catalisada por Transformação e Fim. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Transformação bloqueie sua essência de O Pendurado.",
+    "acao": "Deixe o velho para trás hoje."
+  },
+  "12-14": {
+    "insight": "O Pendurado encontra A Temperança: A energia de Perspectiva e Pausa é hoje catalisada por Alquimia e Paciência. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Alquimia bloqueie sua essência de O Pendurado.",
+    "acao": "Equilibre seus opostos hoje."
+  },
+  "12-15": {
+    "insight": "O Pendurado encontra O Diabo: A energia de Perspectiva e Pausa é hoje catalisada por Paixão e Sombra. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Paixão bloqueie sua essência de O Pendurado.",
+    "acao": "Enfrente seus desejos ocultos hoje."
+  },
+  "12-16": {
+    "insight": "O Pendurado encontra A Torre: A energia de Perspectiva e Pausa é hoje catalisada por Ruptura e Libertação. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Ruptura bloqueie sua essência de O Pendurado.",
+    "acao": "Deixe o falso cair hoje."
+  },
+  "12-17": {
+    "insight": "O Pendurado encontra A Estrela: A energia de Perspectiva e Pausa é hoje catalisada por Esperança e Fé. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Esperança bloqueie sua essência de O Pendurado.",
+    "acao": "Confie no fluxo do universo hoje."
+  },
+  "12-18": {
+    "insight": "O Pendurado encontra A Lua: A energia de Perspectiva e Pausa é hoje catalisada por Sonhos e Ilusão. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sonhos bloqueie sua essência de O Pendurado.",
+    "acao": "Cuidado com o que parece ser hoje."
+  },
+  "12-19": {
+    "insight": "O Pendurado encontra O Sol: A energia de Perspectiva e Pausa é hoje catalisada por Sucesso e Alegria. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sucesso bloqueie sua essência de O Pendurado.",
+    "acao": "Brilhe e compartilhe sua luz hoje."
+  },
+  "12-20": {
+    "insight": "O Pendurado encontra O Julgamento: A energia de Perspectiva e Pausa é hoje catalisada por Despertar e Chamado. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Despertar bloqueie sua essência de O Pendurado.",
+    "acao": "Ouça sua voz interior agora hoje."
+  },
+  "12-21": {
+    "insight": "O Pendurado encontra O Mundo: A energia de Perspectiva e Pausa é hoje catalisada por Plenitude e Unidade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Plenitude bloqueie sua essência de O Pendurado.",
+    "acao": "Celebre sua jornada completa hoje."
+  },
+  "13-0": {
+    "insight": "A Morte encontra O Louco: A energia de Transformação e Fim é hoje catalisada por Liberdade e Caos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Liberdade bloqueie sua essência de A Morte.",
+    "acao": "Aventure-se no desconhecido hoje."
+  },
+  "13-1": {
+    "insight": "A Morte encontra O Mago: A energia de Transformação e Fim é hoje catalisada por Vontade e Início. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vontade bloqueie sua essência de A Morte.",
+    "acao": "Inicie um projeto prático hoje."
+  },
+  "13-2": {
+    "insight": "A Morte encontra A Sacerdotisa: A energia de Transformação e Fim é hoje catalisada por Intuição e Mistério. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Intuição bloqueie sua essência de A Morte.",
+    "acao": "Silencie e medite hoje."
+  },
+  "13-3": {
+    "insight": "A Morte encontra A Imperatriz: A energia de Transformação e Fim é hoje catalisada por Criatividade e Abundância. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Criatividade bloqueie sua essência de A Morte.",
+    "acao": "Crie algo belo hoje."
+  },
+  "13-4": {
+    "insight": "A Morte encontra O Imperador: A energia de Transformação e Fim é hoje catalisada por Estrutura e Ordem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Estrutura bloqueie sua essência de A Morte.",
+    "acao": "Organize suas finanças hoje."
+  },
+  "13-5": {
+    "insight": "A Morte encontra O Papa: A energia de Transformação e Fim é hoje catalisada por Sabedoria e Tradição. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sabedoria bloqueie sua essência de A Morte.",
+    "acao": "Busque um conselho sábio hoje."
+  },
+  "13-6": {
+    "insight": "A Morte encontra Os Enamorados: A energia de Transformação e Fim é hoje catalisada por Escolha e União. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Escolha bloqueie sua essência de A Morte.",
+    "acao": "Siga seu coração hoje."
+  },
+  "13-7": {
+    "insight": "A Morte encontra O Carro: A energia de Transformação e Fim é hoje catalisada por Vitória e Movimento. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vitória bloqueie sua essência de A Morte.",
+    "acao": "Avance com determinação hoje."
+  },
+  "13-8": {
+    "insight": "A Morte encontra A Justiça: A energia de Transformação e Fim é hoje catalisada por Equilíbrio e Verdade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Equilíbrio bloqueie sua essência de A Morte.",
+    "acao": "Seja honesto consigo mesmo hoje."
+  },
+  "13-9": {
+    "insight": "A Morte encontra O Eremita: A energia de Transformação e Fim é hoje catalisada por Introspecção e Luz. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Introspecção bloqueie sua essência de A Morte.",
+    "acao": "Busque a resposta no silêncio hoje."
+  },
+  "13-10": {
+    "insight": "A Morte encontra A Roda da Fortuna: A energia de Transformação e Fim é hoje catalisada por Mudança e Ciclos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Mudança bloqueie sua essência de A Morte.",
+    "acao": "Aceite as voltas que a vida dá hoje."
+  },
+  "13-11": {
+    "insight": "A Morte encontra A Força: A energia de Transformação e Fim é hoje catalisada por Domínio e Coragem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Domínio bloqueie sua essência de A Morte.",
+    "acao": "Domine seus impulsos com amor hoje."
+  },
+  "13-12": {
+    "insight": "A Morte encontra O Pendurado: A energia de Transformação e Fim é hoje catalisada por Perspectiva e Pausa. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Perspectiva bloqueie sua essência de A Morte.",
+    "acao": "Mude seu ponto de vista hoje."
+  },
+  "13-13": {
+    "insight": "A Morte encontra A Morte: A energia de Transformação e Fim é hoje catalisada por Transformação e Fim. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Transformação bloqueie sua essência de A Morte.",
+    "acao": "Deixe o velho para trás hoje."
+  },
+  "13-14": {
+    "insight": "A Morte encontra A Temperança: A energia de Transformação e Fim é hoje catalisada por Alquimia e Paciência. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Alquimia bloqueie sua essência de A Morte.",
+    "acao": "Equilibre seus opostos hoje."
+  },
+  "13-15": {
+    "insight": "A Morte encontra O Diabo: A energia de Transformação e Fim é hoje catalisada por Paixão e Sombra. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Paixão bloqueie sua essência de A Morte.",
+    "acao": "Enfrente seus desejos ocultos hoje."
+  },
+  "13-16": {
+    "insight": "A Morte encontra A Torre: A energia de Transformação e Fim é hoje catalisada por Ruptura e Libertação. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Ruptura bloqueie sua essência de A Morte.",
+    "acao": "Deixe o falso cair hoje."
+  },
+  "13-17": {
+    "insight": "A Morte encontra A Estrela: A energia de Transformação e Fim é hoje catalisada por Esperança e Fé. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Esperança bloqueie sua essência de A Morte.",
+    "acao": "Confie no fluxo do universo hoje."
+  },
+  "13-18": {
+    "insight": "A Morte encontra A Lua: A energia de Transformação e Fim é hoje catalisada por Sonhos e Ilusão. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sonhos bloqueie sua essência de A Morte.",
+    "acao": "Cuidado com o que parece ser hoje."
+  },
+  "13-19": {
+    "insight": "A Morte encontra O Sol: A energia de Transformação e Fim é hoje catalisada por Sucesso e Alegria. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sucesso bloqueie sua essência de A Morte.",
+    "acao": "Brilhe e compartilhe sua luz hoje."
+  },
+  "13-20": {
+    "insight": "A Morte encontra O Julgamento: A energia de Transformação e Fim é hoje catalisada por Despertar e Chamado. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Despertar bloqueie sua essência de A Morte.",
+    "acao": "Ouça sua voz interior agora hoje."
+  },
+  "13-21": {
+    "insight": "A Morte encontra O Mundo: A energia de Transformação e Fim é hoje catalisada por Plenitude e Unidade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Plenitude bloqueie sua essência de A Morte.",
+    "acao": "Celebre sua jornada completa hoje."
+  },
+  "14-0": {
+    "insight": "A Temperança encontra O Louco: A energia de Alquimia e Paciência é hoje catalisada por Liberdade e Caos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Liberdade bloqueie sua essência de A Temperança.",
+    "acao": "Aventure-se no desconhecido hoje."
+  },
+  "14-1": {
+    "insight": "A Temperança encontra O Mago: A energia de Alquimia e Paciência é hoje catalisada por Vontade e Início. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vontade bloqueie sua essência de A Temperança.",
+    "acao": "Inicie um projeto prático hoje."
+  },
+  "14-2": {
+    "insight": "A Temperança encontra A Sacerdotisa: A energia de Alquimia e Paciência é hoje catalisada por Intuição e Mistério. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Intuição bloqueie sua essência de A Temperança.",
+    "acao": "Silencie e medite hoje."
+  },
+  "14-3": {
+    "insight": "A Temperança encontra A Imperatriz: A energia de Alquimia e Paciência é hoje catalisada por Criatividade e Abundância. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Criatividade bloqueie sua essência de A Temperança.",
+    "acao": "Crie algo belo hoje."
+  },
+  "14-4": {
+    "insight": "A Temperança encontra O Imperador: A energia de Alquimia e Paciência é hoje catalisada por Estrutura e Ordem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Estrutura bloqueie sua essência de A Temperança.",
+    "acao": "Organize suas finanças hoje."
+  },
+  "14-5": {
+    "insight": "A Temperança encontra O Papa: A energia de Alquimia e Paciência é hoje catalisada por Sabedoria e Tradição. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sabedoria bloqueie sua essência de A Temperança.",
+    "acao": "Busque um conselho sábio hoje."
+  },
+  "14-6": {
+    "insight": "A Temperança encontra Os Enamorados: A energia de Alquimia e Paciência é hoje catalisada por Escolha e União. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Escolha bloqueie sua essência de A Temperança.",
+    "acao": "Siga seu coração hoje."
+  },
+  "14-7": {
+    "insight": "A Temperança encontra O Carro: A energia de Alquimia e Paciência é hoje catalisada por Vitória e Movimento. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vitória bloqueie sua essência de A Temperança.",
+    "acao": "Avance com determinação hoje."
+  },
+  "14-8": {
+    "insight": "A Temperança encontra A Justiça: A energia de Alquimia e Paciência é hoje catalisada por Equilíbrio e Verdade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Equilíbrio bloqueie sua essência de A Temperança.",
+    "acao": "Seja honesto consigo mesmo hoje."
+  },
+  "14-9": {
+    "insight": "A Temperança encontra O Eremita: A energia de Alquimia e Paciência é hoje catalisada por Introspecção e Luz. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Introspecção bloqueie sua essência de A Temperança.",
+    "acao": "Busque a resposta no silêncio hoje."
+  },
+  "14-10": {
+    "insight": "A Temperança encontra A Roda da Fortuna: A energia de Alquimia e Paciência é hoje catalisada por Mudança e Ciclos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Mudança bloqueie sua essência de A Temperança.",
+    "acao": "Aceite as voltas que a vida dá hoje."
+  },
+  "14-11": {
+    "insight": "A Temperança encontra A Força: A energia de Alquimia e Paciência é hoje catalisada por Domínio e Coragem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Domínio bloqueie sua essência de A Temperança.",
+    "acao": "Domine seus impulsos com amor hoje."
+  },
+  "14-12": {
+    "insight": "A Temperança encontra O Pendurado: A energia de Alquimia e Paciência é hoje catalisada por Perspectiva e Pausa. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Perspectiva bloqueie sua essência de A Temperança.",
+    "acao": "Mude seu ponto de vista hoje."
+  },
+  "14-13": {
+    "insight": "A Temperança encontra A Morte: A energia de Alquimia e Paciência é hoje catalisada por Transformação e Fim. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Transformação bloqueie sua essência de A Temperança.",
+    "acao": "Deixe o velho para trás hoje."
+  },
+  "14-14": {
+    "insight": "A Temperança encontra A Temperança: A energia de Alquimia e Paciência é hoje catalisada por Alquimia e Paciência. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Alquimia bloqueie sua essência de A Temperança.",
+    "acao": "Equilibre seus opostos hoje."
+  },
+  "14-15": {
+    "insight": "A Temperança encontra O Diabo: A energia de Alquimia e Paciência é hoje catalisada por Paixão e Sombra. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Paixão bloqueie sua essência de A Temperança.",
+    "acao": "Enfrente seus desejos ocultos hoje."
+  },
+  "14-16": {
+    "insight": "A Temperança encontra A Torre: A energia de Alquimia e Paciência é hoje catalisada por Ruptura e Libertação. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Ruptura bloqueie sua essência de A Temperança.",
+    "acao": "Deixe o falso cair hoje."
+  },
+  "14-17": {
+    "insight": "A Temperança encontra A Estrela: A energia de Alquimia e Paciência é hoje catalisada por Esperança e Fé. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Esperança bloqueie sua essência de A Temperança.",
+    "acao": "Confie no fluxo do universo hoje."
+  },
+  "14-18": {
+    "insight": "A Temperança encontra A Lua: A energia de Alquimia e Paciência é hoje catalisada por Sonhos e Ilusão. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sonhos bloqueie sua essência de A Temperança.",
+    "acao": "Cuidado com o que parece ser hoje."
+  },
+  "14-19": {
+    "insight": "A Temperança encontra O Sol: A energia de Alquimia e Paciência é hoje catalisada por Sucesso e Alegria. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sucesso bloqueie sua essência de A Temperança.",
+    "acao": "Brilhe e compartilhe sua luz hoje."
+  },
+  "14-20": {
+    "insight": "A Temperança encontra O Julgamento: A energia de Alquimia e Paciência é hoje catalisada por Despertar e Chamado. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Despertar bloqueie sua essência de A Temperança.",
+    "acao": "Ouça sua voz interior agora hoje."
+  },
+  "14-21": {
+    "insight": "A Temperança encontra O Mundo: A energia de Alquimia e Paciência é hoje catalisada por Plenitude e Unidade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Plenitude bloqueie sua essência de A Temperança.",
+    "acao": "Celebre sua jornada completa hoje."
+  },
+  "15-0": {
+    "insight": "O Diabo encontra O Louco: A energia de Paixão e Sombra é hoje catalisada por Liberdade e Caos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Liberdade bloqueie sua essência de O Diabo.",
+    "acao": "Aventure-se no desconhecido hoje."
+  },
+  "15-1": {
+    "insight": "O Diabo encontra O Mago: A energia de Paixão e Sombra é hoje catalisada por Vontade e Início. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vontade bloqueie sua essência de O Diabo.",
+    "acao": "Inicie um projeto prático hoje."
+  },
+  "15-2": {
+    "insight": "O Diabo encontra A Sacerdotisa: A energia de Paixão e Sombra é hoje catalisada por Intuição e Mistério. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Intuição bloqueie sua essência de O Diabo.",
+    "acao": "Silencie e medite hoje."
+  },
+  "15-3": {
+    "insight": "O Diabo encontra A Imperatriz: A energia de Paixão e Sombra é hoje catalisada por Criatividade e Abundância. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Criatividade bloqueie sua essência de O Diabo.",
+    "acao": "Crie algo belo hoje."
+  },
+  "15-4": {
+    "insight": "O Diabo encontra O Imperador: A energia de Paixão e Sombra é hoje catalisada por Estrutura e Ordem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Estrutura bloqueie sua essência de O Diabo.",
+    "acao": "Organize suas finanças hoje."
+  },
+  "15-5": {
+    "insight": "O Diabo encontra O Papa: A energia de Paixão e Sombra é hoje catalisada por Sabedoria e Tradição. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sabedoria bloqueie sua essência de O Diabo.",
+    "acao": "Busque um conselho sábio hoje."
+  },
+  "15-6": {
+    "insight": "O Diabo encontra Os Enamorados: A energia de Paixão e Sombra é hoje catalisada por Escolha e União. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Escolha bloqueie sua essência de O Diabo.",
+    "acao": "Siga seu coração hoje."
+  },
+  "15-7": {
+    "insight": "O Diabo encontra O Carro: A energia de Paixão e Sombra é hoje catalisada por Vitória e Movimento. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vitória bloqueie sua essência de O Diabo.",
+    "acao": "Avance com determinação hoje."
+  },
+  "15-8": {
+    "insight": "O Diabo encontra A Justiça: A energia de Paixão e Sombra é hoje catalisada por Equilíbrio e Verdade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Equilíbrio bloqueie sua essência de O Diabo.",
+    "acao": "Seja honesto consigo mesmo hoje."
+  },
+  "15-9": {
+    "insight": "O Diabo encontra O Eremita: A energia de Paixão e Sombra é hoje catalisada por Introspecção e Luz. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Introspecção bloqueie sua essência de O Diabo.",
+    "acao": "Busque a resposta no silêncio hoje."
+  },
+  "15-10": {
+    "insight": "O Diabo encontra A Roda da Fortuna: A energia de Paixão e Sombra é hoje catalisada por Mudança e Ciclos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Mudança bloqueie sua essência de O Diabo.",
+    "acao": "Aceite as voltas que a vida dá hoje."
+  },
+  "15-11": {
+    "insight": "O Diabo encontra A Força: A energia de Paixão e Sombra é hoje catalisada por Domínio e Coragem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Domínio bloqueie sua essência de O Diabo.",
+    "acao": "Domine seus impulsos com amor hoje."
+  },
+  "15-12": {
+    "insight": "O Diabo encontra O Pendurado: A energia de Paixão e Sombra é hoje catalisada por Perspectiva e Pausa. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Perspectiva bloqueie sua essência de O Diabo.",
+    "acao": "Mude seu ponto de vista hoje."
+  },
+  "15-13": {
+    "insight": "O Diabo encontra A Morte: A energia de Paixão e Sombra é hoje catalisada por Transformação e Fim. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Transformação bloqueie sua essência de O Diabo.",
+    "acao": "Deixe o velho para trás hoje."
+  },
+  "15-14": {
+    "insight": "O Diabo encontra A Temperança: A energia de Paixão e Sombra é hoje catalisada por Alquimia e Paciência. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Alquimia bloqueie sua essência de O Diabo.",
+    "acao": "Equilibre seus opostos hoje."
+  },
+  "15-15": {
+    "insight": "O Diabo encontra O Diabo: A energia de Paixão e Sombra é hoje catalisada por Paixão e Sombra. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Paixão bloqueie sua essência de O Diabo.",
+    "acao": "Enfrente seus desejos ocultos hoje."
+  },
+  "15-16": {
+    "insight": "O Diabo encontra A Torre: A energia de Paixão e Sombra é hoje catalisada por Ruptura e Libertação. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Ruptura bloqueie sua essência de O Diabo.",
+    "acao": "Deixe o falso cair hoje."
+  },
+  "15-17": {
+    "insight": "O Diabo encontra A Estrela: A energia de Paixão e Sombra é hoje catalisada por Esperança e Fé. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Esperança bloqueie sua essência de O Diabo.",
+    "acao": "Confie no fluxo do universo hoje."
+  },
+  "15-18": {
+    "insight": "O Diabo encontra A Lua: A energia de Paixão e Sombra é hoje catalisada por Sonhos e Ilusão. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sonhos bloqueie sua essência de O Diabo.",
+    "acao": "Cuidado com o que parece ser hoje."
+  },
+  "15-19": {
+    "insight": "O Diabo encontra O Sol: A energia de Paixão e Sombra é hoje catalisada por Sucesso e Alegria. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sucesso bloqueie sua essência de O Diabo.",
+    "acao": "Brilhe e compartilhe sua luz hoje."
+  },
+  "15-20": {
+    "insight": "O Diabo encontra O Julgamento: A energia de Paixão e Sombra é hoje catalisada por Despertar e Chamado. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Despertar bloqueie sua essência de O Diabo.",
+    "acao": "Ouça sua voz interior agora hoje."
+  },
+  "15-21": {
+    "insight": "O Diabo encontra O Mundo: A energia de Paixão e Sombra é hoje catalisada por Plenitude e Unidade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Plenitude bloqueie sua essência de O Diabo.",
+    "acao": "Celebre sua jornada completa hoje."
+  },
+  "16-0": {
+    "insight": "A Torre encontra O Louco: A energia de Ruptura e Libertação é hoje catalisada por Liberdade e Caos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Liberdade bloqueie sua essência de A Torre.",
+    "acao": "Aventure-se no desconhecido hoje."
+  },
+  "16-1": {
+    "insight": "A Torre encontra O Mago: A energia de Ruptura e Libertação é hoje catalisada por Vontade e Início. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vontade bloqueie sua essência de A Torre.",
+    "acao": "Inicie um projeto prático hoje."
+  },
+  "16-2": {
+    "insight": "A Torre encontra A Sacerdotisa: A energia de Ruptura e Libertação é hoje catalisada por Intuição e Mistério. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Intuição bloqueie sua essência de A Torre.",
+    "acao": "Silencie e medite hoje."
+  },
+  "16-3": {
+    "insight": "A Torre encontra A Imperatriz: A energia de Ruptura e Libertação é hoje catalisada por Criatividade e Abundância. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Criatividade bloqueie sua essência de A Torre.",
+    "acao": "Crie algo belo hoje."
+  },
+  "16-4": {
+    "insight": "A Torre encontra O Imperador: A energia de Ruptura e Libertação é hoje catalisada por Estrutura e Ordem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Estrutura bloqueie sua essência de A Torre.",
+    "acao": "Organize suas finanças hoje."
+  },
+  "16-5": {
+    "insight": "A Torre encontra O Papa: A energia de Ruptura e Libertação é hoje catalisada por Sabedoria e Tradição. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sabedoria bloqueie sua essência de A Torre.",
+    "acao": "Busque um conselho sábio hoje."
+  },
+  "16-6": {
+    "insight": "A Torre encontra Os Enamorados: A energia de Ruptura e Libertação é hoje catalisada por Escolha e União. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Escolha bloqueie sua essência de A Torre.",
+    "acao": "Siga seu coração hoje."
+  },
+  "16-7": {
+    "insight": "A Torre encontra O Carro: A energia de Ruptura e Libertação é hoje catalisada por Vitória e Movimento. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vitória bloqueie sua essência de A Torre.",
+    "acao": "Avance com determinação hoje."
+  },
+  "16-8": {
+    "insight": "A Torre encontra A Justiça: A energia de Ruptura e Libertação é hoje catalisada por Equilíbrio e Verdade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Equilíbrio bloqueie sua essência de A Torre.",
+    "acao": "Seja honesto consigo mesmo hoje."
+  },
+  "16-9": {
+    "insight": "A Torre encontra O Eremita: A energia de Ruptura e Libertação é hoje catalisada por Introspecção e Luz. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Introspecção bloqueie sua essência de A Torre.",
+    "acao": "Busque a resposta no silêncio hoje."
+  },
+  "16-10": {
+    "insight": "A Torre encontra A Roda da Fortuna: A energia de Ruptura e Libertação é hoje catalisada por Mudança e Ciclos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Mudança bloqueie sua essência de A Torre.",
+    "acao": "Aceite as voltas que a vida dá hoje."
+  },
+  "16-11": {
+    "insight": "A Torre encontra A Força: A energia de Ruptura e Libertação é hoje catalisada por Domínio e Coragem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Domínio bloqueie sua essência de A Torre.",
+    "acao": "Domine seus impulsos com amor hoje."
+  },
+  "16-12": {
+    "insight": "A Torre encontra O Pendurado: A energia de Ruptura e Libertação é hoje catalisada por Perspectiva e Pausa. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Perspectiva bloqueie sua essência de A Torre.",
+    "acao": "Mude seu ponto de vista hoje."
+  },
+  "16-13": {
+    "insight": "A Torre encontra A Morte: A energia de Ruptura e Libertação é hoje catalisada por Transformação e Fim. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Transformação bloqueie sua essência de A Torre.",
+    "acao": "Deixe o velho para trás hoje."
+  },
+  "16-14": {
+    "insight": "A Torre encontra A Temperança: A energia de Ruptura e Libertação é hoje catalisada por Alquimia e Paciência. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Alquimia bloqueie sua essência de A Torre.",
+    "acao": "Equilibre seus opostos hoje."
+  },
+  "16-15": {
+    "insight": "A Torre encontra O Diabo: A energia de Ruptura e Libertação é hoje catalisada por Paixão e Sombra. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Paixão bloqueie sua essência de A Torre.",
+    "acao": "Enfrente seus desejos ocultos hoje."
+  },
+  "16-16": {
+    "insight": "A Torre encontra A Torre: A energia de Ruptura e Libertação é hoje catalisada por Ruptura e Libertação. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Ruptura bloqueie sua essência de A Torre.",
+    "acao": "Deixe o falso cair hoje."
+  },
+  "16-17": {
+    "insight": "A Torre encontra A Estrela: A energia de Ruptura e Libertação é hoje catalisada por Esperança e Fé. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Esperança bloqueie sua essência de A Torre.",
+    "acao": "Confie no fluxo do universo hoje."
+  },
+  "16-18": {
+    "insight": "A Torre encontra A Lua: A energia de Ruptura e Libertação é hoje catalisada por Sonhos e Ilusão. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sonhos bloqueie sua essência de A Torre.",
+    "acao": "Cuidado com o que parece ser hoje."
+  },
+  "16-19": {
+    "insight": "A Torre encontra O Sol: A energia de Ruptura e Libertação é hoje catalisada por Sucesso e Alegria. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sucesso bloqueie sua essência de A Torre.",
+    "acao": "Brilhe e compartilhe sua luz hoje."
+  },
+  "16-20": {
+    "insight": "A Torre encontra O Julgamento: A energia de Ruptura e Libertação é hoje catalisada por Despertar e Chamado. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Despertar bloqueie sua essência de A Torre.",
+    "acao": "Ouça sua voz interior agora hoje."
+  },
+  "16-21": {
+    "insight": "A Torre encontra O Mundo: A energia de Ruptura e Libertação é hoje catalisada por Plenitude e Unidade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Plenitude bloqueie sua essência de A Torre.",
+    "acao": "Celebre sua jornada completa hoje."
+  },
+  "17-0": {
+    "insight": "A Estrela encontra O Louco: A energia de Esperança e Fé é hoje catalisada por Liberdade e Caos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Liberdade bloqueie sua essência de A Estrela.",
+    "acao": "Aventure-se no desconhecido hoje."
+  },
+  "17-1": {
+    "insight": "A Estrela encontra O Mago: A energia de Esperança e Fé é hoje catalisada por Vontade e Início. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vontade bloqueie sua essência de A Estrela.",
+    "acao": "Inicie um projeto prático hoje."
+  },
+  "17-2": {
+    "insight": "A Estrela encontra A Sacerdotisa: A energia de Esperança e Fé é hoje catalisada por Intuição e Mistério. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Intuição bloqueie sua essência de A Estrela.",
+    "acao": "Silencie e medite hoje."
+  },
+  "17-3": {
+    "insight": "A Estrela encontra A Imperatriz: A energia de Esperança e Fé é hoje catalisada por Criatividade e Abundância. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Criatividade bloqueie sua essência de A Estrela.",
+    "acao": "Crie algo belo hoje."
+  },
+  "17-4": {
+    "insight": "A Estrela encontra O Imperador: A energia de Esperança e Fé é hoje catalisada por Estrutura e Ordem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Estrutura bloqueie sua essência de A Estrela.",
+    "acao": "Organize suas finanças hoje."
+  },
+  "17-5": {
+    "insight": "A Estrela encontra O Papa: A energia de Esperança e Fé é hoje catalisada por Sabedoria e Tradição. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sabedoria bloqueie sua essência de A Estrela.",
+    "acao": "Busque um conselho sábio hoje."
+  },
+  "17-6": {
+    "insight": "A Estrela encontra Os Enamorados: A energia de Esperança e Fé é hoje catalisada por Escolha e União. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Escolha bloqueie sua essência de A Estrela.",
+    "acao": "Siga seu coração hoje."
+  },
+  "17-7": {
+    "insight": "A Estrela encontra O Carro: A energia de Esperança e Fé é hoje catalisada por Vitória e Movimento. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vitória bloqueie sua essência de A Estrela.",
+    "acao": "Avance com determinação hoje."
+  },
+  "17-8": {
+    "insight": "A Estrela encontra A Justiça: A energia de Esperança e Fé é hoje catalisada por Equilíbrio e Verdade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Equilíbrio bloqueie sua essência de A Estrela.",
+    "acao": "Seja honesto consigo mesmo hoje."
+  },
+  "17-9": {
+    "insight": "A Estrela encontra O Eremita: A energia de Esperança e Fé é hoje catalisada por Introspecção e Luz. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Introspecção bloqueie sua essência de A Estrela.",
+    "acao": "Busque a resposta no silêncio hoje."
+  },
+  "17-10": {
+    "insight": "A Estrela encontra A Roda da Fortuna: A energia de Esperança e Fé é hoje catalisada por Mudança e Ciclos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Mudança bloqueie sua essência de A Estrela.",
+    "acao": "Aceite as voltas que a vida dá hoje."
+  },
+  "17-11": {
+    "insight": "A Estrela encontra A Força: A energia de Esperança e Fé é hoje catalisada por Domínio e Coragem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Domínio bloqueie sua essência de A Estrela.",
+    "acao": "Domine seus impulsos com amor hoje."
+  },
+  "17-12": {
+    "insight": "A Estrela encontra O Pendurado: A energia de Esperança e Fé é hoje catalisada por Perspectiva e Pausa. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Perspectiva bloqueie sua essência de A Estrela.",
+    "acao": "Mude seu ponto de vista hoje."
+  },
+  "17-13": {
+    "insight": "A Estrela encontra A Morte: A energia de Esperança e Fé é hoje catalisada por Transformação e Fim. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Transformação bloqueie sua essência de A Estrela.",
+    "acao": "Deixe o velho para trás hoje."
+  },
+  "17-14": {
+    "insight": "A Estrela encontra A Temperança: A energia de Esperança e Fé é hoje catalisada por Alquimia e Paciência. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Alquimia bloqueie sua essência de A Estrela.",
+    "acao": "Equilibre seus opostos hoje."
+  },
+  "17-15": {
+    "insight": "A Estrela encontra O Diabo: A energia de Esperança e Fé é hoje catalisada por Paixão e Sombra. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Paixão bloqueie sua essência de A Estrela.",
+    "acao": "Enfrente seus desejos ocultos hoje."
+  },
+  "17-16": {
+    "insight": "A Estrela encontra A Torre: A energia de Esperança e Fé é hoje catalisada por Ruptura e Libertação. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Ruptura bloqueie sua essência de A Estrela.",
+    "acao": "Deixe o falso cair hoje."
+  },
+  "17-17": {
+    "insight": "A Estrela encontra A Estrela: A energia de Esperança e Fé é hoje catalisada por Esperança e Fé. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Esperança bloqueie sua essência de A Estrela.",
+    "acao": "Confie no fluxo do universo hoje."
+  },
+  "17-18": {
+    "insight": "A Estrela encontra A Lua: A energia de Esperança e Fé é hoje catalisada por Sonhos e Ilusão. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sonhos bloqueie sua essência de A Estrela.",
+    "acao": "Cuidado com o que parece ser hoje."
+  },
+  "17-19": {
+    "insight": "A Estrela encontra O Sol: A energia de Esperança e Fé é hoje catalisada por Sucesso e Alegria. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sucesso bloqueie sua essência de A Estrela.",
+    "acao": "Brilhe e compartilhe sua luz hoje."
+  },
+  "17-20": {
+    "insight": "A Estrela encontra O Julgamento: A energia de Esperança e Fé é hoje catalisada por Despertar e Chamado. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Despertar bloqueie sua essência de A Estrela.",
+    "acao": "Ouça sua voz interior agora hoje."
+  },
+  "17-21": {
+    "insight": "A Estrela encontra O Mundo: A energia de Esperança e Fé é hoje catalisada por Plenitude e Unidade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Plenitude bloqueie sua essência de A Estrela.",
+    "acao": "Celebre sua jornada completa hoje."
+  },
+  "18-0": {
+    "insight": "A Lua encontra O Louco: A energia de Sonhos e Ilusão é hoje catalisada por Liberdade e Caos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Liberdade bloqueie sua essência de A Lua.",
+    "acao": "Aventure-se no desconhecido hoje."
+  },
+  "18-1": {
+    "insight": "A Lua encontra O Mago: A energia de Sonhos e Ilusão é hoje catalisada por Vontade e Início. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vontade bloqueie sua essência de A Lua.",
+    "acao": "Inicie um projeto prático hoje."
+  },
+  "18-2": {
+    "insight": "A Lua encontra A Sacerdotisa: A energia de Sonhos e Ilusão é hoje catalisada por Intuição e Mistério. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Intuição bloqueie sua essência de A Lua.",
+    "acao": "Silencie e medite hoje."
+  },
+  "18-3": {
+    "insight": "A Lua encontra A Imperatriz: A energia de Sonhos e Ilusão é hoje catalisada por Criatividade e Abundância. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Criatividade bloqueie sua essência de A Lua.",
+    "acao": "Crie algo belo hoje."
+  },
+  "18-4": {
+    "insight": "A Lua encontra O Imperador: A energia de Sonhos e Ilusão é hoje catalisada por Estrutura e Ordem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Estrutura bloqueie sua essência de A Lua.",
+    "acao": "Organize suas finanças hoje."
+  },
+  "18-5": {
+    "insight": "A Lua encontra O Papa: A energia de Sonhos e Ilusão é hoje catalisada por Sabedoria e Tradição. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sabedoria bloqueie sua essência de A Lua.",
+    "acao": "Busque um conselho sábio hoje."
+  },
+  "18-6": {
+    "insight": "A Lua encontra Os Enamorados: A energia de Sonhos e Ilusão é hoje catalisada por Escolha e União. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Escolha bloqueie sua essência de A Lua.",
+    "acao": "Siga seu coração hoje."
+  },
+  "18-7": {
+    "insight": "A Lua encontra O Carro: A energia de Sonhos e Ilusão é hoje catalisada por Vitória e Movimento. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vitória bloqueie sua essência de A Lua.",
+    "acao": "Avance com determinação hoje."
+  },
+  "18-8": {
+    "insight": "A Lua encontra A Justiça: A energia de Sonhos e Ilusão é hoje catalisada por Equilíbrio e Verdade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Equilíbrio bloqueie sua essência de A Lua.",
+    "acao": "Seja honesto consigo mesmo hoje."
+  },
+  "18-9": {
+    "insight": "A Lua encontra O Eremita: A energia de Sonhos e Ilusão é hoje catalisada por Introspecção e Luz. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Introspecção bloqueie sua essência de A Lua.",
+    "acao": "Busque a resposta no silêncio hoje."
+  },
+  "18-10": {
+    "insight": "A Lua encontra A Roda da Fortuna: A energia de Sonhos e Ilusão é hoje catalisada por Mudança e Ciclos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Mudança bloqueie sua essência de A Lua.",
+    "acao": "Aceite as voltas que a vida dá hoje."
+  },
+  "18-11": {
+    "insight": "A Lua encontra A Força: A energia de Sonhos e Ilusão é hoje catalisada por Domínio e Coragem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Domínio bloqueie sua essência de A Lua.",
+    "acao": "Domine seus impulsos com amor hoje."
+  },
+  "18-12": {
+    "insight": "A Lua encontra O Pendurado: A energia de Sonhos e Ilusão é hoje catalisada por Perspectiva e Pausa. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Perspectiva bloqueie sua essência de A Lua.",
+    "acao": "Mude seu ponto de vista hoje."
+  },
+  "18-13": {
+    "insight": "A Lua encontra A Morte: A energia de Sonhos e Ilusão é hoje catalisada por Transformação e Fim. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Transformação bloqueie sua essência de A Lua.",
+    "acao": "Deixe o velho para trás hoje."
+  },
+  "18-14": {
+    "insight": "A Lua encontra A Temperança: A energia de Sonhos e Ilusão é hoje catalisada por Alquimia e Paciência. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Alquimia bloqueie sua essência de A Lua.",
+    "acao": "Equilibre seus opostos hoje."
+  },
+  "18-15": {
+    "insight": "A Lua encontra O Diabo: A energia de Sonhos e Ilusão é hoje catalisada por Paixão e Sombra. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Paixão bloqueie sua essência de A Lua.",
+    "acao": "Enfrente seus desejos ocultos hoje."
+  },
+  "18-16": {
+    "insight": "A Lua encontra A Torre: A energia de Sonhos e Ilusão é hoje catalisada por Ruptura e Libertação. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Ruptura bloqueie sua essência de A Lua.",
+    "acao": "Deixe o falso cair hoje."
+  },
+  "18-17": {
+    "insight": "A Lua encontra A Estrela: A energia de Sonhos e Ilusão é hoje catalisada por Esperança e Fé. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Esperança bloqueie sua essência de A Lua.",
+    "acao": "Confie no fluxo do universo hoje."
+  },
+  "18-18": {
+    "insight": "A Lua encontra A Lua: A energia de Sonhos e Ilusão é hoje catalisada por Sonhos e Ilusão. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sonhos bloqueie sua essência de A Lua.",
+    "acao": "Cuidado com o que parece ser hoje."
+  },
+  "18-19": {
+    "insight": "A Lua encontra O Sol: A energia de Sonhos e Ilusão é hoje catalisada por Sucesso e Alegria. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sucesso bloqueie sua essência de A Lua.",
+    "acao": "Brilhe e compartilhe sua luz hoje."
+  },
+  "18-20": {
+    "insight": "A Lua encontra O Julgamento: A energia de Sonhos e Ilusão é hoje catalisada por Despertar e Chamado. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Despertar bloqueie sua essência de A Lua.",
+    "acao": "Ouça sua voz interior agora hoje."
+  },
+  "18-21": {
+    "insight": "A Lua encontra O Mundo: A energia de Sonhos e Ilusão é hoje catalisada por Plenitude e Unidade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Plenitude bloqueie sua essência de A Lua.",
+    "acao": "Celebre sua jornada completa hoje."
+  },
+  "19-0": {
+    "insight": "O Sol encontra O Louco: A energia de Sucesso e Alegria é hoje catalisada por Liberdade e Caos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Liberdade bloqueie sua essência de O Sol.",
+    "acao": "Aventure-se no desconhecido hoje."
+  },
+  "19-1": {
+    "insight": "O Sol encontra O Mago: A energia de Sucesso e Alegria é hoje catalisada por Vontade e Início. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vontade bloqueie sua essência de O Sol.",
+    "acao": "Inicie um projeto prático hoje."
+  },
+  "19-2": {
+    "insight": "O Sol encontra A Sacerdotisa: A energia de Sucesso e Alegria é hoje catalisada por Intuição e Mistério. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Intuição bloqueie sua essência de O Sol.",
+    "acao": "Silencie e medite hoje."
+  },
+  "19-3": {
+    "insight": "O Sol encontra A Imperatriz: A energia de Sucesso e Alegria é hoje catalisada por Criatividade e Abundância. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Criatividade bloqueie sua essência de O Sol.",
+    "acao": "Crie algo belo hoje."
+  },
+  "19-4": {
+    "insight": "O Sol encontra O Imperador: A energia de Sucesso e Alegria é hoje catalisada por Estrutura e Ordem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Estrutura bloqueie sua essência de O Sol.",
+    "acao": "Organize suas finanças hoje."
+  },
+  "19-5": {
+    "insight": "O Sol encontra O Papa: A energia de Sucesso e Alegria é hoje catalisada por Sabedoria e Tradição. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sabedoria bloqueie sua essência de O Sol.",
+    "acao": "Busque um conselho sábio hoje."
+  },
+  "19-6": {
+    "insight": "O Sol encontra Os Enamorados: A energia de Sucesso e Alegria é hoje catalisada por Escolha e União. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Escolha bloqueie sua essência de O Sol.",
+    "acao": "Siga seu coração hoje."
+  },
+  "19-7": {
+    "insight": "O Sol encontra O Carro: A energia de Sucesso e Alegria é hoje catalisada por Vitória e Movimento. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vitória bloqueie sua essência de O Sol.",
+    "acao": "Avance com determinação hoje."
+  },
+  "19-8": {
+    "insight": "O Sol encontra A Justiça: A energia de Sucesso e Alegria é hoje catalisada por Equilíbrio e Verdade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Equilíbrio bloqueie sua essência de O Sol.",
+    "acao": "Seja honesto consigo mesmo hoje."
+  },
+  "19-9": {
+    "insight": "O Sol encontra O Eremita: A energia de Sucesso e Alegria é hoje catalisada por Introspecção e Luz. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Introspecção bloqueie sua essência de O Sol.",
+    "acao": "Busque a resposta no silêncio hoje."
+  },
+  "19-10": {
+    "insight": "O Sol encontra A Roda da Fortuna: A energia de Sucesso e Alegria é hoje catalisada por Mudança e Ciclos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Mudança bloqueie sua essência de O Sol.",
+    "acao": "Aceite as voltas que a vida dá hoje."
+  },
+  "19-11": {
+    "insight": "O Sol encontra A Força: A energia de Sucesso e Alegria é hoje catalisada por Domínio e Coragem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Domínio bloqueie sua essência de O Sol.",
+    "acao": "Domine seus impulsos com amor hoje."
+  },
+  "19-12": {
+    "insight": "O Sol encontra O Pendurado: A energia de Sucesso e Alegria é hoje catalisada por Perspectiva e Pausa. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Perspectiva bloqueie sua essência de O Sol.",
+    "acao": "Mude seu ponto de vista hoje."
+  },
+  "19-13": {
+    "insight": "O Sol encontra A Morte: A energia de Sucesso e Alegria é hoje catalisada por Transformação e Fim. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Transformação bloqueie sua essência de O Sol.",
+    "acao": "Deixe o velho para trás hoje."
+  },
+  "19-14": {
+    "insight": "O Sol encontra A Temperança: A energia de Sucesso e Alegria é hoje catalisada por Alquimia e Paciência. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Alquimia bloqueie sua essência de O Sol.",
+    "acao": "Equilibre seus opostos hoje."
+  },
+  "19-15": {
+    "insight": "O Sol encontra O Diabo: A energia de Sucesso e Alegria é hoje catalisada por Paixão e Sombra. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Paixão bloqueie sua essência de O Sol.",
+    "acao": "Enfrente seus desejos ocultos hoje."
+  },
+  "19-16": {
+    "insight": "O Sol encontra A Torre: A energia de Sucesso e Alegria é hoje catalisada por Ruptura e Libertação. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Ruptura bloqueie sua essência de O Sol.",
+    "acao": "Deixe o falso cair hoje."
+  },
+  "19-17": {
+    "insight": "O Sol encontra A Estrela: A energia de Sucesso e Alegria é hoje catalisada por Esperança e Fé. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Esperança bloqueie sua essência de O Sol.",
+    "acao": "Confie no fluxo do universo hoje."
+  },
+  "19-18": {
+    "insight": "O Sol encontra A Lua: A energia de Sucesso e Alegria é hoje catalisada por Sonhos e Ilusão. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sonhos bloqueie sua essência de O Sol.",
+    "acao": "Cuidado com o que parece ser hoje."
+  },
+  "19-19": {
+    "insight": "O Sol encontra O Sol: A energia de Sucesso e Alegria é hoje catalisada por Sucesso e Alegria. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sucesso bloqueie sua essência de O Sol.",
+    "acao": "Brilhe e compartilhe sua luz hoje."
+  },
+  "19-20": {
+    "insight": "O Sol encontra O Julgamento: A energia de Sucesso e Alegria é hoje catalisada por Despertar e Chamado. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Despertar bloqueie sua essência de O Sol.",
+    "acao": "Ouça sua voz interior agora hoje."
+  },
+  "19-21": {
+    "insight": "O Sol encontra O Mundo: A energia de Sucesso e Alegria é hoje catalisada por Plenitude e Unidade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Plenitude bloqueie sua essência de O Sol.",
+    "acao": "Celebre sua jornada completa hoje."
+  },
+  "20-0": {
+    "insight": "O Julgamento encontra O Louco: A energia de Despertar e Chamado é hoje catalisada por Liberdade e Caos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Liberdade bloqueie sua essência de O Julgamento.",
+    "acao": "Aventure-se no desconhecido hoje."
+  },
+  "20-1": {
+    "insight": "O Julgamento encontra O Mago: A energia de Despertar e Chamado é hoje catalisada por Vontade e Início. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vontade bloqueie sua essência de O Julgamento.",
+    "acao": "Inicie um projeto prático hoje."
+  },
+  "20-2": {
+    "insight": "O Julgamento encontra A Sacerdotisa: A energia de Despertar e Chamado é hoje catalisada por Intuição e Mistério. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Intuição bloqueie sua essência de O Julgamento.",
+    "acao": "Silencie e medite hoje."
+  },
+  "20-3": {
+    "insight": "O Julgamento encontra A Imperatriz: A energia de Despertar e Chamado é hoje catalisada por Criatividade e Abundância. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Criatividade bloqueie sua essência de O Julgamento.",
+    "acao": "Crie algo belo hoje."
+  },
+  "20-4": {
+    "insight": "O Julgamento encontra O Imperador: A energia de Despertar e Chamado é hoje catalisada por Estrutura e Ordem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Estrutura bloqueie sua essência de O Julgamento.",
+    "acao": "Organize suas finanças hoje."
+  },
+  "20-5": {
+    "insight": "O Julgamento encontra O Papa: A energia de Despertar e Chamado é hoje catalisada por Sabedoria e Tradição. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sabedoria bloqueie sua essência de O Julgamento.",
+    "acao": "Busque um conselho sábio hoje."
+  },
+  "20-6": {
+    "insight": "O Julgamento encontra Os Enamorados: A energia de Despertar e Chamado é hoje catalisada por Escolha e União. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Escolha bloqueie sua essência de O Julgamento.",
+    "acao": "Siga seu coração hoje."
+  },
+  "20-7": {
+    "insight": "O Julgamento encontra O Carro: A energia de Despertar e Chamado é hoje catalisada por Vitória e Movimento. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vitória bloqueie sua essência de O Julgamento.",
+    "acao": "Avance com determinação hoje."
+  },
+  "20-8": {
+    "insight": "O Julgamento encontra A Justiça: A energia de Despertar e Chamado é hoje catalisada por Equilíbrio e Verdade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Equilíbrio bloqueie sua essência de O Julgamento.",
+    "acao": "Seja honesto consigo mesmo hoje."
+  },
+  "20-9": {
+    "insight": "O Julgamento encontra O Eremita: A energia de Despertar e Chamado é hoje catalisada por Introspecção e Luz. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Introspecção bloqueie sua essência de O Julgamento.",
+    "acao": "Busque a resposta no silêncio hoje."
+  },
+  "20-10": {
+    "insight": "O Julgamento encontra A Roda da Fortuna: A energia de Despertar e Chamado é hoje catalisada por Mudança e Ciclos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Mudança bloqueie sua essência de O Julgamento.",
+    "acao": "Aceite as voltas que a vida dá hoje."
+  },
+  "20-11": {
+    "insight": "O Julgamento encontra A Força: A energia de Despertar e Chamado é hoje catalisada por Domínio e Coragem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Domínio bloqueie sua essência de O Julgamento.",
+    "acao": "Domine seus impulsos com amor hoje."
+  },
+  "20-12": {
+    "insight": "O Julgamento encontra O Pendurado: A energia de Despertar e Chamado é hoje catalisada por Perspectiva e Pausa. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Perspectiva bloqueie sua essência de O Julgamento.",
+    "acao": "Mude seu ponto de vista hoje."
+  },
+  "20-13": {
+    "insight": "O Julgamento encontra A Morte: A energia de Despertar e Chamado é hoje catalisada por Transformação e Fim. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Transformação bloqueie sua essência de O Julgamento.",
+    "acao": "Deixe o velho para trás hoje."
+  },
+  "20-14": {
+    "insight": "O Julgamento encontra A Temperança: A energia de Despertar e Chamado é hoje catalisada por Alquimia e Paciência. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Alquimia bloqueie sua essência de O Julgamento.",
+    "acao": "Equilibre seus opostos hoje."
+  },
+  "20-15": {
+    "insight": "O Julgamento encontra O Diabo: A energia de Despertar e Chamado é hoje catalisada por Paixão e Sombra. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Paixão bloqueie sua essência de O Julgamento.",
+    "acao": "Enfrente seus desejos ocultos hoje."
+  },
+  "20-16": {
+    "insight": "O Julgamento encontra A Torre: A energia de Despertar e Chamado é hoje catalisada por Ruptura e Libertação. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Ruptura bloqueie sua essência de O Julgamento.",
+    "acao": "Deixe o falso cair hoje."
+  },
+  "20-17": {
+    "insight": "O Julgamento encontra A Estrela: A energia de Despertar e Chamado é hoje catalisada por Esperança e Fé. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Esperança bloqueie sua essência de O Julgamento.",
+    "acao": "Confie no fluxo do universo hoje."
+  },
+  "20-18": {
+    "insight": "O Julgamento encontra A Lua: A energia de Despertar e Chamado é hoje catalisada por Sonhos e Ilusão. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sonhos bloqueie sua essência de O Julgamento.",
+    "acao": "Cuidado com o que parece ser hoje."
+  },
+  "20-19": {
+    "insight": "O Julgamento encontra O Sol: A energia de Despertar e Chamado é hoje catalisada por Sucesso e Alegria. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sucesso bloqueie sua essência de O Julgamento.",
+    "acao": "Brilhe e compartilhe sua luz hoje."
+  },
+  "20-20": {
+    "insight": "O Julgamento encontra O Julgamento: A energia de Despertar e Chamado é hoje catalisada por Despertar e Chamado. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Despertar bloqueie sua essência de O Julgamento.",
+    "acao": "Ouça sua voz interior agora hoje."
+  },
+  "20-21": {
+    "insight": "O Julgamento encontra O Mundo: A energia de Despertar e Chamado é hoje catalisada por Plenitude e Unidade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Plenitude bloqueie sua essência de O Julgamento.",
+    "acao": "Celebre sua jornada completa hoje."
+  },
+  "21-0": {
+    "insight": "O Mundo encontra O Louco: A energia de Plenitude e Unidade é hoje catalisada por Liberdade e Caos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Liberdade bloqueie sua essência de O Mundo.",
+    "acao": "Aventure-se no desconhecido hoje."
+  },
+  "21-1": {
+    "insight": "O Mundo encontra O Mago: A energia de Plenitude e Unidade é hoje catalisada por Vontade e Início. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vontade bloqueie sua essência de O Mundo.",
+    "acao": "Inicie um projeto prático hoje."
+  },
+  "21-2": {
+    "insight": "O Mundo encontra A Sacerdotisa: A energia de Plenitude e Unidade é hoje catalisada por Intuição e Mistério. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Intuição bloqueie sua essência de O Mundo.",
+    "acao": "Silencie e medite hoje."
+  },
+  "21-3": {
+    "insight": "O Mundo encontra A Imperatriz: A energia de Plenitude e Unidade é hoje catalisada por Criatividade e Abundância. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Criatividade bloqueie sua essência de O Mundo.",
+    "acao": "Crie algo belo hoje."
+  },
+  "21-4": {
+    "insight": "O Mundo encontra O Imperador: A energia de Plenitude e Unidade é hoje catalisada por Estrutura e Ordem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Estrutura bloqueie sua essência de O Mundo.",
+    "acao": "Organize suas finanças hoje."
+  },
+  "21-5": {
+    "insight": "O Mundo encontra O Papa: A energia de Plenitude e Unidade é hoje catalisada por Sabedoria e Tradição. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sabedoria bloqueie sua essência de O Mundo.",
+    "acao": "Busque um conselho sábio hoje."
+  },
+  "21-6": {
+    "insight": "O Mundo encontra Os Enamorados: A energia de Plenitude e Unidade é hoje catalisada por Escolha e União. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Escolha bloqueie sua essência de O Mundo.",
+    "acao": "Siga seu coração hoje."
+  },
+  "21-7": {
+    "insight": "O Mundo encontra O Carro: A energia de Plenitude e Unidade é hoje catalisada por Vitória e Movimento. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Vitória bloqueie sua essência de O Mundo.",
+    "acao": "Avance com determinação hoje."
+  },
+  "21-8": {
+    "insight": "O Mundo encontra A Justiça: A energia de Plenitude e Unidade é hoje catalisada por Equilíbrio e Verdade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Equilíbrio bloqueie sua essência de O Mundo.",
+    "acao": "Seja honesto consigo mesmo hoje."
+  },
+  "21-9": {
+    "insight": "O Mundo encontra O Eremita: A energia de Plenitude e Unidade é hoje catalisada por Introspecção e Luz. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Introspecção bloqueie sua essência de O Mundo.",
+    "acao": "Busque a resposta no silêncio hoje."
+  },
+  "21-10": {
+    "insight": "O Mundo encontra A Roda da Fortuna: A energia de Plenitude e Unidade é hoje catalisada por Mudança e Ciclos. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Mudança bloqueie sua essência de O Mundo.",
+    "acao": "Aceite as voltas que a vida dá hoje."
+  },
+  "21-11": {
+    "insight": "O Mundo encontra A Força: A energia de Plenitude e Unidade é hoje catalisada por Domínio e Coragem. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Domínio bloqueie sua essência de O Mundo.",
+    "acao": "Domine seus impulsos com amor hoje."
+  },
+  "21-12": {
+    "insight": "O Mundo encontra O Pendurado: A energia de Plenitude e Unidade é hoje catalisada por Perspectiva e Pausa. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Perspectiva bloqueie sua essência de O Mundo.",
+    "acao": "Mude seu ponto de vista hoje."
+  },
+  "21-13": {
+    "insight": "O Mundo encontra A Morte: A energia de Plenitude e Unidade é hoje catalisada por Transformação e Fim. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Transformação bloqueie sua essência de O Mundo.",
+    "acao": "Deixe o velho para trás hoje."
+  },
+  "21-14": {
+    "insight": "O Mundo encontra A Temperança: A energia de Plenitude e Unidade é hoje catalisada por Alquimia e Paciência. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Alquimia bloqueie sua essência de O Mundo.",
+    "acao": "Equilibre seus opostos hoje."
+  },
+  "21-15": {
+    "insight": "O Mundo encontra O Diabo: A energia de Plenitude e Unidade é hoje catalisada por Paixão e Sombra. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Paixão bloqueie sua essência de O Mundo.",
+    "acao": "Enfrente seus desejos ocultos hoje."
+  },
+  "21-16": {
+    "insight": "O Mundo encontra A Torre: A energia de Plenitude e Unidade é hoje catalisada por Ruptura e Libertação. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Ruptura bloqueie sua essência de O Mundo.",
+    "acao": "Deixe o falso cair hoje."
+  },
+  "21-17": {
+    "insight": "O Mundo encontra A Estrela: A energia de Plenitude e Unidade é hoje catalisada por Esperança e Fé. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Esperança bloqueie sua essência de O Mundo.",
+    "acao": "Confie no fluxo do universo hoje."
+  },
+  "21-18": {
+    "insight": "O Mundo encontra A Lua: A energia de Plenitude e Unidade é hoje catalisada por Sonhos e Ilusão. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sonhos bloqueie sua essência de O Mundo.",
+    "acao": "Cuidado com o que parece ser hoje."
+  },
+  "21-19": {
+    "insight": "O Mundo encontra O Sol: A energia de Plenitude e Unidade é hoje catalisada por Sucesso e Alegria. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Sucesso bloqueie sua essência de O Mundo.",
+    "acao": "Brilhe e compartilhe sua luz hoje."
+  },
+  "21-20": {
+    "insight": "O Mundo encontra O Julgamento: A energia de Plenitude e Unidade é hoje catalisada por Despertar e Chamado. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Despertar bloqueie sua essência de O Mundo.",
+    "acao": "Ouça sua voz interior agora hoje."
+  },
+  "21-21": {
+    "insight": "O Mundo encontra O Mundo: A energia de Plenitude e Unidade é hoje catalisada por Plenitude e Unidade. Momento de unificar essas forças.",
+    "alerta": "Não deixe que o excesso de Plenitude bloqueie sua essência de O Mundo.",
+    "acao": "Celebre sua jornada completa hoje."
+  }
+}

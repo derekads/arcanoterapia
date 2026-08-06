@@ -1,0 +1,3718 @@
+{
+  "arcanos": [
+    {
+      "numero": 22,
+      "nome": "O Louco",
+      "subtitulo": "Potencial • Inocência • Início",
+      "simbolo": "🃏",
+      "cor": "#f8fafc",
+      "cor_secundaria": "#a855f7",
+      "frequencia": "396",
+      "nota_musical": "Sol",
+      "chacra_regente": "Coroa (Sahasrara)",
+      "elemento": "Ar",
+      "planeta_regente": "Urano",
+      "signo_zodiacal": "Aquário",
+      "carta_oposta": "O Mundo (21)",
+      "dia_semana": "Domingo",
+      "numero_sorte": 0,
+      "cristais": [
+        "Cristal de Quartzo",
+        "Howlita",
+        "Pedra da Lua"
+      ],
+      "ervas": [
+        "Lavanda",
+        "Passiflora",
+        "Camomila"
+      ],
+      "alimentacao": [
+        "Alimentos leves",
+        "Frutas secas",
+        "Água de coco"
+      ],
+      "banho_terapeutico": "Ervas de Lavanda e Camomila com sal grosso (libertação de padrões)",
+      "movimento_corporal": "Dança livre sem coreografia por 15 minutos",
+      "essencia": "Você está na beira de um precipício sagrado. O Louco não é irresponsabilidade, é a coragem de confiar no invisível. Sua alma carrega a memória primordial do 'antes de começar' - aquele espaço vazio onde tudo é possível. Terapeuticamente, você precisa aprender a distinguir entre impulsividade inconsciente (fuga) e confiança consciente (entrega).",
+      "pergunta_junguiana": "O que eu estou evitando ver por trás da minha necessidade de novidade constante?",
+      "meditacao_guiada": "Visualize-se caminhando em direção a um penhasco. No momento do salto, sinta-se segurado pelo vento. O vazio é seu aliado, não seu inimigo. Respire profundamente 7 vezes.",
+      "conselho_diario": [
+        "Pise em terra descalço hoje",
+        "Diga sim para algo inesperado",
+        "Quebre uma rotina pequena",
+        "Olhe para o céu por 3 minutos sem pensar"
+      ],
+      "musicas_recomendadas": [
+        "Música étnica",
+        "Sons de natureza",
+        "Binaural 396Hz"
+      ],
+      "numerologia": {
+        "alma": 0,
+        "personalidade": "Eterno iniciante",
+        "caminho": "Aventura espiritual",
+        "desafio": "Discernir entre inocência e ingenuidade"
+      },
+      "previsao2026": {
+        "anoPessoal": "Ano do novo ciclo",
+        "ciclos": "Março e Setembro são portais de decisão irreversível",
+        "conselho": "Não planeje demais. A melhor estratégia é a flexibilidade absoluta. O universo está conspirando para empurrá-lo para o vazio criativo - não construa pontes antes de pular.",
+        "alerta_saude": "Cuidado com acidentes por distração e sistema nervoso sobrecarregado"
+      },
+      "sombras": [
+        {
+          "nome": "Impulsividade Autodestrutiva",
+          "severidade": "Alta",
+          "exercicio": "Respiração 4-7-8 antes de qualquer decisão importante. Timer de 24h para respostas.",
+          "antidoto": "Questionar: 'Estou fugindo ou indo em direção?'",
+          "sinais": [
+            "Mudanças repentinas de plano",
+            "Dificuldade em terminar projetos",
+            "Relacionamentos interrompidos abruptamente"
+          ],
+          "modalidade_terapia": "Terapia Cognitivo-Comportamental (TCC) - Controle de impulsos"
+        },
+        {
+          "nome": "Inocência Tóxica",
+          "severidade": "Média",
+          "exercicio": "Estudo de um caso de golpe/fraude por dia (sensibilização à realidade)",
+          "antidoto": "Santidade não é sinônimo de ignorância",
+          "sinais": [
+            "Confiar cegamente em desconhecidos",
+            "Ignorar sinais de alerta",
+            "Fala frequente de 'mas eu achei que...'"
+          ],
+          "modalidade_terapia": "Psicoeducação e desenvolvimento de discernimento"
+        },
+        {
+          "nome": "Medo do Compromisso",
+          "severidade": "Alta",
+          "exercicio": "Micro-compromissos diários (pequenos contratos consigo mesmo)",
+          "antidoto": "Liberdade existe dentro da estrutura, nunca na ausência dela",
+          "sinais": [
+            "Sabotagem quando as coisas dão certo",
+            "Fuga do sucesso",
+            "Dificuldade em definir metas"
+          ],
+          "modalidade_terapia": "Terapia do Esquema - Modo Fugitivo"
+        },
+        {
+          "nome": "Dispersão Energética",
+          "severidade": "Média",
+          "exercicio": "Técnica Pomodoro com foco em completar, não perfeccionar",
+          "antidoto": "Energia sem direção é ruído",
+          "sinais": [
+            "Múltiplos projetos inacabados",
+            "Dificuldade de concentração",
+            "Sensação de vazio após/buscar novidade"
+          ],
+          "modalidade_terapia": "Mindfulness e atenção plena"
+        }
+      ],
+      "diretrizes": [
+        "Comece algo novo hoje, mesmo que pequeno",
+        "Confie no desconhecido por 24h",
+        "Diga sim a uma oportunidade inesperada",
+        "Solte o controle de um resultado específico",
+        "Caminhe por um caminho desconhecido fisicamente"
+      ],
+      "afirmacoes": {
+        "manha": "Eu confio no processo da vida e dou o primeiro passo com fé",
+        "noite": "Libero o medo do amanhã e descanso na inocência do presente",
+        "crise": "Estou seguro mesmo no vazio. O precipício é ilusão, a rede cósmica é real",
+        "prosperidade": "O universo financiador sustenta minhas coragens",
+        "amor": "Amo sem calcular riscos, pois a vulnerabilidade é minha força"
+      },
+      "jornalTemplates": [
+        "Hoje [O Louco] me ensina que o medo que sinto é...",
+        "Se eu pudesse começar do zero sem julgamentos, eu...",
+        "O que estou fugindo através da impulsividade...",
+        "Minha inocência sagrada me protege de..."
+      ],
+      "rodadaVida": {
+        "amor": {
+          "baixa": "Evita compromissos por medo de perder liberdade",
+          "media": "Relacionamentos leves e sem pressão",
+          "alta": "Amor livre e evolutivo, parceiro é companheiro de aventura",
+          "check_diario": "Você deu espaço ao parceiro ou está fugindo da intimidade hoje?"
+        },
+        "dinheiro": {
+          "baixa": "Gastos impulsivos, falta de planejamento",
+          "media": "Renda variável, investimentos arriscados",
+          "alta": "Prosperidade através de múltiplas fontes criativas",
+          "check_diario": "Seu dinheiro está indo para o novo ou fugindo da responsabilidade?"
+        },
+        "saude": {
+          "baixa": "Acidentes por distração, fadiga adrenal",
+          "media": "Energia alta mas irregular",
+          "alta": "Vitalidade elétrica, recuperação rápida",
+          "check_diario": "Você descansou ou apenas parou por exaustão?"
+        },
+        "carreira": {
+          "baixa": "Profissões múltiplas inacabadas",
+          "media": "Freelancer/empreendedor em fase inicial",
+          "alta": "Inovador pioneiro em campo novo",
+          "check_diario": "Está construindo ou apenas começando coisas novas para escapar?"
+        },
+        "familia": {
+          "baixa": "Distância emocional, fuga de responsabilidades",
+          "media": "Relação não convencional",
+          "alta": "Família como base para ousadias",
+          "check_diario": "Você está presente ou apenas passando por lá?"
+        },
+        "proposito": {
+          "baixa": "Confusão existencial, falta de norte",
+          "media": "Propósito em descoberta",
+          "alta": "Missão de libertação e renovação",
+          "check_diario": "Sua ação de hoje foi inspirada ou foi fuga?"
+        }
+      }
+    },
+    {
+      "numero": 1,
+      "nome": "O Mago",
+      "subtitulo": "Manifestação • Vontade • Poder",
+      "simbolo": "🎩",
+      "cor": "#dc2626",
+      "cor_secundaria": "#fbbf24",
+      "frequencia": "528",
+      "nota_musical": "Dó",
+      "chacra_regente": "Laringe (Vishuddha)",
+      "elemento": "Ar/Fogo",
+      "planeta_regente": "Mercúrio",
+      "signo_zodiacal": "Gêmeos/Virgem",
+      "carta_oposta": "A Sacerdotisa (2)",
+      "dia_semana": "Quarta-feira",
+      "numero_sorte": 1,
+      "cristais": [
+        "Pirita",
+        "Quartzo Transparente",
+        "Citrino"
+      ],
+      "ervas": [
+        "Gengibre",
+        "Canela",
+        "Manjericão"
+      ],
+      "alimentacao": [
+        "Alimentos vermelhos",
+        "Pimenta",
+        "Café moderado"
+      ],
+      "banho_terapeutico": "Água com canela em pau e gengibre (ativação do poder pessoal)",
+      "movimento_corporal": "Yoga de guerreiro (Virabhadrasana) - posturas de poder",
+      "essencia": "Você é o canal. A mesa está posta, os elementos estão dispostos, a varinha está em sua mão. O Mago fala da sua capacidade de transformar pensamento em matéria - mas lembre: todo poder demanda responsabilidade. Terapeuticamente, você trabalha a crença de que 'merece' ter o que deseja versus o medo de que 'não é capaz'.",
+      "pergunta_junguiana": "O que eu estou tentando controlar externamente que na verdade precisa de integração interna?",
+      "meditacao_guiada": "Visualize os quatro elementos em suas mãos. Com a mão direita, desenhe um infinito no ar. Sinta o poder concentrado no seu plexo solar subindo para a garganta. Declare sua intenção em voz alta 3 vezes.",
+      "conselho_diario": [
+        "Fale uma afirmação em voz alta ao espelho",
+        "Use uma roupa que te faça sentir poderoso",
+        "Manifeste algo pequeno intencionalmente (vaga, café)",
+        "Organize sua mesa de trabalho"
+      ],
+      "musicas_recomendadas": [
+        "Músicas de hinos de vitória",
+        "528Hz",
+        "Clássica Wagner"
+      ],
+      "numerologia": {
+        "alma": 1,
+        "personalidade": "Líder nato",
+        "caminho": "Individualização criativa",
+        "desafio": "Equilibrar ego e essência"
+      },
+      "previsao2026": {
+        "anoPessoal": "Ano da Concretização",
+        "ciclos": "Janeiro e Julho: janelas de manifestação acelerada",
+        "conselho": "Pare de estudar e comece a fazer. Você já tem todas as ferramentas. A magia está na ação, não na teoria.",
+        "alerta_saude": "Cuidado com garganta, tireoide e tensão no maxilar (fala excessiva)"
+      },
+      "sombras": [
+        {
+          "nome": "Manipulação Consciente",
+          "severidade": "Alta",
+          "exercicio": "Prática de transparência radical: falar apenas verdades por 3 dias",
+          "antidoto": "Poder usado para elevar outros é magia; para controlar, é feitiçaria",
+          "sinais": [
+            "Frases calculadas para obter reação",
+            "Uso de informações privadas como moeda de troca",
+            "Charme excessivo quando quer algo"
+          ],
+          "modalidade_terapia": "Terapia do Esquema - Modo Exigente Interior"
+        },
+        {
+          "nome": "Ilusionismo Pessoal",
+          "severidade": "Média",
+          "exercicio": "Listar 5 coisas que finge ser/ter e 5 que realmente é/tem",
+          "antidoto": "A maior mágica é ser quem se é",
+          "sinais": [
+            "Impostor syndrome invertido (acredita na própria encenação)",
+            "Dificuldade em distinguir realidade de fantasia",
+            "Promessas vazias a si mesmo"
+          ],
+          "modalidade_terapia": "Terapia da Gestalt - Foco na autenticidade"
+        },
+        {
+          "nome": "Dispersão de Energia",
+          "severidade": "Média",
+          "exercicio": "Foco em um único projeto por 21 dias (ritual de consagração)",
+          "antidoto": "O Mago que tenta fazer tudo, nada manifesta",
+          "sinais": [
+            "Iniciativa em 100 coisas, conclusão em zero",
+            "Cansaço mental constante",
+            "Sensação de ter 'mão de obra escassa' apesar de talento"
+          ],
+          "modalidade_terapia": "Coaching focado em priorização"
+        },
+        {
+          "nome": "Infantilização do Poder",
+          "severidade": "Baixa",
+          "exercicio": "Assumir uma responsabilidade adulta que está fugindo",
+          "antidoto": "Brincar de ser Deus é diferente de honrar o Divino",
+          "sinais": [
+            "Usar 'intuição' como desculpa para irresponsabilidade",
+            "Evitar burocracias necessárias",
+            "Achar que regras não se aplicam"
+          ],
+          "modalidade_terapia": "Psicologia Analítica - Integração da Sombra"
+        }
+      ],
+      "diretrizes": [
+        "Manifeste uma coisa pequena hoje (café grátis, vaga no estacionamento)",
+        "Use as quatro ferramentas: Corpo (físico), Mente (estudo), Emoção (arte), Espírito (meditação)",
+        "Declare uma intenção em voz alta para o universo",
+        "Faça algo que tem protelado por medo de não conseguir",
+        "Ajude alguém a acreditar no próprio poder"
+      ],
+      "afirmacoes": {
+        "manha": "Eu tenho todos os recursos necessários para criar o dia perfeito",
+        "noite": "Minha mente é um ímã poderoso que atrai apenas o bem",
+        "crise": "Eu sou o canal, não a fonte. A energia divina flui através de mim sem me esgotar",
+        "prosperidade": "Dinheiro é energia concentrada e eu sei movê-la",
+        "amor": "Sou parceiro(a) consciente que manifesta relacionamentos alinhados"
+      },
+      "jornalTemplates": [
+        "Hoje [O Mago] me lembra que já tenho...",
+        "O que estou pronto para manifestar materialmente...",
+        "Minha ferramenta mais poderosa neste momento é...",
+        "Como uso meu charme de forma consciente/consciente..."
+      ],
+      "rodadaVida": {
+        "amor": {
+          "baixa": "Relacionamentos de conveniência ou manipulação",
+          "media": "Parcerias dinâmicas com troca de poder",
+          "alta": "União mágica onde ambos se potencializam",
+          "check_diario": "Você está manifestando amor ou controlando o parceiro?"
+        },
+        "dinheiro": {
+          "baixa": "Golpes, esquemas de pirâmide, dinheiro fácil",
+          "media": "Renda através de múltiplos talentos",
+          "alta": "Abundância ilimitada através do dom próprio",
+          "check_diario": "Seu dinheiro vem de criação ética ou ilusão?"
+        },
+        "saude": {
+          "baixa": "Hipocondria ou negação de doenças",
+          "media": "Uso de terapias alternativas eficazes",
+          "alta": "Cura através da mente-corpo conexão total",
+          "check_diario": "Você ouviu o corpo hoje ou o sobrepujou com a mente?"
+        },
+        "carreira": {
+          "baixa": "Charlatão, vende ilusões",
+          "media": "Autônomo bem-sucedido",
+          "alta": "Visionário que transforma indústrias",
+          "check_diario": "Seu trabalho hoje foi alquimia ou truque?"
+        },
+        "familia": {
+          "baixa": "Dinâmicas de controle",
+          "media": "Respeito mútuo baseado em competência",
+          "alta": "Líder inspirador da família",
+          "check_diario": "Você liderou com exemplo ou com imposição?"
+        },
+        "proposito": {
+          "baixa": "Falta de ética no uso de dons",
+          "media": "Influenciador positivo",
+          "alta": "Avatar da manifestação consciente",
+          "check_diario": "Seu poder de hoje serviu ao coletivo?"
+        }
+      }
+    },
+    {
+      "numero": 2,
+      "nome": "A Sacerdotisa",
+      "subtitulo": "Intuição • Mistério • Sabedoria Interior",
+      "simbolo": "🌙",
+      "cor": "#1e40af",
+      "cor_secundaria": "#c084fc",
+      "frequencia": "852",
+      "nota_musical": "Si",
+      "chacra_regente": "Frontal (Ajna)",
+      "elemento": "Água",
+      "planeta_regente": "Lua",
+      "signo_zodiacal": "Câncer",
+      "carta_oposta": "O Mago (1)",
+      "dia_semana": "Segunda-feira",
+      "numero_sorte": 2,
+      "cristais": [
+        "Lápis-Lazúli",
+        "Pedra da Lua",
+        "Ametista"
+      ],
+      "ervas": [
+        "Alfazema",
+        "Mirra",
+        "Rosa"
+      ],
+      "alimentacao": [
+        "Líquidos",
+        "Sopas",
+        "Chás",
+        "Frutas de casca"
+      ],
+      "banho_terapeutico": "Água de rosas com sal do Himalaia e gotas de lavanda (abertura do terceiro olho)",
+      "movimento_corporal": "Yin Yoga ou meditação em movimento lento",
+      "essencia": "Você é o templo. Entre os pilares da manifestação e da destruição, você guarda os segredos. A Sacerdotisa fala do conhecimento que não vem de fora, mas brota das profundezas. Terapeuticamente, você trabalha a dicotomia entre o medo de saber demais (responsabilidade do conhecimento) e a necessidade de ignorar (proteção do ego).",
+      "pergunta_junguiana": "Que verdade eu estou escondendo de mim mesmo através do silêncio?",
+      "meditacao_guiada": "Sente-se entre duas velas (representando as colunas B e J). Feche os olhos e desça uma escadaria de 7 degraus até um lago subterrâneo. Olhe a superfície da água e aguarde a resposta aparecer como reflexo.",
+      "conselho_diario": [
+        "Escreva um sonho ao acordar",
+        "Não compartilhe seus planos com ninguém hoje",
+        "Ouça mais e fale menos",
+        "Siga uma intuição pequena sem questionar"
+      ],
+      "musicas_recomendadas": [
+        "Música de meditação profunda",
+        "Binaural 852Hz",
+        "Mantras tibetanos"
+      ],
+      "numerologia": {
+        "alma": 2,
+        "personalidade": "Médium natural",
+        "caminho": "Receptividade iluminada",
+        "desafio": "Distinguir intuição de projeção"
+      },
+      "previsao2026": {
+        "anoPessoal": "Ano da Revelação Interior",
+        "ciclos": "Lua Nova e Cheia em Câncer/Peixes: downloads psíquicos intensos",
+        "conselho": "Não conte seus sonhos para todos. Algumas visões são apenas para você digerir antes de compartilhar.",
+        "alerta_saude": "Cuidado com retenção de líquidos, problemas hormonais e dores de cabeça psicossomáticas"
+      },
+      "sombras": [
+        {
+          "nome": "Segredo Compulsivo",
+          "severidade": "Alta",
+          "exercicio": "Compartilhar uma vulnerabilidade real com alguém de confiança",
+          "antidoto": "O mistério guardado vira veneno; compartilhado, vira remédio",
+          "sinais": [
+            "Guarda segredos alheios como moeda de troca emocional",
+            "Dificuldade em pedir ajuda",
+            "Isolamento em torre de marfim"
+          ],
+          "modalidade_terapia": "Terapia Grupal - Prática de vulnerabilidade"
+        },
+        {
+          "nome": "Intuição Paranoica",
+          "severidade": "Alta",
+          "exercicio": "Diário de previsões vs realidade (checar taxa de acerto)",
+          "antidoto": "Nem todo insight é verdade; às vezes é ansiedade com aura de profecia",
+          "sinais": [
+            "Acha que 'sabe' o que os outros pensam sem confirmar",
+            "Interpretações negativas de sonhos",
+            "Sabotagem baseada em 'premonições'"
+          ],
+          "modalidade_terapia": "TCC - Questionamento de distorções cognitivas"
+        },
+        {
+          "nome": "Retraimento Fóbico",
+          "severidade": "Média",
+          "exercicio": "Sair de casa/comfort zone 1x por dia mesmo sem vontade",
+          "antidoto": "O templo é sagrado, mas a Sacerdotisa precisa tocar a comunidade",
+          "sinais": [
+            "Evita contato humano por dias",
+            "Medo excessivo do mundo externo",
+            "Vida vivida apenas na imaginação"
+          ],
+          "modalidade_terapia": "Terapia de Exposição Gradual"
+        },
+        {
+          "nome": "Superioridade Espiritual",
+          "severidade": "Média",
+          "exercicio": "Praticar humildade ativa: serviço voluntário anônimo",
+          "antidoto": "Conhecimento oculto não torna ninguém melhor, apenas mais responsável",
+          "sinais": [
+            "Frases tipo 'vocês não entendem'",
+            "Uso de jargão espiritual para distanciar",
+            "Compaixão seletiva baseada em 'evolução'"
+          ],
+          "modalidade_terapia": "Mindfulness e prática de equanimidade"
+        }
+      ],
+      "diretrizes": [
+        "Escreva os sonhos ao acordar sem julgá-los",
+        "Medite 10 minutos na escuridão (física e metafórica)",
+        "Ouça a voz interior antes de consultar opiniões externas",
+        "Guarde um segredo alheio com santidade",
+        "Leia algo que desafia sua cosmovisão"
+      ],
+      "afirmacoes": {
+        "manha": "Minha intuição é a voz do divino sussurrando verdades",
+        "noite": "Descanso na sabedoria que vem das profundezas",
+        "crise": "Silêncio. Respiro. A resposta já está dentro de mim.",
+        "prosperidade": "Atraio riquezas através da sabedoria interior, não da ação forçada",
+        "amor": "Vejo além das máscaras e amo a essência"
+      },
+      "jornalTemplates": [
+        "O sonho de ontem à noite me revela que...",
+        "Minha intuição está tentando me avisar sobre...",
+        "O mistério que preciso honrar hoje é...",
+        "Tenho medo de saber/sentir..."
+      ],
+      "rodadaVida": {
+        "amor": {
+          "baixa": "Relacionamentos secretos, triângulos, intrigas",
+          "media": "Conexão profunda mas reservada",
+          "alta": "Parceria espiritual mística e silenciosa",
+          "check_diario": "Você está presente ou apenas observando de fora?"
+        },
+        "dinheiro": {
+          "baixa": "Dinheiro escondido, finanças confusas",
+          "media": "Renda estável mas não discutida",
+          "alta": "Abundância através de dons psíquicos/ocultos",
+          "check_diario": "Seu dinheiro traz paz ou segredos?"
+        },
+        "saude": {
+          "baixa": "Histeria, psicossomatizações, hipocondria",
+          "media": "Uso de homeopatia e terapias sutis",
+          "alta": "Cura através da água, meditação e sono",
+          "check_diario": "Você ouviu o corpo sutil hoje?"
+        },
+        "carreira": {
+          "baixa": "Espiã, fofoqueira profissional",
+          "media": "Terapeuta, conselheira, astróloga",
+          "alta": "Sacerdotisa, guardiã de conhecimentos ancestrais",
+          "check_diario": "Você usou seu conhecimento para curar ou julgar hoje?"
+        },
+        "familia": {
+          "baixa": "Segredos de família tóxicos",
+          "media": "Confidente materna/paterna",
+          "alta": "Matriarca/Patriarca espiritual",
+          "check_diario": "Você guardou ou expôs segredos familiares hoje?"
+        },
+        "proposito": {
+          "baixa": "Manipulação através de conhecimento",
+          "media": "Guiar através da escuta",
+          "alta": "Oráculo vivo da comunidade",
+          "check_diario": "Você recebeu downloads intuitivos hoje?"
+        }
+      }
+    },
+    {
+      "numero": 3,
+      "nome": "A Imperatriz",
+      "subtitulo": "Fertilidade • Criatividade • Abundância",
+      "simbolo": "👑",
+      "cor": "#16a34a",
+      "cor_secundaria": "#fb7185",
+      "frequencia": "639",
+      "nota_musical": "Ré",
+      "chacra_regente": "Cardíaco (Anahata)",
+      "elemento": "Terra",
+      "planeta_regente": "Vênus",
+      "signo_zodiacal": "Touro/Libra",
+      "carta_oposta": "O Imperador (4)",
+      "dia_semana": "Sexta-feira",
+      "numero_sorte": 3,
+      "cristais": [
+        "Jade",
+        "Esmeralda",
+        "Quartzo Rosa"
+      ],
+      "ervas": [
+        "Hortelã",
+        "Melissa",
+        "Verbena"
+      ],
+      "alimentacao": [
+        "Comidas caseiras",
+        "Chocolate amargo",
+        "Frutas maduras",
+        "Azeite de oliva"
+      ],
+      "banho_terapeutico": "Leite com mel, sal rosa e pétalas de rosa (nutrição do feminino)",
+      "movimento_corporal": "Dança do ventre ou yoga restaurativo",
+      "essencia": "Você é o jardim em flor. A Imperatriz governa a capacidade de nutrir, gerar e dar frutos - sejam filhos, projetos ou abundância material. Terapeuticamente, você trabalha a relação com a mãe (interna e externa) e a crença de que merece prosperar sem culpa.",
+      "pergunta_junguiana": "Onde eu estou negando minha própria fertilidade criativa por medo de responsabilidade?",
+      "meditacao_guiada": "Visualize-se em um jardim exuberante. Toque a terra fértil. Plante uma semente dourada em seu ventre/coração. Sinta-a germinar, crescer, florescer. Você é the vaso e a flor simultaneamente.",
+      "conselho_diario": [
+        "Cozinhe algo com as próprias mãos",
+        "Toque em uma planta ou animal",
+        "Vista-se com tecidos que agradam ao toque",
+        "Receba um elogio sem se diminuir"
+      ],
+      "musicas_recomendadas": [
+        "Música de natureza (passarinhos, rio)",
+        "Frequência 639Hz",
+        "MPB suave"
+      ],
+      "numerologia": {
+        "alma": 3,
+        "personalidade": "Criativa expressiva",
+        "caminho": "Geração e nutrição",
+        "desafio": "Distinguir criatividade de procriação compulsiva"
+      },
+      "previsao2026": {
+        "anoPessoal": "Ano da Colheita",
+        "ciclos": "Primavera (Set/Out/Nov no BR): projetos ganham vida",
+        "conselho": "Sua única tarefa é fertilizar o solo. As sementes já estão plantadas. Não force a floração.",
+        "alerta_saude": "Cuidado com problemas ginecológicos/andrológicos, tireoide e questões de peso emocional"
+      },
+      "sombras": [
+        {
+          "nome": "Maternagem Compulsiva",
+          "severidade": "Alta",
+          "exercicio": "Lista de 'crianças' (projetos/pessoas) para as quais você é responsável demais. Eliminar 30%.",
+          "antidoto": "A Imperatriz que cuida de todos, abandona a si mesma",
+          "sinais": [
+            "Adoecer por cuidar demais",
+            "Projetos que não decolam porque você microgerencia",
+            "Relacionamentos onde você é 'mãe'"
+          ],
+          "modalidade_terapia": "Terapia de Limites e Codependência"
+        },
+        {
+          "nome": "Culpa da Abundância",
+          "severidade": "Média",
+          "exercicio": "Gastar dinheiro consigo em algo luxuoso sem justificativa prática",
+          "antidoto": "Ter prazer é sagrado, não egoísta",
+          "sinais": [
+            "Dificuldade em receber presentes",
+            "Sabotagem financeira quando prospera",
+            "Frases como 'não preciso disso tudo'"
+          ],
+          "modalidade_terapia": "Terapia Riqueza Consciente - Desbloqueio de merecimento"
+        },
+        {
+          "nome": "Criatividade Bloqueada",
+          "severidade": "Média",
+          "exercicio": "Arte terapia caótica: pintar sem técnica por 30 min",
+          "antidoto": "Perfeccionismo mata a fertilidade",
+          "sinais": [
+            "Infertilidade (física ou criativa)",
+            "Depressão pós-parto (de ideias)",
+            "Comparação com outros criadores"
+          ],
+          "modalidade_terapia": "Arteterapia e Expressão Corporal"
+        },
+        {
+          "nome": "Dependência Emocional",
+          "severidade": "Baixa",
+          "exercicio": "Passar 48h sozinho sem contato, criando prazer próprio",
+          "antidoto": "Nutrir-se antes de nutrir",
+          "sinais": [
+            "Medo de abandonar relacionamentos ruins",
+            "Definição de si através do cuidado ao outro",
+            "Vazio quando não está servindo"
+          ],
+          "modalidade_terapia": "Terapia do Esquema - Modo Abandono"
+        }
+      ],
+      "diretrizes": [
+        "Toque na terra (planta ou caminhe descalço)",
+        "Cozinhe algo com intenção de amor",
+        "Compre uma planta ou cuide de uma existente",
+        "Vista-se como rainha/rainio hoje",
+        "Dê-se um prazer sensorial (banho, perfume, tecido bom)"
+      ],
+      "afirmacoes": {
+        "manha": "Sou um canal de abundância ilimitada. Tudo que toco floresce",
+        "noite": "Minha criatividade descansa na certeza de renovação",
+        "crise": "Mesmo no inverno, sei que sou terra fértil",
+        "prosperidade": "Dinheiro flui para mim como rios para the oceano",
+        "amor": "Sou amor maternal/paternal divino encarnado"
+      },
+      "jornalTemplates": [
+        "Hoje [A Imperatriz] me ensina a nutrir...",
+        "O projeto/criação que precisa de minha atenção materna é...",
+        "Minha relação com a abundância material...",
+        "Crio bloqueios na fertilidade através de..."
+      ],
+      "rodadaVida": {
+        "amor": {
+          "baixa": "Relacionamentos codependentes, mãe/pai para parceiro",
+          "media": "Amor nutritivo e estável",
+          "alta": "Parceria abundante onde ambos florescem",
+          "check_diario": "Você nutriu ou sufocou o parceiro hoje?"
+        },
+        "dinheiro": {
+          "baixa": "Pobreza, escassez, medo de gastar",
+          "media": "Conforto material garantido",
+          "alta": "Riqueza frutífera que gera mais riqueza",
+          "check_diario": "Você recebeu com gratidão ou culpa hoje?"
+        },
+        "saude": {
+          "baixa": "Problemas ginecológicos/andrológicos, peso",
+          "media": "Saúde estável, corpo acolhedor",
+          "alta": "Fertilidade perfeita, vitalidade de Vênus",
+          "check_diario": "Você se nutriu com amor ou negligenciou the corpo?"
+        },
+        "carreira": {
+          "baixa": "Empregada doméstica mal paga",
+          "media": "Profissional de cuidado/educação",
+          "alta": "Empresária/empreendedora criativa influente",
+          "check_diario": "Você criou ou apenas gerenciou hoje?"
+        },
+        "familia": {
+          "baixa": "Mãe/pai tóxico, devoção doentia",
+          "media": "Pais presentes e nutritivos",
+          "alta": "Matriarca/Patriarca amoroso(a) e sábio(a)",
+          "check_diario": "Você foi exemplo de autocuido para a família?"
+        },
+        "proposito": {
+          "baixa": "Vítima do papel de cuidadora",
+          "media": "Educador/nutridor",
+          "alta": "Grande Mãe/Pai da comunidade",
+          "check_diario": "Você gerou vida nova em algum projeto hoje?"
+        }
+      }
+    },
+    {
+      "numero": 4,
+      "nome": "O Imperador",
+      "subtitulo": "Estrutura • Autoridade • Ordem",
+      "simbolo": "⚔️",
+      "cor": "#b91c1c",
+      "cor_secundaria": "#fbbf24",
+      "frequencia": "396",
+      "nota_musical": "Mi",
+      "chacra_regente": "Solar (Manipura)",
+      "elemento": "Fogo",
+      "planeta_regente": "Marte",
+      "signo_zodiacal": "Áries",
+      "carta_oposta": "A Imperatriz (3)",
+      "dia_semana": "Terça-feira",
+      "numero_sorte": 4,
+      "cristais": [
+        "Rubelita",
+        "Âmbar",
+        "Obsidiana"
+      ],
+      "ervas": [
+        "Cedro",
+        "Alecrim",
+        "Ginseng"
+      ],
+      "alimentacao": [
+        "Proteínas vermelhas",
+        "Raízes",
+        "Comidas quentes",
+        "Temperos fortes"
+      ],
+      "banho_terapeutico": "Água com sal marinho e alecrim (fortalecimento de limites)",
+      "movimento_corporal": "Musculação, corrida ou artes marciais",
+      "essencia": "Você é o trono. O Imperador estabelece leis, limites e estruturas que protegem the reino. Terapeuticamente, você trabalha o pai interno - a capacidade de dizer não, de estabelecer disciplina sem crueldade, e de liderar sem dominar.",
+      "pergunta_junguiana": "Onde eu abdiquei da minha autoridade pessoal para manter a paz?",
+      "meditacao_guiada": "Visualize-se sentado em um trono de pedra. Sob seus pés, the mapa do seu território (vida). Trace os limites com uma espada de luz. Sinta a responsabilidade do comando e a solidez da estrutura.",
+      "conselho_diario": [
+        "Estabeleça uma regra clara e a mantenha",
+        "Organize uma área caótica",
+        "Diga não a um pedido inválido",
+        "Assuma responsabilidade por um erro"
+      ],
+      "musicas_recomendadas": [
+        "Marchas militares suaves",
+        "Música épica",
+        "Frequência 396Hz"
+      ],
+      "numerologia": {
+        "alma": 4,
+        "personalidade": "Construtor sólido",
+        "caminho": "Estabilização e ordem",
+        "desafio": "Autoridade vs autoritarismo"
+      },
+      "previsao2026": {
+        "anoPessoal": "Ano da Construção",
+        "ciclos": "Março e Setembro: fundações sólidas ou colapsos necessários",
+        "conselho": "Não busque revolução. Busque sistemas. A liberdade está na estrutura bem feita, não na ausência de regras.",
+        "alerta_saude": "Cuidado com hipertensão, problemas cardíacos e tensão muscular crônica"
+      },
+      "sombras": [
+        {
+          "nome": "Rigidez Autoritária",
+          "severidade": "Alta",
+          "exercicio": "Quebrar uma regra própria pequena por dia (flexibilidade training)",
+          "antidoto": "O trono é de pedra, mas o coração não precisa ser",
+          "sinais": [
+            "Dificuldade em pedir desculpas",
+            "Micromanagement obsessivo",
+            "Frieza emocional como 'profissionalismo'"
+          ],
+          "modalidade_terapia": "Terapia Comportamental Dialética (DBT)"
+        },
+        {
+          "nome": "Tirania Invertida",
+          "severidade": "Média",
+          "exercicio": "Assumir comando de uma situação que está fugindo do controle",
+          "antidoto": "Autoridade abdicada vira caos; autoridade exercida vira proteção",
+          "sinais": [
+            "Passividade diante de injustiças",
+            "Deixar outros decidirem por medo",
+            "Profecia auto-realizadora de fracasso"
+          ],
+          "modalidade_terapia": "Assertividade Treinamento"
+        },
+        {
+          "nome": "Materialismo de Segurança",
+          "severidade": "Média",
+          "exercicio": "Doar algo material valioso sem expectativa de retorno",
+          "antidoto": "O Império é vasto, mas você não leva nada além da alma",
+          "sinais": [
+            "Acumulação compulsiva",
+            "Medo irracional de pobreza mesmo prosperando",
+            "Status como identidade"
+          ],
+          "modalidade_terapia": "Terapia de Esquemas - Modo Proteção"
+        },
+        {
+          "nome": "Supressão da Criança Interior",
+          "severidade": "Baixa",
+          "exercicio": "Brincar de forma estruturada (esporte, jogo de tabuleiro) sem competitividade",
+          "antidoto": "O Imperador sábio deixa the príncipe brincar",
+          "sinais": [
+            "Vida sem prazer, só deveres",
+            "Dificuldade em relaxar",
+            "Seriedade excessiva"
+          ],
+          "modalidade_terapia": "Terapia da Criança Interior"
+        }
+      ],
+      "diretrizes": [
+        "Estabeleça uma rotina rigorosa por 7 dias",
+        "Diga 'no' a algo que viola seus limites",
+        "Organize um espaço físico (escrivaninha, armário)",
+        "Assuma responsabilidade por um erro cometido",
+        "Crie um sistema (financeiro, de estudo, de exercícios)"
+      ],
+      "afirmacoes": {
+        "manha": "Eu construo impérios através de disciplina amorosa",
+        "noite": "Minha estrutura me protege enquanto descanso",
+        "crise": "Sou the rochedo inabalável no meio da tempestade",
+        "prosperidade": "Abundância vem através de gestão sábia e estratégia",
+        "amor": "Protejo quem amo através de limites claros e presença forte"
+      },
+      "jornalTemplates": [
+        "Hoje [O Imperador] me ensina sobre ordem em...",
+        "A estrutura que preciso impor na minha vida é...",
+        "Meu relacionamento com a autoridade (própria e alheia)...",
+        "Disciplina que me liberta vs rigidez que me prende..."
+      ],
+      "rodadaVida": {
+        "amor": {
+          "baixa": "Relacionamentos hierárquicos, chefia/dominação",
+          "media": "Parceria estável com papéis definidos",
+          "alta": "Liderança amorosa, proteção sem posse",
+          "check_diario": "Você protegeu ou controlou o parceiro hoje?"
+        },
+        "dinheiro": {
+          "baixa": "Pobreza por falta de planejamento",
+          "media": "Renda fixa estável, poupança",
+          "alta": "Império financeiro, riquezas hereditárias/construídas",
+          "check_diario": "Seu dinheiro tem estrutura ou é caos?"
+        },
+        "saude": {
+          "baixa": "Doenças por stress, hipertensão, rigidez muscular",
+          "media": "Corpo forte através de disciplina",
+          "alta": "Vitalidade de guerreiro, longevidade",
+          "check_diario": "Você respeitou os limites do corpo?"
+        },
+        "carreira": {
+          "baixa": "Assalariado explorado ou ditador de pequeno poder",
+          "media": "Gerente, coordenador, chefe",
+          "alta": "CEO, líder visionário, fundador",
+          "check_diario": "Você liderou com justiça hoje?"
+        },
+        "familia": {
+          "baixa": "Pai/mãe ausente ou ditador",
+          "media": "Figura paterna/materna presente",
+          "alta": "Patriarca/Matriarca justo e respeitado",
+          "check_diario": "Você foi referência sólida para a família?"
+        },
+        "proposito": {
+          "baixa": "Tirano ou escravo do sistema",
+          "media": "Administrador eficiente",
+          "alta": "Governante sábio, legislador moral",
+          "check_diario": "Você construiu algo que perdurará?"
+        }
+      }
+    },
+    {
+      "numero": 5,
+      "nome": "O Papa",
+      "subtitulo": "Tradição • Ensino • Espiritualidade",
+      "simbolo": "🔑",
+      "cor": "#ca8a04",
+      "cor_secundaria": "#f8fafc",
+      "frequencia": "741",
+      "nota_musical": "Fá",
+      "chacra_regente": "Garganta (Vishuddha)",
+      "elemento": "Terra",
+      "planeta_regente": "Júpiter",
+      "signo_zodiacal": "Touro",
+      "carta_oposta": "O Diabo (15)",
+      "dia_semana": "Quinta-feira",
+      "numero_sorte": 5,
+      "cristais": [
+        "Safira",
+        "Topázio Dourado",
+        "Granada"
+      ],
+      "ervas": [
+        "Sálvia",
+        "Louro",
+        "Mirra"
+      ],
+      "alimentacao": [
+        "Comidas tradicionais da família",
+        "Vinho tinto (moderado)",
+        "Pães artesanais",
+        "Queijos maturados"
+      ],
+      "banho_terapeutico": "Ervas de sálvia e louro com água benzida (limpeza espiritual)",
+      "movimento_corporal": "Tai Chi Chuan ou caminhada meditativa",
+      "essencia": "Você é a ponte. O Papa (ou Hierofante) guarda as chaves entre o céu e a terra, representando a tradição e o ensino sagrado. Terapeuticamente, você trabalha a relação com dogmas - seja rompendo os que não servem mais, seja honrando os que sustentam.",
+      "pergunta_junguiana": "Quais crenças herdadas eu ainda carrego que não foram escolhidas conscientemente por mim?",
+      "meditacao_guiada": "Visualize uma antiga biblioteca de pedra. Pegue um livro de ouro. As páginas mostram as regras que governam sua vida. Leia-as. Quais são sagradas? Quais são prisões?",
+      "conselho_diario": [
+        "Ensine algo a alguém hoje",
+        "Honre um ancestral com gratidão",
+        "Siga um ritual matinal antigo",
+        "Busque conselho de um mentor"
+      ],
+      "musicas_recomendadas": [
+        "Música gregoriana",
+        "Hinos religiosos universais",
+        "Frequência 741Hz"
+      ],
+      "numerologia": {
+        "alma": 5,
+        "personalidade": "Professor intuitivo",
+        "caminho": "Transmissão de sabedoria",
+        "desafio": "Dogma vs liberdade espiritual"
+      },
+      "previsao2026": {
+        "anoPessoal": "Ano do Aprendizado",
+        "ciclos": "Maio e Novembro: iniciações espirituais ou reconhecimento de mestres",
+        "conselho": "Não reinvente a roda. Há linhagens antigas que já resolveram seu problema. Busque um mentor verdadeiro.",
+        "alerta_saude": "Cuidado com problemas de garganta, tireoide e rigidez articular"
+      },
+      "sombras": [
+        {
+          "nome": "Dogmatismo Espiritual",
+          "severidade": "Alta",
+          "exercicio": "Estudar uma tradição completamente oposta à sua por uma semana com respeito",
+          "antidoto": "A chave que abre uma porta, tranca outras",
+          "sinais": [
+            "Fanatismo religioso/filosófico",
+            "Julgamento de caminhos diferentes",
+            "Crença de possuir 'a única verdade'"
+          ],
+          "modalidade_terapia": "Terapia Cognitiva - Flexibilidade de esquemas"
+        },
+        {
+          "nome": "Rebeldia Invertida",
+          "severidade": "Média",
+          "exercicio": "Praticar uma tradição familiar antiga por 3 dias com gratidão",
+          "antidoto": "Rejeitar tudo é tão cego quanto aceitar tudo",
+          "sinais": [
+            "Ateísmo militante como identidade",
+            "Dificuldade em honrar ancestrais",
+            "Quebrar regras só por quebrar"
+          ],
+          "modalidade_terapia": "Terapia Narrativa - Reautoria da história familiar"
+        },
+        {
+          "nome": "Ensino Vazio",
+          "severidade": "Média",
+          "exercicio": "Viver uma semana seguindo rigidamente o que prega (integridade)",
+          "antidoto": "O mestre que não pratica, ensina hipocrisia",
+          "sinais": [
+            "Dar conselhos que não segue",
+            "Escrever/falar sobre virtudes não cultivadas",
+            "Guru tóxico"
+          ],
+          "modalidade_terapia": "Terapia da Integridade - Consistência valores-ações"
+        },
+        {
+          "nome": "Conformidade Social",
+          "severidade": "Baixa",
+          "exercicio": "Quebrar uma norma social inofensiva (vestir diferente, falar a verdade inconveniente)",
+          "antidoto": "As chaves são para abrir portas, não para decorar o colo",
+          "sinais": [
+            "Ficar em religião por pressão social",
+            "Casamento/Convivência por convenção",
+            "Meditar/aparecer espiritual para status"
+          ],
+          "modalidade_terapia": "Assertividade e Autonomia"
+        }
+      ],
+      "diretrizes": [
+        "Ensine algo que sabe para alguém hoje",
+        "Honre um ancestral ou mestre com gratidão",
+        "Estude um texto sagrado (qualquer tradição)",
+        "Participe de um ritual coletivo",
+        "Busque conselho de alguém mais experiente"
+      ],
+      "afirmacoes": {
+        "manha": "Sou um canal de sabedoria ancestral e contemporânea",
+        "noite": "Agradeço aos mestres visíveis e invisíveis que me guiaram hoje",
+        "crise": "Há uma tradição de superação na minha linhagem. Não estou sozinho.",
+        "prosperidade": "Abundância vem através do serviço e do ensino",
+        "amor": "Amo através do compromisso sagrado e da palavra dada"
+      },
+      "jornalTemplates": [
+        "Hoje [O Papa] me ensina sobre tradição através de...",
+        "O dogma que preciso questionar/libertar é...",
+        "Minha função como mentor/padre/mestre na vida de alguém...",
+        "A tradição familiar que honro/rejeito é..."
+      ],
+      "rodadaVida": {
+        "amor": {
+          "baixa": "Relacionamento por obrigação social",
+          "media": "Casamento/Convivência tradicional estável",
+          "alta": "União sagrada, reconhecida pela comunidade",
+          "check_diario": "Você amou por convenção ou convicção hoje?"
+        },
+        "dinheiro": {
+          "baixa": "Pobreza de monge, rejeição da matéria",
+          "media": "Renda através de instituições tradicionais",
+          "alta": "Abundância através do dízimo/oferta/serviço",
+          "check_diario": "Seu dinheiro honra suas tradições?"
+        },
+        "saude": {
+          "baixa": "Doenças por para repressão, culpa religiosa",
+          "media": "Saúde através de disciplinas tradicionais",
+          "alta": "Cura através de fé e comunidade",
+          "check_diario": "Você respeitou os limites do corpo sagrado?"
+        },
+        "carreira": {
+          "baixa": "Padre corrompido, falso guru",
+          "media": "Professor, conselheiro, terapeuta",
+          "alta": "Mestre espiritual reconhecido, líder religioso",
+          "check_diario": "Você ensinou com o exemplo hoje?"
+        },
+        "familia": {
+          "baixa": "Dogmas familiares opressivos",
+          "media": "Tradições familiares saudáveis",
+          "alta": "Guardião da linhagem e valores ancestrais",
+          "check_diario": "Você honrou os ancestrais hoje?"
+        },
+        "proposito": {
+          "baixa": "Falso profeta",
+          "media": "Educador formal",
+          "alta": "Hierofante, iniciador de almas",
+          "check_diario": "Você transmitiu conhecimento que transforma?"
+        }
+      }
+    },
+    {
+      "numero": 6,
+      "nome": "Os Enamorados",
+      "subtitulo": "Escolha • Harmonia • Amor",
+      "simbolo": "💕",
+      "cor": "#db2777",
+      "frequencia": "528",
+      "elemento": "Ar",
+      "cristais": [
+        "Turmalina Rosa",
+        "Citrino",
+        "Ágata de Fogo"
+      ],
+      "ervas": [
+        "Rosa",
+        "Vanila",
+        "Cardamomo"
+      ],
+      "essencia": "Você é a encruzilhada. Os Enamorados falam de escolhas de coração, mas também da integração dos opostos. Terapeuticamente, você trabalha a dicotomia entre razão e emoção, e a busca pelo parceiro ideal versus o amor próprio.",
+      "numerologia": {
+        "alma": 6,
+        "personalidade": "Romântico idealista",
+        "caminho": "União e escolha consciente",
+        "desafio": "Dependência emocional vs independência"
+      },
+      "previsao2026": {
+        "anoPessoal": "Ano das Decisões do Coração",
+        "ciclos": "Junho: escolha crucial que define os próximos 7 anos",
+        "conselho": "Não escolha com a cabeça nem só com o coração. Escolha com a alma. O que te faz expandir?",
+        "alerta_saude": ""
+      },
+      "sombras": [
+        {
+          "nome": "Codependência Romântica",
+          "severidade": "Alta",
+          "exercicio": "Passar 3 dias sem contato com parceiro e sem culpa, focando em hobbies próprios",
+          "antidoto": "Dois 'meios' não fazem um inteiro; dois 'inteiros' criam infinito",
+          "sinais": [
+            "Medo de ficar sozinho",
+            "Definição de valor através do relacionamento",
+            "Abandono de amigos/família pelo romance"
+          ],
+          "modalidade_terapia": ""
+        },
+        {
+          "nome": "Indecisão Crônica",
+          "severidade": "Média",
+          "exercicio": "Decisão em 60 segundos: timer, escolher, não olhar para trás por 48h",
+          "antidoto": "Não escolher também é escolha - e geralmente a pior",
+          "sinais": [
+            "Manter dois relacionamentos paralelos por indecisão",
+            "Mudança constante de opinião",
+            "Paralisia diante de opções"
+          ],
+          "modalidade_terapia": ""
+        },
+        {
+          "nome": "Idealização Tóxica",
+          "severidade": "Média",
+          "exercicio": "Listar 10 defeitos reais do parceiro/atual crush e aceitá-los",
+          "antidoto": "Amar a projeção é odiar a realidade",
+          "sinais": [
+            "Queda de paixão quando conhece a pessoa de verdade",
+            "Expectativas de conto de fadas",
+            "Culpar o outro por não ser perfeito"
+          ],
+          "modalidade_terapia": ""
+        },
+        {
+          "nome": "Fuga do Compromisso",
+          "severidade": "Baixa",
+          "exercicio": "Definir o relacionamento (ou terminar) explicitamente",
+          "antidoto": "O medo de escolher um é o medo de perder todos",
+          "sinais": [
+            "Relacionamentos eternamente 'sem definição'",
+            "Sabotagem quando fica sério",
+            "Busca constante por 'alguém melhor'"
+          ],
+          "modalidade_terapia": ""
+        }
+      ],
+      "diretrizes": [
+        "Faça uma escolha difícil hoje (qualquer área)",
+        "Liste prós e contras de uma decisão pendente",
+        "Aproxime-se de alguém que ama (física ou emocionalmente)",
+        "Harmonize razão e emoção em uma situação",
+        "Agradeça ao seu parceiro ou à sua solitude"
+      ],
+      "afirmacoes": {
+        "manha": "Escolho amor, começando por mim mesmo",
+        "noite": "Minhas escolhas de hoje me aproximaram da alma gêmea (interna ou externa)",
+        "crise": "Mesmo na dúvida, minha intuição amorosa me guia",
+        "prosperidade": "Abundância flui para mim através de parcerias alinhadas",
+        "amor": "Sou digno de amor profundo e escolho parceiros que me honram"
+      },
+      "jornalTemplates": [
+        "Hoje [Os Enamorados] me pedem para escolher entre...",
+        "A escolha que estou evitando fazer é...",
+        "Minha relação com o amor próprio vs busca pelo outro...",
+        "O que meu coração diz vs o que minha razão diz sobre..."
+      ],
+      "rodadaVida": {
+        "amor": {
+          "baixa": "Triângulos amorosos, indecisão entre dois",
+          "media": "Relacionamento estável mas com dilemas",
+          "alta": "União sagrada, almas gêmeas",
+          "check_diario": ""
+        },
+        "dinheiro": {
+          "baixa": "Gastos por impulsividade emocional",
+          "media": "Finanças compartilhadas estáveis",
+          "alta": "Prosperidade através de parcerias comerciais",
+          "check_diario": ""
+        },
+        "saude": {
+          "baixa": "Doenças psicossomáticas por conflitos amorosos",
+          "media": "Equilíbrio hormonal/emocional",
+          "alta": "Cura através do amor e conexão",
+          "check_diario": ""
+        },
+        "carreira": {
+          "baixa": "Conflito entre paixão e trabalho",
+          "media": "Parceria profissional harmoniosa",
+          "alta": "Vocação que é também paixão",
+          "check_diario": ""
+        },
+        "familia": {
+          "baixa": "Dividido entre família de origem e parceiro",
+          "media": "Harmonia entre laços familiares",
+          "alta": "Família como escola de amor incondicional",
+          "check_diario": ""
+        },
+        "proposito": {
+          "baixa": "Vivendo para agradar outros",
+          "media": "Servir através de relacionamentos",
+          "alta": "Unir polaridades como caminho espiritual",
+          "check_diario": ""
+        }
+      },
+      "cor_secundaria": "#ffffff",
+      "nota_musical": "N/A",
+      "chacra_regente": "N/A",
+      "planeta_regente": "N/A",
+      "signo_zodiacal": "N/A",
+      "carta_oposta": "N/A",
+      "dia_semana": "N/A",
+      "numero_sorte": 6,
+      "alimentacao": [],
+      "banho_terapeutico": "",
+      "movimento_corporal": "",
+      "pergunta_junguiana": "",
+      "meditacao_guiada": "",
+      "musicas_recomendadas": []
+    },
+    {
+      "numero": 7,
+      "nome": "O Carro",
+      "subtitulo": "Vitória • Determinação • Foco",
+      "simbolo": "🏎️",
+      "cor": "#f59e0b",
+      "cor_secundaria": "#1e3a8a",
+      "frequencia": "417",
+      "nota_musical": "Lá",
+      "chacra_regente": "Plexo Solar (Manipura)",
+      "elementos": "Água/Fogo",
+      "planeta_regente": "Lua/Marte",
+      "signo_zodiacal": "Câncer",
+      "carta_oposta": "O Torre (16)",
+      "dia_semana": "Segunda-feira",
+      "numero_sorte": 7,
+      "cristais": [
+        "Olho de Tigre",
+        "Hematita",
+        "Jaspe Vermelho"
+      ],
+      "ervas": [
+        "Hortelã-pimenta",
+        "Manjericão",
+        "Guaraná"
+      ],
+      "alimentacao": [
+        "Alimentos energéticos",
+        "Suco de laranja",
+        "Proteínas leves",
+        "Nozes"
+      ],
+      "banho_terapeutico": "Banho de ervas estimulantes (hortelã e manjericão) para foco",
+      "movimento_corporal": "Corrida, ciclismo ou qualquer atividade de velocidade",
+      "essencia": "Você é o condutor. O Carro representa o domínio sobre as emoções (as esfinges) para atingir um objetivo concreto. Terapeuticamente, você trabalha a autoafirmação e a capacidade de superar obstáculos sem ser atropelado pelos próprios sentimentos.",
+      "pergunta_junguiana": "O que eu estou tentando controlar rigidamente que na verdade precisa de direção, não de força?",
+      "meditacao_guiada": "Visualize-se em uma biga dourada. À sua frente, dois cavalos (ou esfinges) de cores opostas. Sinta as rédeas em suas mãos. Defina seu destino. Veja-se ultrapassando o muro dos obstáculos com velocidade constante.",
+      "conselho_diario": [
+        "Defina uma meta pequena e cumpra-a antes do meio-dia",
+        "Mova-se fisicamente para destravar a mente",
+        "Assuma o comando de uma situação pendente",
+        "Não deixe que o medo de outros atrase seu progresso"
+      ],
+      "musicas_recomendadas": [
+        "Trilhas sonoras de ação (épicas)",
+        "Frequência 417Hz",
+        "Músicas motivacionais"
+      ],
+      "numerologia": {
+        "alma": 7,
+        "personalidade": "Vencedor determinado",
+        "caminho": "Triunfo através da vontade",
+        "desafio": "Controlar a arrogância da vitória"
+      },
+      "previsao2026": {
+        "anoPessoal": "Ano da Aceleração",
+        "ciclos": "Julho: o mês da grande viagem ou mudança de rumo estratégica",
+        "conselho": "A estrada está aberta. Não pare para pedir permissão. Sua determinação é o seu combustível agora.",
+        "alerta_saude": "Cuidado com stress, acidentes por pressa e problemas gástricos (nervosismo)"
+      },
+      "sombras": [
+        {
+          "nome": "Controlador Obsessivo",
+          "severidade": "Alta",
+          "exercicio": "Delegar uma tarefa importante e não interferir no processo",
+          "antidoto": "Direção não é o mesmo que microgerenciamento",
+          "sinais": [
+            "Explodir quando as coisas não saem do seu jeito",
+            "Dificuldade em confiar na equipe",
+            "Insônia por preocupação com o futuro"
+          ],
+          "modalidade_terapia": "Terapia Cognitivo-Comportamental (TCC) - Flexibilidade"
+        },
+        {
+          "nome": "Arrogância do Triunfo",
+          "severidade": "Média",
+          "exercicio": "Agradecer publicamente a quem te ajudou a chegar onde está",
+          "antidoto": "Ninguém vence sozinho; o Carro precisa de estrada e cavalos",
+          "sinais": [
+            "Tratar os outros como ferramentas",
+            "Não ouvir conselhos",
+            "Desprezo por quem falhou"
+          ],
+          "modalidade_terapia": "Psicologia Humanista - Empatia"
+        },
+        {
+          "nome": "Direção sem Sentido",
+          "severidade": "Alta",
+          "exercicio": "Passar um dia sem metas, apenas observando o fluxo da vida",
+          "antidoto": "Velocidade sem direção é apenas desperdício de energia",
+          "sinais": [
+            "Estar sempre ocupado mas sem resultados",
+            "Ansiedade constante",
+            "Sentir-se esgotado após 'vencer'"
+          ],
+          "modalidade_terapia": "Logoterapia - Busca de sentido"
+        },
+        {
+          "nome": "Fuga para a Frente",
+          "severidade": "Baixa",
+          "exercicio": "Enfrentar um problema emocional em vez de começar um novo projeto",
+          "antidoto": "Nenhum Carro corre mais rápido que o passado não resolvido",
+          "sinais": [
+            "Mudar de emprego/cidade sempre que algo fica difícil",
+            "Vício em trabalho",
+            "Evitar silêncio e pausa"
+          ],
+          "modalidade_terapia": "Mindfulness - Presença"
+        }
+      ],
+      "diretrizes": [
+        "Trace uma meta clara para os próximos 30 dias",
+        "Mantenha o foco até o final da tarefa",
+        "Não se deixe desviar por fofocas ou dúvidas alheias",
+        "Viaje ou planeje uma mudança necessária",
+        "Assuma a liderança de um projeto"
+      ],
+      "afirmacoes": {
+        "manha": "Eu tenho o poder e a direção para manifestar minha vitória hoje",
+        "noite": "Agradeço pelo progresso feito e descanso para a próxima jornada",
+        "crise": "Sou o mestre do meu destino e o capitão da minha alma",
+        "prosperidade": "Minha determinação atrai recursos em abundância",
+        "amor": "Conduzo meus relacionamentos com foco no crescimento mútuo"
+      },
+      "jornalTemplates": [
+        "Hoje [O Carro] me pergunta: qual é o meu verdadeiro destino...",
+        "O obstáculo que vou ultrapassar hoje com minha vontade é...",
+        "Onde estou tentando controlar em vez de dirigir...",
+        "Como me sinto ao assumir o comando da minha própria vida..."
+      ],
+      "rodadaVida": {
+        "amor": {
+          "baixa": "Relações competitivas, atropelar o parceiro",
+          "media": "Planos de viagem, metas em comum",
+          "alta": "Parceria vencedora, união de propósitos",
+          "check_diario": "Você dirigiu a relação para o crescimento ou para o conflito?"
+        },
+        "dinheiro": {
+          "baixa": "Gastos impulsivos com veículos ou status",
+          "media": "Investimentos focados, crescimento rápido",
+          "alta": "Independência financeira conquistada com esforço",
+          "check_diario": "Seu dinheiro está te levando para onde você quer ir?"
+        },
+        "saude": {
+          "baixa": "Exaustão, tensões musculares, estômago",
+          "media": "Treinos intensos, foco na performance",
+          "alta": "Vitalidade inabalável e corpo ágil",
+          "check_diario": "Você está correndo por saúde ou fugindo do descanso?"
+        },
+        "carreira": {
+          "baixa": "Ambição desmedida, conflitos de comando",
+          "media": "Promoções rápidas, liderança de projetos",
+          "alta": "Líder inspirador que vence desafios impossíveis",
+          "check_diario": "Sua liderança hoje foi inspirada ou imposta?"
+        },
+        "familia": {
+          "baixa": "Ausência por excesso de trabalho, comando rígido",
+          "media": "Mudanças de casa, viagens em família",
+          "alta": "Suporte sólido que impulsiona todos os membros",
+          "check_diario": "Você trouxe progresso ou apenas ordens para casa hoje?"
+        },
+        "proposito": {
+          "baixa": "Confundir sucesso material com missão de alma",
+          "media": "Caminho espiritual com metas claras",
+          "alta": "Manifestação plena da vontade divina através da ação",
+          "check_diario": "Sua vitória de hoje serviu ao seu ego ou ao seu propósito?"
+        }
+      }
+    },
+    {
+      "numero": 8,
+      "nome": "A Justiça",
+      "subtitulo": "Equilíbrio • Causa e Efeito • Verdade",
+      "simbolo": "⚖️",
+      "cor": "#ea580c",
+      "cor_secundaria": "#f8fafc",
+      "frequencia": "852",
+      "nota_musical": "Ré",
+      "chacra_regente": "Plexo Solar/Cardíaco",
+      "elemento": "Ar",
+      "planeta_regente": "Vênus",
+      "signo_zodiacal": "Libra",
+      "carta_oposta": "O Louco (0)",
+      "dia_semana": "Sexta-feira",
+      "numero_sorte": 11,
+      "cristais": [
+        "Hematita",
+        "Turmalina Negra",
+        "Jade"
+      ],
+      "ervas": [
+        "Arruda",
+        "Artemísia",
+        "Espada de São Jorge"
+      ],
+      "alimentacao": [
+        "Alimentos de cor verde",
+        "Suco detox",
+        "Folhas amargas",
+        "Chá de quebra-pedra"
+      ],
+      "banho_terapeutico": "Banho de arruda e sal grosso (limpeza kármica)",
+      "movimento_corporal": "Pilates ou exercícios de equilíbrio postural",
+      "essencia": "Você é a balança e a espada. A Justiça exige a verdade nua e crua, sem sentimentalismos. Terapeuticamente, você trabalha o peso da culpa (própria ou alheia) e a capacidade de tomar decisões baseadas em fatos, não em emoções voláteis.",
+      "pergunta_junguiana": "Que dívida moral ou emocional eu ainda estou tentando pagar, mesmo que o credor já tenha partido?",
+      "meditacao_guiada": "Imagine uma sala branca infinita. À sua frente, uma balança. De um lado, seus desejos. Do outro, suas obrigações. Use a espada para cortar o que está sobrando em qualquer um dos lados até o equilíbrio ser perfeito.",
+      "conselho_diario": [
+        "Seja brutalmente honesto consigo hoje",
+        "Assine aquele contrato ou resolva a pendência legal",
+        "Organize suas finanças (centavo por centavo)",
+        "Peça desculpas por um erro real, não social"
+      ],
+      "musicas_recomendadas": [
+        "Música clássica barroca (Bach)",
+        "Frequência 852Hz",
+        "Sons de sinos de cristal"
+      ],
+      "numerologia": {
+        "alma": 8,
+        "personalidade": "Juiz imparcial",
+        "caminho": "Harmonização de conflitos",
+        "desafio": "Rigidez vs compaixão"
+      },
+      "previsao2026": {
+        "anoPessoal": "Ano do Acerto",
+        "ciclos": "Outubro: o mês do julgamento. Colheita exatamente do que foi plantado em 2024.",
+        "conselho": "A justiça tarda mas não falha. Se você agiu com integridade, será recompensado. Se houve atalhos, a conta chegará agora para ser quitada.",
+        "alerta_saude": "Cuidado com rins, sistema urinário e dores lombares (peso da responsabilidade)"
+      },
+      "sombras": [
+        {
+          "nome": "Rigidez Moralista",
+          "severidade": "Alta",
+          "exercicio": "Passar um dia sem julgar ninguém (nem mentalmente)",
+          "antidoto": "A lei é para o homem, não o homem para a lei",
+          "sinais": [
+            "Chicote mental em si e nos outros",
+            "Intolerância com erros alheios",
+            "Frieza emocional disfarçada de 'justiça'"
+          ],
+          "modalidade_terapia": "Terapia Cognitiva - Flexibilização de regras"
+        },
+        {
+          "nome": "Vingança Disfarçada",
+          "severidade": "Média",
+          "exercicio": "Perdoar uma dívida real (emocional ou financeira) sem contar para ninguém",
+          "antidoto": "O ódio é um veneno que você toma esperando o outro morrer",
+          "sinais": [
+            "Desejo de 'ver o outro pagar'",
+            "Justificativa de crueldade por 'mérito'",
+            "Rancor de longa data"
+          ],
+          "modalidade_terapia": "Terapia do Perdão"
+        },
+        {
+          "nome": "Indecisão por Perfeccionismo",
+          "severidade": "Alta",
+          "exercicio": "Tomar uma decisão rápida e aceitar o erro como parte do processo",
+          "antidoto": "Feito é melhor que o perfeito inexistente",
+          "sinais": [
+            "Análise paralisante",
+            "Medo de cometer injustiças",
+            "Delegar decisões cruciais"
+          ],
+          "modalidade_terapia": "Terapia Comportamental - Exposição ao erro"
+        },
+        {
+          "nome": "Frieza de Geladeira",
+          "severidade": "Baixa",
+          "exercicio": "Expressar um sentimento vulnerável sem usar a lógica para explicá-lo",
+          "antidoto": "A balança precisa de calor humano para não congelar",
+          "sinais": [
+            "Dificuldade em abraçar",
+            "Tratar afetos como transações",
+            "Mecanização da vida"
+          ],
+          "modalidade_terapia": "Psicoterapia Corporal Bioenergética"
+        }
+      ],
+      "diretrizes": [
+        "Seja justo antes de ser bom hoje",
+        "Corte o que não serve mais com determinação",
+        "Equilibre sua dieta e sua rotina",
+        "Enfrente uma verdade incômoda",
+        "Assuma a responsabilidade pelas suas escolhas"
+      ],
+      "afirmacoes": {
+        "manha": "Eu ajo com integridade e a verdade é minha maior aliada",
+        "noite": "Minha alma está em paz porque minhas contas com a vida estão em dia",
+        "crise": "No equilíbrio do cosmos, a justiça sempre se manifesta",
+        "prosperidade": "Minha riqueza cresce através da troca justa e ética",
+        "amor": "Amor é equilíbrio entre dar e receber"
+      },
+      "jornalTemplates": [
+        "Hoje [A Justiça] me mostra que o desequilíbrio está em...",
+        "A verdade que não quero ver sobre [situação] é...",
+        "Como estou sendo injusto comigo mesmo ao...",
+        "O que preciso 'cortar' definitivamente da minha vida hoje..."
+      ],
+      "rodadaVida": {
+        "amor": {
+          "baixa": "Relação por contrato ou obrigação",
+          "media": "Lealdade e respeito mútuo",
+          "alta": "Harmonia sagrada e verdade compartilhada",
+          "check_diario": "Você foi honesto com seus sentimentos hoje?"
+        },
+        "dinheiro": {
+          "baixa": "Dívidas kármicas, processos legais",
+          "media": "Renda honesta e equilibrada",
+          "alta": "Abundância através da ordem e do mérito",
+          "check_diario": "Sua conta financeira está em equilíbrio com sua ética?"
+        },
+        "saude": {
+          "baixa": "Problemas renais por retenção de raiva",
+          "media": "Saúde estável através de disciplina",
+          "alta": "Equilíbrio orgânico perfeito",
+          "check_diario": "Você deu ao seu corpo o que ele verdadeiramente merece?"
+        },
+        "carreira": {
+          "baixa": "Conflitos éticos, punições profissionais",
+          "media": "Profissional correto e respeitado",
+          "alta": "Juiz de sua área, autoridade ética",
+          "check_diario": "Suas ações profissionais foram justas para todos?"
+        },
+        "familia": {
+          "baixa": "Julgamentos familiares constantes",
+          "media": "Papéis definidos e respeitados",
+          "alta": "Ancestralidade limpa de segredos e mentiras",
+          "check_diario": "Você trouxe ordem ou julgamento para sua casa hoje?"
+        },
+        "proposito": {
+          "baixa": "O justiceiro cego",
+          "media": "Restaurador da ordem",
+          "alta": "Atuante do karma divino na terra",
+          "check_diario": "Seu propósito de hoje teve fundamento na verdade?"
+        }
+      }
+    },
+    {
+      "numero": 9,
+      "nome": "O Eremita",
+      "subtitulo": "Introspecção • Sabedoria • Solidão",
+      "simbolo": "🕯️",
+      "cor": "#1e293b",
+      "cor_secundaria": "#64748b",
+      "frequencia": "963",
+      "nota_musical": "Si",
+      "chacra_regente": "Terceiro Olho (Ajna)",
+      "elemento": "Terra",
+      "planeta_regente": "Saturno",
+      "signo_zodiacal": "Virgem",
+      "carta_oposta": "A Estrela (17)",
+      "dia_semana": "Sábado",
+      "numero_sorte": 9,
+      "cristais": [
+        "Quartzo Fumê",
+        "Obsidiana",
+        "Âmbar"
+      ],
+      "ervas": [
+        "Sálvia",
+        "Arruda",
+        "Tomilho"
+      ],
+      "alimentacao": [
+        "Alimentos de colheita demorada (raízes)",
+        "Grãos integrais",
+        "Chás de ervas puras",
+        "Frutos secos"
+      ],
+      "banho_terapeutico": "Banho de sálvia à luz de uma única vela (conexão interior)",
+      "movimento_corporal": "Caminhada solitária no silêncio ou meditação Zen",
+      "essencia": "Você é a lanterna no escuro. O Eremita não foge do world, ele se retira para encontrar o que é essencial. Terapeuticamente, você trabalha o medo da solidão versus o prazer da solitude, e a busca pela verdade que não depende de aplausos externos.",
+      "pergunta_junguiana": "O que eu estou tentando encontrar lá fora que só pode ser descoberto no meu mais profundo silêncio?",
+      "meditacao_guiada": "Visualize-se subindo uma montanha à noite. Você carrega uma lanterna que ilumina apenas o próximo passo. Sinta o frio e o silêncio. No topo, há uma caverna aquecida por uma pequena tocha. Entre. O que o seu 'Eu Ancião' tem a lhe dizer?",
+      "conselho_diario": [
+        "Fique 30 minutos em silêncio absoluto hoje",
+        "Cancele um compromisso barulhento e desnecessário",
+        "Estude algo profundo e complexo",
+        "Seja discreto sobre seus planos"
+      ],
+      "musicas_recomendadas": [
+        "Mantras solitários",
+        "Frequência 963Hz",
+        "Sons de vento e natureza"
+      ],
+      "numerologia": {
+        "alma": 9,
+        "personalidade": "Buscador da verdade",
+        "caminho": "Sabedoria amadurecida",
+        "desafio": "Isolamento vs compartilhamento"
+      },
+      "previsao2026": {
+        "anoPessoal": "Ano da Retirada Estratégica",
+        "ciclos": "Novembro: o despertar da lanterna. Um segredo ou conhecimento antigo será revelado.",
+        "conselho": "Não tenha medo de ficar sozinho. A resposta não está no Google nem no Instagram, está no seu subconsciente. O silêncio será seu melhor conselheiro.",
+        "alerta_saude": "Cuidado com ossos, dentes, reumatismos e problemas de audição"
+      },
+      "sombras": [
+        {
+          "nome": "Isolamento Depressivo",
+          "severidade": "Alta",
+          "exercicio": "Sair de casa e conversar com um estranho por 5 minutos",
+          "antidoto": "Solidão é uma escolha; isolamento é uma prisão",
+          "sinais": [
+            "Evitar todo contato social",
+            "Sentir-se 'superior' por estar sozinho",
+            "Negligência com a aparência e ambiente"
+          ],
+          "modalidade_terapia": "Terapia Cognitivo-Comportamental (TCC) - Ativação Social"
+        },
+        {
+          "nome": "Arrogância Intelectual",
+          "severidade": "Média",
+          "exercicio": "Ouvir o conselho de alguém 'simples' sem julgamento",
+          "antidoto": "A verdadeira sabedoria é simples e humilde",
+          "sinais": [
+            "Sentir que ninguém te entende",
+            "Usar conhecimento para diminuir os outros",
+            "Cinismo"
+          ],
+          "modalidade_terapia": "Psicologia Humanista - Empatia"
+        },
+        {
+          "nome": "Fuga da Intimidade",
+          "severidade": "Média",
+          "exercicio": "Compartilhar um segredo vulnerável com alguém de confiança",
+          "antidoto": "A luz da lanterna serve para ser vista, não só para ver",
+          "sinais": [
+            "Medo de ser 'conhecido'",
+            "Sempre dar desculpas para não se envolver",
+            "Relacionamentos superficiais"
+          ],
+          "modalidade_terapia": "Terapia de Esquemas - Isolamento social"
+        },
+        {
+          "nome": "Avareza de Sabedoria",
+          "severidade": "Baixa",
+          "exercicio": "Ensinar algo gratuitamente para quem precisa",
+          "antidoto": "O conhecimento que não circula, apodrece",
+          "sinais": [
+            "Reter informações",
+            "Não querer 'dar pérolas aos porcos'",
+            "Sentimento de escassez intelectual"
+          ],
+          "modalidade_terapia": "Logoterapia - Sentido da vida através do serviço"
+        }
+      ],
+      "diretrizes": [
+        "Passe um tempo em retiro hoje",
+        "Seja lento em falar e rápido em observar",
+        "Simplifique sua rotina ao máximo",
+        "Busque a orientação de um mestre ou livro antigo",
+        "Ilumine o caminho de alguém sem ser notado"
+      ],
+      "afirmacoes": {
+        "manha": "Minha luz interior é guia suficiente para minha jornada hoje",
+        "noite": "Agradeço pelo silêncio que me revelou a verdade",
+        "crise": "Recuo para avançar. O silêncio me fortalece.",
+        "prosperidade": "Minha sabedoria é meu maior patrimônio e ele atrai tudo o que preciso",
+        "amor": "Amo a partir da minha totalidade, não da minha carência"
+      },
+      "jornalTemplates": [
+        "Hoje [O Eremita] me pede para silenciar sobre...",
+        "O que descobri no meu retiro de hoje foi...",
+        "Onde estou fugindo do mundo em vez de me retirar para curar...",
+        "A sabedoria que meu 'Eu do Futuro' me sussurrou hoje..."
+      ],
+      "rodadaVida": {
+        "amor": {
+          "baixa": "Solidão amarga, abandono",
+          "media": "Relacionamento discreto e profundo",
+          "alta": "Companheirismo de almas maduras",
+          "check_diario": "Você respeitou seu espaço e o do outro hoje?"
+        },
+        "dinheiro": {
+          "baixa": "Pobreza por isolamento, falta de recursos",
+          "media": "Independência financeira austera",
+          "alta": "Riqueza acumulada por prudência e sabedoria",
+          "check_diario": "Suas finanças refletem sua busca pelo essencial?"
+        },
+        "saude": {
+          "baixa": "Problemas crônicos por descaso",
+          "media": "Saúde mantida por hábitos simples",
+          "alta": "Vitalidade de quem conhece os ritmos internos",
+          "check_diario": "Você ouviu os sinais silenciosos do seu corpo?"
+        },
+        "carreira": {
+          "baixa": "Trabalho sem sentido, invisibilidade",
+          "media": "Pesquisador, escritor, especialista solitário",
+          "alta": "Mestre consultor, referência máxima em sua área",
+          "check_diario": "Seu trabalho de hoje teve profundidade ou foi apenas barulho?"
+        },
+        "familia": {
+          "baixa": "Excluido ou afastado por mágoa",
+          "media": "O parente sábio mas distante",
+          "alta": "Patriarca/Matriarca consultado por todos",
+          "check_diario": "Você trouxe luz ou distância para sua família hoje?"
+        },
+        "proposito": {
+          "baixa": "Descrença total, niilismo",
+          "media": "Busca espiritual solitária",
+          "alta": "Sábio iluminado que serve como farol para o mundo",
+          "check_diario": "Sua ação de hoje foi fiel à sua busca interior?"
+        }
+      }
+    },
+    {
+      "numero": 10,
+      "nome": "A Roda da Fortuna",
+      "subtitulo": "Ciclos • Sorte • Destino",
+      "simbolo": "☸️",
+      "cor": "#d97706",
+      "cor_secundaria": "#fef3c7",
+      "frequencia": "417",
+      "nota_musical": "Dó",
+      "chacra_regente": "Plexo Solar (Manipura)",
+      "elemento": "Fogo",
+      "planeta_regente": "Júpiter",
+      "signo_zodiacal": "Sagitário",
+      "carta_oposta": "O Eremita (9)",
+      "dia_semana": "Quinta-feira",
+      "numero_sorte": 10,
+      "cristais": [
+        "Pirita",
+        "Citrino",
+        "Olho de Tigre"
+      ],
+      "ervas": [
+        "Arruda",
+        "Manjericão",
+        "Canela"
+      ],
+      "alimentacao": [
+        "Alimentos de colheita demorada (raízes)",
+        "Grãos integrais",
+        "Chás de ervas puras",
+        "Frutos secos"
+      ],
+      "banho_terapeutico": "Banho de ervas de sorte (arruda, manjericão e canela) para abrir caminhos",
+      "movimento_corporal": "Dança circular ou exercícios de mobilidade fluida",
+      "essencia": "Você é o movimento eterno. A Roda ensina que tudo muda - o sucesso e o fracasso são passageiros. Terapeuticamente, você trabalha a aceitação da impermanência e o desapego do controle sobre resultados.",
+      "pergunta_junguiana": "Que padrão repetitivo na minha vida estou chamando de 'destino', mas que na verdade é um ciclo que eu mesmo alimento?",
+      "meditacao_guiada": "Visualize uma roda gigante dourada girando lentamente. Você está no centro, no eixo fixo. Observe as situações da sua vida subindo e descendo nos raios da roda. Sinta a paz de estar no centro, enquanto tudo ao redor se move.",
+      "conselho_diario": [
+        "Abrace uma mudança inesperada hoje",
+        "Arrisque-se em algo novo",
+        "Solte o controle de um plano que deu errado",
+        "Ajude alguém que está em uma fase de 'baixa'"
+      ],
+      "musicas_recomendadas": [
+        "Músicas rítmicas e tribais",
+        "Frequência 417Hz",
+        "Sons de engrenagens e relógios"
+      ],
+      "numerologia": {
+        "alma": 10,
+        "personalidade": "Aventureiro cíclico",
+        "caminho": "Aceitação do fluxo",
+        "desafio": "Segurança vs mudança"
+      },
+      "previsao2026": {
+        "anoPessoal": "Ano da Grande Virada",
+        "ciclos": "Março e Dezembro: meses de mudanças drásticas de cenário e sorte repentina.",
+        "conselho": "Não se apegue à posição atual. Nem no topo nem no fundo você fica para sempre. A roda vai girar a seu favor, mas você precisa estar pronto para pular quando a oportunidade passar.",
+        "alerta_saude": "Cuidado com fígado, digestão e ossos"
+      },
+      "sombras": [
+        {
+          "nome": "Jogatina Compulsiva",
+          "severidade": "Alta",
+          "exercicio": "Abster-se de qualquer aposta ou risco desnecessário por uma semana",
+          "antidoto": "A roda gira para todos, mas só colhe quem semeia na terra",
+          "sinais": [
+            "Day trade impulsivo",
+            "Jogos de azar",
+            "Dependência de 'sorte' para resolver problemas",
+            "Vida financeira instável por irresponsabilidade"
+          ],
+          "modalidade_terapia": "Terapia Cognitivo-Comportamental (TCC) - Controle de Impulsos"
+        },
+        {
+          "nome": "Resistência à Mudança",
+          "severidade": "Alta",
+          "exercicio": "Mudar um móvel de lugar ou fazer um caminho novo para o trabalho",
+          "antidoto": "A roda que não gira o eixo, emperra e quebra",
+          "sinais": [
+            "Ficar em emprego/situação ruim por medo de mudar",
+            "Sabotagem de oportunidades novas",
+            "Apego doentio ao 'jeito que sempre foi'"
+          ],
+          "modalidade_terapia": "Terapia de Aceitação e Compromisso (ACT)"
+        },
+        {
+          "nome": "Fatalismo Passivo",
+          "severidade": "Média",
+          "exercicio": "Tomar uma decisão pequena e assumir 100% da culpa/mérito",
+          "antidoto": "Destino é o mapa; livre-arbítrio é como você dirige",
+          "sinais": [
+            "Atitude de 'o que for será'",
+            "Não planejar por acreditar que 'não adianta'",
+            "Vítima do destino"
+          ],
+          "modalidade_terapia": "Psicoterapia Existencial"
+        },
+        {
+          "nome": "Euforia Inconsciente",
+          "severidade": "Baixa",
+          "exercicio": "Ao ganhar algo, guardar uma parte para o 'inverno' antes de comemorar",
+          "antidoto": "O topo da roda é o início da descida; prepare o paraquedas",
+          "sinais": [
+            "Gastar tudo quando ganha",
+            "Achar que a sorte vai durar para sempre",
+            "Esquecer quem ajudou na subida"
+          ],
+          "modalidade_terapia": "Psicologia Positiva com Foco em Realidade"
+        }
+      ],
+      "diretrizes": [
+        "Aceite uma mudança que está resistindo",
+        "Faça algo arriscado mas calculado hoje",
+        "Agradeça tanto na vitória quanto na derrota",
+        "Solte o controle de um resultado específico",
+        "Ajude alguém que está na 'fase ruim'"
+      ],
+      "afirmacoes": {
+        "manha": "Estou em fluxo com a abundância do universo. Onde a roda gira, eu prospero",
+        "noite": "Agradeço pelas lições do ciclo de hoje. Amanhã a roda traz o novo",
+        "crise": "Isso também passará. Estou no eixo fixo da minha paz",
+        "prosperidade": "A sorte me encontra em movimento e ação constante",
+        "amor": "Aceito as fases do amor com a maturidade de quem sabe que tudo se transforma"
+      },
+      "jornalTemplates": [
+        "Hoje [A Roda] me ensina sobre impermanência em...",
+        "O ciclo que se fecha é...",
+        "Onde eu tentei controlar o incontrolável e como posso soltar...",
+        "O padrão repetitivo que finalmente identifiquei hoje..."
+      ],
+      "rodadaVida": {
+        "amor": {
+          "baixa": "Relacionamentos ioiô, altos e baixos constantes",
+          "media": "Aceitação das fases naturais do casal",
+          "alta": "Parceria que evolui a cada ciclo",
+          "check_diario": "Você aceitou as mudanças de humor/fase do parceiro sem reagir?"
+        },
+        "dinheiro": {
+          "baixa": "Instabilidade financeira crônica",
+          "media": "Renda variável bem gerida",
+          "alta": "Sorte em investimentos e fluxo constante",
+          "check_diario": "Você tratou seu dinheiro como fluxo ou como posse?"
+        },
+        "saude": {
+          "baixa": "Doenças crônicas cíclicas",
+          "media": "Saúde que varia com as estações",
+          "alta": "Vitalidade adaptativa, cura milagrosa",
+          "check_diario": "Você respeitou o ritmo biológico do seu corpo hoje?"
+        },
+        "carreira": {
+          "baixa": "Desemprego recorrente, instabilidade",
+          "media": "Carreira dinâmica e em evolução",
+          "alta": "Sucesso repentino, viradas de mesa",
+          "check_diario": "Você aproveitou a oportunidade que o dia ofereceu?"
+        },
+        "familia": {
+          "baixa": "Dramas cíclicos repetidos",
+          "media": "Altos e baixos familiares normais",
+          "alta": "Resiliência familiar diante de mudanças",
+          "check_diario": "Você foi o eixo ou a parte que balança na sua casa hoje?"
+        },
+        "proposito": {
+          "baixa": "Sentir-se um joguete do destino",
+          "media": "Buscador dos mistérios dos ciclos",
+          "alta": "Mestre do Tempo e do Karma",
+          "check_diario": "Sua ação de hoje impulsionou a roda do seu propósito?"
+        }
+      }
+    },
+    {
+      "numero": 11,
+      "nome": "A Força",
+      "subtitulo": "Coragem • Paciência • Compaixão",
+      "simbolo": "🦁",
+      "cor": "#ea580c",
+      "cor_secundaria": "#fff7ed",
+      "frequencia": "396",
+      "nota_musical": "Fá",
+      "chacra_regente": "Cardíaco (Anahata)",
+      "elemento": "Fogo",
+      "planeta_regente": "Sol",
+      "signo_zodiacal": "Leão",
+      "carta_oposta": "A Justiça (8)",
+      "dia_semana": "Domingo",
+      "numero_sorte": 11,
+      "cristais": [
+        "Rubelita",
+        "Granada",
+        "Ágata de Fogo"
+      ],
+      "ervas": [
+        "Gengibre",
+        "Pimenta",
+        "Alecrim"
+      ],
+      "alimentacao": [
+        "Alimentos de colheita demorada (raízes)",
+        "Grãos integrais",
+        "Chás de ervas puras",
+        "Frutos secos"
+      ],
+      "banho_terapeutico": "Banho de gengibre e alecrim (vitalidade e proteção)",
+      "movimento_corporal": "Técnicas de respiração (Pranayama) ou alongamento vigoroso",
+      "essencia": "Você é a suavidade que domina a fera. A Força não é opressão, é integração da própria natureza animal através do amor. Terapeuticamente, você trabalha a raiva reprimida e a capacidade de ser vulnerável sem ser fraco.",
+      "pergunta_junguiana": "O que na minha natureza eu ainda tento dominar à força, em vez de convidar para um diálogo amoroso?",
+      "meditacao_guiada": "Imagine um leão rugindo à sua frente em uma savana dourada. Em vez de fugir ou lutar, você caminha calmamente e coloca a mão na juba dele. Sinta o calor e a força do animal. Ele agora é seu guardião, não seu carrasco.",
+      "conselho_diario": [
+        "Use a doçura para resolver um conflito hoje",
+        "Enfrente um medo antigo com um sorriso",
+        "Seja gentil com sua própria 'fera' (sua sombra)",
+        "Tome uma atitude assertiva sem elevar a voz"
+      ],
+      "musicas_recomendadas": [
+        "Percussão tribal suave",
+        "Frequência 396Hz",
+        "Sons de felinos e natureza vibrante"
+      ],
+      "numerologia": {
+        "alma": 11,
+        "personalidade": "Domador interno",
+        "caminho": "Integração da sombra",
+        "desafio": "Força vs violência"
+      },
+      "previsao2026": {
+        "anoPessoal": "Ano da Domesticação Interior",
+        "ciclos": "Maio e Agosto: testes de paciência e grandes provas de coragem.",
+        "conselho": "Suavize. A mandíbula do leão se abre não pela força bruta, mas pela confiança. Seu instinto agressivo é um aliado, não um inimigo. 2026 será o ano de liderar pelo exemplo amoroso.",
+        "alerta_saude": "Cuidado com o coração, dores nas costas e excesso de vitalidade (estafa)"
+      },
+      "sombras": [
+        {
+          "nome": "Violência Passivo-Agressiva",
+          "severidade": "Alta",
+          "exercicio": "Falar o que sente imediatamente, sem sarcasmo",
+          "antidoto": "A força reprimida explode; a força integrada ilumina",
+          "sinais": [
+            "Gritar com animais/crianças",
+            "Dirigir agressivamente",
+            "Destruir objetos quando irritado",
+            "Sarcasmo cortante"
+          ],
+          "modalidade_terapia": "Terapia de Gestalt - Expressão Direta"
+        },
+        {
+          "nome": "Autoagressão Brutal",
+          "severidade": "Alta",
+          "exercicio": "Auto-massagem nos ombros enquanto diz: 'Eu entendo sua dor'",
+          "antidoto": "Não se bate no leão que você quer que te proteja",
+          "sinais": [
+            "Autocobrança brutal",
+            "Automutilação (física ou emocional)",
+            "Doenças autoimunes (ataque ao próprio corpo)"
+          ],
+          "modalidade_terapia": "Psicoterapia Corporal - Bioenergética"
+        },
+        {
+          "nome": "Passividade Covarde",
+          "severidade": "Média",
+          "exercicio": "Dizer 'não' para uma solicitação abusiva hoje",
+          "antidoto": "Bondade sem firmeza é covardia disfarçada",
+          "sinais": [
+            "Deixar-se ser pisoteado",
+            "Não defender limites",
+            "Desculpar abuso de outros",
+            "Medo de confronto saudável"
+          ],
+          "modalidade_terapia": "Treino de Assertividade"
+        },
+        {
+          "nome": "Impaciência Explosiva",
+          "severidade": "Baixa",
+          "exercicio": "Acariciar um animal ou planta quando sentir o sangue ferver",
+          "antidoto": "A leoa mais forte é aquela que espera o momento certo para o salto",
+          "sinais": [
+            "Irritação com demora de outros",
+            "Interromper pessoas",
+            "Ansiedade quando não controla o tempo"
+          ],
+          "modalidade_terapia": "Prática de Mindfulness"
+        }
+      ],
+      "diretrizes": [
+        "Enfrente um medo pequeno hoje",
+        "Pratique paciência com alguém difícil",
+        "Toque em um animal (ou planta) com ternura",
+        "Domine uma vontade impulsiva",
+        "Defenda alguém mais fraco"
+      ],
+      "afirmacoes": {
+        "manha": "Minha força é suave como água e firme como rocha",
+        "noite": "Dominei minhas feras interiores com amor hoje",
+        "crise": "Tenho coragem para enfrentar isto e compaixão para mim mesmo",
+        "prosperidade": "Atraio abundância através da persistência gentil",
+        "amor": "Amo com força protetora, nunca com posse violenta"
+      },
+      "jornalTemplates": [
+        "Hoje [A Força] me ensina a domar...",
+        "Minha fera interior (raiva/desejo) hoje me mostrou...",
+        "Como posso ser mais corajoso mas gentil em...",
+        "A agressão que preciso transformar em assertividade..."
+      ],
+      "rodadaVida": {
+        "amor": {
+          "baixa": "Relacionamentos violentos ou de muita submissão",
+          "media": "Paixão intensa controlada",
+          "alta": "Amor que cura e fortalece ambos",
+          "check_diario": "Você usou a suavidade para conquistar algo hoje?"
+        },
+        "dinheiro": {
+          "baixa": "Gastos por impulso ou avaria extrema",
+          "media": "Ganho através de esforço constante",
+          "alta": "Abundância através de carisma e liderança",
+          "check_diario": "Sua prosperidade foi fruto de força bruta ou estratégia?"
+        },
+        "saude": {
+          "baixa": "Acidentes, violence, doenças inflamatórias",
+          "media": "Força física boa, necessidade de relaxamento",
+          "alta": "Vitalidade de leão, cura através do toque",
+          "check_diario": "Você respeitou os limites físicos do seu 'animal' interno?"
+        },
+        "carreira": {
+          "baixa": "Líder autoritário ou submisso",
+          "media": "Liderança carismática",
+          "alta": "Influenciador que inspira coragem",
+          "check_diario": "Sua liderança hoje foi baseada no medo ou no respeito?"
+        },
+        "familia": {
+          "baixa": "Violência doméstica ou omissão",
+          "media": "Proteção ativa dos familiares",
+          "alta": "Pilar forte mas amoroso da família",
+          "check_diario": "Você protegeu ou oprimiu seu núcleo familiar hoje?"
+        },
+        "proposito": {
+          "baixa": "Tirano ou vítima",
+          "media": "Protetor do próximo",
+          "alta": "Domador de sombras coletivas",
+          "check_diario": "Sua ação de hoje transformou instinto em propósito?"
+        }
+      }
+    },
+    {
+      "numero": 12,
+      "nome": "O Enforcado",
+      "subtitulo": "Sacrifício • Perspectiva • Entrega",
+      "simbolo": "🙃",
+      "cor": "#0ea5e9",
+      "cor_secundaria": "#f0f9ff",
+      "frequencia": "852",
+      "nota_musical": "Sol",
+      "chacra_regente": "Laríngeo (Vishuddha)",
+      "elemento": "Água",
+      "planeta_regente": "Netuno",
+      "signo_zodiacal": "Peixes",
+      "carta_oposta": "O Diabo (15)",
+      "dia_semana": "Sexta-feira",
+      "numero_sorte": 12,
+      "cristais": [
+        "Ametista",
+        "Lepidolito",
+        "Pedra da Lua"
+      ],
+      "ervas": [
+        "Passiflora",
+        "Valeriana",
+        "Camomila"
+      ],
+      "alimentacao": [
+        "Líquidos",
+        "Sopas leves",
+        "Peixes",
+        "Alimentos que crescem na água"
+      ],
+      "banho_terapeutico": "Banho de ervas calmantes (passiflora e camomila) para entrega e clareza",
+      "movimento_corporal": "Yoga Invertida (Viparita Karani) ou flutuar na água",
+      "essencia": "Você está de cabeça para baixo. O Enforcado suspende o movimento para forçar uma nova perspectiva. Terapeuticamente, você trabalha a necessidade de controlar e o valor do sacrifício consciente - não como martírio, mas como estratégia espiritual.",
+      "pergunta_junguiana": "O que eu ganho ao continuar me sentindo paralisado ou 'amarrado' a essa situação?",
+      "meditacao_guiada": "Imagine que você é uma árvore cujas raízes crescem para o céu. Você está suspenso, leve. Sinta o sangue fluir para a cabeça, oxigenando sua intuição. Olhe para o seu problema atual desta posição invertida. O que mudou?",
+      "conselho_diario": [
+        "Não tome decisões importantes hoje",
+        "Olhe um problema comum por outro ângulo",
+        "Ceda em uma briga de ego hoje",
+        "Pratique o silêncio por uma hora"
+      ],
+      "musicas_recomendadas": [
+        "Ambient music etérea",
+        "Frequência 852Hz",
+        "Sons de água e bolhas"
+      ],
+      "numerologia": {
+        "alma": 12,
+        "personalidade": "Místico sacrificado",
+        "caminho": "Entrega consciente",
+        "desafio": "Martyrio vs sabedoria"
+      },
+      "previsao2026": {
+        "anoPessoal": "Ano da Suspensão Necessária",
+        "ciclos": "Junho: paralisação forçada, necessidade de parar para ver.",
+        "conselho": "Não lute contra a corda. Pendurado assim, você tem a visão privilegiada do mundo de cabeça para baixo. 2026 será um ano de espera estratégica; se você tentar correr, vai se machucar.",
+        "alerta_saude": "Cuidado com pernas, circulação e sistema linfático"
+      },
+      "sombras": [
+        {
+          "nome": "Martyrio Compulsivo",
+          "severidade": "Alta",
+          "exercicio": "Dizer não para um pedido e não se justificar",
+          "antidoto": "Sacrifício sem propósito é suicídio lento",
+          "sinais": [
+            "Fazer coisas por obrigação e se vitimizar",
+            "Frases frequentes 'ninguém me valoriza'",
+            "Doenças como forma de atenção",
+            "Sacrificar-se por quem não pediu"
+          ],
+          "modalbody_terapia": "Terapia Sistêmica - Lealdades Invisíveis"
+        },
+        {
+          "nome": "Paralisia por Análise",
+          "severidade": "Alta",
+          "exercicio": "Agir sem pensar por 24h em decisões pequenas",
+          "antidoto": "Pendurado demais vira morto",
+          "sinais": [
+            "Esperar o momento perfeito eternamente",
+            "Overthinking crônico",
+            "Procrastinação espiritualizada ('não é a hora')"
+          ],
+          "modalbody_terapia": "Terapia Cognitivo-Comportamental (TCC)"
+        },
+        {
+          "nome": "Resistência ao Fluxo",
+          "severidade": "Média",
+          "exercicio": "Ficar de cabeça para baixo (yoga invertida) por 5 min",
+          "antidoto": "A árvore que não se dobra ao vento, quebra",
+          "sinais": [
+            "Teimosia diante de evidências",
+            "Manter posições só para não 'perder a face'",
+            "Sofrimento desnecessário por orgulho"
+          ],
+          "modalbody_terapia": "Ludoterapia ou Terapias Corporais"
+        },
+        {
+          "nome": "Escapismo Espiritual",
+          "severidade": "Baixa",
+          "exercicio": "Resolver um problema prático mundano hoje",
+          "antidoto": "A visão espiritual deve retornar para ação terrena",
+          "sinais": [
+            "Usar 'entrega' como desculpa para não agir",
+            "Fuga em meditação excessiva",
+            "Desprezo pelo mundo material"
+          ],
+          "modalbody_terapia": "Ecodesenvolvimento ou Terapia de Ação"
+        }
+      ],
+      "diretrizes": [
+        "Olhe um problema de cabeça para baixo (literalmente)",
+        "Ceda em algo que está lutando para controlar",
+        "Espere. Não aja hoje.",
+        "Sacrifique um prazer pequeno por um ganho maior",
+        "Medite sobre a impermanência de uma dor atual"
+      ],
+      "afirmacoes": {
+        "manha": "Suspendo minha vontade para ver a verdade maior",
+        "noite": "Entrego o controle e confio no processo",
+        "crise": "Esta paralisia é temporária e necessária",
+        "prosperidade": "Abro mão de pequenas coisas para receber grandes",
+        "amor": "Amo sem apegos que sufocam"
+      },
+      "jornalTemplates": [
+        "Hoje [O Enforcado] me mostra de cabeça para baixo que...",
+        "O que preciso parar de lutar e simplesmente soltar...",
+        "O sacrifício consciente que me beneficiaria hoje...",
+        "Nova perspectiva sobre um velho problema..."
+      ],
+      "rodadaVida": {
+        "amor": {
+          "baixa": "Relacionamentos de sacrifício desigual",
+          "media": "Entrega consciente na parceria",
+          "alta": "Amor desapegado e profundo",
+          "check_diario": "Você abriu mão de estar certo por um bem maior?"
+        },
+        "dinheiro": {
+          "baixa": "Pobreza por não agir, dinheiro parado",
+          "media": "Investimentos de longo prazo",
+          "alta": "Abundância através de paciência",
+          "check_diario": "Você investiu ou apenas reteve recursos?"
+        },
+        "saude": {
+          "baixa": "Doenças crônicas, imobilidade",
+          "media": "Tratamentos alternativos lentos",
+          "alta": "Cura através de aceitação e mudança de hábitos",
+          "check_diario": "Você deu tempo para seu corpo se recuperar?"
+        },
+        "carreira": {
+          "baixa": "Desempregado por esperar demais",
+          "media": "Carreira em pausa estratégica",
+          "alta": "Sábio que esperou o momento certo",
+          "check_diario": "Sua inação de hoje foi preguiça ou estratégia?"
+        },
+        "familia": {
+          "baixa": "Vítima da família",
+          "media": "Sacrifício familiar saudável",
+          "alta": "Matriarca/Patriarca que ensina paciência",
+          "check_diario": "Você foi o apoio silencioso ou o peso morto?"
+        },
+        "proposito": {
+          "baixa": "Mártir inútil",
+          "media": "Observador sábio",
+          "alta": "Iluminado que suspende o ego",
+          "check_diario": "Sua visão de hoje mudou seu rumo?"
+        }
+      }
+    },
+    {
+      "numero": 13,
+      "nome": "A Morte",
+      "subtitulo": "Transformação • Fim • Renascimento",
+      "simbolo": "💀",
+      "cor": "#4b5563",
+      "cor_secundaria": "#111827",
+      "frequencia": "174",
+      "nota_musical": "Lá",
+      "chacra_regente": "Básico (Muladhara)",
+      "elemento": "Água",
+      "planeta_regente": "Plutão",
+      "signo_zodiacal": "Escorpião",
+      "carta_oposta": "O Hierofante (5)",
+      "dia_semana": "Sábado",
+      "numero_sorte": 13,
+      "cristais": [
+        "Obsidiana Negra",
+        "Âmbar Fóssil",
+        "Turmalina Negra"
+      ],
+      "ervas": [
+        "Arruda",
+        "Alho",
+        "Cânfora"
+      ],
+      "alimentacao": [
+        "Alimentos fermentados",
+        "Alimentos que crescem no solo",
+        "Raízes",
+        "Cebola e alho"
+      ],
+      "banho_terapeutico": "Banho de ervas de limpeza pesada (arruda e cânfora) para corte e renovação",
+      "movimento_corporal": "Liberação Miofascial ou dança interpretativa de renascimento",
+      "essencia": "Você é o portal. A Morte não é fim, é passagem obrigatória para o novo. Terapeuticamente, você trabalha o luto, o medo do desconhecido e a necessidade de deixar morrer o que não serve mais.",
+      "pergunta_junguiana": "Que parte de mim eu tenho tanto medo que morra, que estou impedindo todo o meu ser de realmente viver?",
+      "meditacao_guiada": "Imagine que você é uma serpente trocando de pele. A pele antiga está apertada, seca, pesa. Sinta-a rachar. Lentamente, deslize para fora, brilhante e novo. Olhe para a pele antiga no chão com gratidão, mas não olhe para trás.",
+      "conselho_diario": [
+        "Corte um hábito tóxico hoje",
+        "Jogue fora algo que não usa há um ano",
+        "Fale uma verdade que encerra um ciclo",
+        "Aceite um 'não' como um livramento"
+      ],
+      "musicas_recommendedadas": [
+        "Música minimalista de piano",
+        "Frequência 174Hz",
+        "Sons de vento e silêncio profundo"
+      ],
+      "numerologia": {
+        "alma": 13,
+        "personalidade": "Transformador radical",
+        "caminho": "Morte e renascimento",
+        "desafio": "Apego vs liberdade"
+      },
+      "previsao2026": {
+        "anoPessoal": "Ano da Grande Mudança",
+        "ciclos": "Outubro: morte simbólica de uma identidade antiga.",
+        "conselho": "Não tente ressuscitar o que já morreu. Enterre com honra e siga. O luto é necessário, mas o túmulo não é lugar para viver. 2026 será o ano da fênix; você vai arder para renascer.",
+        "alerta_saude": "Cuidado com órgãos reprodutores, dores pélvicas e processos de regeneração celular"
+      },
+      "sombras": [
+        {
+          "nome": "Apego ao Cadáver",
+          "severidade": "Alta",
+          "exercicio": "Enterrar simbolicamente (caixa com objetos) um relacionamento/situação passada",
+          "antidoto": "O morto precisa ser enterrado para que o vivo respire",
+          "sinais": [
+            "Manter relacionamentos mortos",
+            "Viver de passado glorioso",
+            "Incapacidade de desapego material",
+            "Depressão melancólica"
+          ],
+          "modalbody_terapia": "Terapia de Processamento de Luto"
+        },
+        {
+          "nome": "Destruição Compulsiva",
+          "severidade": "Alta",
+          "exercicio": "Manter um relacionamento/job por 30 dias sem ameaçar terminar (praticar permanência)",
+          "antidoto": "Matar tudo que incomoda não é transformação, é genocídio emocional",
+          "sinais": [
+            "Terminar relacionamentos no primeiro problema",
+            "Trocar de emprego/cidade constantemente",
+            "Queimar pontes",
+            "Vício em recomeços"
+          ],
+          "modalbody_terapia": "Análise Bioenergética"
+        },
+        {
+          "nome": "Medo da Morte/Luto",
+          "severidade": "Média",
+          "exercicio": "Visitar cemitério ou escrever carta de despedida para alguém vivo (exercício)",
+          "antidoto": "Quem teme a morte, teme a vida, pois ambas são a mesma moeda",
+          "sinais": [
+            "Ansiedade existencial",
+            "Hipocondria",
+            "Evitação de temas de finitude",
+            "Dificuldade em lidar com perdas"
+          ],
+          "modalbody_terapia": "Logoterapia - Sentido da Vida"
+        },
+        {
+          "nome": "Depressão Nihilista",
+          "severidade": "Média",
+          "exercicio": "Plantar algo (semente) e cuidar por 30 dias (foco na vida)",
+          "antidoto": "A Morte escava a cova, mas também prepara o solo para a semente",
+          "sinais": [
+            "Tudo é inútil",
+            "Desejo de morte mascarado de filosofia",
+            "Cinismo profundo",
+            "Desinvestimento da vida"
+          ],
+          "modalbody_terapia": "Psicologia Existencial-Humanista"
+        }
+      ],
+      "diretrizes": [
+        "Termine algo que já morreu (relacionamento, hábito, job)",
+        "Lute uma perda antiga que não processou",
+        "Limpe e jogue fora 13 objetos velhos",
+        "Mude radicalmente de visual/cabelo/roupa",
+        "Escreva carta de despedida para seu eu antigo"
+      ],
+      "afirmacoes": {
+        "manha": "Deixo morrer o ontem para renascer hoje",
+        "noite": "Agradeço aos finais que abrem novos começos",
+        "crise": "Esta morte é apenas um portal. Confio no desconhecido.",
+        "prosperidade": "Abro mão do velho para receber o novo",
+        "amor": "Amo deixando ir quando é hora"
+      },
+      "jornalTemplates": [
+        "Hoje [A Morte] me pede para enterrar...",
+        "O que precisa morrer em mim para que... renasça",
+        "Meu luto não processado sobre...",
+        "O renascimento que aguardo depois de..."
+      ],
+      "rodadaVida": {
+        "amor": {
+          "baixa": "Relacionamentos zumbis (mortos mas andando)",
+          "media": "Términos necessários",
+          "alta": "Amor transformador que renasce sempre",
+          "check_diario": "Você deu um fim digno ao que já não tem vida?"
+        },
+        "dinheiro": {
+          "baixa": "Perdas financeiras totais",
+          "media": "Mudança de carreira/renda",
+          "alta": "Herança, seguros, riqueza após escassez",
+          "check_diario": "Você aceitou a perda como parte do ciclo de ganho?"
+        },
+        "saude": {
+          "baixa": "Doenças degenerativas, morte",
+          "media": "Cirurgias, transformação corporal",
+          "alta": "Cura completa, regeneração",
+          "check_diario": "Você está regenerando suas células com pensamentos novos?"
+        },
+        "carreira": {
+          "baixa": "Demissão, falência",
+          "media": "Transição profissional radical",
+          "alta": "Reinvenção total bem-sucedida",
+          "check_diario": "A 'morte' do seu cargo antigo abriu espaço para o quê?"
+        },
+        "familia": {
+          "baixa": "Morte/luto familiar",
+          "media": "Mudança de dinâmica familiar",
+          "alta": "Legado transformado",
+          "check_diario": "Você honrou os ancestrais que já se foram hoje?"
+        },
+        "proposito": {
+          "baixa": "Destruição sem construção",
+          "media": "Alquimista pessoal",
+          "alta": "Fênix, renascido das cinzas",
+          "check_diario": "Qual parte da sua sombra você 'matou' hoje?"
+        }
+      }
+    },
+    {
+      "numero": 14,
+      "nome": "A Temperança",
+      "subtitulo": "Equilíbrio • Cura • Moderação",
+      "simbolo": "🏺",
+      "cor": "#84cc16",
+      "cor_secundaria": "#f7fee7",
+      "frequencia": "639",
+      "nota_musical": "Si",
+      "chacra_regente": "Frontal (Ajna)",
+      "elemento": "Água",
+      "planeta_regente": "Júpiter",
+      "signo_zodiacal": "Sagitário",
+      "carta_oposta": "A Sacerdotisa (2)",
+      "dia_semana": "Quarta-feira",
+      "numero_sorte": 14,
+      "cristais": [
+        "Ametista",
+        "Água Marinha",
+        "Turquesa"
+      ],
+      "ervas": [
+        "Camomila",
+        "Lúcia-Lima",
+        "Beldroega"
+      ],
+      "alimentacao": [
+        "Alimentos de colheita demorada (raízes)",
+        "Grãos integrais",
+        "Chás de ervas puras",
+        "Frutos secos"
+      ],
+      "banho_terapeutico": "Banho de ervas equilibrantes (camomila e beldroega) para harmonia",
+      "movimento_corporal": "Tai Chi Chuan ou movimentos de braços fluidos e circulares",
+      "essencia": "Você é a alquimia. A Temperança mistura águas e fogo, cria o elixir da cura através do equilíbrio. Terapeuticamente, você trabalha os extremos - o vício e a abstinência, o workaholismo e a preguiça.",
+      "pergunta_junguiana": "Que partes opostas da minha personalidade estou tentando manter separadas e o que aconteceria se eu as misturasse hoje?",
+      "meditacao_guiada": "Imagine que você segura dois cálices, um de prata e outro de ouro. Você verte o líquido de um para o outro sem derramar uma gota, criando um fluxo infinito de energia azul. Sinta essa energia fluir pelo seu peito, curando todas as pontas soltas.",
+      "conselho_diario": [
+        "Encontre o meio-termo em um conflito hoje",
+        "Misture lazer e dever de forma harmoniosa",
+        "Beba água com a intenção de limpar e curar",
+        "Seja o diplomata da sua própria vida hoje"
+      ],
+      "musicas_recommendedadas": [
+        "Música clássica suave",
+        "Frequência 639Hz",
+        "Sons de harpa e violoncelo"
+      ],
+      "numerologia": {
+        "alma": 14,
+        "personalidade": "Curandeiro natural",
+        "caminho": "Moderação sábia",
+        "desafio": "Extremos vs centro"
+      },
+      "previsao2026": {
+        "anoPessoal": "Ano da Cura Alquímica",
+        "ciclos": "Janeiro e Julho: curas físicas e emocionais profundas.",
+        "conselho": "Nem muito nem pouco. O meio-termo é sagrado. 2026 será o ano de encontrar o ritmo perfeito entre sua alma e o mundo. Misture prazer com dever.",
+        "alerta_saude": "Cuidado com rins, bexiga e equilíbrio eletrolítico"
+      },
+      "sombras": [
+        {
+          "nome": "Compulsão Extrema",
+          "severidade": "Alta",
+          "exercicio": "Praticar 'meio-termo': comer só metade do doce, estudar 30 min não 5h ou 0",
+          "antidoto": "O vício é falta de moderação; a obsessão é falta de equilíbrio",
+          "sinais": [
+            "Binge eating/drinking",
+            "Workaholismo",
+            "Exercício compulsivo",
+            "Relacionamentos tudo-ou-nada"
+          ],
+          "modalbody_terapia": "Psicoterapia com Foco em Vícios"
+        },
+        {
+          "nome": "Abstinência Rígida",
+          "severidade": "Média",
+          "exercicio": "Permitir-se um prazer moderado sem culpa",
+          "antidoto": "Negar totalmente é tão doentio quanto exagerar",
+          "sinais": [
+            "Dietas restritivas demais",
+            "Vida sem prazer",
+            "Moralismo alimentar",
+            "Ascetismo compulsivo"
+          ],
+          "modalbody_terapia": "Terapia de Aceitação e Compromisso (ACT)"
+        },
+        {
+          "nome": "Ansiedade de Misturar",
+          "severidade": "Baixa",
+          "exercicio": "Combinar duas áreas da vida (trabalho + prazer) em uma atividade",
+          "antidoto": "A cura está na mistura, não na separação",
+          "sinais": [
+            "Vida compartimentada",
+            "Dificuldade em transitar entre papéis",
+            "Rigidez de horários/contextos"
+          ],
+          "modalbody_terapia": "Gestalt-terapia"
+        },
+        {
+          "nome": "Cura de Outros vs Si",
+          "severidade": "Média",
+          "exercicio": "Aplicar em si mesmo o conselho que daria a um paciente/amigo",
+          "antidoto": "O médico que não se cura, transmite doença",
+          "sinais": [
+            "Ser o conselheiro de todos",
+            "Negligenciar própria saúde",
+            "Síndrome do salvador"
+          ],
+          "modalbody_terapia": "Análise Institucional ou Supervisão Clínica"
+        }
+      ],
+      "diretrizes": [
+        "Beba água consciente (elixir de vida)",
+        "Pratique algo com moderação (nem 0 nem 100%)",
+        "Misture dois elementos opostos em você",
+        "Cuide da saúde preventivamente",
+        "Encontre o meio-termo em um conflito"
+      ],
+      "afirmacoes": {
+        "manha": "Sou equilíbrio vivo. Curo através da moderação",
+        "noite": "Meus opostos dançam harmoniosamente hoje",
+        "crise": "Respiro e encontro o centro em meio ao caos",
+        "prosperidade": "Dinheiro vem e vai em fluxo equilibrado",
+        "amor": "Amo sem perder-me, mantenho-me sem fugir"
+      },
+      "jornalTemplates": [
+        "Hoje [A Temperança] pede equilíbrio entre...",
+        "Meus extremos que preciso alquimizar...",
+        "Como curador, minha própria ferida ignorada...",
+        "A mistura perfeita para minha alma hoje..."
+      ],
+      "rodadaVida": {
+        "amor": {
+          "baixa": "Relacionamentos instáveis, oscilações",
+          "media": "Parceria equilibrada, diálogo",
+          "alta": "Almas gêmeas que curam juntas",
+          "check_diario": "Houve harmonia e diplomacia na sua comunicação de hoje?"
+        },
+        "dinheiro": {
+          "baixa": "Gastos irregulares, dívidas",
+          "media": "Orçamento equilibrado",
+          "alta": "Abundância sustentável, riqueza moderada",
+          "check_diario": "Seu dinheiro está servindo ao seu equilíbrio ou ao seu vício?"
+        },
+        "saude": {
+          "baixa": "Doenças por excesso ou falta",
+          "media": "Saúde estável, prevenção",
+          "alta": "Cura completa, longevidade",
+          "check_diario": "Você nutriu seu corpo com a moderação necessária?"
+        },
+        "carreira": {
+          "baixa": "Burnout ou underemployment",
+          "media": "Work-life balance",
+          "alta": "Vocação que cura e prospera",
+          "check_diario": "Seu trabalho de hoje foi fruto de esforço equilibrado ou estresse?"
+        },
+        "familia": {
+          "baixa": "Dinâmicas extremas",
+          "media": "Harmonia familiar",
+          "alta": "Família como centro de cura",
+          "check_diario": "Você foi o agente pacificador no seu lar hoje?"
+        },
+        "proposito": {
+          "baixa": "Extremista perigoso",
+          "media": "Moderador sábio",
+          "alta": "Alquimista mestre, curandeiro divino",
+          "check_diario": "Sua ação de hoje trouxe paz ao seu mundo interior?"
+        }
+      }
+    },
+    {
+      "numero": 15,
+      "nome": "O Diabo",
+      "subtitulo": "Libertação • Desejo • Sombra",
+      "simbolo": "😈",
+      "cor": "#7c2d12",
+      "cor_secundaria": "#ffedd5",
+      "frequencia": "285",
+      "nota_musical": "Fá",
+      "chacra_regente": "Básico (Muladhara)",
+      "elemento": "Terra",
+      "planeta_regente": "Saturno",
+      "signo_zodiacal": "Capricórnio",
+      "carta_oposta": "O Enforcado (12)",
+      "dia_semana": "Sábado",
+      "numero_sorte": 15,
+      "cristais": [
+        "Tourmalina Negra",
+        "Obsidiana",
+        "Ônix"
+      ],
+      "ervas": [
+        "Alecrim",
+        "Patchouli",
+        "Absinto"
+      ],
+      "alimentacao": [
+        "Alimentos densos",
+        "Carnes vermelhas (com moderação)",
+        "Chocolate amargo",
+        "Pimentas"
+      ],
+      "banho_terapeutico": "Banho de ervas de limpeza e proteção (alecrim e arruda) para cortar dependências",
+      "movimento_corporal": "Exercícios de força, musculação ou dança instintiva",
+      "essencia": "Você é a tentação e a libertação. O Diabo fala das correntes que você mesmo forjou - vícios, crenças limitantes e padrões destrutivos. Terapeuticamente, você trabalha os desejos que escravizam e a diferença entre prazer e vício.",
+      "pergunta_junguiana": "O que eu estou ganhando emocionalmente ao manter essa 'corrente' ou vício que digo que quero largar?",
+      "meditacao_guiada": "Imagine-se em uma caverna com tochas. Você vê correntes em seus pulsos, mas percebe que elas estão abertas. Você é quem as segura. Solte-as. Sinta o peso saindo de seus ombros. Caminhe para a luz da saída, sentindo o poder da sua própria vontade.",
+      "conselho_diario": [
+        "Identifique um vício hoje (pode ser digital)",
+        "Dê vazão a um desejo saudável sem culpa",
+        "Observe onde você está sendo manipulador",
+        "Aceite sua sombra sem julgamento"
+      ],
+      "musicas_recomendadas": [
+        "Rock pesado ou músicas magnéticas",
+        "Frequência 285Hz",
+        "Sons graves e repetitivos"
+      ],
+      "numerologia": {
+        "alma": 15,
+        "personalidade": "Provocador magnético",
+        "caminho": "Libertação das correntes",
+        "desafio": "Prazer vs vício"
+      },
+      "previsao2026": {
+        "anoPessoal": "Ano da Libertação pela Verdade",
+        "ciclos": "Novembro: confronto com sombras profundas e libertação de um vício antigo.",
+        "conselho": "Olhe de frente para o que te prende. As correntes são frouxas - você pode tirá-las quando quiser. O problema é que você gosta da ilusão de segurança que elas trazem. 2026 será o ano de quebrar o contrato com o seu ego.",
+        "alerta_saude": "Cuidado com ossos, dentes, pele e órgãos sexuais"
+      },
+      "sombras": [
+        {
+          "nome": "Vício por Prazer",
+          "severidade": "Alta",
+          "exercicio": "Abstinência consciente de 1 vício por 7 dias com diário do processo",
+          "antidoto": "Prazer sem consciência é prisão dourada",
+          "sinais": [
+            "Uso excessivo de substâncias/comida/sexo",
+            "Necessidade crescente de estímulo",
+            "Incapacidade de dizer não",
+            "Desdém por quem 'se restringe'"
+          ],
+          "modalbody_terapia": "Terapia Cognitivo-Comportamental (TCC) - Prevenção de Recaída"
+        },
+        {
+          "nome": "Manipulação Sexual/Emocional",
+          "severidade": "Alta",
+          "exercicio": "Praticar transparência em 3 interações hoje (sem sedução oculta)",
+          "antidoto": "O magnetismo é dom; a manipulação é crime",
+          "sinais": [
+            "Usar charme para obter vantagens",
+            "Seduzir quem não vai amar",
+            "Jogos de poder em relacionamentos"
+          ],
+          "modalbody_terapia": "Psicodrama ou Terapia de Casal"
+        },
+        {
+          "nome": "Materialismo Compulsivo",
+          "severidade": "Média",
+          "exercicio": "Doar 3 objetos de valor hoje sem compensação",
+          "antidoto": "Posses possuem o possessor",
+          "sinais": [
+            "Acumulação de objetos",
+            "Valor pessoal medido por posses",
+            "Medo irracional de perder bens"
+          ],
+          "modalbody_terapia": "Minimalismo Terapêutico"
+        },
+        {
+          "nome": "Sombra Negada",
+          "severidade": "Média",
+          "exercicio": "Admitir para alguém próximo um defeito real seu (vulnerabilidade)",
+          "antidoto": "O diabo que você não vê é mais perigoso que o que enfrenta",
+          "sinais": [
+            "Projetar defeitos nos outros",
+            "Falsa santidade",
+            "Julgamento de pessoas 'pecadoras'",
+            "Discurso moralista mas vida oculta contraditória"
+          ],
+          "modalbody_terapia": "Análise Junguiana - Integração da Sombra"
+        }
+      ],
+      "diretrizes": [
+        "Identifique uma corrente (vício, padrão) e nomeie-a",
+        "Enfrente uma verdade sobre si que evita",
+        "Jejue de um prazer (celular, doce, reclamação)",
+        "Observe seus desejos sem agir, apenas testemunhando",
+        "Confesse algo para si mesmo que nega"
+      ],
+      "afirmacoes": {
+        "manha": "Sou livre de toda corrente que eu acreditava ser impossível quebrar",
+        "noite": "Hoje enfrentei meus demônios com coragem e ganhei",
+        "crise": "Sei que sou tentado(a), mas não sou derrotado(a)",
+        "prosperidade": "Dinheiro flui para mim quando solto apegos materialistas",
+        "amor": "Amo com desejo saudável, sem possessividade"
+      },
+      "jornalTemplates": [
+        "Hoje [O Diabo] me confronta com meu vício em...",
+        "A corrente mais difícil de soltar é...",
+        "Meu desejo secreto que escondo é...",
+        "A mentira que conto para mim mesmo sobre..."
+      ],
+      "rodadaVida": {
+        "amor": {
+          "baixa": "Relacionamentos tóxicos, dependência",
+          "media": "Paixão intensa com limites",
+          "alta": "Amor liberto de padrões destrutivos",
+          "check_diario": "Houve possessividade ou liberdade na sua relação hoje?"
+        },
+        "dinheiro": {
+          "baixa": "Dívidas, dinheiro sujo, exploração",
+          "media": "Renda estável, desapego de luxo",
+          "alta": "Riqueza ética, abundância transparente",
+          "check_diario": "Você usou seu dinheiro para libertar ou para ostentar?"
+        },
+        "saude": {
+          "baixa": "Vícios, doenças por excesso",
+          "media": "Corpo forte, mentalidade de guerreiro",
+          "alta": "Transmutação de veneno em remédio",
+          "check_diario": "Você foi escravo do seu paladar ou mestre do seu corpo hoje?"
+        },
+        "carreira": {
+          "baixa": "Explorador, manipulador financeiro",
+          "media": "Empreendedor audacioso mas ético",
+          "alta": "Líder que transforma sistemas opressivos",
+          "check_diario": "Sua ambição de hoje te prendeu ou te impulsionou?"
+        },
+        "familia": {
+          "baixa": "Dinâmicas familiares controlantes",
+          "media": "Limites familiares saudáveis",
+          "alta": "Libertador de padrões geracionais",
+          "check_diario": "Você reproduziu um padrão castrador ou libertador hoje?"
+        },
+        "proposito": {
+          "baixa": "Servir ao ego e prazer",
+          "media": "Confrontador de sombras",
+          "alta": "Alquimista de sombras, terapeuta profundo",
+          "check_diario": "Você enfrentou sua maior sombra de hoje?"
+        }
+      }
+    },
+    {
+      "numero": 16,
+      "nome": "A Torre",
+      "subtitulo": "Colapso • Revelação • Reconstrução",
+      "simbolo": "⚡",
+      "cor": "#991b1b",
+      "cor_secundaria": "#fee2e2",
+      "frequencia": "396",
+      "nota_musical": "Dó",
+      "chacra_regente": "Básico (Muladhara)",
+      "elemento": "Fogo",
+      "planeta_regente": "Marte",
+      "signo_zodiacal": "Escorpião",
+      "carta_oposta": "O Carro (7)",
+      "dia_semana": "Terça-feira",
+      "numero_sorte": 16,
+      "cristais": [
+        "Obsidiana",
+        "Labradorita",
+        "Hematita"
+      ],
+      "ervas": [
+        "Cravo",
+        "Manjericão",
+        "Canela"
+      ],
+      "alimentacao": [
+        "Alimentos apimentados",
+        "Raízes de cor escura",
+        "Café",
+        "Alimentos que dão energia rápida"
+      ],
+      "banho_terapeutico": "Banho de cravo e canela para proteção e força na reconstrução",
+      "movimento_corporal": "Exercícios de alto impacto, Boxe ou destruir algo com segurança",
+      "essencia": "Você é o raio e as ruínas. A Torre destrói falsas estruturas para libertar a verdade. Terapeuticamente, você trabalha o medo do colapso e a capacidade de reconstruir sobre bases mais firmes.",
+      "pergunta_junguiana": "O que eu estou tentando manter em pé a todo custo, mas que já está morto ou apodrecido por dentro?",
+      "meditacao_guiada": "Visualize uma construção antiga e escura que você chama de 'eu'. Um raio dourado a atinge. As paredes caem. No centro das ruínas, surge um cristal indestrutível - sua essência. Sinta o alívio de não ter mais que sustentar as paredes velhas.",
+      "conselho_diario": [
+        "Fale uma verdade que quebra o clima hoje",
+        "Aceite que um plano deu errado e mude tudo",
+        "Limpe profundamente um espaço físico",
+        "Prepare-se para o novo que vem do caos"
+      ],
+      "musicas_recomendadas": [
+        "Músicas intensas com percussão",
+        "Frequência 396Hz",
+        "Sons de trovão e tempestade"
+      ],
+      "numerologia": {
+        "alma": 16,
+        "personalidade": "Destruidor/construtor",
+        "caminho": "Colapso sagrado",
+        "desafio": "Destruição vs reconstrução"
+      },
+      "previsao2026": {
+        "anoPessoal": "Ano da Demolição Sagrada",
+        "ciclos": "Abril: evento inesperado muda tudo (crise criativa).",
+        "conselho": "Não reconstrua sobre escombros. Limpe o terreno completamente primeiro. A dor é real, mas temporária. A nova fundação será inquebrável. 2026 será o ano em que o universo vai fazer por você o que você não teve coragem de fazer sozinho.",
+        "alerta_saude": "Cuidado com acidentes domésticos, cortes e inflamações rápidas"
+      },
+      "sombras": [
+        {
+          "nome": "Medo do Colapso",
+          "severidade": "Alta",
+          "exercicio": "Destruir algo simbólico de propósito (quebrar prato, rasgar papel velho)",
+          "antidoto": "A torre que não é derrubada pelo raio cai sozinha - e faz mais estrago",
+          "sinais": [
+            "Ansiedade constante sobre catástrofe",
+            "Controle obsessivo de todos os cenários",
+            "Seguro contra tudo",
+            "Viver em modo de sobrevivência permanente"
+          ],
+          "modalbody_terapia": "Terapia de Exposição ou Somatic Experiencing"
+        },
+        {
+          "nome": "Destruição Compulsiva",
+          "severidade": "Alta",
+          "exercicio": "Construir algo com as mãos (LEGO, culinária) para equilibrar energia",
+          "antidoto": "Quem só destrói, devora a si mesmo",
+          "sinais": [
+            "Queimar pontes compulsivamente",
+            "Vício em drama e crise",
+            "Auto-sabotagem de tudo que constrói"
+          ],
+          "modalbody_terapia": "Arteterapia ou Cerâmica"
+        },
+        {
+          "nome": "Negação do Caos",
+          "severidade": "Média",
+          "exercicio": "Permitir-se um dia de 'desordem controlada' (sem planos, sem rotina)",
+          "antidoto": "Fingir que a torre não tremeu não impede que ela caia",
+          "sinais": [
+            "Manter aparências quando tudo desmorona",
+            "Sorrir na dor",
+            "Minimizar perdas"
+          ],
+          "modalbody_terapia": "Logoterapia - Sentido no Sofrimento"
+        },
+        {
+          "nome": "Vitimização do Trauma",
+          "severidade": "Baixa",
+          "exercicio": "Listar 3 ganhos reais que vieram de uma perda passada",
+          "antidoto": "Toda torre caída liberta alguém que estava preso dentro",
+          "sinais": [
+            "Identidade baseada em sofrimento",
+            "Usar trauma como desculpa",
+            "Recusa de reconstrução"
+          ],
+          "modalbody_terapia": "Psicoterapia Positiva"
+        }
+      ],
+      "diretrizes": [
+        "Quebre um padrão compulsivamente repetido",
+        "Fale uma verdade desconfortável para alguém",
+        "Aceite uma perda e reflita sobre o que ganhou com ela",
+        "Inicie uma reconstrução (física ou emocional)",
+        "Agradeça a uma crise passada pelo que ensinou"
+      ],
+      "afirmacoes": {
+        "manha": "Sou capaz de me reconstruir do zero quantas vezes for preciso",
+        "noite": "Sou resiliente. As ruínas de hoje são os fundamentos de amanhã",
+        "crise": "Este colapso me liberta. Confio na reconstrução",
+        "prosperidade": "Riqueza verdadeira é inabalável por circunstâncias externas",
+        "amor": "Amo o verdadeiro que resta quando as máscaras caem"
+      },
+      "jornalTemplates": [
+        "Hoje [A Torre] destruiu em mim/minha vida...",
+        "O que preciso deixar cair para...",
+        "A verdade revelada pelo colapso...",
+        "Estou pronto para reconstruir... sobre..."
+      ],
+      "rodadaVida": {
+        "amor": {
+          "baixa": "Separações traumáticas, traição revelada",
+          "media": "Crise que fortalece o vínculo",
+          "alta": "Amor reconstruído sobre verdade absoluta",
+          "check_diario": "Houve honestidade brutal ou omissão na sua relação hoje?"
+        },
+        "dinheiro": {
+          "baixa": "Falência, perdas totais",
+          "media": "Recomeço financeiro, lições de dinheiro",
+          "alta": "Riqueza inabalável, investimentos sólidos",
+          "check_diario": "Sua vida financeira está baseada em dívidas ou em verdade?"
+        },
+        "saude": {
+          "baixa": "Acidentes, cirurgias de emergência",
+          "media": "Recuperação de traumas",
+          "alta": "Corpo reconstruído, mais forte que antes",
+          "check_diario": "Houve algum 'aviso' do corpo que você ignorou?"
+        },
+        "carreira": {
+          "baixa": "Demissão, empresa falindo",
+          "media": "Pivotagem, reinvenção profissional",
+          "alta": "Fênix corporativa, reconstrutor de impérios",
+          "check_diario": "O que você reconstruiu do seu trabalho hoje?"
+        },
+        "familia": {
+          "baixa": "Revelar segredos familiares, divórcio",
+          "media": "Crise familiar processada coletivamente",
+          "alta": "Família reconstruída com bases reais",
+          "check_diario": "Houve quebra de silêncio ou manutenção de segredo hoje?"
+        },
+        "proposito": {
+          "baixa": "Destruição sem reconstrução",
+          "media": "Aprender com a crise",
+          "alta": "Mestre da resiliência, guia de recomeços",
+          "check_diario": "Sua crise de hoje foi para destruir ou para revelar?"
+        }
+      }
+    },
+    {
+      "numero": 17,
+      "nome": "A Estrela",
+      "subtitulo": "Esperança • Cura • Inspiração",
+      "simbolo": "⭐",
+      "cor": "#0ea5e9",
+      "cor_secundaria": "#f0f9ff",
+      "frequencia": "963",
+      "nota_musical": "Si",
+      "chacra_regente": "Coronário (Sahasrara)",
+      "elemento": "Ar",
+      "planeta_regente": "Urano",
+      "signo_zodiacal": "Aquário",
+      "carta_oposta": "O Eremita (9)",
+      "dia_semana": "Domingo",
+      "numero_sorte": 17,
+      "cristais": [
+        "Turquesa",
+        "Água Marinha",
+        "Pedra da Lua"
+      ],
+      "ervas": [
+        "Lavanda",
+        "Jasmim",
+        "Sálvia"
+      ],
+      "alimentacao": [
+        "Águas saborizadas",
+        "Frutas suculentas",
+        "Alimentos leves",
+        "Chás frios"
+      ],
+      "banho_terapeutico": "Banho de pétalas de flores brancas e lavanda para renovação e otimismo",
+      "movimento_corporal": "Alongamento fluido ou yoga suave (Hatha)",
+      "essencia": "Você é a esperança que permanece. A Estrela surge após a destruição da Torre, lembrando que há sempre um amanhã. Terapeuticamente, você trabalha a fé em si mesmo e a capacidade de curar após traumas.",
+      "pergunta_junguiana": "O que eu estou ignorando ao focar apenas no 'céu' (futuro) e esquecer de despejar minhas águas na 'terra' (presente)?",
+      "meditacao_guiada": "Imagine que você está nua(o) sob um céu estrelado. Você segura um jarro de água. Despeje-o na terra e sinta as plantas crescerem instantaneamente. Olhe para a estrela mais brilhante e sinta que ela é o seu guia pessoal. A cura está aqui.",
+      "conselho_diario": [
+        "Confie na sua intuição hoje",
+        "Espalhe uma mensagem de esperança",
+        "Medite sob as estrelas ou olhe para o céu",
+        "Acredite em um milagre pequeno hoje"
+      ],
+      "musicas_recomendadas": [
+        "Músicas espaciais e etéreas",
+        "Frequência 963Hz",
+        "Sons de harpa e sinos"
+      ],
+      "numerologia": {
+        "alma": 17,
+        "personalidade": "Curandeiro estelar",
+        "caminho": "Esperança e cura",
+        "desafio": "Ilusão vs fé genuína"
+      },
+      "previsao2026": {
+        "anoPessoal": "Ano da Cura Estelar",
+        "ciclos": "Dezembro: bênçãos inesperadas e reconhecimento.",
+        "conselho": "Não force a cura. Despeje as águas da esperança na terra da possibilidade. A semente vai germinar sem pressa. 2026 será o ano de colher as promessas que você fez a si mesmo no escuro da torre.",
+        "alerta_saude": "Cuidado com fluidos corporais, rins e sistema linfático"
+      },
+      "sombras": [
+        {
+          "nome": "Esperança Tóxica",
+          "severidade": "Alta",
+          "exercicio": "Aceitar uma situação irrecuperável sem culpa (alguns sonhos morrem)",
+          "antidoto": "Esperança não é negação da realidade",
+          "sinais": [
+            "Ficar em situações abusivas por esperança de mudança",
+            "Doar para perdidos crônicos",
+            "Ignorar sinais de fracasso por otimismo cego"
+          ],
+          "modalbody_terapia": "Psicologia Positiva Realista"
+        },
+        {
+          "nome": "Perfeccionismo Estético",
+          "severidade": "Média",
+          "exercicio": "Criar algo feio de propósito e mostrar (arte bruta, texto sem edição)",
+          "antidoto": "A estrela mais bela é a que pulsa com imperfeições",
+          "sinais": [
+            "Procedimentos estéticos compulsivos",
+            "Fotos excessivamente editadas",
+            "Não publicar/mostrar trabalho por não estar 'perfeito'"
+          ],
+          "modalbody_terapia": "Arteterapia ou Expressividade Corporal"
+        },
+        {
+          "nome": "Desconexão Terrena",
+          "severidade": "Média",
+          "exercicio": "Fazer uma tarefa mundana com plena atenção (lavar louça, limpar chão)",
+          "antidoto": "A estrela brilha no céu, mas a cura acontece na terra",
+          "sinais": [
+            "Viver em fantasia espiritual",
+            "Planos grandiosos sem execução",
+            "Dificuldade em tarefas mundanas"
+          ],
+          "modalbody_terapia": "Ecopsicologia"
+        },
+        {
+          "nome": "Salvador Compulsivo",
+          "severidade": "Baixa",
+          "exercicio": "Permanecer sem ajudar alguém por 24h (praticar respeitar o processo alheio)",
+          "antidoto": "Curar quem não pediu é invasão, não compaixão",
+          "sinais": [
+            "Necessidade de ser indispensável",
+            "Síndrome do herói",
+            "Viver em função do brilho que outros projetam"
+          ],
+          "modalbody_terapia": "Análise Transacional - Triângulo Dramático"
+        }
+      ],
+      "diretrizes": [
+        "Observe estrelas à noite e faça um pedido genuíno",
+        "Cuide de uma ferida (física ou emocional) hoje",
+        "Inspire alguém com uma palavra de esperança",
+        "Tome um banho de ervas purificador",
+        "Agradeça pela cura que já está acontecendo"
+      ],
+      "afirmacoes": {
+        "manha": "Sou estrela encarnada. Meu brilho cura e inspira",
+        "noite": "Confio que o melhor está a caminho, mesmo que não saiba quando",
+        "crise": "Após toda tempestade, minha estrela interior continua brilhando",
+        "prosperidade": "Atraio milagres financeiros quando confio na abundância cósmica",
+        "amor": "Sou digno de amor puro e cura através de conexões genuínas"
+      },
+      "jornalTemplates": [
+        "Hoje [A Estrela] me traz a esperança de que...",
+        "A cura que estou recebendo neste momento...",
+        "Minha inspiração para outros vem de...",
+        "O sonho que preciso manter vivo..."
+      ],
+      "rodadaVida": {
+        "amor": {
+          "baixa": "Relacionamentos com esperanças falsas",
+          "media": "Conexões inspiradoras e curativas",
+          "alta": "Amor cósmico, parceria estelar",
+          "check_diario": "Houve conexão de alma ou apenas projeção hoje?"
+        },
+        "dinheiro": {
+          "baixa": "Gastos idealistas, falta de realismo",
+          "media": "Renda em ascensão gradual",
+          "alta": "Abundância milagrosa e inesperada",
+          "check_diario": "Seu dinheiro está sendo usado para o bem comum ou apenas para o seu brilho?"
+        },
+        "saude": {
+          "baixa": "Doenças autoimunes, falta de cura",
+          "media": "Cura gradual, terapias complementares",
+          "alta": "Remissão total, saúde radiante",
+          "check_diario": "Você sentiu seu corpo como um templo de luz hoje?"
+        },
+        "carreira": {
+          "baixa": "Artista não reconhecido",
+          "media": "Terapeuta/curandeiro em ascensão",
+          "alta": "Influenciador positivo que inspira milhões",
+          "check_diario": "Seu trabalho de hoje deixou o mundo um pouco melhor?"
+        },
+        "familia": {
+          "baixa": "Papel de fada/anjo que cansa",
+          "media": "Membro que ilumina a família",
+          "alta": "Estrela guia familiar",
+          "check_diario": "Você foi a luz ou a sombra no seu círculo familiar?"
+        },
+        "proposito": {
+          "baixa": "Salvador ineficiente",
+          "media": "Curador em formação",
+          "alta": "Estrela guia, canal de esperança cósmica",
+          "check_diario": "Sua ação de hoje está alinhada com o brilho da sua alma?"
+        }
+      }
+    },
+    {
+      "numero": 18,
+      "nome": "A Lua",
+      "subtitulo": "Intuição • Ilusão • Inconsciente",
+      "simbolo": "🌕",
+      "cor": "#581c87",
+      "cor_secundaria": "#f3e8ff",
+      "frequencia": "432",
+      "nota_musical": "Lá# (A#)",
+      "chacra_regente": "Frontal (Ajna)",
+      "elemento": "Água",
+      "planeta_regente": "Lua",
+      "signo_zodiacal": "Câncer",
+      "carta_oposta": "O Papa (5)",
+      "dia_semana": "Segunda-feira",
+      "numero_sorte": 18,
+      "cristais": [
+        "Pedra da Lua",
+        "Selenita",
+        "Lepidolito"
+      ],
+      "ervas": [
+        "Artemísia",
+        "Jasmim",
+        "Melissa"
+      ],
+      "alimentacao": [
+        "Água de coco",
+        "Alimentos de cor branca",
+        "Peixes de rio",
+        "Chá de melissa e mel"
+      ],
+      "banho_terapeutico": "Banho de lua (artemísia e jasmim) para despertar a intuição e limpar medos",
+      "movimento_corporal": "Natação ou yoga restaurativa sob luz suave",
+      "essencia": "Você é o reflexo. A Lua ilumina com luz emprestada e distorce formas na escuridão. Terapeuticamente, você trabalha medos irracionais, o inconsciente e a diferença entre intuição verdadeira e fantasias projetadas.",
+      "pergunta_junguiana": "Que medo secreto eu estou projetando nas outras pessoas ou no mundo, em vez de assumir que ele mora dentro de mim?",
+      "meditacao_guiada": "Imagine que você caminha por um pântano sob a lua cheia. Um lobo e um cão uivam. Você caminha entre eles. Veja o caranguejo saindo da água. Ele traz sua mensagem do fundo do mar. Pegue-a e respire. A noite não é perigosa, é apenas profunda.",
+      "conselho_diario": [
+        "Preste atenção nos seus sonhos hoje",
+        "Não tome decisões baseadas em paranoia",
+        "Cuidado com ilusões e mentiras",
+        "Escute o que o seu silêncio diz"
+      ],
+      "musicas_recomendadas": [
+        "Sons de natureza noturna",
+        "Frequência 432Hz",
+        "Músicas relaxantes e oníricas"
+      ],
+      "numerologia": {
+        "alma": 18,
+        "personalidade": "Visionário onírico",
+        "caminho": "Immersão no inconsciente",
+        "desafio": "Intuição vs ilusão"
+      },
+      "previsao2026": {
+        "anoPessoal": "Ano dos Sonhos Reveladores",
+        "ciclos": "Lua cheia em Peixes/Câncer: sonhos proféticos e confusão emocional.",
+        "conselho": "Nem tudo que brilha à noite é ouro. Confie nos sonhos, mas confirme no dia. A Lua engana quem não sabe que está refletindo. 2026 será o ano de mergulhar nas águas profundas do seu ser para encontrar a pérola oculta.",
+        "alerta_saude": "Cuidado com retenção de líquidos, estômago e flutuações de humor severas"
+      },
+      "sombras": [
+        {
+          "nome": "Paranoia e Desconfiança",
+          "severidade": "Alta",
+          "exercicio": "Checar interpretações com alguém de confiança antes de agir",
+          "antidoto": "A Lua mostra sombras onde não há nada; confirme antes de fugir",
+          "sinais": [
+            "Suspeitar de intenções alheias sem evidência",
+            "Insônia por pensamentos paranóides",
+            "Relacionamentos destruídos por ciúmes infundados"
+          ],
+          "modalbody_terapia": "Terapia Cognitivo-Comportamental (TCC) - Reestruturação de Pensamentos"
+        },
+        {
+          "nome": "Confusão Mental",
+          "severidade": "Alta",
+          "exercicio": "Escrever pensamentos caóticos em papel e depois organizá-los em categorias",
+          "antidoto": "A névoa se dissipa quando a luz solar do discernimento aparece",
+          "sinais": [
+            "Dificuldade em distinguir sonho e realidade",
+            "Decisões baseadas em 'sentimentos' não verificados",
+            "Mudanças de humor inexplicáveis"
+          ],
+          "modalbody_terapia": "Psicoterapia Existencial ou Mindful Breathing"
+        },
+        {
+          "nome": "Fuga pela Fantasia",
+          "severidade": "Média",
+          "exercicio": "Resolver 3 tarefas concretas mundanas por dia (ancoragem)",
+          "antidoto": "A lua reflete; a terra sustenta. Ambas são necessárias",
+          "sinais": [
+            "Procrastinação por daydreaming",
+            "Mundos imaginários mais vivos que a realidade",
+            "Dificuldade em funcionar 'no mundo normal'"
+          ],
+          "modalbody_terapia": "Terapia Ocupacional ou Gestalt-terapia"
+        },
+        {
+          "nome": "Medos Ancestrais",
+          "severidade": "Média",
+          "exercicio": "Pesquisa genealógica + ritual de libertação ancestral",
+          "antidoto": "Os medos que você não entende podem ser heranças do sangue",
+          "sinais": [
+            "Fobias sem causa aparente",
+            "Pesadelos recorrentes",
+            "Sensação de perigo em locais novos sem razão"
+          ],
+          "modalbody_terapia": "Constelação Familiar ou Hipnose Ericksoniana"
+        }
+      ],
+      "diretrizes": [
+        "Escreva um sonho de ontem com detalhes",
+        "Medite à luz de vela ou lua cheia",
+        "Enfrente um medo irracional com uma pequena ação",
+        "Observe a lua noturna e dialogue mentalmente",
+        "Faça arte intuitiva (pintura, escrita livre)"
+      ],
+      "afirmacoes": {
+        "manha": "Confio na minha intuição e verifico com discernimento",
+        "noite": "Entrego meu inconsciente ao sono curador",
+        "crise": "Meus medos são ilusões da lua; a verdade é mais gentil",
+        "prosperidade": "A abundância lunar é silenciosa e gradual",
+        "amor": "Amo com profundidade oceânica sem me afogar"
+      },
+      "jornalTemplates": [
+        "Hoje [A Lua] revelou no meu inconsciente...",
+        "O medo irracional que me domina é... e vem de...",
+        "Meu sonho recorrente sobre...",
+        "A ilusão que preciso desfazer..."
+      ],
+      "rodadaVida": {
+        "amor": {
+          "baixa": "Relacionamentos ilusórios, ciúmes patológicos",
+          "media": "Conexão intuitiva com parceiro",
+          "alta": "Telepatia amorosa, vínculo psíquico",
+          "check_diario": "Houve confiança ou projeção de medo na sua relação hoje?"
+        },
+        "dinheiro": {
+          "baixa": "Golpes, investimentos fantasiosos",
+          "media": "Renda instável mas guiada por intuição",
+          "alta": "Abundância através de dons psíquicos",
+          "check_diario": "Você investiu em algo real ou em uma promessa mágica?"
+        },
+        "saude": {
+          "baixa": "Distúrbios do sono, ansiedade noturna",
+          "media": "Terapias oníricas, meditação",
+          "alta": "Cura através de sonhos lúcidos",
+          "check_diario": "Como foi a qualidade do seu silêncio interior hoje?"
+        },
+        "carreira": {
+          "baixa": "Trabalho noturno, vida dupla",
+          "media": "Psicóloga, artista, mística",
+          "alta": "Guardiã dos sonhos coletivos",
+          "check_diario": "Sua intuição foi usada para criar ou para se esconder?"
+        },
+        "familia": {
+          "baixa": "Segredos familiares, dinâmicas ocultas",
+          "media": "Intuição familiar ativa",
+          "alta": "Curador do inconsciente familiar",
+          "check_diario": "Você revelou algo oculto ou manteve a névoa na sua casa?"
+        },
+        "proposito": {
+          "baixa": "Perdido em ilusões",
+          "media": "Explorador do inconsciente",
+          "alta": "Oráculo dos sonhos, canal lunar",
+          "check_diario": "O sinal que você recebeu hoje veio do céu ou do medo?"
+        }
+      }
+    },
+    {
+      "numero": 19,
+      "nome": "O Sol",
+      "subtitulo": "Vitalidade • Alegria • Sucesso",
+      "simbolo": "☀️",
+      "cor": "#f59e0b",
+      "cor_secundaria": "#fef3c7",
+      "frequencia": "528",
+      "nota_musical": "Dó",
+      "chacra_regente": "Plexo Solar (Manipura)",
+      "elemento": "Fogo",
+      "planeta_regente": "Sol",
+      "signo_zodiacal": "Leão",
+      "carta_oposta": "A Lua (18)",
+      "dia_semana": "Domingo",
+      "numero_sorte": 19,
+      "cristais": [
+        "Citrino",
+        "Pirita",
+        "Olho de Tigre"
+      ],
+      "ervas": [
+        "Alecrim",
+        "Calêndula",
+        "Girassol"
+      ],
+      "alimentacao": [
+        "Frutas cítricas",
+        "Alimentos de cor amarela/laranja",
+        "Mel",
+        "Sementes de girassol"
+      ],
+      "banho_terapeutico": "Banho de sol (calêndula e alecrim) para vitalidade, alegria e brilho pessoal",
+      "movimento_corporal": "Saudação ao Sol (Surya Namaskar) ou dança expressiva",
+      "essencia": "Você é a luz plena. O Sol não esconde nada - ilumina tudo. Terapeuticamente, você trabalha a alegria genuína versus a felicidade forçada, e a capacidade de brilhar sem ofuscar outros.",
+      "pergunta_junguiana": "O que eu estou tentando esconder sob uma máscara de 'positividade', que na verdade precisa ser iluminado pela verdade?",
+      "meditacao_guiada": "Imagine que um sol dourado nasce bem no centro do seu estômago. O brilho aquece cada célula. Você sente que é uma criança brincando num campo infinito. Não há amanhã, apenas este momento de calor e luz total.",
+      "conselho_diario": [
+        "Abrace a sua verdade hoje",
+        "Seja generoso com seu brilho",
+        "Celebre uma vitória de alguém",
+        "Exponha-se ao sol por 15 minutos"
+      ],
+      "musicas_recomendadas": [
+        "Músicas épicas e alegres",
+        "Frequência 528Hz",
+        "Sons de natureza vibrante"
+      ],
+      "numerologia": {
+        "alma": 19,
+        "personalidade": "Brilho radiante",
+        "caminho": "Expressão plena",
+        "desafio": "Ego solar vs generosidade"
+      },
+      "previsao2026": {
+        "anoPessoal": "Ano de Triunfo e Revelação",
+        "ciclos": "Solstícios: momentos de máxima expressão pessoal.",
+        "conselho": "Brilhe sem pedir permissão. Mas lembre: o sol que ilumina também pode queimar. Dose sua intensidade. 2026 será o ano em que você finalmente ocupará o centro do seu próprio palco.",
+        "alerta_saude": "Cuidado com pressão arterial, coração e fadiga por excesso de atividade"
+      },
+      "sombras": [
+        {
+          "nome": "Narcisismo Solar",
+          "severidade": "Alta",
+          "exercicio": "Ouvir alguém por 30 minutos sem falar de si (prática de escuta)",
+          "antidoto": "O sol que só se vê, cega",
+          "sinais": [
+            "Necessidade de ser o centro das atenções",
+            "Incapacidade de celebrar outros",
+            "Inveja disfarçada de 'eu faria melhor'"
+          ],
+          "modalbody_terapia": "Psicologia Positiva com Foco em Empatia"
+        },
+        {
+          "nome": "Positividade Tóxica",
+          "severidade": "Média",
+          "exercicio": "Permitir-se chorar/sentir raiva sem racionalizar por um dia inteiro",
+          "antidoto": "O sol também produz noite; esconder a sombra é mentir",
+          "sinais": [
+            "Incapacidade de acolher emoções 'negativas'",
+            "Minimizar dor de outros com 'fique positivo'",
+            "Negar problemas reais"
+          ],
+          "modalbody_terapia": "Terapia de Aceitação e Compromisso (ACT)"
+        },
+        {
+          "nome": "Burnout Solar",
+          "severidade": "Média",
+          "exercicio": "Descansar UM dia sem produzir nada (práticar não-fazer)",
+          "antidoto": "O sol se põe todos os dias para renascer",
+          "sinais": [
+            "Viver em performance constante",
+            "Dificuldade em parar",
+            "Associar valor à produtividade"
+          ],
+          "modalbody_terapia": "Terapia de Redução de Estresse (MBSR)"
+        },
+        {
+          "nome": "Infantilização",
+          "severidade": "Baixa",
+          "exercicio": "Assumir a responsabilidade de um problema sem buscar diversão/distração",
+          "antidoto": "A criança interior é sagrada, mas o adulto responsável sustenta",
+          "sinais": [
+            "Evitar responsabilidades, tudo é 'brincadeira'",
+            "Dificuldade em assuntos sérios",
+            "Fuga pelo humor"
+          ],
+          "modalbody_terapia": "Análise Transacional - Estado de Ego Adulto"
+        }
+      ],
+      "diretrizes": [
+        "Faça algo que te faz genuinamente feliz hoje",
+        "Dança ao sol ou na luz (vitamina D e alma)",
+        "Celebre uma conquista alheia com alegria real",
+        "Crie beleza: decore algo, vista-se bem, sorria",
+        "Brinque como criança (sem culpa, sem agenda)"
+      ],
+      "afirmacoes": {
+        "manha": "Sou sol encarnado. Meu brilho aquece e ilumina tudo ao redor",
+        "noite": "Deixo meu sol se pôr em paz. Amanhã brilho de novo",
+        "crise": "Mesmo na escuridão, meu sol interior é inextinguível",
+        "prosperidade": "Riqueza e alegria dançam juntas em minha vida",
+        "amor": "Meu amor é luz solar: incondicional, quente, vital"
+      },
+      "jornalTemplates": [
+        "Hoje [O Sol] me convida a brilhar em...",
+        "A alegria genuína que sinto quando...",
+        "Onde estou forçando felicidade em vez de senti-la...",
+        "Minha criança interior pede..."
+      ],
+      "rodadaVida": {
+        "amor": {
+          "baixa": "Exibicionismo, relacionamentos de palco",
+          "media": "Parcerias alegres e criativas",
+          "alta": "Amor radiante que ilumina ambos",
+          "check_diario": "Houve generosidade ou competição no seu amor hoje?"
+        },
+        "dinheiro": {
+          "baixa": "Gastos por ostentação ou status",
+          "media": "Prosperidade visível e merecida",
+          "alta": "Abundância solar ilimitada",
+          "check_diario": "O seu dinheiro de hoje trouxe luz para alguém além de você?"
+        },
+        "saude": {
+          "baixa": "Burnout, problemas de pele, coração",
+          "media": "Energia alta, vitalidade",
+          "alta": "Saúde radiante, corpo solar",
+          "check_diario": "Você respeitou o limite do seu calor interno hoje?"
+        },
+        "carreira": {
+          "baixa": "Artista narcisista, show-off",
+          "media": "Performer, líder carismático",
+          "alta": "Estrela que inspira gerações",
+          "check_diario": "O seu trabalho brilhou pela essência ou pela aparência?"
+        },
+        "familia": {
+          "baixa": "Competição familiar por atenção",
+          "media": "Família alegre e celebrativa",
+          "alta": "Sol central da família",
+          "check_diario": "Você foi o calor que uniu ou o fogo que queimou em casa?"
+        },
+        "proposito": {
+          "baixa": "Ego inflado sem substância",
+          "media": "Inspirador positivo",
+          "alta": "Avatar da alegria divina",
+          "check_diario": "Qual ato de alegria genuína você realizou hoje?"
+        }
+      }
+    },
+    {
+      "numero": 20,
+      "nome": "O Julgamento",
+      "subtitulo": "Renascimento • Vocação • Absolvição",
+      "simbolo": "📯",
+      "cor": "#6b21a8",
+      "cor_secundaria": "#f3e8ff",
+      "frequencia": "741",
+      "nota_musical": "Sol# (G#)",
+      "chacra_regente": "Laringeo (Vishuddha)",
+      "element": "Fogo",
+      "planeta_regente": "Plutão",
+      "signo_zodiacal": "Peixes",
+      "carta_oposta": "O Louco (0)",
+      "dia_semana": "Sábado",
+      "numero_sorte": 20,
+      "cristais": [
+        "Moldavita",
+        "Lapis Lazuli",
+        "Pedra da Lua"
+      ],
+      "ervas": [
+        "Sálvia",
+        "Arruda",
+        "Olíbano"
+      ],
+      "alimentacao": [
+        "Alimentos leves",
+        "Líquidos",
+        "Frutas frescas",
+        "Peixes"
+      ],
+      "banho_terapeutico": "Banho de purificação (sálvia e arruda) para despertar a consciência e o perdão",
+      "movimento_corporal": "Canto coral, exercícios de voz ou movimentos de expansão torácica",
+      "essencia": "Você é o chamado. O Julgamento sopra a trombeta do despertar final - não como punição, mas como convocação para sua verdadeira vocação. Terapeuticamente, você trabalha o chamado da alma e a culpa não resolvida que impede o renascimento.",
+      "pergunta_junguiana": "Se este fosse o último dia da minha identidade atual, o que eu gostaria de ter feito por mim mesmo que ainda não fiz?",
+      "meditacao_guiada": "Imagine que você está deitado em um campo de paz. Uma trombeta soa suavemente no céu. A música é o seu nome. Veja-se flutuando, deixando para trás toda a culpa em uma caixa no chão. Você renasce leve, ciente da sua missão real nesta terra.",
+      "conselho_diario": [
+        "Ouça o seu chamado interior hoje",
+        "Perdoe-se por algo antigo",
+        "Conecte-se com sua vocação",
+        "Responda a um sinal do universo"
+      ],
+      "musicas_recomendadas": [
+        "Cantos gregorianos ou hinos",
+        "Frequência 741Hz",
+        "Sons de trombetas e cornetas"
+      ],
+      "numerologia": {
+        "alma": 20,
+        "personalidade": "Renascido espiritual",
+        "caminho": "Despertar vocacional",
+        "desafio": "Culpa vs absolvição"
+      },
+      "previsao2026": {
+        "anoPessoal": "Ano do Chamado Final",
+        "ciclos": "Setembro: momento de absoluta clareza sobre vocação.",
+        "conselho": "O universo está chamando seu nome. Não faça de conta que não ouviu. A trombeta não tocará de novo - esta é a última convocação para despertar. 2026 será o ano do seu 'checkpoint' espiritual; tudo o que você plantou será julgado e colhido.",
+        "alerta_saude": "Cuidado com garganta, audição e sistema nervoso central"
+      },
+      "sombras": [
+        {
+          "nome": "Culpa Cósmica",
+          "severidade": "Alta",
+          "exercicio": "Ritual de perdão: carta a si mesmo selada com 'Perdoado' e queimada",
+          "antidoto": "Carregar culpa é punir a si mesmo por crimes já expiados",
+          "sinais": [
+            "Autopunição constante",
+            "Dificuldade em aceitar coisas boas",
+            "Viver como se devesse algo ao mundo"
+          ],
+          "modalbody_terapia": "Logoterapia ou Psicoterapia Humanista"
+        },
+        {
+          "nome": "Surdez ao Chamado",
+          "severidade": "Alta",
+          "exercicio": "Listar 3 sinais que o universo mandou nos últimos 30 dias e responder",
+          "antidoto": "A trombeta é alta, mas o medo a abafa",
+          "sinais": [
+            "Ignorar oportunidades claras",
+            "Permanecer em zona de conforto",
+            "Dizer 'ainda não estou pronto' eternamente"
+          ],
+          "modalbody_terapia": "Coaching Arquetípico ou TCC"
+        },
+        {
+          "nome": "Fanatismo da Missao",
+          "severidade": "Média",
+          "exercicio": "Cuidar de necessidades banais (comer, dormir) antes de 'missionar'",
+          "antidoto": "O messias que esquece de ser humano, perde a mensagem",
+          "sinais": [
+            "Viver em 'modo missão' constante",
+            "Sacrificar tudo pela 'causa'",
+            "Síndrome messiânica"
+          ],
+          "modalbody_terapia": "Análise Institucional ou Supervisão"
+        },
+        {
+          "nome": "Julgamento dos Outros",
+          "severidade": "Baixa",
+          "exercicio": "Notar 3 julgamentos que fez hoje e substituí-los por curiosidade",
+          "antidoto": "Quem julga outros ainda não se julgou honestamente",
+          "sinais": [
+            "Moralismo hipócrita",
+            "Tribunal interno em constante sessão",
+            "Incapacidade de perdoar"
+          ],
+          "modalbody_terapia": "Comunicação Não-Violenta (CNV)"
+        }
+      ],
+      "diretrizes": [
+        "Ouça seu chamado interior hoje (5 min de silêncio)",
+        "Perdoe-se por algo antigo que ainda carrega",
+        "Conecte-se com sua vocação fazendo algo que ama",
+        "Escreva sua missão de vida em uma frase",
+        "Responda a um sinal que o universo mandou"
+      ],
+      "afirmacoes": {
+        "manha": "Ouço o chamado da minha alma e respondo com ação",
+        "noite": "Perdoei e fui perdoado. Renasço amanhã mais leve",
+        "crise": "O julgamento divino é justo. Confio na absolvição",
+        "prosperidade": "Minha vocação gera abundância quando atendida plenamente",
+        "amor": "Amo com a pureza de quem foi absolvido de toda culpa"
+      },
+      "jornalTemplates": [
+        "Hoje [O Julgamento] me convoca para...",
+        "A culpa que carrego de... e como me perdoo",
+        "Minha vocação verdadeira é... e estou pronto para...",
+        "O renascimento que espero de mim é..."
+      ],
+      "rodadaVida": {
+        "amor": {
+          "baixa": "Repetição de padrões por culpa não resolvida",
+          "media": "Relacionamentos que evoluem pela verdade",
+          "alta": "Amor que renasce, alma gêmea reencontrada",
+          "check_diario": "Houve perdão genuíno ou mágoa retida na relação hoje?"
+        },
+        "dinheiro": {
+          "baixa": "Dinheiro bloqueado por culpa",
+          "media": "Herança, retorno inesperado",
+          "alta": "Abundância vocacional",
+          "check_diario": "Sua vocação foi a prioridade do seu trabalho hoje?"
+        },
+        "saude": {
+          "baixa": "Doenças karmas, condições crônicas",
+          "media": "Cura através de catarse emocional",
+          "alta": "Renascimento celular, cura milagrosa",
+          "check_diario": "Você sentiu um despertar de vitalidade hoje?"
+        },
+        "carreira": {
+          "baixa": "Trabalho sem significado",
+          "media": "Transição para vocação real",
+          "alta": "Líder espiritual, palestrante transformador",
+          "check_diario": "Sua ação de hoje foi fiel ao seu chamado profissional?"
+        },
+        "familia": {
+          "baixa": "Julgamento familiar, tribunal interno",
+          "media": "Perdão e reconciliação familiar",
+          "alta": "Família reunida, linhagem curada",
+          "check_diario": "Você foi o juiz ou o redentor na sua família hoje?"
+        },
+        "proposito": {
+          "baixa": "Juiz cruel de si e dos outros",
+          "media": "Vocacionado em busca",
+          "alta": "Mensageiro desperto, despertar de consciências",
+          "check_diario": "Você ouviu a sua voz interior ou o barulho do mundo hoje?"
+        }
+      }
+    },
+    {
+      "numero": 21,
+      "nome": "O Mundo",
+      "subtitulo": "Conclusão • Integração • Plenitude",
+      "simbolo": "🌍",
+      "cor": "#0d9488",
+      "cor_secundaria": "#ccfbf1",
+      "frequencia": "963",
+      "nota_musical": "Si",
+      "chacra_regente": "Coronário (Sahasrara)",
+      "elemento": "Terra",
+      "planeta_regente": "Saturno",
+      "signo_zodiacal": "Aquário",
+      "carta_oposta": "O Eremita (9)",
+      "dia_semana": "Domingo",
+      "numero_sorte": 21,
+      "cristais": [
+        "Turmalina Melancia",
+        "Lápis-Lazúli",
+        "Pedra da Lua"
+      ],
+      "ervas": [
+        "Sândalo",
+        "Rosa Branca",
+        "Olíbano"
+      ],
+      "alimentacao": [
+        "Refeições completas e balanceadas",
+        "Frutos da terra",
+        "Vinhos finos (com moderação)",
+        "Alimentos de celebração"
+      ],
+      "banho_terapeutico": "Banho de celebração (rosas brancas e sândalo) para integração e plenitude",
+      "movimento_corporal": "Dança circular ou movimentos que englobem todo o corpo em harmonia",
+      "essencia": "Você é the dança cósmica. O Mundo representa a conclusão de um grande ciclo e a integração de tudo que foi aprendido. Terapeuticamente, você trabalha o medo de completar coisas, a dificuldade de celebrar e a saudade do futuro.",
+      "pergunta_junguiana": "O que ainda falta integrar em mim para que eu me sinta completo, ou eu já estou completo e apenas não consigo aceitar a minha perfeição?",
+      "meditacao_guiada": "Visualize-se no centro de uma mandala gigante cercada pelos quatro elementos. Você dança livremente. Todos os arcanos anteriores estão ao redor, aplaudindo sua jornada. Sinta que não há mais nada a buscar fora de você. O Mundo está aos seus pés e dentro do seu peito.",
+      "conselho_diario": [
+        "Celebre uma pequena conclusão hoje",
+        "Sinta a plenitude do momento presente",
+        "Encerre um ciclo pendente",
+        "Viaje ou planeje uma expansão"
+      ],
+      "musicas_recomendadas": [
+        "Músicas rítmicas universais",
+        "Frequência 963Hz",
+        "Sons de celebração e coro"
+      ],
+      "numerologia": {
+        "alma": 21,
+        "personalidade": "Integrador cósmico",
+        "caminho": "Conclusão e celebração",
+        "desafio": "Encerrar vs iniciar novo ciclo"
+      },
+      "previsao2026": {
+        "anoPessoal": "Ano da Coroação",
+        "ciclos": "Dezembro: grande conclusão, reconhecimento público, virada de era.",
+        "conselho": "Você percorreu o caminho inteiro. Este é o momento de dançar na mandala, não de correr para o próximo ciclo. Celebre! 2026 será o ano da sua maestria final; o mundo vai girar para te servir.",
+        "alerta_saude": "Cuidado com pernas, joelhos e sensação de esgotamento após grandes conquistas"
+      },
+      "sombras": [
+        {
+          "nome": "Medo de Completar",
+          "severidade": "Alta",
+          "exercicio": "Terminar UM projeto antigo hoje, sem perfeccionismo",
+          "antidoto": "O mundo é redondo; quem não conclui, dá voltas em círculos",
+          "sinais": [
+            "Projetos 99% prontos há meses",
+            "Dificuldade em publicar/entregar/terminar",
+            "Sabotagem no final"
+          ],
+          "modalbody_terapia": "Psicologia Positiva com Foco em Realização ou TCC"
+        },
+        {
+          "nome": "Síndrome do Eterno Estudante",
+          "severidade": "Média",
+          "exercicio": "Ensinar algo que já domina em vez de fazer mais um curso",
+          "antidoto": "Quem sempre se prepara, nunca começa a dançar",
+          "sinais": [
+            "Mais um curso antes de agir",
+            "Dúvida crônica sobre própria competência",
+            "Acúmulo de diplomas sem prática"
+          ],
+          "modalbody_terapia": "Andragogia Terapêutica ou Mentoria"
+        },
+        {
+          "nome": "Arrogância de Conclusão",
+          "severidade": "Média",
+          "exercicio": "Aprender algo totalmente novo do zero hoje (ser iniciante)",
+          "antidoto": "O fim do Mundo é apenas o início de um novo Louco",
+          "sinais": [
+            "Achar que já sabe tudo",
+            "Desprezo por quem está começando",
+            "Estagnação por excesso de sucesso"
+          ],
+          "modalbody_terapia": "Filosofia Clínica ou Budismo (Mente de Principiante)"
+        },
+        {
+          "nome": "Melancolia do Sucesso",
+          "severidade": "Baixa",
+          "exercicio": "Celebrar ruidosamente uma conquista hoje (festa/jantar)",
+          "antidoto": "A tristeza após a vitória é o medo do vazio; preencha-o com gratidão",
+          "sinais": [
+            "Tristeza após atingir metas",
+            "Vazio existencial pós-sucesso",
+            "Falta de propósito após grandes vitórias"
+          ],
+          "modalbody_terapia": "Psicologia Existencial-Humanista"
+        }
+      ],
+      "diretrizes": [
+        "Celebre uma pequena conclusão hoje",
+        "Sinta a plenitude do momento presente",
+        "Encerre um ciclo pendente",
+        "Viaje ou planeje uma expansão",
+        "Agradeça por toda a jornada até aqui"
+      ],
+      "afirmacoes": {
+        "manha": "Estou em plenitude com o Mundo. Tudo o que preciso está em mim",
+        "noite": "Agradeço pela conclusão sagrada deste dia. Sou inteiro",
+        "crise": "Este ciclo está se fechando para que eu possa voar mais alto",
+        "prosperidade": "Minha riqueza é a integração de todos os meus talentos",
+        "amor": "Meu amor é cósmico. Amo o todo e o todo me ama"
+      },
+      "jornalTemplates": [
+        "Hoje [O Mundo] me lembra que completei...",
+        "O ciclo que encerro com gratidão é...",
+        "Integrei em mim as lições de...",
+        "Minha dança de celebração por..."
+      ],
+      "rodadaVida": {
+        "amor": {
+          "baixa": "Relacionamentos superficiais por 'ter visto tudo'",
+          "media": "Parceria completa e integradora",
+          "alta": "Amor cósmico, totalidade a dois",
+          "check_diario": "Você se sentiu inteiro(a) na presença do outro hoje?"
+        },
+        "dinheiro": {
+          "baixa": "Falta de recursos para completar projetos",
+          "media": "Segurança financeira plena",
+          "alta": "Riqueza mundial, fortuna integrada",
+          "check_diario": "Sua vida financeira está em harmonia com seus valores globais?"
+        },
+        "saude": {
+          "baixa": "Cansaço crônico de fim de ciclo",
+          "media": "Saúde plena, equilíbrio total",
+          "alta": "Corpo radiante, imortalidade simbólica",
+          "check_diario": "Você sentiu a unidade do seu corpo e mente hoje?"
+        },
+        "carreira": {
+          "baixa": "Trabalho que nunca termina, sísifo",
+          "media": "Sucesso consolidado na área",
+          "alta": "Reconhecimento mundial, mestre absoluto",
+          "check_diario": "Sua obra de hoje foi uma peça completa do seu mosaico?"
+        },
+        "familia": {
+          "baixa": "Isolamento da família ou do world",
+          "media": "Família integrada e evoluída",
+          "alta": "Linhagem inteira curada e elevada",
+          "check_diario": "Você sentiu o pertencimento total ao seu clã hoje?"
+        },
+        "proposito": {
+          "baixa": "Conclusão sem novo propósito",
+          "media": "Mestre que integra sabedorias",
+          "alta": "Avatar da integração cósmica, alma completa",
+          "check_diario": "Sua ação de hoje contribuiu para a harmonia do Mundo?"
+        }
+      }
+    }
+  ]
+}

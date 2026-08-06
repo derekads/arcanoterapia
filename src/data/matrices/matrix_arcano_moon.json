@@ -1,0 +1,442 @@
+{
+  "0-nova": {
+    "insight": "O Louco na Lua Nova: Ciclo perfeito para alinhar Liberdade e Caos com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Aventure-se no desconhecido.",
+    "afirmacao": "Eu sintonizo minha essência de O Louco com o poder da Lua Nova."
+  },
+  "0-crescente": {
+    "insight": "O Louco na Lua Crescente: Ciclo perfeito para alinhar Liberdade e Caos com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Aventure-se no desconhecido.",
+    "afirmacao": "Eu sintonizo minha essência de O Louco com o poder da Lua Crescente."
+  },
+  "0-cheia": {
+    "insight": "O Louco na Lua Cheia: Ciclo perfeito para alinhar Liberdade e Caos com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Aventure-se no desconhecido.",
+    "afirmacao": "Eu sintonizo minha essência de O Louco com o poder da Lua Cheia."
+  },
+  "0-minguante": {
+    "insight": "O Louco na Lua Minguante: Ciclo perfeito para alinhar Liberdade e Caos com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Aventure-se no desconhecido.",
+    "afirmacao": "Eu sintonizo minha essência de O Louco com o poder da Lua Minguante."
+  },
+  "1-nova": {
+    "insight": "O Mago na Lua Nova: Ciclo perfeito para alinhar Vontade e Início com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Inicie um projeto prático.",
+    "afirmacao": "Eu sintonizo minha essência de O Mago com o poder da Lua Nova."
+  },
+  "1-crescente": {
+    "insight": "O Mago na Lua Crescente: Ciclo perfeito para alinhar Vontade e Início com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Inicie um projeto prático.",
+    "afirmacao": "Eu sintonizo minha essência de O Mago com o poder da Lua Crescente."
+  },
+  "1-cheia": {
+    "insight": "O Mago na Lua Cheia: Ciclo perfeito para alinhar Vontade e Início com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Inicie um projeto prático.",
+    "afirmacao": "Eu sintonizo minha essência de O Mago com o poder da Lua Cheia."
+  },
+  "1-minguante": {
+    "insight": "O Mago na Lua Minguante: Ciclo perfeito para alinhar Vontade e Início com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Inicie um projeto prático.",
+    "afirmacao": "Eu sintonizo minha essência de O Mago com o poder da Lua Minguante."
+  },
+  "2-nova": {
+    "insight": "A Sacerdotisa na Lua Nova: Ciclo perfeito para alinhar Intuição e Mistério com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Silencie e medite.",
+    "afirmacao": "Eu sintonizo minha essência de A Sacerdotisa com o poder da Lua Nova."
+  },
+  "2-crescente": {
+    "insight": "A Sacerdotisa na Lua Crescente: Ciclo perfeito para alinhar Intuição e Mistério com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Silencie e medite.",
+    "afirmacao": "Eu sintonizo minha essência de A Sacerdotisa com o poder da Lua Crescente."
+  },
+  "2-cheia": {
+    "insight": "A Sacerdotisa na Lua Cheia: Ciclo perfeito para alinhar Intuição e Mistério com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Silencie e medite.",
+    "afirmacao": "Eu sintonizo minha essência de A Sacerdotisa com o poder da Lua Cheia."
+  },
+  "2-minguante": {
+    "insight": "A Sacerdotisa na Lua Minguante: Ciclo perfeito para alinhar Intuição e Mistério com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Silencie e medite.",
+    "afirmacao": "Eu sintonizo minha essência de A Sacerdotisa com o poder da Lua Minguante."
+  },
+  "3-nova": {
+    "insight": "A Imperatriz na Lua Nova: Ciclo perfeito para alinhar Criatividade e Abundância com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Crie algo belo.",
+    "afirmacao": "Eu sintonizo minha essência de A Imperatriz com o poder da Lua Nova."
+  },
+  "3-crescente": {
+    "insight": "A Imperatriz na Lua Crescente: Ciclo perfeito para alinhar Criatividade e Abundância com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Crie algo belo.",
+    "afirmacao": "Eu sintonizo minha essência de A Imperatriz com o poder da Lua Crescente."
+  },
+  "3-cheia": {
+    "insight": "A Imperatriz na Lua Cheia: Ciclo perfeito para alinhar Criatividade e Abundância com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Crie algo belo.",
+    "afirmacao": "Eu sintonizo minha essência de A Imperatriz com o poder da Lua Cheia."
+  },
+  "3-minguante": {
+    "insight": "A Imperatriz na Lua Minguante: Ciclo perfeito para alinhar Criatividade e Abundância com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Crie algo belo.",
+    "afirmacao": "Eu sintonizo minha essência de A Imperatriz com o poder da Lua Minguante."
+  },
+  "4-nova": {
+    "insight": "O Imperador na Lua Nova: Ciclo perfeito para alinhar Estrutura e Ordem com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Organize suas finanças.",
+    "afirmacao": "Eu sintonizo minha essência de O Imperador com o poder da Lua Nova."
+  },
+  "4-crescente": {
+    "insight": "O Imperador na Lua Crescente: Ciclo perfeito para alinhar Estrutura e Ordem com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Organize suas finanças.",
+    "afirmacao": "Eu sintonizo minha essência de O Imperador com o poder da Lua Crescente."
+  },
+  "4-cheia": {
+    "insight": "O Imperador na Lua Cheia: Ciclo perfeito para alinhar Estrutura e Ordem com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Organize suas finanças.",
+    "afirmacao": "Eu sintonizo minha essência de O Imperador com o poder da Lua Cheia."
+  },
+  "4-minguante": {
+    "insight": "O Imperador na Lua Minguante: Ciclo perfeito para alinhar Estrutura e Ordem com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Organize suas finanças.",
+    "afirmacao": "Eu sintonizo minha essência de O Imperador com o poder da Lua Minguante."
+  },
+  "5-nova": {
+    "insight": "O Papa na Lua Nova: Ciclo perfeito para alinhar Sabedoria e Tradição com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Busque um conselho sábio.",
+    "afirmacao": "Eu sintonizo minha essência de O Papa com o poder da Lua Nova."
+  },
+  "5-crescente": {
+    "insight": "O Papa na Lua Crescente: Ciclo perfeito para alinhar Sabedoria e Tradição com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Busque um conselho sábio.",
+    "afirmacao": "Eu sintonizo minha essência de O Papa com o poder da Lua Crescente."
+  },
+  "5-cheia": {
+    "insight": "O Papa na Lua Cheia: Ciclo perfeito para alinhar Sabedoria e Tradição com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Busque um conselho sábio.",
+    "afirmacao": "Eu sintonizo minha essência de O Papa com o poder da Lua Cheia."
+  },
+  "5-minguante": {
+    "insight": "O Papa na Lua Minguante: Ciclo perfeito para alinhar Sabedoria e Tradição com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Busque um conselho sábio.",
+    "afirmacao": "Eu sintonizo minha essência de O Papa com o poder da Lua Minguante."
+  },
+  "6-nova": {
+    "insight": "Os Enamorados na Lua Nova: Ciclo perfeito para alinhar Escolha e União com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Siga seu coração.",
+    "afirmacao": "Eu sintonizo minha essência de Os Enamorados com o poder da Lua Nova."
+  },
+  "6-crescente": {
+    "insight": "Os Enamorados na Lua Crescente: Ciclo perfeito para alinhar Escolha e União com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Siga seu coração.",
+    "afirmacao": "Eu sintonizo minha essência de Os Enamorados com o poder da Lua Crescente."
+  },
+  "6-cheia": {
+    "insight": "Os Enamorados na Lua Cheia: Ciclo perfeito para alinhar Escolha e União com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Siga seu coração.",
+    "afirmacao": "Eu sintonizo minha essência de Os Enamorados com o poder da Lua Cheia."
+  },
+  "6-minguante": {
+    "insight": "Os Enamorados na Lua Minguante: Ciclo perfeito para alinhar Escolha e União com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Siga seu coração.",
+    "afirmacao": "Eu sintonizo minha essência de Os Enamorados com o poder da Lua Minguante."
+  },
+  "7-nova": {
+    "insight": "O Carro na Lua Nova: Ciclo perfeito para alinhar Vitória e Movimento com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Avance com determinação.",
+    "afirmacao": "Eu sintonizo minha essência de O Carro com o poder da Lua Nova."
+  },
+  "7-crescente": {
+    "insight": "O Carro na Lua Crescente: Ciclo perfeito para alinhar Vitória e Movimento com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Avance com determinação.",
+    "afirmacao": "Eu sintonizo minha essência de O Carro com o poder da Lua Crescente."
+  },
+  "7-cheia": {
+    "insight": "O Carro na Lua Cheia: Ciclo perfeito para alinhar Vitória e Movimento com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Avance com determinação.",
+    "afirmacao": "Eu sintonizo minha essência de O Carro com o poder da Lua Cheia."
+  },
+  "7-minguante": {
+    "insight": "O Carro na Lua Minguante: Ciclo perfeito para alinhar Vitória e Movimento com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Avance com determinação.",
+    "afirmacao": "Eu sintonizo minha essência de O Carro com o poder da Lua Minguante."
+  },
+  "8-nova": {
+    "insight": "A Justiça na Lua Nova: Ciclo perfeito para alinhar Equilíbrio e Verdade com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Seja honesto consigo mesmo.",
+    "afirmacao": "Eu sintonizo minha essência de A Justiça com o poder da Lua Nova."
+  },
+  "8-crescente": {
+    "insight": "A Justiça na Lua Crescente: Ciclo perfeito para alinhar Equilíbrio e Verdade com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Seja honesto consigo mesmo.",
+    "afirmacao": "Eu sintonizo minha essência de A Justiça com o poder da Lua Crescente."
+  },
+  "8-cheia": {
+    "insight": "A Justiça na Lua Cheia: Ciclo perfeito para alinhar Equilíbrio e Verdade com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Seja honesto consigo mesmo.",
+    "afirmacao": "Eu sintonizo minha essência de A Justiça com o poder da Lua Cheia."
+  },
+  "8-minguante": {
+    "insight": "A Justiça na Lua Minguante: Ciclo perfeito para alinhar Equilíbrio e Verdade com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Seja honesto consigo mesmo.",
+    "afirmacao": "Eu sintonizo minha essência de A Justiça com o poder da Lua Minguante."
+  },
+  "9-nova": {
+    "insight": "O Eremita na Lua Nova: Ciclo perfeito para alinhar Introspecção e Luz com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Busque a resposta no silêncio.",
+    "afirmacao": "Eu sintonizo minha essência de O Eremita com o poder da Lua Nova."
+  },
+  "9-crescente": {
+    "insight": "O Eremita na Lua Crescente: Ciclo perfeito para alinhar Introspecção e Luz com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Busque a resposta no silêncio.",
+    "afirmacao": "Eu sintonizo minha essência de O Eremita com o poder da Lua Crescente."
+  },
+  "9-cheia": {
+    "insight": "O Eremita na Lua Cheia: Ciclo perfeito para alinhar Introspecção e Luz com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Busque a resposta no silêncio.",
+    "afirmacao": "Eu sintonizo minha essência de O Eremita com o poder da Lua Cheia."
+  },
+  "9-minguante": {
+    "insight": "O Eremita na Lua Minguante: Ciclo perfeito para alinhar Introspecção e Luz com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Busque a resposta no silêncio.",
+    "afirmacao": "Eu sintonizo minha essência de O Eremita com o poder da Lua Minguante."
+  },
+  "10-nova": {
+    "insight": "A Roda da Fortuna na Lua Nova: Ciclo perfeito para alinhar Mudança e Ciclos com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Aceite as voltas que a vida dá.",
+    "afirmacao": "Eu sintonizo minha essência de A Roda da Fortuna com o poder da Lua Nova."
+  },
+  "10-crescente": {
+    "insight": "A Roda da Fortuna na Lua Crescente: Ciclo perfeito para alinhar Mudança e Ciclos com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Aceite as voltas que a vida dá.",
+    "afirmacao": "Eu sintonizo minha essência de A Roda da Fortuna com o poder da Lua Crescente."
+  },
+  "10-cheia": {
+    "insight": "A Roda da Fortuna na Lua Cheia: Ciclo perfeito para alinhar Mudança e Ciclos com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Aceite as voltas que a vida dá.",
+    "afirmacao": "Eu sintonizo minha essência de A Roda da Fortuna com o poder da Lua Cheia."
+  },
+  "10-minguante": {
+    "insight": "A Roda da Fortuna na Lua Minguante: Ciclo perfeito para alinhar Mudança e Ciclos com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Aceite as voltas que a vida dá.",
+    "afirmacao": "Eu sintonizo minha essência de A Roda da Fortuna com o poder da Lua Minguante."
+  },
+  "11-nova": {
+    "insight": "A Força na Lua Nova: Ciclo perfeito para alinhar Domínio e Coragem com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Domine seus impulsos com amor.",
+    "afirmacao": "Eu sintonizo minha essência de A Força com o poder da Lua Nova."
+  },
+  "11-crescente": {
+    "insight": "A Força na Lua Crescente: Ciclo perfeito para alinhar Domínio e Coragem com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Domine seus impulsos com amor.",
+    "afirmacao": "Eu sintonizo minha essência de A Força com o poder da Lua Crescente."
+  },
+  "11-cheia": {
+    "insight": "A Força na Lua Cheia: Ciclo perfeito para alinhar Domínio e Coragem com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Domine seus impulsos com amor.",
+    "afirmacao": "Eu sintonizo minha essência de A Força com o poder da Lua Cheia."
+  },
+  "11-minguante": {
+    "insight": "A Força na Lua Minguante: Ciclo perfeito para alinhar Domínio e Coragem com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Domine seus impulsos com amor.",
+    "afirmacao": "Eu sintonizo minha essência de A Força com o poder da Lua Minguante."
+  },
+  "12-nova": {
+    "insight": "O Pendurado na Lua Nova: Ciclo perfeito para alinhar Perspectiva e Pausa com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Mude seu ponto de vista.",
+    "afirmacao": "Eu sintonizo minha essência de O Pendurado com o poder da Lua Nova."
+  },
+  "12-crescente": {
+    "insight": "O Pendurado na Lua Crescente: Ciclo perfeito para alinhar Perspectiva e Pausa com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Mude seu ponto de vista.",
+    "afirmacao": "Eu sintonizo minha essência de O Pendurado com o poder da Lua Crescente."
+  },
+  "12-cheia": {
+    "insight": "O Pendurado na Lua Cheia: Ciclo perfeito para alinhar Perspectiva e Pausa com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Mude seu ponto de vista.",
+    "afirmacao": "Eu sintonizo minha essência de O Pendurado com o poder da Lua Cheia."
+  },
+  "12-minguante": {
+    "insight": "O Pendurado na Lua Minguante: Ciclo perfeito para alinhar Perspectiva e Pausa com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Mude seu ponto de vista.",
+    "afirmacao": "Eu sintonizo minha essência de O Pendurado com o poder da Lua Minguante."
+  },
+  "13-nova": {
+    "insight": "A Morte na Lua Nova: Ciclo perfeito para alinhar Transformação e Fim com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Deixe o velho para trás.",
+    "afirmacao": "Eu sintonizo minha essência de A Morte com o poder da Lua Nova."
+  },
+  "13-crescente": {
+    "insight": "A Morte na Lua Crescente: Ciclo perfeito para alinhar Transformação e Fim com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Deixe o velho para trás.",
+    "afirmacao": "Eu sintonizo minha essência de A Morte com o poder da Lua Crescente."
+  },
+  "13-cheia": {
+    "insight": "A Morte na Lua Cheia: Ciclo perfeito para alinhar Transformação e Fim com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Deixe o velho para trás.",
+    "afirmacao": "Eu sintonizo minha essência de A Morte com o poder da Lua Cheia."
+  },
+  "13-minguante": {
+    "insight": "A Morte na Lua Minguante: Ciclo perfeito para alinhar Transformação e Fim com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Deixe o velho para trás.",
+    "afirmacao": "Eu sintonizo minha essência de A Morte com o poder da Lua Minguante."
+  },
+  "14-nova": {
+    "insight": "A Temperança na Lua Nova: Ciclo perfeito para alinhar Alquimia e Paciência com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Equilibre seus opostos.",
+    "afirmacao": "Eu sintonizo minha essência de A Temperança com o poder da Lua Nova."
+  },
+  "14-crescente": {
+    "insight": "A Temperança na Lua Crescente: Ciclo perfeito para alinhar Alquimia e Paciência com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Equilibre seus opostos.",
+    "afirmacao": "Eu sintonizo minha essência de A Temperança com o poder da Lua Crescente."
+  },
+  "14-cheia": {
+    "insight": "A Temperança na Lua Cheia: Ciclo perfeito para alinhar Alquimia e Paciência com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Equilibre seus opostos.",
+    "afirmacao": "Eu sintonizo minha essência de A Temperança com o poder da Lua Cheia."
+  },
+  "14-minguante": {
+    "insight": "A Temperança na Lua Minguante: Ciclo perfeito para alinhar Alquimia e Paciência com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Equilibre seus opostos.",
+    "afirmacao": "Eu sintonizo minha essência de A Temperança com o poder da Lua Minguante."
+  },
+  "15-nova": {
+    "insight": "O Diabo na Lua Nova: Ciclo perfeito para alinhar Paixão e Sombra com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Enfrente seus desejos ocultos.",
+    "afirmacao": "Eu sintonizo minha essência de O Diabo com o poder da Lua Nova."
+  },
+  "15-crescente": {
+    "insight": "O Diabo na Lua Crescente: Ciclo perfeito para alinhar Paixão e Sombra com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Enfrente seus desejos ocultos.",
+    "afirmacao": "Eu sintonizo minha essência de O Diabo com o poder da Lua Crescente."
+  },
+  "15-cheia": {
+    "insight": "O Diabo na Lua Cheia: Ciclo perfeito para alinhar Paixão e Sombra com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Enfrente seus desejos ocultos.",
+    "afirmacao": "Eu sintonizo minha essência de O Diabo com o poder da Lua Cheia."
+  },
+  "15-minguante": {
+    "insight": "O Diabo na Lua Minguante: Ciclo perfeito para alinhar Paixão e Sombra com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Enfrente seus desejos ocultos.",
+    "afirmacao": "Eu sintonizo minha essência de O Diabo com o poder da Lua Minguante."
+  },
+  "16-nova": {
+    "insight": "A Torre na Lua Nova: Ciclo perfeito para alinhar Ruptura e Libertação com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Deixe o falso cair.",
+    "afirmacao": "Eu sintonizo minha essência de A Torre com o poder da Lua Nova."
+  },
+  "16-crescente": {
+    "insight": "A Torre na Lua Crescente: Ciclo perfeito para alinhar Ruptura e Libertação com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Deixe o falso cair.",
+    "afirmacao": "Eu sintonizo minha essência de A Torre com o poder da Lua Crescente."
+  },
+  "16-cheia": {
+    "insight": "A Torre na Lua Cheia: Ciclo perfeito para alinhar Ruptura e Libertação com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Deixe o falso cair.",
+    "afirmacao": "Eu sintonizo minha essência de A Torre com o poder da Lua Cheia."
+  },
+  "16-minguante": {
+    "insight": "A Torre na Lua Minguante: Ciclo perfeito para alinhar Ruptura e Libertação com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Deixe o falso cair.",
+    "afirmacao": "Eu sintonizo minha essência de A Torre com o poder da Lua Minguante."
+  },
+  "17-nova": {
+    "insight": "A Estrela na Lua Nova: Ciclo perfeito para alinhar Esperança e Fé com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Confie no fluxo do universo.",
+    "afirmacao": "Eu sintonizo minha essência de A Estrela com o poder da Lua Nova."
+  },
+  "17-crescente": {
+    "insight": "A Estrela na Lua Crescente: Ciclo perfeito para alinhar Esperança e Fé com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Confie no fluxo do universo.",
+    "afirmacao": "Eu sintonizo minha essência de A Estrela com o poder da Lua Crescente."
+  },
+  "17-cheia": {
+    "insight": "A Estrela na Lua Cheia: Ciclo perfeito para alinhar Esperança e Fé com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Confie no fluxo do universo.",
+    "afirmacao": "Eu sintonizo minha essência de A Estrela com o poder da Lua Cheia."
+  },
+  "17-minguante": {
+    "insight": "A Estrela na Lua Minguante: Ciclo perfeito para alinhar Esperança e Fé com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Confie no fluxo do universo.",
+    "afirmacao": "Eu sintonizo minha essência de A Estrela com o poder da Lua Minguante."
+  },
+  "18-nova": {
+    "insight": "A Lua na Lua Nova: Ciclo perfeito para alinhar Sonhos e Ilusão com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Cuidado com o que parece ser.",
+    "afirmacao": "Eu sintonizo minha essência de A Lua com o poder da Lua Nova."
+  },
+  "18-crescente": {
+    "insight": "A Lua na Lua Crescente: Ciclo perfeito para alinhar Sonhos e Ilusão com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Cuidado com o que parece ser.",
+    "afirmacao": "Eu sintonizo minha essência de A Lua com o poder da Lua Crescente."
+  },
+  "18-cheia": {
+    "insight": "A Lua na Lua Cheia: Ciclo perfeito para alinhar Sonhos e Ilusão com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Cuidado com o que parece ser.",
+    "afirmacao": "Eu sintonizo minha essência de A Lua com o poder da Lua Cheia."
+  },
+  "18-minguante": {
+    "insight": "A Lua na Lua Minguante: Ciclo perfeito para alinhar Sonhos e Ilusão com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Cuidado com o que parece ser.",
+    "afirmacao": "Eu sintonizo minha essência de A Lua com o poder da Lua Minguante."
+  },
+  "19-nova": {
+    "insight": "O Sol na Lua Nova: Ciclo perfeito para alinhar Sucesso e Alegria com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Brilhe e compartilhe sua luz.",
+    "afirmacao": "Eu sintonizo minha essência de O Sol com o poder da Lua Nova."
+  },
+  "19-crescente": {
+    "insight": "O Sol na Lua Crescente: Ciclo perfeito para alinhar Sucesso e Alegria com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Brilhe e compartilhe sua luz.",
+    "afirmacao": "Eu sintonizo minha essência de O Sol com o poder da Lua Crescente."
+  },
+  "19-cheia": {
+    "insight": "O Sol na Lua Cheia: Ciclo perfeito para alinhar Sucesso e Alegria com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Brilhe e compartilhe sua luz.",
+    "afirmacao": "Eu sintonizo minha essência de O Sol com o poder da Lua Cheia."
+  },
+  "19-minguante": {
+    "insight": "O Sol na Lua Minguante: Ciclo perfeito para alinhar Sucesso e Alegria com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Brilhe e compartilhe sua luz.",
+    "afirmacao": "Eu sintonizo minha essência de O Sol com o poder da Lua Minguante."
+  },
+  "20-nova": {
+    "insight": "O Julgamento na Lua Nova: Ciclo perfeito para alinhar Despertar e Chamado com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Ouça sua voz interior agora.",
+    "afirmacao": "Eu sintonizo minha essência de O Julgamento com o poder da Lua Nova."
+  },
+  "20-crescente": {
+    "insight": "O Julgamento na Lua Crescente: Ciclo perfeito para alinhar Despertar e Chamado com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Ouça sua voz interior agora.",
+    "afirmacao": "Eu sintonizo minha essência de O Julgamento com o poder da Lua Crescente."
+  },
+  "20-cheia": {
+    "insight": "O Julgamento na Lua Cheia: Ciclo perfeito para alinhar Despertar e Chamado com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Ouça sua voz interior agora.",
+    "afirmacao": "Eu sintonizo minha essência de O Julgamento com o poder da Lua Cheia."
+  },
+  "20-minguante": {
+    "insight": "O Julgamento na Lua Minguante: Ciclo perfeito para alinhar Despertar e Chamado com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Ouça sua voz interior agora.",
+    "afirmacao": "Eu sintonizo minha essência de O Julgamento com o poder da Lua Minguante."
+  },
+  "21-nova": {
+    "insight": "O Mundo na Lua Nova: Ciclo perfeito para alinhar Plenitude e Unidade com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Celebre sua jornada completa.",
+    "afirmacao": "Eu sintonizo minha essência de O Mundo com o poder da Lua Nova."
+  },
+  "21-crescente": {
+    "insight": "O Mundo na Lua Crescente: Ciclo perfeito para alinhar Plenitude e Unidade com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Celebre sua jornada completa.",
+    "afirmacao": "Eu sintonizo minha essência de O Mundo com o poder da Lua Crescente."
+  },
+  "21-cheia": {
+    "insight": "O Mundo na Lua Cheia: Ciclo perfeito para alinhar Plenitude e Unidade com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Celebre sua jornada completa.",
+    "afirmacao": "Eu sintonizo minha essência de O Mundo com o poder da Lua Cheia."
+  },
+  "21-minguante": {
+    "insight": "O Mundo na Lua Minguante: Ciclo perfeito para alinhar Plenitude e Unidade com as marés lunares.",
+    "ritual": "Durante esta lua, pratique: Celebre sua jornada completa.",
+    "afirmacao": "Eu sintonizo minha essência de O Mundo com o poder da Lua Minguante."
+  }
+}

@@ -1,0 +1,1322 @@
+{
+  "0-Áries": {
+    "perfil": "O arquétipo dO Louco encontra sua expressão solar em Áries. Esta combinação funde a força de Liberdade e Caos com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Liberdade pode obscurecer a clareza de Áries.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "0-Touro": {
+    "perfil": "O arquétipo dO Louco encontra sua expressão solar em Touro. Esta combinação funde a força de Liberdade e Caos com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Liberdade pode obscurecer a clareza de Touro.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "0-Gêmeos": {
+    "perfil": "O arquétipo dO Louco encontra sua expressão solar em Gêmeos. Esta combinação funde a força de Liberdade e Caos com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Liberdade pode obscurecer a clareza de Gêmeos.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "0-Câncer": {
+    "perfil": "O arquétipo dO Louco encontra sua expressão solar em Câncer. Esta combinação funde a força de Liberdade e Caos com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Liberdade pode obscurecer a clareza de Câncer.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "0-Leão": {
+    "perfil": "O arquétipo dO Louco encontra sua expressão solar em Leão. Esta combinação funde a força de Liberdade e Caos com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Liberdade pode obscurecer a clareza de Leão.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "0-Virgem": {
+    "perfil": "O arquétipo dO Louco encontra sua expressão solar em Virgem. Esta combinação funde a força de Liberdade e Caos com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Liberdade pode obscurecer a clareza de Virgem.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "0-Libra": {
+    "perfil": "O arquétipo dO Louco encontra sua expressão solar em Libra. Esta combinação funde a força de Liberdade e Caos com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Liberdade pode obscurecer a clareza de Libra.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "0-Escorpião": {
+    "perfil": "O arquétipo dO Louco encontra sua expressão solar em Escorpião. Esta combinação funde a força de Liberdade e Caos com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Liberdade pode obscurecer a clareza de Escorpião.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "0-Sagitário": {
+    "perfil": "O arquétipo dO Louco encontra sua expressão solar em Sagitário. Esta combinação funde a força de Liberdade e Caos com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Liberdade pode obscurecer a clareza de Sagitário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "0-Capricórnio": {
+    "perfil": "O arquétipo dO Louco encontra sua expressão solar em Capricórnio. Esta combinação funde a força de Liberdade e Caos com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Liberdade pode obscurecer a clareza de Capricórnio.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "0-Aquário": {
+    "perfil": "O arquétipo dO Louco encontra sua expressão solar em Aquário. Esta combinação funde a força de Liberdade e Caos com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Liberdade pode obscurecer a clareza de Aquário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "0-Peixes": {
+    "perfil": "O arquétipo dO Louco encontra sua expressão solar em Peixes. Esta combinação funde a força de Liberdade e Caos com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Liberdade pode obscurecer a clareza de Peixes.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "1-Áries": {
+    "perfil": "O arquétipo dO Mago encontra sua expressão solar em Áries. Esta combinação funde a força de Vontade e Início com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Vontade pode obscurecer a clareza de Áries.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "1-Touro": {
+    "perfil": "O arquétipo dO Mago encontra sua expressão solar em Touro. Esta combinação funde a força de Vontade e Início com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Vontade pode obscurecer a clareza de Touro.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "1-Gêmeos": {
+    "perfil": "O arquétipo dO Mago encontra sua expressão solar em Gêmeos. Esta combinação funde a força de Vontade e Início com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Vontade pode obscurecer a clareza de Gêmeos.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "1-Câncer": {
+    "perfil": "O arquétipo dO Mago encontra sua expressão solar em Câncer. Esta combinação funde a força de Vontade e Início com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Vontade pode obscurecer a clareza de Câncer.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "1-Leão": {
+    "perfil": "O arquétipo dO Mago encontra sua expressão solar em Leão. Esta combinação funde a força de Vontade e Início com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Vontade pode obscurecer a clareza de Leão.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "1-Virgem": {
+    "perfil": "O arquétipo dO Mago encontra sua expressão solar em Virgem. Esta combinação funde a força de Vontade e Início com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Vontade pode obscurecer a clareza de Virgem.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "1-Libra": {
+    "perfil": "O arquétipo dO Mago encontra sua expressão solar em Libra. Esta combinação funde a força de Vontade e Início com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Vontade pode obscurecer a clareza de Libra.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "1-Escorpião": {
+    "perfil": "O arquétipo dO Mago encontra sua expressão solar em Escorpião. Esta combinação funde a força de Vontade e Início com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Vontade pode obscurecer a clareza de Escorpião.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "1-Sagitário": {
+    "perfil": "O arquétipo dO Mago encontra sua expressão solar em Sagitário. Esta combinação funde a força de Vontade e Início com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Vontade pode obscurecer a clareza de Sagitário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "1-Capricórnio": {
+    "perfil": "O arquétipo dO Mago encontra sua expressão solar em Capricórnio. Esta combinação funde a força de Vontade e Início com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Vontade pode obscurecer a clareza de Capricórnio.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "1-Aquário": {
+    "perfil": "O arquétipo dO Mago encontra sua expressão solar em Aquário. Esta combinação funde a força de Vontade e Início com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Vontade pode obscurecer a clareza de Aquário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "1-Peixes": {
+    "perfil": "O arquétipo dO Mago encontra sua expressão solar em Peixes. Esta combinação funde a força de Vontade e Início com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Vontade pode obscurecer a clareza de Peixes.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "2-Áries": {
+    "perfil": "O arquétipo dA Sacerdotisa encontra sua expressão solar em Áries. Esta combinação funde a força de Intuição e Mistério com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Intuição pode obscurecer a clareza de Áries.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "2-Touro": {
+    "perfil": "O arquétipo dA Sacerdotisa encontra sua expressão solar em Touro. Esta combinação funde a força de Intuição e Mistério com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Intuição pode obscurecer a clareza de Touro.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "2-Gêmeos": {
+    "perfil": "O arquétipo dA Sacerdotisa encontra sua expressão solar em Gêmeos. Esta combinação funde a força de Intuição e Mistério com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Intuição pode obscurecer a clareza de Gêmeos.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "2-Câncer": {
+    "perfil": "O arquétipo dA Sacerdotisa encontra sua expressão solar em Câncer. Esta combinação funde a força de Intuição e Mistério com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Intuição pode obscurecer a clareza de Câncer.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "2-Leão": {
+    "perfil": "O arquétipo dA Sacerdotisa encontra sua expressão solar em Leão. Esta combinação funde a força de Intuição e Mistério com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Intuição pode obscurecer a clareza de Leão.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "2-Virgem": {
+    "perfil": "O arquétipo dA Sacerdotisa encontra sua expressão solar em Virgem. Esta combinação funde a força de Intuição e Mistério com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Intuição pode obscurecer a clareza de Virgem.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "2-Libra": {
+    "perfil": "O arquétipo dA Sacerdotisa encontra sua expressão solar em Libra. Esta combinação funde a força de Intuição e Mistério com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Intuição pode obscurecer a clareza de Libra.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "2-Escorpião": {
+    "perfil": "O arquétipo dA Sacerdotisa encontra sua expressão solar em Escorpião. Esta combinação funde a força de Intuição e Mistério com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Intuição pode obscurecer a clareza de Escorpião.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "2-Sagitário": {
+    "perfil": "O arquétipo dA Sacerdotisa encontra sua expressão solar em Sagitário. Esta combinação funde a força de Intuição e Mistério com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Intuição pode obscurecer a clareza de Sagitário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "2-Capricórnio": {
+    "perfil": "O arquétipo dA Sacerdotisa encontra sua expressão solar em Capricórnio. Esta combinação funde a força de Intuição e Mistério com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Intuição pode obscurecer a clareza de Capricórnio.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "2-Aquário": {
+    "perfil": "O arquétipo dA Sacerdotisa encontra sua expressão solar em Aquário. Esta combinação funde a força de Intuição e Mistério com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Intuição pode obscurecer a clareza de Aquário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "2-Peixes": {
+    "perfil": "O arquétipo dA Sacerdotisa encontra sua expressão solar em Peixes. Esta combinação funde a força de Intuição e Mistério com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Intuição pode obscurecer a clareza de Peixes.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "3-Áries": {
+    "perfil": "O arquétipo dA Imperatriz encontra sua expressão solar em Áries. Esta combinação funde a força de Criatividade e Abundância com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Criatividade pode obscurecer a clareza de Áries.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "3-Touro": {
+    "perfil": "O arquétipo dA Imperatriz encontra sua expressão solar em Touro. Esta combinação funde a força de Criatividade e Abundância com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Criatividade pode obscurecer a clareza de Touro.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "3-Gêmeos": {
+    "perfil": "O arquétipo dA Imperatriz encontra sua expressão solar em Gêmeos. Esta combinação funde a força de Criatividade e Abundância com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Criatividade pode obscurecer a clareza de Gêmeos.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "3-Câncer": {
+    "perfil": "O arquétipo dA Imperatriz encontra sua expressão solar em Câncer. Esta combinação funde a força de Criatividade e Abundância com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Criatividade pode obscurecer a clareza de Câncer.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "3-Leão": {
+    "perfil": "O arquétipo dA Imperatriz encontra sua expressão solar em Leão. Esta combinação funde a força de Criatividade e Abundância com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Criatividade pode obscurecer a clareza de Leão.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "3-Virgem": {
+    "perfil": "O arquétipo dA Imperatriz encontra sua expressão solar em Virgem. Esta combinação funde a força de Criatividade e Abundância com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Criatividade pode obscurecer a clareza de Virgem.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "3-Libra": {
+    "perfil": "O arquétipo dA Imperatriz encontra sua expressão solar em Libra. Esta combinação funde a força de Criatividade e Abundância com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Criatividade pode obscurecer a clareza de Libra.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "3-Escorpião": {
+    "perfil": "O arquétipo dA Imperatriz encontra sua expressão solar em Escorpião. Esta combinação funde a força de Criatividade e Abundância com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Criatividade pode obscurecer a clareza de Escorpião.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "3-Sagitário": {
+    "perfil": "O arquétipo dA Imperatriz encontra sua expressão solar em Sagitário. Esta combinação funde a força de Criatividade e Abundância com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Criatividade pode obscurecer a clareza de Sagitário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "3-Capricórnio": {
+    "perfil": "O arquétipo dA Imperatriz encontra sua expressão solar em Capricórnio. Esta combinação funde a força de Criatividade e Abundância com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Criatividade pode obscurecer a clareza de Capricórnio.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "3-Aquário": {
+    "perfil": "O arquétipo dA Imperatriz encontra sua expressão solar em Aquário. Esta combinação funde a força de Criatividade e Abundância com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Criatividade pode obscurecer a clareza de Aquário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "3-Peixes": {
+    "perfil": "O arquétipo dA Imperatriz encontra sua expressão solar em Peixes. Esta combinação funde a força de Criatividade e Abundância com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Criatividade pode obscurecer a clareza de Peixes.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "4-Áries": {
+    "perfil": "O arquétipo dO Imperador encontra sua expressão solar em Áries. Esta combinação funde a força de Estrutura e Ordem com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Estrutura pode obscurecer a clareza de Áries.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "4-Touro": {
+    "perfil": "O arquétipo dO Imperador encontra sua expressão solar em Touro. Esta combinação funde a força de Estrutura e Ordem com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Estrutura pode obscurecer a clareza de Touro.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "4-Gêmeos": {
+    "perfil": "O arquétipo dO Imperador encontra sua expressão solar em Gêmeos. Esta combinação funde a força de Estrutura e Ordem com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Estrutura pode obscurecer a clareza de Gêmeos.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "4-Câncer": {
+    "perfil": "O arquétipo dO Imperador encontra sua expressão solar em Câncer. Esta combinação funde a força de Estrutura e Ordem com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Estrutura pode obscurecer a clareza de Câncer.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "4-Leão": {
+    "perfil": "O arquétipo dO Imperador encontra sua expressão solar em Leão. Esta combinação funde a força de Estrutura e Ordem com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Estrutura pode obscurecer a clareza de Leão.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "4-Virgem": {
+    "perfil": "O arquétipo dO Imperador encontra sua expressão solar em Virgem. Esta combinação funde a força de Estrutura e Ordem com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Estrutura pode obscurecer a clareza de Virgem.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "4-Libra": {
+    "perfil": "O arquétipo dO Imperador encontra sua expressão solar em Libra. Esta combinação funde a força de Estrutura e Ordem com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Estrutura pode obscurecer a clareza de Libra.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "4-Escorpião": {
+    "perfil": "O arquétipo dO Imperador encontra sua expressão solar em Escorpião. Esta combinação funde a força de Estrutura e Ordem com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Estrutura pode obscurecer a clareza de Escorpião.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "4-Sagitário": {
+    "perfil": "O arquétipo dO Imperador encontra sua expressão solar em Sagitário. Esta combinação funde a força de Estrutura e Ordem com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Estrutura pode obscurecer a clareza de Sagitário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "4-Capricórnio": {
+    "perfil": "O arquétipo dO Imperador encontra sua expressão solar em Capricórnio. Esta combinação funde a força de Estrutura e Ordem com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Estrutura pode obscurecer a clareza de Capricórnio.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "4-Aquário": {
+    "perfil": "O arquétipo dO Imperador encontra sua expressão solar em Aquário. Esta combinação funde a força de Estrutura e Ordem com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Estrutura pode obscurecer a clareza de Aquário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "4-Peixes": {
+    "perfil": "O arquétipo dO Imperador encontra sua expressão solar em Peixes. Esta combinação funde a força de Estrutura e Ordem com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Estrutura pode obscurecer a clareza de Peixes.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "5-Áries": {
+    "perfil": "O arquétipo dO Papa encontra sua expressão solar em Áries. Esta combinação funde a força de Sabedoria e Tradição com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sabedoria pode obscurecer a clareza de Áries.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "5-Touro": {
+    "perfil": "O arquétipo dO Papa encontra sua expressão solar em Touro. Esta combinação funde a força de Sabedoria e Tradição com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sabedoria pode obscurecer a clareza de Touro.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "5-Gêmeos": {
+    "perfil": "O arquétipo dO Papa encontra sua expressão solar em Gêmeos. Esta combinação funde a força de Sabedoria e Tradição com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sabedoria pode obscurecer a clareza de Gêmeos.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "5-Câncer": {
+    "perfil": "O arquétipo dO Papa encontra sua expressão solar em Câncer. Esta combinação funde a força de Sabedoria e Tradição com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sabedoria pode obscurecer a clareza de Câncer.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "5-Leão": {
+    "perfil": "O arquétipo dO Papa encontra sua expressão solar em Leão. Esta combinação funde a força de Sabedoria e Tradição com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sabedoria pode obscurecer a clareza de Leão.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "5-Virgem": {
+    "perfil": "O arquétipo dO Papa encontra sua expressão solar em Virgem. Esta combinação funde a força de Sabedoria e Tradição com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sabedoria pode obscurecer a clareza de Virgem.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "5-Libra": {
+    "perfil": "O arquétipo dO Papa encontra sua expressão solar em Libra. Esta combinação funde a força de Sabedoria e Tradição com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sabedoria pode obscurecer a clareza de Libra.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "5-Escorpião": {
+    "perfil": "O arquétipo dO Papa encontra sua expressão solar em Escorpião. Esta combinação funde a força de Sabedoria e Tradição com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sabedoria pode obscurecer a clareza de Escorpião.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "5-Sagitário": {
+    "perfil": "O arquétipo dO Papa encontra sua expressão solar em Sagitário. Esta combinação funde a força de Sabedoria e Tradição com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sabedoria pode obscurecer a clareza de Sagitário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "5-Capricórnio": {
+    "perfil": "O arquétipo dO Papa encontra sua expressão solar em Capricórnio. Esta combinação funde a força de Sabedoria e Tradição com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sabedoria pode obscurecer a clareza de Capricórnio.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "5-Aquário": {
+    "perfil": "O arquétipo dO Papa encontra sua expressão solar em Aquário. Esta combinação funde a força de Sabedoria e Tradição com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sabedoria pode obscurecer a clareza de Aquário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "5-Peixes": {
+    "perfil": "O arquétipo dO Papa encontra sua expressão solar em Peixes. Esta combinação funde a força de Sabedoria e Tradição com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sabedoria pode obscurecer a clareza de Peixes.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "6-Áries": {
+    "perfil": "O arquétipo dOs Enamorados encontra sua expressão solar em Áries. Esta combinação funde a força de Escolha e União com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Escolha pode obscurecer a clareza de Áries.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "6-Touro": {
+    "perfil": "O arquétipo dOs Enamorados encontra sua expressão solar em Touro. Esta combinação funde a força de Escolha e União com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Escolha pode obscurecer a clareza de Touro.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "6-Gêmeos": {
+    "perfil": "O arquétipo dOs Enamorados encontra sua expressão solar em Gêmeos. Esta combinação funde a força de Escolha e União com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Escolha pode obscurecer a clareza de Gêmeos.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "6-Câncer": {
+    "perfil": "O arquétipo dOs Enamorados encontra sua expressão solar em Câncer. Esta combinação funde a força de Escolha e União com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Escolha pode obscurecer a clareza de Câncer.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "6-Leão": {
+    "perfil": "O arquétipo dOs Enamorados encontra sua expressão solar em Leão. Esta combinação funde a força de Escolha e União com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Escolha pode obscurecer a clareza de Leão.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "6-Virgem": {
+    "perfil": "O arquétipo dOs Enamorados encontra sua expressão solar em Virgem. Esta combinação funde a força de Escolha e União com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Escolha pode obscurecer a clareza de Virgem.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "6-Libra": {
+    "perfil": "O arquétipo dOs Enamorados encontra sua expressão solar em Libra. Esta combinação funde a força de Escolha e União com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Escolha pode obscurecer a clareza de Libra.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "6-Escorpião": {
+    "perfil": "O arquétipo dOs Enamorados encontra sua expressão solar em Escorpião. Esta combinação funde a força de Escolha e União com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Escolha pode obscurecer a clareza de Escorpião.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "6-Sagitário": {
+    "perfil": "O arquétipo dOs Enamorados encontra sua expressão solar em Sagitário. Esta combinação funde a força de Escolha e União com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Escolha pode obscurecer a clareza de Sagitário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "6-Capricórnio": {
+    "perfil": "O arquétipo dOs Enamorados encontra sua expressão solar em Capricórnio. Esta combinação funde a força de Escolha e União com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Escolha pode obscurecer a clareza de Capricórnio.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "6-Aquário": {
+    "perfil": "O arquétipo dOs Enamorados encontra sua expressão solar em Aquário. Esta combinação funde a força de Escolha e União com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Escolha pode obscurecer a clareza de Aquário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "6-Peixes": {
+    "perfil": "O arquétipo dOs Enamorados encontra sua expressão solar em Peixes. Esta combinação funde a força de Escolha e União com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Escolha pode obscurecer a clareza de Peixes.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "7-Áries": {
+    "perfil": "O arquétipo dO Carro encontra sua expressão solar em Áries. Esta combinação funde a força de Vitória e Movimento com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Vitória pode obscurecer a clareza de Áries.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "7-Touro": {
+    "perfil": "O arquétipo dO Carro encontra sua expressão solar em Touro. Esta combinação funde a força de Vitória e Movimento com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Vitória pode obscurecer a clareza de Touro.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "7-Gêmeos": {
+    "perfil": "O arquétipo dO Carro encontra sua expressão solar em Gêmeos. Esta combinação funde a força de Vitória e Movimento com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Vitória pode obscurecer a clareza de Gêmeos.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "7-Câncer": {
+    "perfil": "O arquétipo dO Carro encontra sua expressão solar em Câncer. Esta combinação funde a força de Vitória e Movimento com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Vitória pode obscurecer a clareza de Câncer.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "7-Leão": {
+    "perfil": "O arquétipo dO Carro encontra sua expressão solar em Leão. Esta combinação funde a força de Vitória e Movimento com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Vitória pode obscurecer a clareza de Leão.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "7-Virgem": {
+    "perfil": "O arquétipo dO Carro encontra sua expressão solar em Virgem. Esta combinação funde a força de Vitória e Movimento com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Vitória pode obscurecer a clareza de Virgem.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "7-Libra": {
+    "perfil": "O arquétipo dO Carro encontra sua expressão solar em Libra. Esta combinação funde a força de Vitória e Movimento com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Vitória pode obscurecer a clareza de Libra.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "7-Escorpião": {
+    "perfil": "O arquétipo dO Carro encontra sua expressão solar em Escorpião. Esta combinação funde a força de Vitória e Movimento com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Vitória pode obscurecer a clareza de Escorpião.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "7-Sagitário": {
+    "perfil": "O arquétipo dO Carro encontra sua expressão solar em Sagitário. Esta combinação funde a força de Vitória e Movimento com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Vitória pode obscurecer a clareza de Sagitário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "7-Capricórnio": {
+    "perfil": "O arquétipo dO Carro encontra sua expressão solar em Capricórnio. Esta combinação funde a força de Vitória e Movimento com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Vitória pode obscurecer a clareza de Capricórnio.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "7-Aquário": {
+    "perfil": "O arquétipo dO Carro encontra sua expressão solar em Aquário. Esta combinação funde a força de Vitória e Movimento com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Vitória pode obscurecer a clareza de Aquário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "7-Peixes": {
+    "perfil": "O arquétipo dO Carro encontra sua expressão solar em Peixes. Esta combinação funde a força de Vitória e Movimento com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Vitória pode obscurecer a clareza de Peixes.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "8-Áries": {
+    "perfil": "O arquétipo dA Justiça encontra sua expressão solar em Áries. Esta combinação funde a força de Equilíbrio e Verdade com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Equilíbrio pode obscurecer a clareza de Áries.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "8-Touro": {
+    "perfil": "O arquétipo dA Justiça encontra sua expressão solar em Touro. Esta combinação funde a força de Equilíbrio e Verdade com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Equilíbrio pode obscurecer a clareza de Touro.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "8-Gêmeos": {
+    "perfil": "O arquétipo dA Justiça encontra sua expressão solar em Gêmeos. Esta combinação funde a força de Equilíbrio e Verdade com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Equilíbrio pode obscurecer a clareza de Gêmeos.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "8-Câncer": {
+    "perfil": "O arquétipo dA Justiça encontra sua expressão solar em Câncer. Esta combinação funde a força de Equilíbrio e Verdade com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Equilíbrio pode obscurecer a clareza de Câncer.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "8-Leão": {
+    "perfil": "O arquétipo dA Justiça encontra sua expressão solar em Leão. Esta combinação funde a força de Equilíbrio e Verdade com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Equilíbrio pode obscurecer a clareza de Leão.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "8-Virgem": {
+    "perfil": "O arquétipo dA Justiça encontra sua expressão solar em Virgem. Esta combinação funde a força de Equilíbrio e Verdade com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Equilíbrio pode obscurecer a clareza de Virgem.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "8-Libra": {
+    "perfil": "O arquétipo dA Justiça encontra sua expressão solar em Libra. Esta combinação funde a força de Equilíbrio e Verdade com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Equilíbrio pode obscurecer a clareza de Libra.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "8-Escorpião": {
+    "perfil": "O arquétipo dA Justiça encontra sua expressão solar em Escorpião. Esta combinação funde a força de Equilíbrio e Verdade com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Equilíbrio pode obscurecer a clareza de Escorpião.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "8-Sagitário": {
+    "perfil": "O arquétipo dA Justiça encontra sua expressão solar em Sagitário. Esta combinação funde a força de Equilíbrio e Verdade com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Equilíbrio pode obscurecer a clareza de Sagitário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "8-Capricórnio": {
+    "perfil": "O arquétipo dA Justiça encontra sua expressão solar em Capricórnio. Esta combinação funde a força de Equilíbrio e Verdade com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Equilíbrio pode obscurecer a clareza de Capricórnio.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "8-Aquário": {
+    "perfil": "O arquétipo dA Justiça encontra sua expressão solar em Aquário. Esta combinação funde a força de Equilíbrio e Verdade com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Equilíbrio pode obscurecer a clareza de Aquário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "8-Peixes": {
+    "perfil": "O arquétipo dA Justiça encontra sua expressão solar em Peixes. Esta combinação funde a força de Equilíbrio e Verdade com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Equilíbrio pode obscurecer a clareza de Peixes.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "9-Áries": {
+    "perfil": "O arquétipo dO Eremita encontra sua expressão solar em Áries. Esta combinação funde a força de Introspecção e Luz com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Introspecção pode obscurecer a clareza de Áries.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "9-Touro": {
+    "perfil": "O arquétipo dO Eremita encontra sua expressão solar em Touro. Esta combinação funde a força de Introspecção e Luz com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Introspecção pode obscurecer a clareza de Touro.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "9-Gêmeos": {
+    "perfil": "O arquétipo dO Eremita encontra sua expressão solar em Gêmeos. Esta combinação funde a força de Introspecção e Luz com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Introspecção pode obscurecer a clareza de Gêmeos.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "9-Câncer": {
+    "perfil": "O arquétipo dO Eremita encontra sua expressão solar em Câncer. Esta combinação funde a força de Introspecção e Luz com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Introspecção pode obscurecer a clareza de Câncer.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "9-Leão": {
+    "perfil": "O arquétipo dO Eremita encontra sua expressão solar em Leão. Esta combinação funde a força de Introspecção e Luz com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Introspecção pode obscurecer a clareza de Leão.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "9-Virgem": {
+    "perfil": "O arquétipo dO Eremita encontra sua expressão solar em Virgem. Esta combinação funde a força de Introspecção e Luz com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Introspecção pode obscurecer a clareza de Virgem.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "9-Libra": {
+    "perfil": "O arquétipo dO Eremita encontra sua expressão solar em Libra. Esta combinação funde a força de Introspecção e Luz com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Introspecção pode obscurecer a clareza de Libra.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "9-Escorpião": {
+    "perfil": "O arquétipo dO Eremita encontra sua expressão solar em Escorpião. Esta combinação funde a força de Introspecção e Luz com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Introspecção pode obscurecer a clareza de Escorpião.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "9-Sagitário": {
+    "perfil": "O arquétipo dO Eremita encontra sua expressão solar em Sagitário. Esta combinação funde a força de Introspecção e Luz com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Introspecção pode obscurecer a clareza de Sagitário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "9-Capricórnio": {
+    "perfil": "O arquétipo dO Eremita encontra sua expressão solar em Capricórnio. Esta combinação funde a força de Introspecção e Luz com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Introspecção pode obscurecer a clareza de Capricórnio.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "9-Aquário": {
+    "perfil": "O arquétipo dO Eremita encontra sua expressão solar em Aquário. Esta combinação funde a força de Introspecção e Luz com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Introspecção pode obscurecer a clareza de Aquário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "9-Peixes": {
+    "perfil": "O arquétipo dO Eremita encontra sua expressão solar em Peixes. Esta combinação funde a força de Introspecção e Luz com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Introspecção pode obscurecer a clareza de Peixes.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "10-Áries": {
+    "perfil": "O arquétipo dA Roda da Fortuna encontra sua expressão solar em Áries. Esta combinação funde a força de Mudança e Ciclos com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Mudança pode obscurecer a clareza de Áries.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "10-Touro": {
+    "perfil": "O arquétipo dA Roda da Fortuna encontra sua expressão solar em Touro. Esta combinação funde a força de Mudança e Ciclos com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Mudança pode obscurecer a clareza de Touro.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "10-Gêmeos": {
+    "perfil": "O arquétipo dA Roda da Fortuna encontra sua expressão solar em Gêmeos. Esta combinação funde a força de Mudança e Ciclos com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Mudança pode obscurecer a clareza de Gêmeos.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "10-Câncer": {
+    "perfil": "O arquétipo dA Roda da Fortuna encontra sua expressão solar em Câncer. Esta combinação funde a força de Mudança e Ciclos com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Mudança pode obscurecer a clareza de Câncer.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "10-Leão": {
+    "perfil": "O arquétipo dA Roda da Fortuna encontra sua expressão solar em Leão. Esta combinação funde a força de Mudança e Ciclos com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Mudança pode obscurecer a clareza de Leão.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "10-Virgem": {
+    "perfil": "O arquétipo dA Roda da Fortuna encontra sua expressão solar em Virgem. Esta combinação funde a força de Mudança e Ciclos com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Mudança pode obscurecer a clareza de Virgem.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "10-Libra": {
+    "perfil": "O arquétipo dA Roda da Fortuna encontra sua expressão solar em Libra. Esta combinação funde a força de Mudança e Ciclos com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Mudança pode obscurecer a clareza de Libra.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "10-Escorpião": {
+    "perfil": "O arquétipo dA Roda da Fortuna encontra sua expressão solar em Escorpião. Esta combinação funde a força de Mudança e Ciclos com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Mudança pode obscurecer a clareza de Escorpião.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "10-Sagitário": {
+    "perfil": "O arquétipo dA Roda da Fortuna encontra sua expressão solar em Sagitário. Esta combinação funde a força de Mudança e Ciclos com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Mudança pode obscurecer a clareza de Sagitário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "10-Capricórnio": {
+    "perfil": "O arquétipo dA Roda da Fortuna encontra sua expressão solar em Capricórnio. Esta combinação funde a força de Mudança e Ciclos com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Mudança pode obscurecer a clareza de Capricórnio.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "10-Aquário": {
+    "perfil": "O arquétipo dA Roda da Fortuna encontra sua expressão solar em Aquário. Esta combinação funde a força de Mudança e Ciclos com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Mudança pode obscurecer a clareza de Aquário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "10-Peixes": {
+    "perfil": "O arquétipo dA Roda da Fortuna encontra sua expressão solar em Peixes. Esta combinação funde a força de Mudança e Ciclos com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Mudança pode obscurecer a clareza de Peixes.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "11-Áries": {
+    "perfil": "O arquétipo dA Força encontra sua expressão solar em Áries. Esta combinação funde a força de Domínio e Coragem com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Domínio pode obscurecer a clareza de Áries.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "11-Touro": {
+    "perfil": "O arquétipo dA Força encontra sua expressão solar em Touro. Esta combinação funde a força de Domínio e Coragem com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Domínio pode obscurecer a clareza de Touro.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "11-Gêmeos": {
+    "perfil": "O arquétipo dA Força encontra sua expressão solar em Gêmeos. Esta combinação funde a força de Domínio e Coragem com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Domínio pode obscurecer a clareza de Gêmeos.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "11-Câncer": {
+    "perfil": "O arquétipo dA Força encontra sua expressão solar em Câncer. Esta combinação funde a força de Domínio e Coragem com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Domínio pode obscurecer a clareza de Câncer.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "11-Leão": {
+    "perfil": "O arquétipo dA Força encontra sua expressão solar em Leão. Esta combinação funde a força de Domínio e Coragem com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Domínio pode obscurecer a clareza de Leão.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "11-Virgem": {
+    "perfil": "O arquétipo dA Força encontra sua expressão solar em Virgem. Esta combinação funde a força de Domínio e Coragem com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Domínio pode obscurecer a clareza de Virgem.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "11-Libra": {
+    "perfil": "O arquétipo dA Força encontra sua expressão solar em Libra. Esta combinação funde a força de Domínio e Coragem com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Domínio pode obscurecer a clareza de Libra.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "11-Escorpião": {
+    "perfil": "O arquétipo dA Força encontra sua expressão solar em Escorpião. Esta combinação funde a força de Domínio e Coragem com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Domínio pode obscurecer a clareza de Escorpião.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "11-Sagitário": {
+    "perfil": "O arquétipo dA Força encontra sua expressão solar em Sagitário. Esta combinação funde a força de Domínio e Coragem com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Domínio pode obscurecer a clareza de Sagitário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "11-Capricórnio": {
+    "perfil": "O arquétipo dA Força encontra sua expressão solar em Capricórnio. Esta combinação funde a força de Domínio e Coragem com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Domínio pode obscurecer a clareza de Capricórnio.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "11-Aquário": {
+    "perfil": "O arquétipo dA Força encontra sua expressão solar em Aquário. Esta combinação funde a força de Domínio e Coragem com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Domínio pode obscurecer a clareza de Aquário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "11-Peixes": {
+    "perfil": "O arquétipo dA Força encontra sua expressão solar em Peixes. Esta combinação funde a força de Domínio e Coragem com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Domínio pode obscurecer a clareza de Peixes.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "12-Áries": {
+    "perfil": "O arquétipo dO Pendurado encontra sua expressão solar em Áries. Esta combinação funde a força de Perspectiva e Pausa com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Perspectiva pode obscurecer a clareza de Áries.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "12-Touro": {
+    "perfil": "O arquétipo dO Pendurado encontra sua expressão solar em Touro. Esta combinação funde a força de Perspectiva e Pausa com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Perspectiva pode obscurecer a clareza de Touro.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "12-Gêmeos": {
+    "perfil": "O arquétipo dO Pendurado encontra sua expressão solar em Gêmeos. Esta combinação funde a força de Perspectiva e Pausa com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Perspectiva pode obscurecer a clareza de Gêmeos.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "12-Câncer": {
+    "perfil": "O arquétipo dO Pendurado encontra sua expressão solar em Câncer. Esta combinação funde a força de Perspectiva e Pausa com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Perspectiva pode obscurecer a clareza de Câncer.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "12-Leão": {
+    "perfil": "O arquétipo dO Pendurado encontra sua expressão solar em Leão. Esta combinação funde a força de Perspectiva e Pausa com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Perspectiva pode obscurecer a clareza de Leão.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "12-Virgem": {
+    "perfil": "O arquétipo dO Pendurado encontra sua expressão solar em Virgem. Esta combinação funde a força de Perspectiva e Pausa com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Perspectiva pode obscurecer a clareza de Virgem.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "12-Libra": {
+    "perfil": "O arquétipo dO Pendurado encontra sua expressão solar em Libra. Esta combinação funde a força de Perspectiva e Pausa com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Perspectiva pode obscurecer a clareza de Libra.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "12-Escorpião": {
+    "perfil": "O arquétipo dO Pendurado encontra sua expressão solar em Escorpião. Esta combinação funde a força de Perspectiva e Pausa com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Perspectiva pode obscurecer a clareza de Escorpião.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "12-Sagitário": {
+    "perfil": "O arquétipo dO Pendurado encontra sua expressão solar em Sagitário. Esta combinação funde a força de Perspectiva e Pausa com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Perspectiva pode obscurecer a clareza de Sagitário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "12-Capricórnio": {
+    "perfil": "O arquétipo dO Pendurado encontra sua expressão solar em Capricórnio. Esta combinação funde a força de Perspectiva e Pausa com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Perspectiva pode obscurecer a clareza de Capricórnio.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "12-Aquário": {
+    "perfil": "O arquétipo dO Pendurado encontra sua expressão solar em Aquário. Esta combinação funde a força de Perspectiva e Pausa com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Perspectiva pode obscurecer a clareza de Aquário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "12-Peixes": {
+    "perfil": "O arquétipo dO Pendurado encontra sua expressão solar em Peixes. Esta combinação funde a força de Perspectiva e Pausa com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Perspectiva pode obscurecer a clareza de Peixes.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "13-Áries": {
+    "perfil": "O arquétipo dA Morte encontra sua expressão solar em Áries. Esta combinação funde a força de Transformação e Fim com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Transformação pode obscurecer a clareza de Áries.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "13-Touro": {
+    "perfil": "O arquétipo dA Morte encontra sua expressão solar em Touro. Esta combinação funde a força de Transformação e Fim com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Transformação pode obscurecer a clareza de Touro.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "13-Gêmeos": {
+    "perfil": "O arquétipo dA Morte encontra sua expressão solar em Gêmeos. Esta combinação funde a força de Transformação e Fim com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Transformação pode obscurecer a clareza de Gêmeos.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "13-Câncer": {
+    "perfil": "O arquétipo dA Morte encontra sua expressão solar em Câncer. Esta combinação funde a força de Transformação e Fim com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Transformação pode obscurecer a clareza de Câncer.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "13-Leão": {
+    "perfil": "O arquétipo dA Morte encontra sua expressão solar em Leão. Esta combinação funde a força de Transformação e Fim com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Transformação pode obscurecer a clareza de Leão.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "13-Virgem": {
+    "perfil": "O arquétipo dA Morte encontra sua expressão solar em Virgem. Esta combinação funde a força de Transformação e Fim com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Transformação pode obscurecer a clareza de Virgem.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "13-Libra": {
+    "perfil": "O arquétipo dA Morte encontra sua expressão solar em Libra. Esta combinação funde a força de Transformação e Fim com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Transformação pode obscurecer a clareza de Libra.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "13-Escorpião": {
+    "perfil": "O arquétipo dA Morte encontra sua expressão solar em Escorpião. Esta combinação funde a força de Transformação e Fim com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Transformação pode obscurecer a clareza de Escorpião.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "13-Sagitário": {
+    "perfil": "O arquétipo dA Morte encontra sua expressão solar em Sagitário. Esta combinação funde a força de Transformação e Fim com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Transformação pode obscurecer a clareza de Sagitário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "13-Capricórnio": {
+    "perfil": "O arquétipo dA Morte encontra sua expressão solar em Capricórnio. Esta combinação funde a força de Transformação e Fim com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Transformação pode obscurecer a clareza de Capricórnio.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "13-Aquário": {
+    "perfil": "O arquétipo dA Morte encontra sua expressão solar em Aquário. Esta combinação funde a força de Transformação e Fim com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Transformação pode obscurecer a clareza de Aquário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "13-Peixes": {
+    "perfil": "O arquétipo dA Morte encontra sua expressão solar em Peixes. Esta combinação funde a força de Transformação e Fim com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Transformação pode obscurecer a clareza de Peixes.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "14-Áries": {
+    "perfil": "O arquétipo dA Temperança encontra sua expressão solar em Áries. Esta combinação funde a força de Alquimia e Paciência com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Alquimia pode obscurecer a clareza de Áries.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "14-Touro": {
+    "perfil": "O arquétipo dA Temperança encontra sua expressão solar em Touro. Esta combinação funde a força de Alquimia e Paciência com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Alquimia pode obscurecer a clareza de Touro.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "14-Gêmeos": {
+    "perfil": "O arquétipo dA Temperança encontra sua expressão solar em Gêmeos. Esta combinação funde a força de Alquimia e Paciência com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Alquimia pode obscurecer a clareza de Gêmeos.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "14-Câncer": {
+    "perfil": "O arquétipo dA Temperança encontra sua expressão solar em Câncer. Esta combinação funde a força de Alquimia e Paciência com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Alquimia pode obscurecer a clareza de Câncer.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "14-Leão": {
+    "perfil": "O arquétipo dA Temperança encontra sua expressão solar em Leão. Esta combinação funde a força de Alquimia e Paciência com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Alquimia pode obscurecer a clareza de Leão.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "14-Virgem": {
+    "perfil": "O arquétipo dA Temperança encontra sua expressão solar em Virgem. Esta combinação funde a força de Alquimia e Paciência com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Alquimia pode obscurecer a clareza de Virgem.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "14-Libra": {
+    "perfil": "O arquétipo dA Temperança encontra sua expressão solar em Libra. Esta combinação funde a força de Alquimia e Paciência com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Alquimia pode obscurecer a clareza de Libra.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "14-Escorpião": {
+    "perfil": "O arquétipo dA Temperança encontra sua expressão solar em Escorpião. Esta combinação funde a força de Alquimia e Paciência com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Alquimia pode obscurecer a clareza de Escorpião.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "14-Sagitário": {
+    "perfil": "O arquétipo dA Temperança encontra sua expressão solar em Sagitário. Esta combinação funde a força de Alquimia e Paciência com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Alquimia pode obscurecer a clareza de Sagitário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "14-Capricórnio": {
+    "perfil": "O arquétipo dA Temperança encontra sua expressão solar em Capricórnio. Esta combinação funde a força de Alquimia e Paciência com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Alquimia pode obscurecer a clareza de Capricórnio.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "14-Aquário": {
+    "perfil": "O arquétipo dA Temperança encontra sua expressão solar em Aquário. Esta combinação funde a força de Alquimia e Paciência com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Alquimia pode obscurecer a clareza de Aquário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "14-Peixes": {
+    "perfil": "O arquétipo dA Temperança encontra sua expressão solar em Peixes. Esta combinação funde a força de Alquimia e Paciência com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Alquimia pode obscurecer a clareza de Peixes.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "15-Áries": {
+    "perfil": "O arquétipo dO Diabo encontra sua expressão solar em Áries. Esta combinação funde a força de Paixão e Sombra com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Paixão pode obscurecer a clareza de Áries.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "15-Touro": {
+    "perfil": "O arquétipo dO Diabo encontra sua expressão solar em Touro. Esta combinação funde a força de Paixão e Sombra com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Paixão pode obscurecer a clareza de Touro.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "15-Gêmeos": {
+    "perfil": "O arquétipo dO Diabo encontra sua expressão solar em Gêmeos. Esta combinação funde a força de Paixão e Sombra com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Paixão pode obscurecer a clareza de Gêmeos.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "15-Câncer": {
+    "perfil": "O arquétipo dO Diabo encontra sua expressão solar em Câncer. Esta combinação funde a força de Paixão e Sombra com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Paixão pode obscurecer a clareza de Câncer.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "15-Leão": {
+    "perfil": "O arquétipo dO Diabo encontra sua expressão solar em Leão. Esta combinação funde a força de Paixão e Sombra com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Paixão pode obscurecer a clareza de Leão.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "15-Virgem": {
+    "perfil": "O arquétipo dO Diabo encontra sua expressão solar em Virgem. Esta combinação funde a força de Paixão e Sombra com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Paixão pode obscurecer a clareza de Virgem.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "15-Libra": {
+    "perfil": "O arquétipo dO Diabo encontra sua expressão solar em Libra. Esta combinação funde a força de Paixão e Sombra com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Paixão pode obscurecer a clareza de Libra.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "15-Escorpião": {
+    "perfil": "O arquétipo dO Diabo encontra sua expressão solar em Escorpião. Esta combinação funde a força de Paixão e Sombra com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Paixão pode obscurecer a clareza de Escorpião.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "15-Sagitário": {
+    "perfil": "O arquétipo dO Diabo encontra sua expressão solar em Sagitário. Esta combinação funde a força de Paixão e Sombra com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Paixão pode obscurecer a clareza de Sagitário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "15-Capricórnio": {
+    "perfil": "O arquétipo dO Diabo encontra sua expressão solar em Capricórnio. Esta combinação funde a força de Paixão e Sombra com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Paixão pode obscurecer a clareza de Capricórnio.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "15-Aquário": {
+    "perfil": "O arquétipo dO Diabo encontra sua expressão solar em Aquário. Esta combinação funde a força de Paixão e Sombra com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Paixão pode obscurecer a clareza de Aquário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "15-Peixes": {
+    "perfil": "O arquétipo dO Diabo encontra sua expressão solar em Peixes. Esta combinação funde a força de Paixão e Sombra com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Paixão pode obscurecer a clareza de Peixes.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "16-Áries": {
+    "perfil": "O arquétipo dA Torre encontra sua expressão solar em Áries. Esta combinação funde a força de Ruptura e Libertação com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Ruptura pode obscurecer a clareza de Áries.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "16-Touro": {
+    "perfil": "O arquétipo dA Torre encontra sua expressão solar em Touro. Esta combinação funde a força de Ruptura e Libertação com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Ruptura pode obscurecer a clareza de Touro.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "16-Gêmeos": {
+    "perfil": "O arquétipo dA Torre encontra sua expressão solar em Gêmeos. Esta combinação funde a força de Ruptura e Libertação com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Ruptura pode obscurecer a clareza de Gêmeos.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "16-Câncer": {
+    "perfil": "O arquétipo dA Torre encontra sua expressão solar em Câncer. Esta combinação funde a força de Ruptura e Libertação com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Ruptura pode obscurecer a clareza de Câncer.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "16-Leão": {
+    "perfil": "O arquétipo dA Torre encontra sua expressão solar em Leão. Esta combinação funde a força de Ruptura e Libertação com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Ruptura pode obscurecer a clareza de Leão.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "16-Virgem": {
+    "perfil": "O arquétipo dA Torre encontra sua expressão solar em Virgem. Esta combinação funde a força de Ruptura e Libertação com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Ruptura pode obscurecer a clareza de Virgem.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "16-Libra": {
+    "perfil": "O arquétipo dA Torre encontra sua expressão solar em Libra. Esta combinação funde a força de Ruptura e Libertação com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Ruptura pode obscurecer a clareza de Libra.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "16-Escorpião": {
+    "perfil": "O arquétipo dA Torre encontra sua expressão solar em Escorpião. Esta combinação funde a força de Ruptura e Libertação com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Ruptura pode obscurecer a clareza de Escorpião.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "16-Sagitário": {
+    "perfil": "O arquétipo dA Torre encontra sua expressão solar em Sagitário. Esta combinação funde a força de Ruptura e Libertação com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Ruptura pode obscurecer a clareza de Sagitário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "16-Capricórnio": {
+    "perfil": "O arquétipo dA Torre encontra sua expressão solar em Capricórnio. Esta combinação funde a força de Ruptura e Libertação com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Ruptura pode obscurecer a clareza de Capricórnio.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "16-Aquário": {
+    "perfil": "O arquétipo dA Torre encontra sua expressão solar em Aquário. Esta combinação funde a força de Ruptura e Libertação com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Ruptura pode obscurecer a clareza de Aquário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "16-Peixes": {
+    "perfil": "O arquétipo dA Torre encontra sua expressão solar em Peixes. Esta combinação funde a força de Ruptura e Libertação com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Ruptura pode obscurecer a clareza de Peixes.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "17-Áries": {
+    "perfil": "O arquétipo dA Estrela encontra sua expressão solar em Áries. Esta combinação funde a força de Esperança e Fé com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Esperança pode obscurecer a clareza de Áries.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "17-Touro": {
+    "perfil": "O arquétipo dA Estrela encontra sua expressão solar em Touro. Esta combinação funde a força de Esperança e Fé com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Esperança pode obscurecer a clareza de Touro.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "17-Gêmeos": {
+    "perfil": "O arquétipo dA Estrela encontra sua expressão solar em Gêmeos. Esta combinação funde a força de Esperança e Fé com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Esperança pode obscurecer a clareza de Gêmeos.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "17-Câncer": {
+    "perfil": "O arquétipo dA Estrela encontra sua expressão solar em Câncer. Esta combinação funde a força de Esperança e Fé com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Esperança pode obscurecer a clareza de Câncer.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "17-Leão": {
+    "perfil": "O arquétipo dA Estrela encontra sua expressão solar em Leão. Esta combinação funde a força de Esperança e Fé com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Esperança pode obscurecer a clareza de Leão.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "17-Virgem": {
+    "perfil": "O arquétipo dA Estrela encontra sua expressão solar em Virgem. Esta combinação funde a força de Esperança e Fé com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Esperança pode obscurecer a clareza de Virgem.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "17-Libra": {
+    "perfil": "O arquétipo dA Estrela encontra sua expressão solar em Libra. Esta combinação funde a força de Esperança e Fé com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Esperança pode obscurecer a clareza de Libra.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "17-Escorpião": {
+    "perfil": "O arquétipo dA Estrela encontra sua expressão solar em Escorpião. Esta combinação funde a força de Esperança e Fé com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Esperança pode obscurecer a clareza de Escorpião.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "17-Sagitário": {
+    "perfil": "O arquétipo dA Estrela encontra sua expressão solar em Sagitário. Esta combinação funde a força de Esperança e Fé com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Esperança pode obscurecer a clareza de Sagitário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "17-Capricórnio": {
+    "perfil": "O arquétipo dA Estrela encontra sua expressão solar em Capricórnio. Esta combinação funde a força de Esperança e Fé com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Esperança pode obscurecer a clareza de Capricórnio.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "17-Aquário": {
+    "perfil": "O arquétipo dA Estrela encontra sua expressão solar em Aquário. Esta combinação funde a força de Esperança e Fé com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Esperança pode obscurecer a clareza de Aquário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "17-Peixes": {
+    "perfil": "O arquétipo dA Estrela encontra sua expressão solar em Peixes. Esta combinação funde a força de Esperança e Fé com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Esperança pode obscurecer a clareza de Peixes.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "18-Áries": {
+    "perfil": "O arquétipo dA Lua encontra sua expressão solar em Áries. Esta combinação funde a força de Sonhos e Ilusão com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sonhos pode obscurecer a clareza de Áries.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "18-Touro": {
+    "perfil": "O arquétipo dA Lua encontra sua expressão solar em Touro. Esta combinação funde a força de Sonhos e Ilusão com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sonhos pode obscurecer a clareza de Touro.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "18-Gêmeos": {
+    "perfil": "O arquétipo dA Lua encontra sua expressão solar em Gêmeos. Esta combinação funde a força de Sonhos e Ilusão com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sonhos pode obscurecer a clareza de Gêmeos.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "18-Câncer": {
+    "perfil": "O arquétipo dA Lua encontra sua expressão solar em Câncer. Esta combinação funde a força de Sonhos e Ilusão com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sonhos pode obscurecer a clareza de Câncer.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "18-Leão": {
+    "perfil": "O arquétipo dA Lua encontra sua expressão solar em Leão. Esta combinação funde a força de Sonhos e Ilusão com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sonhos pode obscurecer a clareza de Leão.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "18-Virgem": {
+    "perfil": "O arquétipo dA Lua encontra sua expressão solar em Virgem. Esta combinação funde a força de Sonhos e Ilusão com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sonhos pode obscurecer a clareza de Virgem.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "18-Libra": {
+    "perfil": "O arquétipo dA Lua encontra sua expressão solar em Libra. Esta combinação funde a força de Sonhos e Ilusão com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sonhos pode obscurecer a clareza de Libra.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "18-Escorpião": {
+    "perfil": "O arquétipo dA Lua encontra sua expressão solar em Escorpião. Esta combinação funde a força de Sonhos e Ilusão com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sonhos pode obscurecer a clareza de Escorpião.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "18-Sagitário": {
+    "perfil": "O arquétipo dA Lua encontra sua expressão solar em Sagitário. Esta combinação funde a força de Sonhos e Ilusão com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sonhos pode obscurecer a clareza de Sagitário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "18-Capricórnio": {
+    "perfil": "O arquétipo dA Lua encontra sua expressão solar em Capricórnio. Esta combinação funde a força de Sonhos e Ilusão com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sonhos pode obscurecer a clareza de Capricórnio.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "18-Aquário": {
+    "perfil": "O arquétipo dA Lua encontra sua expressão solar em Aquário. Esta combinação funde a força de Sonhos e Ilusão com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sonhos pode obscurecer a clareza de Aquário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "18-Peixes": {
+    "perfil": "O arquétipo dA Lua encontra sua expressão solar em Peixes. Esta combinação funde a força de Sonhos e Ilusão com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sonhos pode obscurecer a clareza de Peixes.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "19-Áries": {
+    "perfil": "O arquétipo dO Sol encontra sua expressão solar em Áries. Esta combinação funde a força de Sucesso e Alegria com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sucesso pode obscurecer a clareza de Áries.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "19-Touro": {
+    "perfil": "O arquétipo dO Sol encontra sua expressão solar em Touro. Esta combinação funde a força de Sucesso e Alegria com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sucesso pode obscurecer a clareza de Touro.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "19-Gêmeos": {
+    "perfil": "O arquétipo dO Sol encontra sua expressão solar em Gêmeos. Esta combinação funde a força de Sucesso e Alegria com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sucesso pode obscurecer a clareza de Gêmeos.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "19-Câncer": {
+    "perfil": "O arquétipo dO Sol encontra sua expressão solar em Câncer. Esta combinação funde a força de Sucesso e Alegria com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sucesso pode obscurecer a clareza de Câncer.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "19-Leão": {
+    "perfil": "O arquétipo dO Sol encontra sua expressão solar em Leão. Esta combinação funde a força de Sucesso e Alegria com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sucesso pode obscurecer a clareza de Leão.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "19-Virgem": {
+    "perfil": "O arquétipo dO Sol encontra sua expressão solar em Virgem. Esta combinação funde a força de Sucesso e Alegria com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sucesso pode obscurecer a clareza de Virgem.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "19-Libra": {
+    "perfil": "O arquétipo dO Sol encontra sua expressão solar em Libra. Esta combinação funde a força de Sucesso e Alegria com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sucesso pode obscurecer a clareza de Libra.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "19-Escorpião": {
+    "perfil": "O arquétipo dO Sol encontra sua expressão solar em Escorpião. Esta combinação funde a força de Sucesso e Alegria com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sucesso pode obscurecer a clareza de Escorpião.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "19-Sagitário": {
+    "perfil": "O arquétipo dO Sol encontra sua expressão solar em Sagitário. Esta combinação funde a força de Sucesso e Alegria com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sucesso pode obscurecer a clareza de Sagitário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "19-Capricórnio": {
+    "perfil": "O arquétipo dO Sol encontra sua expressão solar em Capricórnio. Esta combinação funde a força de Sucesso e Alegria com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sucesso pode obscurecer a clareza de Capricórnio.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "19-Aquário": {
+    "perfil": "O arquétipo dO Sol encontra sua expressão solar em Aquário. Esta combinação funde a força de Sucesso e Alegria com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sucesso pode obscurecer a clareza de Aquário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "19-Peixes": {
+    "perfil": "O arquétipo dO Sol encontra sua expressão solar em Peixes. Esta combinação funde a força de Sucesso e Alegria com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Sucesso pode obscurecer a clareza de Peixes.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "20-Áries": {
+    "perfil": "O arquétipo dO Julgamento encontra sua expressão solar em Áries. Esta combinação funde a força de Despertar e Chamado com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Despertar pode obscurecer a clareza de Áries.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "20-Touro": {
+    "perfil": "O arquétipo dO Julgamento encontra sua expressão solar em Touro. Esta combinação funde a força de Despertar e Chamado com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Despertar pode obscurecer a clareza de Touro.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "20-Gêmeos": {
+    "perfil": "O arquétipo dO Julgamento encontra sua expressão solar em Gêmeos. Esta combinação funde a força de Despertar e Chamado com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Despertar pode obscurecer a clareza de Gêmeos.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "20-Câncer": {
+    "perfil": "O arquétipo dO Julgamento encontra sua expressão solar em Câncer. Esta combinação funde a força de Despertar e Chamado com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Despertar pode obscurecer a clareza de Câncer.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "20-Leão": {
+    "perfil": "O arquétipo dO Julgamento encontra sua expressão solar em Leão. Esta combinação funde a força de Despertar e Chamado com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Despertar pode obscurecer a clareza de Leão.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "20-Virgem": {
+    "perfil": "O arquétipo dO Julgamento encontra sua expressão solar em Virgem. Esta combinação funde a força de Despertar e Chamado com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Despertar pode obscurecer a clareza de Virgem.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "20-Libra": {
+    "perfil": "O arquétipo dO Julgamento encontra sua expressão solar em Libra. Esta combinação funde a força de Despertar e Chamado com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Despertar pode obscurecer a clareza de Libra.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "20-Escorpião": {
+    "perfil": "O arquétipo dO Julgamento encontra sua expressão solar em Escorpião. Esta combinação funde a força de Despertar e Chamado com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Despertar pode obscurecer a clareza de Escorpião.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "20-Sagitário": {
+    "perfil": "O arquétipo dO Julgamento encontra sua expressão solar em Sagitário. Esta combinação funde a força de Despertar e Chamado com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Despertar pode obscurecer a clareza de Sagitário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "20-Capricórnio": {
+    "perfil": "O arquétipo dO Julgamento encontra sua expressão solar em Capricórnio. Esta combinação funde a força de Despertar e Chamado com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Despertar pode obscurecer a clareza de Capricórnio.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "20-Aquário": {
+    "perfil": "O arquétipo dO Julgamento encontra sua expressão solar em Aquário. Esta combinação funde a força de Despertar e Chamado com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Despertar pode obscurecer a clareza de Aquário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "20-Peixes": {
+    "perfil": "O arquétipo dO Julgamento encontra sua expressão solar em Peixes. Esta combinação funde a força de Despertar e Chamado com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Despertar pode obscurecer a clareza de Peixes.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "21-Áries": {
+    "perfil": "O arquétipo dO Mundo encontra sua expressão solar em Áries. Esta combinação funde a força de Plenitude e Unidade com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Plenitude pode obscurecer a clareza de Áries.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "21-Touro": {
+    "perfil": "O arquétipo dO Mundo encontra sua expressão solar em Touro. Esta combinação funde a força de Plenitude e Unidade com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Plenitude pode obscurecer a clareza de Touro.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "21-Gêmeos": {
+    "perfil": "O arquétipo dO Mundo encontra sua expressão solar em Gêmeos. Esta combinação funde a força de Plenitude e Unidade com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Plenitude pode obscurecer a clareza de Gêmeos.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "21-Câncer": {
+    "perfil": "O arquétipo dO Mundo encontra sua expressão solar em Câncer. Esta combinação funde a força de Plenitude e Unidade com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Plenitude pode obscurecer a clareza de Câncer.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "21-Leão": {
+    "perfil": "O arquétipo dO Mundo encontra sua expressão solar em Leão. Esta combinação funde a força de Plenitude e Unidade com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Plenitude pode obscurecer a clareza de Leão.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "21-Virgem": {
+    "perfil": "O arquétipo dO Mundo encontra sua expressão solar em Virgem. Esta combinação funde a força de Plenitude e Unidade com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Plenitude pode obscurecer a clareza de Virgem.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "21-Libra": {
+    "perfil": "O arquétipo dO Mundo encontra sua expressão solar em Libra. Esta combinação funde a força de Plenitude e Unidade com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Plenitude pode obscurecer a clareza de Libra.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "21-Escorpião": {
+    "perfil": "O arquétipo dO Mundo encontra sua expressão solar em Escorpião. Esta combinação funde a força de Plenitude e Unidade com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Plenitude pode obscurecer a clareza de Escorpião.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "21-Sagitário": {
+    "perfil": "O arquétipo dO Mundo encontra sua expressão solar em Sagitário. Esta combinação funde a força de Plenitude e Unidade com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Plenitude pode obscurecer a clareza de Sagitário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "21-Capricórnio": {
+    "perfil": "O arquétipo dO Mundo encontra sua expressão solar em Capricórnio. Esta combinação funde a força de Plenitude e Unidade com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Plenitude pode obscurecer a clareza de Capricórnio.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "21-Aquário": {
+    "perfil": "O arquétipo dO Mundo encontra sua expressão solar em Aquário. Esta combinação funde a força de Plenitude e Unidade com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Plenitude pode obscurecer a clareza de Aquário.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  },
+  "21-Peixes": {
+    "perfil": "O arquétipo dO Mundo encontra sua expressão solar em Peixes. Esta combinação funde a força de Plenitude e Unidade com a modalidade zodiacal.",
+    "ponto_cego": "O excesso de Plenitude pode obscurecer a clareza de Peixes.",
+    "lideranca": "Inspirar equilíbrio entre o arquétipo e o signo."
+  }
+}

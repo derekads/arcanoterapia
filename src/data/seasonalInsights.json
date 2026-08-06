@@ -1,0 +1,816 @@
+[
+    {
+        "arcanoId": 0,
+        "trimestres": {
+            "Q1": {
+                "AMOR": "Início de ciclos amorosos inesperados. Permita-se experimentar sem amarras, mas mantenha os pés no chão. Ideal para quem quer se libertar de padrões tóxicos.",
+                "DINHEIRO": "Risco calculado é favorável. Invista em ideias inovadoras, mas guarde reserva de emergência. Evite gastos impulsivos com 'novidades'.",
+                "SAUDE": "Energia renovada, mas atenção a acidentes por distração. Práticas de grounding são essenciais. Experimente novas modalidades de exercício.",
+                "CARREIRA": "Momento de ousadia. Proponha projetos audaciosos ou mude de área se sentir chamado. Não tenha medo de começar do zero.",
+                "FAMILIA": "Quebra de padrões familiares antigos. Seja o primeiro a fazer diferente. Liberte-se de expectativas impostas.",
+                "PROPOSITO": "Descoberta através da experiência. Não busque respostas prontas - viva para entender. O caminho se faz ao andar."
+            },
+            "Q2": {
+                "AMOR": "Relacionamentos precisam de leveza. Evite ficar preso em rotinas. Surpresas românticas e viagens fortalecem laços.",
+                "DINHEIRO": "Diversificação é a chave. Não coloque todos os ovos na mesma cesta. Renda extra através de hobbies é favorecida.",
+                "SAUDE": "Atenção ao sistema nervoso. Meditação e respiração ajudam a controlar a ansiedade. Evite excessos de cafeína.",
+                "CARREIRA": "Oportunidades fora da caixa aparecem. Networking inusitado traz aberturas. Aceite desafios que outros temem.",
+                "FAMILIA": "Flexibilidade necessária. Nem tudo precisa ser como sempre foi. Inclua familiares em suas novas aventuras.",
+                "PROPOSITO": "Expandir horizontes. Cursos, viagens ou novas filosofias trazem clareza. O mundo é maior que sua zona de conforto."
+            },
+            "Q3": {
+                "AMOR": "Paixões intensas, mas voláteis. Aproveite o momento presente sem prometer o futuro. Honestidade radical é necessária.",
+                "DINHEIRO": "Retorno de investimentos arriscados. Hora de colher o que plantou no Q1, mas não aposte tudo novamente.",
+                "SAUDE": "Cansaço acumulado pede pausa. O corpo precisa de descanso entre uma aventura e outra. Durma bem.",
+                "CARREIRA": "Reconhecimento pela ousadia. Seu diferencial é a coragem. Projetos inovadores dão frutos agora.",
+                "FAMILIA": "Reconciliações possíveis. O perdão vem através da leveza. Não leve a sério demais antigas rusgas.",
+                "PROPOSITO": "Síntese das experiências. O que você aprendeu com os erros do primeiro semestre? Integre essas lições."
+            },
+            "Q4": {
+                "AMOR": "Escolha entre liberdade e compromisso. Nem todo relacionamento precisa de rótulo, mas honestidade é crucial.",
+                "DINHEIRO": "Planejamento para o próximo ano. Guarde recursos para novas aventuras em janeiro. Economize sem ser mesquinho.",
+                "SAUDE": "Prevenção é melhor que remédio. Check-up geral antes das festas. Cuidado com excessos nas celebrações.",
+                "CARREIRA": "Fechamento de ciclos. Projetos que não deram certo são deixados para trás sem peso. Energia renovada para 2025.",
+                "FAMILIA": "Confraternizações leves. Evite discussões profundas no Natal. Mantenha o clima descontraído.",
+                "PROPOSITO": "Gratidão pela jornada. Você cresceu através do caos. Celebre suas quedas e levantadas."
+            }
+        }
+    },
+    {
+        "arcanoId": 1,
+        "trimestres": {
+            "Q1": {
+                "AMOR": "Manifestação consciente. Você atrai o que emite. Clareza de intenções traz parceiros alinhados. Comunicação é afrodisíaca.",
+                "DINHEIRO": "Recursos surgem através de habilidades próprias. Hora de cobrar pelo seu talento. Negociações são favoráveis.",
+                "SAUDE": "Potencial curativo alto. A mente comanda o corpo. Visualização criativa auxilia na recuperação.",
+                "CARREIRA": "Reconhecimento das competências. Você tem todas as ferramentas necessárias. Liderança natural emerge.",
+                "FAMILIA": "Resolução de conflitos através da palavra. Diálogos honestos curam feridas. Seja o mediador.",
+                "PROPOSITO": "Descoberta dos próprios dons. Você é mais capaz do que imagina. Hora de agir, não apenas sonhar."
+            },
+            "Q2": {
+                "AMOR": "Relacionamentos baseados em interesses comuns. Estudos ou trabalho juntos fortalecem. Conversas profundas unem.",
+                "DINHEIRO": "Múltiplas fontes de renda se ativam. Networking trava parcerias lucrativas. Habilidades de comunicação = dinheiro.",
+                "SAUDE": "Alternativas terapêuticas favorecidas. Acupuntura, fitoterapia ou terapias holísticas trazem resultados.",
+                "CARREIRA": "Projetos de comunicação, marketing ou ensino prosperam. Sua capacidade de sintetizar ideias é valorizada.",
+                "FAMILIA": "Educação e aprendizado em família. Ensine o que sabe. Momentos de jogos e desafios intelectuais unem.",
+                "PROPOSITO": "Maestria em desenvolvimento. A prática leva à perfeição. Dedique-se aos estudos e aperfeiçoamento."
+            },
+            "Q3": {
+                "AMOR": "Magnetismo aumentado. Você está no auge da atração pessoal, mas use esse poder com ética. Sedução consciente.",
+                "DINHEIRO": "Colheita financeira significativa. Contratos assinados trazem segurança. Renegociações antigas saem a seu favor.",
+                "SAUDE": "Energia vital estável. Mantenha a disciplina dos cuidados preventivos. O corpo responde bem aos comandos mentais.",
+                "CARREIRA": "Autoridade consolidada. Você é referência em sua área. Use essa influência para mentorar outros.",
+                "FAMILIA": "Harmonia através da compreensão. Você consegue explicar o inexplicável. Paciência com diferenças gera paz.",
+                "PROPOSITO": "Realização de metas importantes. Objetivos traçados no Q1 se concretizam. Celebre sua capacidade criadora."
+            },
+            "Q4": {
+                "AMOR": "Compromissos assumidos com consciência. Promessas feitas serão cumpridas. Seriedade nos relacionamentos.",
+                "DINHEIRO": "Planejamento estratégico para 2025. Organize as finanças com inteligência. Investimentos em educação são prioridade.",
+                "SAUDE": "Manutenção da saúde mental. Estresse de final de ano é gerenciável com técnicas de respiração. Desconecte-se quando necessário.",
+                "CARREIRA": "Consolidação de projetos. Documente o que aprendeu. Compartilhe conhecimento através de mentorias ou cursos.",
+                "FAMILIA": "Tradições reinventadas. Crie novos rituais familiares baseados em valores autênticos, não obrigações.",
+                "PROPOSITO": "Transmutação. Transforme experiências negativas em sabedoria. Você tem o poder de ressignificar sua história."
+            }
+        }
+    },
+    {
+        "arcanoId": 2,
+        "trimestres": {
+            "Q1": {
+                "AMOR": "Intuição sobre relacionamentos. Ouça o que não é dito. Sonhos trazem revelações sobre parceiros. Silêncio é resposta.",
+                "DINHEIRO": "Investimentos em conhecimento esotérico ou psicológico trazem retorno futuro. Não revele seus planos financeiros ainda.",
+                "SAUDE": "Cuidados com o sistema hormonal e emocional. Fases da lua influenciam seu bem-estar. Registre seus ciclos.",
+                "CARREIRA": "Estudo e pesquisa são prioridades. Informação é poder. Guarde suas estratégias até o momento certo.",
+                "FAMILIA": "Segredos familiares vêm à tona. Lide com sensibilidade. Você é a guardiã da memória ancestral.",
+                "PROPOSITO": "Conexão com o feminino sagrado. Estudos espirituais profundos. Meditação e introspecção trazem respostas."
+            },
+            "Q2": {
+                "AMOR": "Relacionamentos profundos, não superficiais. Evite fofocas sobre sua vida amorosa. Intimidade em privacidade.",
+                "DINHEIRO": "Recursos através de trabalho oculto ou por trás das cortinas. Consultoria, terapia ou assessoria é favorável.",
+                "SAUDE": "Cura emocional intensa. Terapia traz resultados profundos agora. Sonhos lúcidos podem indicar caminhos curativos.",
+                "CARREIRA": "Trabalho em bastidores é valorizado. Análise, pesquisa ou desenvolvimento de projetos discretos. Paciência é virtude.",
+                "FAMILIA": "Apoio emocional à família. Você é o ombro amigo, mas cuide para não absorver energias negativas.",
+                "PROPOSITO": "Sabedoria interior. Respostas vêm na quietude. Desenvolva sua sensibilidade sem medo de ser diferente."
+            },
+            "Q3": {
+                "AMOR": "Mistério e atração. Não revele todos os seus segredos de uma vez. Manter um ar de mistério fortalece o desejo.",
+                "DINHEIRO": "Intuição financeira aguçada. Sonhos ou synchronicities indicam onde investir. Confie na voz interior sobre planilhas.",
+                "SAUDE": "Cura através da água. Banhos de mar, hidroterapia ou simplesmente beber mais água purificam profundamente.",
+                "CARREIRA": "Revelação de conhecimentos. Hora de compartilhar o que pesquisou. Seu conhecimento especializado é reconhecido.",
+                "FAMILIA": "Heranças maternais. Conexão com mães, avós ou figuras femininas. Resgate valores tradicionais com sabedoria.",
+                "PROPOSITO": "Iniciação. Você passa por um portal de consciência. Aceite o chamado para um caminho mais profundo."
+            },
+            "Q4": {
+                "AMOR": "Relacionamentos kármicos se revelam. Pessoas do passado retornam para fechar ciclos. Perdão cura ancestralidades.",
+                "DINHEIRO": "Planejamento intuitivo para 2025. Use a razão e a intuição em equilíbrio. Sonhos podem revelar oportunidades futuras.",
+                "SAUDE": "Regeneração profunda. Férias ou retiro espiritual são altamente recomendados. Desconecte-se do mundo externo.",
+                "CARREIRA": "Consolidação de autoridade silenciosa. Você não precisa provar nada a ninguém. Sua presença é suficiente.",
+                "FAMILIA": "Paz através da compreensão emocional. Perdoe feridas antigas. Você é a curandeira da linhagem.",
+                "PROPOSITO": "Iluminação interior. A luz que você buscava estava dentro de você o tempo todo. Compartilhe essa verdade."
+            }
+        }
+    },
+    {
+        "arcanoId": 3,
+        "trimestres": {
+            "Q1": {
+                "AMOR": "Fertilidade amorosa. Relacionamentos florescem. Cuidado e atenção fazem o amor crescer. Romantismo em abundância.",
+                "DINHEIRO": "Prosperidade natural. Dinheiro vem através do conforto, beleza ou agricultura. Invista no que traz prazer sensorial.",
+                "SAUDE": "Fertilidade e vitalidade. Ótimo período para gestação ou criação de novos hábitos saudáveis. Alimentação natural.",
+                "CARREIRA": "Criatividade em abundância. Projetos nascem facilmente. Liderança maternal/cuidadosa é reconhecida.",
+                "FAMILIA": "Gravidez ou nascimento de novos projetos familiares. Nutrição dos laços. Ambiente doméstico harmonioso.",
+                "PROPOSITO": "Criar e nutrir. Você é um canal de manifestação abundante. Permitir-se receber é parte do processo."
+            },
+            "Q2": {
+                "AMOR": "Sensualidade e prazer. Relacionamentos físicos e emocionais em sintonia. Afeto demonstrado através de cuidados práticos.",
+                "DINHEIRO": "Crescimento orgânico dos recursos. Investimentos em imóveis, arte ou jardinagem. Abundância através da beleza.",
+                "SAUDE": "Bem-estar sensorial. Massagens, aromaterapia e contato com a natureza restauram profundamente.",
+                "CARREIRA": "Reconhecimento pela capacidade de gerar resultados. Projetos que cuidam de pessoas ou do planeta prosperam.",
+                "FAMILIA": "Celebrações familiares. Reuniões em torno da comida. Você é o centro nutridor do lar.",
+                "PROPOSITO": "Abundância em todos os sentidos. O universo é generoso. Abra-se para receber sem culpa."
+            },
+            "Q3": {
+                "AMOR": "Relacionamentos maduros e estáveis. Colheita do amor plantado. Parcerias duradouras são firmadas.",
+                "DINHEIRO": "Colheita financeira generosa. Resultados de investimentos feitos no início do ano. Compras de valor duradouro.",
+                "SAUDE": "Vitalidade no auge. O corpo responde bem aos cuidados amorosos. Beleza que irradia de dentro para fora.",
+                "CARREIRA": "Projetos frutificam. Reconhecimento público pela capacidade de gerar vida/crescimento. Liderança afetiva.",
+                "FAMILIA": "União familiar forte. Momentos de orgulho dos filhos/sobrinhos. Legado se constrói com amor.",
+                "PROPOSITO": "Realização materna/emocional. Você criou algo belo e duradouro. O mundo é melhor pelo seu cuidado."
+            },
+            "Q4": {
+                "AMOR": "Amor incondicional. Relacionamentos baseados em aceitação profunda. Cuidado mútuo nas festas de fim de ano.",
+                "DINHEIRO": "Generosidade responsável. Dar e receber em equilíbrio. Presentes que valorizam relacionamentos, não apenas bens.",
+                "SAUDE": "Descanso regenerativo. O corpo precisa de pausa após tanto dar. Autocuidado é prioridade absoluta.",
+                "CARREIRA": "Conclusão de projetos com graça. Você entrega resultados com beleza e eficiência. Reconhecimento duradouro.",
+                "FAMILIA": "Natal em família com afeto. Tradições que nutrem a alma. Você é o coração das celebrações.",
+                "PROPOSITO": "Gratidão pela fertilidade de sua vida. Você é fonte inesgotável de amor e criação. Descanse na sua abundância."
+            }
+        }
+    },
+    {
+        "arcanoId": 4,
+        "trimestres": {
+            "Q1": {
+                "AMOR": "Estrutura nos relacionamentos. Defina limites claros. Liderança masculina/saudável é atrativa. Compromisso sério.",
+                "DINHEIRO": "Organização financeira rígida. Orçamentos, metas claras e disciplina. Construção de império começa com base sólida.",
+                "SAUDE": "Força física e disciplina. Academia, rotinas rígidas de saúde. Cuidado com estresse e tensão muscular.",
+                "CARREIRA": "Assunção de poder. Liderança executiva, gestão ou empreendedorismo estruturado. Autoridade natural.",
+                "FAMILIA": "Responsabilidades assumidas com seriedade. Paternidade/maternidade ativa. Proteção e provisão.",
+                "PROPOSITO": "Construção legítima. Estabelecer ordem no caos. Você é o arquiteto da sua realidade."
+            },
+            "Q2": {
+                "AMOR": "Relacionamentos estáveis e duradouros. Provas de amor através de segurança e proteção. Lealdade testada e comprovada.",
+                "DINHEIRO": "Expansão controlada. Investimentos seguros, imóveis ou negócios tradicionais. Crescimento sustentável.",
+                "SAUDE": "Resistência física aumentada. Esportes competitivos ou atividades que exigem disciplina. Prevenção de lesões.",
+                "CARREIRA": "Consolidação de autoridade. Equipes bem gerenciadas. Estruturas organizacionais sólidas sendo implementadas.",
+                "FAMILIA": "Tradições familiares valorizadas. Respeito à hierarquia saudável. Momentos de qualidade programados.",
+                "PROPOSITO": "Domínio próprio. Controlar emoções para liderar melhor. Força que vem da estabilidade interior."
+            },
+            "Q3": {
+                "AMOR": "Relacionamentos maduros e estruturados. Parcerias de longo prazo firmadas. Respeito mútuo consolidado.",
+                "DINHEIRO": "Colheita de investimentos conservadores. Patrimônio se valoriza. Segurança financeira estabilizada.",
+                "SAUDE": "Saúde robusta, mas atenção ao coração e pressão. Check-ups médicos rigorosos. Prevenção é lei.",
+                "CARREIRA": "Poder executivo máximo. Você está no topo da cadeia. Decisões importantes tomadas com sabedoria e firmeza.",
+                "FAMILIA": "Autoridade paterna/materna respeitada. Resolução de conflitos com justiça. Proteção da unidade familiar.",
+                "PROPOSITO": "Legado sendo construído. Você está criando algo que durará gerações. Responsabilidade com o futuro."
+            },
+            "Q4": {
+                "AMOR": "Compromissos duradouros selados. Casamentos, uniões estáveis ou renovação de votos. Lealdade absoluta.",
+                "DINHEIRO": "Planejamento sucessório. Organização do patrimônio para 2025 e além. Estabilidade garantida para inverno.",
+                "SAUDE": "Manutenção da força. Não abandone a rotina nas festas. Disciplina é liberdade.",
+                "CARREIRA": "Revisão estratégica anual. O que funcionou? O que precisa de mais estrutura? Documente processos.",
+                "FAMILIA": "Natal tradicional e organizado. Você garante que todos estejam bem, mas peça ajuda quando necessário.",
+                "PROPOSITO": "Saber quando liderar e quando ceder. Verdadeira força está na sabedoria, não apenas no controle."
+            }
+        }
+    },
+    {
+        "arcanoId": 5,
+        "trimestres": {
+            "Q1": {
+                "AMOR": "Relacionamentos baseados em valores compartilhados. Busca de significado profundo na parceria. Orientação espiritual em comum.",
+                "DINHEIRO": "Investimentos em após e responsáveis. Dinheiro usado para causas maiores. Mentoria financeira é valiosa.",
+                "SAUDE": "Cura através de terapias holísticas. Medicinas alternativas sob orientação. Saúde espiritual reflete no físico.",
+                "CARREIRA": "Educação e ensino são caminhos. Transmissão de conhecimento. Consultoria baseada em experiência.",
+                "FAMILIA": "Valores familiares transmitidos. Educação dos mais jovens. Respeito às tradições saudáveis.",
+                "PROPOSITO": "Busca por significado. Conexão com algo maior que si mesmo. Orientação espiritual ou filosófica."
+            },
+            "Q2": {
+                "AMOR": "Uniões espirituais. Relacionamentos que elevam a consciência. Mentoria mútua. Respeito profundo às crenças do outro.",
+                "DINHEIRO": "Prosperidade através do conhecimento. Ensinar, escrever ou aconselhar gera recursos. Ética antes do lucro.",
+                "SAUDE": "Saúde integrativa. Corpo, mente e espírito em tratamento conjunto. Busca de curadores reconhecidos.",
+                "CARREIRA": "Reconhecimento como autoridade intelectual. Publicações, palestras ou cursos. Liderança baseada em sabedoria.",
+                "FAMILIA": "Reuniões familiares com conteúdo. Discussões profundas, não apenas fofocas. Conselho do ancião é respeitado.",
+                "PROPOSITO": "Sabedoria aplicada. Não basta saber, é preciso compartilhar. Você é um canal de ensinamentos."
+            },
+            "Q3": {
+                "AMOR": "Relacionamentos que trazem paz interior. Harmonia através da compreensão espiritual. Perdão e aceitação.",
+                "DINHEIRO": "Investimentos filantrópicos. Retribuir é abençoar. Templo/santuário interior antes do externo.",
+                "SAUDE": "Cura profunda de traumas antigos. Terapia regressiva ou holística traz resultados. Paz interior reflete no corpo.",
+                "CARREIRA": "Mentoria de sucesso. Seus pupilos dão frutos. Reconhecimento pela capacidade de formar outros.",
+                "FAMILIA": "Papel de conselheiro sábio. Resolução de conflitos com imparcialidade. União através de valores.",
+                "PROPOSITO": "Realização espiritual. Você encontrou (ou está perto) seu caminho. Autenticidade total."
+            },
+            "Q4": {
+                "AMOR": "Bênçãos aos relacionamentos. Uniões abençoadas. Gratidão pelos companheiros de jornada. Perdão de ofensas.",
+                "DINHEIRO": "Generosidade como lei. Dar com a mão direita sem saber a esquerda. Prosperidade compartilhada multiplica.",
+                "SAUDE": "Gratidão pela saúde. Cuidados preventivos como ato de amor-próprio. Descanso sagrado.",
+                "CARREIRA": "Consolidação de legado educacional. O que você ensinou este ano permanece. Satisfação profissional plena.",
+                "FAMILIA": "Natal com significado espiritual. Tradições que realmente importam. Bênçãos aos familiares.",
+                "PROPOSITO": "Paz interior conquistada. Você é um farol para outros. Mantenha sua luz acesa."
+            }
+        }
+    },
+    {
+        "arcanoId": 6,
+        "trimestres": {
+            "Q1": {
+                "AMOR": "Escolhas amorosas importantes. Bifurcações na vida afetiva. Decisões que envolvem coração e razão. Novos amores.",
+                "DINHEIRO": "Decisões financeiras em parceria. Acordos comerciais amorosos. Investimentos em beleza e harmonia.",
+                "SAUDE": "Saúde através do equilíbrio. Harmonizar opostos internos. Terapias de casal ou grupo são favoráveis.",
+                "CARREIRA": "Parcerias profissionais decisivas. Escolha entre caminhos. Alinhamento de valores no trabalho.",
+                "FAMILIA": "Harmonização de opostos familiares. Pontes entre gerações. Escolhas que afetam toda a família.",
+                "PROPOSITO": "União de polaridades. Integrar masculino/feminino internos. Escolhas alinhadas com o coração."
+            },
+            "Q2": {
+                "AMOR": "Relacionamentos em harmonia. Compromissos firmados. União de almas gêmeas ou kindred spirits. Atração magnética.",
+                "DINHEIRO": "Recursos através de parcerias. Sociedades comerciais prosperam. Beleza e arte geram lucro.",
+                "SAUDE": "Cura através do amor. Relacionamentos saudáveis curam doenças. Terapia de relacionamento é crucial.",
+                "CARREIRA": "Trabalho em equipe perfeito. Sinergia com colegas. Projetos colaborativos têm sucesso garantido.",
+                "FAMILIA": "Casamentos, noivados ou uniões. Celebrações familiares. Harmonia entre cônjuges restaurada.",
+                "PROPOSITO": "Amor como caminho. Escolher com o coração, mas com consciência. Integração de opostos."
+            },
+            "Q3": {
+                "AMOR": "Paixão e compromisso. Relacionamentos intensos e decididos. Escolhas difíceis que vale a pena fazer.",
+                "DINHEIRO": "Resultados de parcerias. Dividir para multiplicar. Investimentos em comum dão retorno.",
+                "SAUDE": "Equilíbrio hormonal e emocional. Saúde sexual em pauta. Harmonia entre corpo e mente.",
+                "CARREIRA": "Trabalho em parceria é valorizado. Networking afetivo profissional.",
+                "FAMILIA": "Decisões familiares compartilhadas. Votações democráticas. Respeito às diferenças de opinião.",
+                "PROPOSITO": "Unidade. Você entende que somos todos um. Compaixão ativa nas relações."
+            },
+            "Q4": {
+                "AMOR": "Gratidão ao companheiro(a). Celebração do amor conquistado. Recompromissos. Amor maduro e consciente.",
+                "DINHEIRO": "Estabilidade em conjunto. Planejamento financeiro a dois. Prosperidade compartilhada.",
+                "SAUDE": "Saúde do casal/relacionamento. Cuidados mútuos. Amor como remédio preventivo.",
+                "CARREIRA": "Revisão de parcerias do ano. O que fortalecer? O que soltar? Gratidão aos colegas.",
+                "FAMILIA": "Natal em família unida. Reconciliações importantes. Amor como centro das celebrações.",
+                "PROPOSITO": "Escolha consciente diária. Amar é uma decisão, não apenas uma emoção. Compromisso renovado."
+            }
+        }
+    },
+    {
+        "arcanoId": 7,
+        "trimestres": {
+            "Q1": {
+                "AMOR": "Avanço nos relacionamentos. Coragem para conquistar. Viagens românticas. Determinação na busca do amor.",
+                "DINHEIRO": "Ação decisiva nos negócios. Investimentos que exigem coragem. Movimentação rápida de recursos.",
+                "SAUDE": "Energia física alta. Esportes, atividades ao ar livre. Cuidado com acidentes de velocidade.",
+                "CARREIRA": "Ambição em alta. Conquista de objetivos. Competitividade saudável. Vitória através do esforço.",
+                "FAMILIA": "Proteção ativa da família. Defender os seus com unhas e dentes. Liderança protetora.",
+                "PROPOSITO": "Vontade de vencer. Determinação inabalável. Você é o condutor do seu destino."
+            },
+            "Q2": {
+                "AMOR": "Relacionamentos em movimento. Viajar juntos fortalece. Dinâmica e aventura. Conquista através de persistência.",
+                "DINHEIRO": "Resultados de ações rápidas. Negócios que dependem de agilidade. Vitória sobre concorrentes.",
+                "SAUDE": "Resistência física aumentada. Treinos intensos. Cuidado com exaustão. Equilibrar atividade e descanso.",
+                "CARREIRA": "Sucesso em projetos desafiadores. Reconhecimento pela capacidade de execução. Liderança dinâmica.",
+                "FAMILIA": "Atividades familiares ao ar livre. Esportes em família. Proteção ativa dos entes queridos.",
+                "PROPOSITO": "Domínio das emoções. Controlar os cavalos internos. Direção firme apesar das adversidades."
+            },
+            "Q3": {
+                "AMOR": "Relacionamentos vitoriosos. Superação de obstáculos juntos. Triunfo através da união. Paixão em alta.",
+                "DINHEIRO": "Colheita de resultados rápidos. Sucesso em empreendimentos arriscados. Recompensa pela coragem.",
+                "SAUDE": "Pico de energia física. Vitória sobre doenças. Recuperação rápida de procedimentos médicos.",
+                "CARREIRA": "Conquista de metas importantes. Promoção ou reconhecimento público. Você está no comando.",
+                "FAMILIA": "Vitórias familiares compartilhadas. Orgulho dos feitos dos filhos/sobrinhos. União defensiva.",
+                "PROPOSITO": "Realização através da ação. Você provou sua força de vontade. Mantenha o foco na direção certa."
+            },
+            "Q4": {
+                "AMOR": "Estabilidade conquistada. Relacionamentos que resistem à prova do tempo. Compromisso firme após batalhas.",
+                "DINHEIRO": "Consolidação de conquistas. Guardar os frutos da vitória. Planejamento de novas campanhas para 2025.",
+                "SAUDE": "Manutenção da forma física. Não relaxe totalmente no inverno. Preparação para o próximo ciclo.",
+                "CARREIRA": "Reconhecimento final de ano. Prêmios ou bônus merecidos. Posição de autoridade consolidada.",
+                "FAMILIA": "Natal comemorando conquistas do ano. Gratidão pela proteção recebida. Festa da vitória.",
+                "PROPOSITO": "Sabedoria da experiência. Você aprendeu a dirigir sua vida com maestria. Pronto para novas jornadas."
+            }
+        }
+    },
+    {
+        "arcanoId": 8,
+        "trimestres": {
+            "Q1": {
+                "AMOR": "Equilíbrio nos relacionamentos. Dar e receber em medida justa. Acordos claros. Honestidade radical.",
+                "DINHEIRO": "Orçamento equilibrado. Contas em dia. Acordos comerciais justos. Justiça fiscal sendo feita.",
+                "SAUDE": "Equilíbrio hormonal. Saúde mental em foco. Terapia para harmonizar opostos internos.",
+                "CARREIRA": "Decisões importantes no trabalho. Ética profissional reconhecida. Acordos de parceria justos.",
+                "FAMILIA": "Harmonia através da justiça. Resolução de pendências antigas. Diálogo honesto sobre divisão de responsabilidades.",
+                "PROPOSITO": "Verdade e equilíbrio. Karma sendo ajustado. Ações do passado trazem resultados justos agora."
+            },
+            "Q2": {
+                "AMOR": "Relacionamentos kármicos se equilibram. Dívidas afetivas sendo pagas. Harmonia restabelecida.",
+                "DINHEIRO": "Resultados de escolhas justas. Investimentos éticos prosperam. Recursos distribuídos com equidade.",
+                "SAUDE": "Cura através do equilíbrio. Moderation in all things. Alimentação balanceada e rotina saudável.",
+                "CARREIRA": "Reconhecimento pela integridade. Promoções justas. Ambiente de trabalho harmonizado.",
+                "FAMILIA": "Acordos familiares selados. Heranças justamente divididas. Responsabilidades equilibradas.",
+                "PROPOSITO": "Lei de causa e efeito. Você está colhendo o que plantou. Equilíbrio entre mente e coração."
+            },
+            "Q3": {
+                "AMOR": "Relacionamentos maduros e justos. Parcerias baseadas em respeito mútuo. Decisões importantes tomadas com clareza.",
+                "DINHEIRO": "Colheita de justiça. Recursos que chegam através de decisões justas do passado. Estabilidade conquistada.",
+                "SAUDE": "Saúde estável e equilibrada. Manutenção preventiva. Check-ups regulares mostram equilíbrio.",
+                "CARREIRA": "Decisões executivas justas. Liderança imparcial. Reconhecimento pela capacidade de julgamento.",
+                "FAMILIA": "Justiça sendo feita em casa. Proteção dos mais fracos. Harmonia restabelecida através da verdade.",
+                "PROPOSITO": "Sabedoria do equilíbrio. Você aprendeu a pesar todos os fatores antes de agir. Integridade total."
+            },
+            "Q4": {
+                "AMOR": "Relacionamentos em paz. Conflitos resolvidos. Gratidão pela justiça divina em suas uniões. Perdão justo.",
+                "DINHEIRO": "Fechamento de contas com honestidade. Planejamento justo para 2025. Dívidas quitadas.",
+                "SAUDE": "Equilíbrio físico e mental pleno. Preparação saudável para o novo ano. Moderação nas festas.",
+                "CARREIRA": "Revisão justa do ano. Reconhecimento merecido. Preparação para novas responsabilidades com equilíbrio.",
+                "FAMILIA": "Natal de paz e reconciliação. Perdão de ofensas passadas. Harmonia restaurada definitivamente.",
+                "PROPOSITO": "Karma positivo gerado. Você agiu com justiça e integridade. O universo retribui em abundância."
+            }
+        }
+    },
+    {
+        "arcanoId": 9,
+        "trimestres": {
+            "Q1": {
+                "AMOR": "Solitude necessária. Tempo para si antes de relacionar. Relacionamentos maduros que respeitem espaço. Introspecção.",
+                "DINHEIRO": "Economia e poupança. Investimentos conservadores. Estudo antes de aplicar. Planejamento solitário mas sábio.",
+                "SAUDE": "Cura interior profunda. Terapia solitária (journaling, meditação). Cuidados alternativos e naturais.",
+                "CARREIRA": "Trabalho solo é produtivo. Pesquisa, análise, estudo. Não force colaborações agora. Independência profissional.",
+                "FAMILIA": "Distância saudável de dramas familiares. Presença seletiva. Exemplo através do silêncio.",
+                "PROPOSITO": "Busca interior. A resposta está dentro de você. Iluminação vem na solidão. Sabedoria através da introspecção."
+            },
+            "Q2": {
+                "AMOR": "Relacionamentos de almas profundas. Conexões que não precisam de palavras. Amor maduro e silencioso.",
+                "DINHEIRO": "Resultados de investimentos conservadores. Economias rendendo. Sabedoria financeira silenciosa.",
+                "SAUDE": "Saúde mental prioridade. Retiros espirituais. Desconexão digital terapêutica. Cura através do silêncio.",
+                "CARREIRA": "Especialização técnica. Conhecimento profundo reconhecido. Autoridade silenciosa. Mentoria individual.",
+                "FAMILIA": "Orientação sábia quando solicitada. Presença tranquila. Exemplo de vida simples e consciente.",
+                "PROPOSITO": "Discernimento. Separar o joio do trigo. Ver a verdade oculta. Sabedoria que vem da experiência."
+            },
+            "Q3": {
+                "AMOR": "Relacionamentos baseados em respeito profundo. Amor que suporta distância. Conexões kármicas de vidas passadas.",
+                "DINHEIRO": "Estabilidade silenciosa. Patrimônio construído lentamente. Investimentos que outros não notam.",
+                "SAUDE": "Cura profunda de doenças crônicas. Medicina integrativa. Terapias que exigem paciência.",
+                "CARREIRA": "Reconhecimento tardio mas merecido. Seu trabalho silencioso é notado. Autoridade técnica consolidada.",
+                "FAMILIA": "Papel de conselheiro sábio. Ouvir mais que falar. Orientação espiritual aos familiares.",
+                "PROPOSITO": "Iluminação interior. Você encontrou sua luz própria. Não precisa da aprovação externa."
+            },
+            "Q4": {
+                "AMOR": "Amor incondicional e silencioso. Presença sem expectativas. Relacionamentos que transcendem o físico.",
+                "DINHEIRO": "Segurança tranquila. Planejamento para aposentadoria. Simplicidade consciente. Menos é mais.",
+                "SAUDE": "Saúde através da simplicidade. Alimentação natural. Rotina minimalista. Descanso profundao.",
+                "CARREIRA": "Consolidação de expertise. Documentação do conhecimento. Preparação para mentorar em 2025.",
+                "FAMILIA": "Natal introspectivo. Momentos de qualidade silenciosos. Gratidão profunda não demonstrada em palavras.",
+                "PROPOSITO": "Sabedoria compartilhada. Você está pronto para guiar outros. Sua luz ilumina o caminho dos buscadores."
+            }
+        }
+    },
+    {
+        "arcanoId": 10,
+        "trimestres": {
+            "Q1": {
+                "AMOR": "Ciclos amorosos se iniciam. Destino traz pessoas importantes. Synchronicities românticas. Abra-se para o inesperado.",
+                "DINHEIRO": "Mudanças repentinas de sorte. Ciclos de prosperidade começam. Apostas calculadas podem dar certo.",
+                "SAUDE": "Cura milagrosa possível. Energia renovada repentinamente. Atenção a acidentes inesperados também.",
+                "CARREIRA": "Oportunidades súbitas. Viradas de mesa profissionais. Estar no lugar certo na hora certa.",
+                "FAMILIA": "Ciclos familiares se renovam. Novos membros ou novas dinâmicas. Aceite as mudanças com graça.",
+                "PROPOSITO": "Fluxo da vida. Aprender a surfar as ondas do destino. Aceitar o que não pode controlar."
+            },
+            "Q2": {
+                "AMOR": "Relacionamentos destinados. Encontros que mudam a vida. Paixões intensas e passageiras ou duradouras.",
+                "DINHEIRO": "Boa sorte financeira. Ganhos inesperados. Investimentos que valorizam rapidamente. Ciclos ascendentes.",
+                "SAUDE": "Melhora súbita de condições. Energia em alta. Aproveite o bom momento para criar hábitos saudáveis.",
+                "CARREIRA": "Reconhecimento imprevisto. Projetos que decolam de repente. Sucesso através de timing perfeito.",
+                "FAMILIA": "Mudanças positivas na dinâmica familiar. Sorte compartilhada. Celebrações inesperadas.",
+                "PROPOSITO": "Confiança no fluxo. Você está no ciclo ascendente. Gratidão pela abundância que chega."
+            },
+            "Q3": {
+                "AMOR": "Relacionamentos em transformação. O que subiu pode descer, o que desceu sobe. Equanimidade nas mudanças.",
+                "DINHEIRO": "Ciclos de oscilação. Manter a calma nas flutuações. Não se apegue demais nos ganhos nem nos perdas.",
+                "SAUDE": "Altos e baixos de energia. Respeitar os ciclos do corpo. Prevenção durante os picos de energia.",
+                "CARREIRA": "Viradas inesperadas. Projetos que mudam de direção. Adaptabilidade é a chave do sucesso.",
+                "FAMILIA": "Ciclos de aproximação e distância. Respeitar o timing de cada um. Família em transformação.",
+                "PROPOSITO": "Impermanência. Tudo muda, isso é lei. Sabedoria está em não se apegar aos momentos bons nem ruins."
+            },
+            "Q4": {
+                "AMOR": "Gratidão pelos ciclos vividos. Relacionamentos que completaram seu propósito. Aceitação das mudanças.",
+                "DINHEIRO": "Fechamento de ciclos financeiros. Preparação para novas fases. Gratidão pela abundância recebida.",
+                "SAUDE": "Preparação para o inverno. Respeitar o ciclo de descanso. Recuperação das energias gastas.",
+                "CARREIRA": "Revisão das viradas do ano. Lições aprendidas nos altos e baixos. Preparação para novo ciclo.",
+                "FAMILIA": "Natal celebrando a jornada. Gratidão pelas mudanças que fortaleceram a união. Aceitação do novo.",
+                "PROPOSITO": "Surrender. Entregar-se ao fluxo divino. Você aprendeu que não está no controle, apenas participa."
+            }
+        }
+    },
+    {
+        "arcanoId": 11,
+        "trimestres": {
+            "Q1": {
+                "AMOR": "Domínio sobre paixões. Relacionamentos que exigem paciência. Amor incondicional. Ternura que conquista.",
+                "DINHEIRO": "Controle emocional nos gastos. Força de vontade para economizar. Investimentos de longo prazo.",
+                "SAUDE": "Força física e mental. Domínio sobre hábitos autodestrutivos. Coragem para tratamentos difíceis.",
+                "CARREIRA": "Liderança através da compaixão. Gerir equipes com firmeza e carinho. Projetos que exigem persistência.",
+                "FAMILIA": "Paciência com familiares difíceis. Amor que cura feridas. Proteção maternal/paternal forte.",
+                "PROPOSITO": "Domínio próprio. A maior vitória é sobre si mesmo. Coragem interior silenciosa."
+            },
+            "Q2": {
+                "AMOR": "Relacionamentos baseados em respeito mútuo. Dominação suave. Paixão controlada e direcionada.",
+                "DINHEIRO": "Resultados de disciplina. Poupança que cresce. Investimentos estáveis rendendo.",
+                "SAUDE": "Vitalidade aumentada. Superação de vícios ou dependências. Coragem para mudanças de hábito.",
+                "CARREIRA": "Reconhecimento pela persistência. Projetos difíceis que dão certo. Liderança inspiradora.",
+                "FAMILIA": "Harmonia através da paciência. Resolução de conflitos com ternura. Fortaleza familiar renovada.",
+                "PROPOSITO": "Compaixão ativa. Força que serve, não domina. Coragem para amar sem condições."
+            },
+            "Q3": {
+                "AMOR": "Relacionamentos que superam provas. União fortalecida por desafios. Paixão madura e confiável.",
+                "DINHEIRO": "Estabilidade conquistada com esforço. Segurança financeira que permite generosidade.",
+                "SAUDE": "Saúde robusta. Recuperação de doenças difíceis. Energia vital disponível para outros.",
+                "CARREIRA": "Vitória sobre obstáculos. Reconhecimento pela capacidade de superação. Autoridade moral.",
+                "FAMILIA": "Superação de crises familiares. União fortalecida pelo fogo. Proteção efetiva dos entes queridos.",
+                "PROPOSITO": "Mestria interior. Você domou seus leões internos. Sabedoria da força aplicada com amor."
+            },
+            "Q4": {
+                "AMOR": "Amor que venceu provas. Relacionamentos duradouros baseados em paciência. Gratidão pela companhia forte.",
+                "DINHEIRO": "Consolidação de conquistas. Patrimônio protegido. Generosidade proveniente de abundância segura.",
+                "SAUDE": "Saúde estável e forte. Manutenção dos hábitos conquistados. Força para enfrentar o inverno.",
+                "CARREIRA": "Reconhecimento final de ano. Bônus merecido pela persistência. Liderança consolidada.",
+                "FAMILIA": "Natal de união forte. Celebração das vitórias familiares. Amor incondicional demonstrado.",
+                "PROPOSITO": "Paz interior. Você sabe que tem força suficiente para qualquer desafio. Tranquilidade conquistada."
+            }
+        }
+    },
+    {
+        "arcanoId": 12,
+        "trimestres": {
+            "Q1": {
+                "AMOR": "Período de suspensão. Reavalie seus sentimentos sob uma nova perspectiva. Não force decisões; o tempo é de espera consciente.",
+                "DINHEIRO": "Sacrifício necessário para ganhos futuros. Evite gastos impulsivos. Olhe o orçamento de cabeça para baixo para ver novas soluções.",
+                "SAUDE": "Atenção à circulação e pernas. Descanse os pés. Práticas de ioga e inversão são favoráveis.",
+                "CARREIRA": "Projetos em pausa. Aproveite para planejar. Ver as coisas de outro ângulo traz ideias inovadoras.",
+                "FAMILIA": "Sacrifício pessoal em prol do coletivo familiar. Silêncio e paciência resolvem conflitos antigos.",
+                "PROPOSITO": "Entrega. Soltar o controle para ver a verdade. O propósito se revela através da renúncia ao ego."
+            },
+            "Q2": {
+                "AMOR": "Amor altruísta. Doação sem expectativas. Relacionamentos que exigem paciência e visão de longo prazo.",
+                "DINHEIRO": "Investimentos que exigem tempo de maturação. Não colha os frutos agora. Segurança através da paciência.",
+                "SAUDE": "Meditação e calma mental. O corpo reflete a necessidade de desacelerar. Cura através do repouso.",
+                "CARREIRA": "Trabalho de bastidores. Sua contribuição silenciosa será valorizada futuramente. Observe o fluxo do mercado.",
+                "FAMILIA": "Apoio incondicional aos entes queridos. Você é o porto seguro através da sua estabilidade emocional.",
+                "PROPOSITO": "Iluminação através da espera. Você está sendo preparado para algo maior. Confie no processo."
+            },
+            "Q3": {
+                "AMOR": "Relacionamentos que passam por uma fase de reavaliação. Visão profunda sobre o que realmente importa no afeto.",
+                "DINHEIRO": "Economia forçada traz sabedoria. Você descobre que precisa de menos do que pensava. Simplicidade é lucro.",
+                "SAUDE": "Regeneração através do sono e calma. Evite atividades de alto impacto. O corpo pede suavidade.",
+                "CARREIRA": "Mudança radical de perspectiva. O que parecia um erro se revela um acerto. Inovação através da introspecção.",
+                "FAMILIA": "Momento de ouvir mais os familiares. Sabedoria na quietude. Resolução de kármas familiares através da aceitação.",
+                "PROPOSITO": "Compreensão do sacrifício sagrado. O que você está disposto a soltar para crescer? Clareza interna."
+            },
+            "Q4": {
+                "AMOR": "Gratidão pela paz alcançada. Relacionamentos estáveis baseados em compreensão mútua. Amor que não exige.",
+                "DINHEIRO": "Planejamento para o novo ano sem pressa. Organização financeira tranquila. Segurança no essencial.",
+                "SAUDE": "Bem-estar através da paz interior. O corpo se sente leve. Preparação para o inverno com calma.",
+                "CARREIRA": "Fim do ciclo de espera. Os frutos começam a aparecer. Preparação para o próximo salto profissional.",
+                "FAMILIA": "Natal de paz e harmonia silenciosa. Presença amorosa e desprendida. Gratidão pelos laços.",
+                "PROPOSITO": "Transcendência. Você superou a necessidade de controle. Paz total com sua jornada."
+            }
+        }
+    },
+    {
+        "arcanoId": 13,
+        "trimestres": {
+            "Q1": {
+                "AMOR": "Transformação radical. Fim de padrões antigos para novos começos. Limpeza emocional necessária. Deixe o passado ir.",
+                "DINHEIRO": "Cortes orçamentários necessários. Eliminar gastos supérfluos. Renovação das fontes de renda.",
+                "SAUDE": "Desintoxicação profunda. Mudança radical de dieta ou estilo de vida. Eliminar toxinas físicas e mentais.",
+                "CARREIRA": "Fim de projetos que não funcionam. Demissões ou mudanças de área. O novo nasce da cinza do velho.",
+                "FAMILIA": "Mudanças estruturais na família. Ciclos que se fecham. Aceite o fim para permitir o novo.",
+                "PROPOSITO": "Renascimento. A morte do ego precede a iluminação. Deixe morrer o que não serve mais."
+            },
+            "Q2": {
+                "AMOR": "Novos relacionamentos após a cura. Solo fértil para novos afetos. Amor que renasce mais forte.",
+                "DINHEIRO": "Reconstrução financeira. Novos investimentos após perdas. Foco na segurança e essencial.",
+                "SAUDE": "Recuperação após crise. Energia vital retornando. O corpo se renova celularmente.",
+                "CARREIRA": "Início de trajetória inovadora. Renovação profissional total. Suas velhas habilidades ganham novo uso.",
+                "FAMILIA": "Nova dinâmica familiar. Adaptação às mudanças recentes. Fortalecimento da base através da verdade.",
+                "PROPOSITO": "Evolução através da perda. Você aprendeu que nada é permanente. Foco no que é eterno."
+            },
+            "Q3": {
+                "AMOR": "Relacionamentos intensos e transformadores. Paixão que muda sua visão de mundo. Intimidade profunda.",
+                "DINHEIRO": "Lucros através de transformações. Negócios de reciclagem ou renovação. Valorização do que foi recuperado.",
+                "SAUDE": "Vigor físico renovado. Sinta-se mais jovem e disposto. O corpo agradece a limpeza feita no início do ano.",
+                "CARREIRA": "Sucesso em áreas de risco ou mudança repentina. Sua adaptabilidade é sua maior arma.",
+                "FAMILIA": "Cura de feridas ancestrais. O perdão através da morte do orgulho. União renovada.",
+                "PROPOSITO": "Sabedoria da fênix. Você sabe como se reinventar. Mestre das transições."
+            },
+            "Q4": {
+                "AMOR": "Relacionamentos sólidos após a tempestade. Gratidão pela renovação afetiva. Amor resiliente.",
+                "DINHEIRO": "Estabilidade após ajustes. Planejamento para 2025 focado em crescimento sólido. Recursos limpos.",
+                "SAUDE": "Saúde estável. Manutenção preventiva. O sistema imunológico está fortalecido.",
+                "CARREIRA": "Consolidação da nova fase. Reconhecimento pela coragem de mudar. Preparação para expandir.",
+                "FAMILIA": "Natal de renascimento. Celebração da nova fase familiar. Gratidão pela superação.",
+                "PROPOSITO": "Integração das sombras. Você aceitou a finitude e encontrou a vida eterna no presente."
+            }
+        }
+    },
+    {
+        "arcanoId": 14,
+        "trimestres": {
+            "Q1": {
+                "AMOR": "Harmonização dos afetos. Paciência e fluidez. Relacionamentos que pedem equilíbrio e diálogo suave.",
+                "DINHEIRO": "Fluxo financeiro equilibrado. Evite extremos. Pequenas quantias fluindo constantemente. Equilíbrio entre poupar e gastar.",
+                "SAUDE": "Bem-estar através do equilíbrio hídrico. Hidratação, drenagem linfática. Saúde fluida e constante.",
+                "CARREIRA": "Mediação e diplomacia. Trabalho em equipe harmonioso. Projetos que exigem adaptação e paciência.",
+                "FAMILIA": "Paz doméstica. Reconciliações suaves. Fluxo de comunicação aberto e curativo.",
+                "PROPOSITO": "Temperança. Integrar os opostos internos. O caminho do meio é a solução. Paz interior."
+            },
+            "Q2": {
+                "AMOR": "Amizade que vira amor ou amor com base em amizade. Relacionamentos tranquilos e duradouros.",
+                "DINHEIRO": "Crescimento gradual. Nada de saltos bruscos. Segurança através da constância. Investimentos em bens líquidos.",
+                "SAUDE": "Equilíbrio emocional pleno. Estresse baixo. Homeopatia ou terapias suaves trazem ótimos resultados.",
+                "CARREIRA": "Sucesso através da colaboração. Você é o elo que une as partes. Reconhecimento pela sua diplomacia.",
+                "FAMILIA": "Momentos de lazer e paz em família. Viagens curtas para relaxar. Harmonia entre pais e filhos.",
+                "PROPOSITO": "Alquimia interna. Você está aprendendo a misturar suas habilidades para criar algo novo. Equilíbrio."
+            },
+            "Q3": {
+                "AMOR": "Relacionamentos sagrados. Conexão espiritual profunda. Amor que cura e acalma a alma.",
+                "DINHEIRO": "Abundância fluida. O dinheiro vem e vai com facilidade, sem estresse. Confiança no fluxo da vida.",
+                "SAUDE": "Vitalidade serena. Energia constante ao longo do dia. O corpo em perfeita sintonia com a mente.",
+                "CARREIRA": "Reconhecimento pela sua capacidade de moderar situações difíceis. Promoção para cargos de gestão humana.",
+                "FAMILIA": "Bênçãos familiares. Proteção espiritual do lar. União baseada em respeito e carinho.",
+                "PROPOSITO": "Paciência recompensada. Você entende que tudo tem seu tempo. Calma perante os desafios."
+            },
+            "Q4": {
+                "AMOR": "Celebração da harmonia afetiva. Gratidão pela paz no amor. Preparação para o novo ano com o coração leve.",
+                "DINHEIRO": "Planejamento orçamentário fluido para 2025. Organização tranquila das finanças. Generosidade equilibrada.",
+                "SAUDE": "Saúde física e mental em ordem. Durma bem e mantenha a hidratação. Vigor restaurado.",
+                "CARREIRA": "Fim do ano com metas atingidas sem exaustão. Satisfação profissional equilibrada. Descanso merecido.",
+                "FAMILIA": "Natal de pura harmonia. Tradições que trazem paz. Gratidão pela união familiar.",
+                "PROPOSITO": "Paz com o destino. Você flui com a vida, não contra ela. Sabedoria da aceitação ativa."
+            }
+        }
+    },
+    {
+        "arcanoId": 15,
+        "trimestres": {
+            "Q1": {
+                "AMOR": "Paixão intensa e magnética. Cuidado com dependência emocional ou material. Atração física poderosa.",
+                "DINHEIRO": "Ambição em alta. Foco em lucro rápido. Cuidado com dívidas ou jogos de poder financeiro. Use sua astúcia.",
+                "SAUDE": "Excesso de energia. Cuidado com intoxicações (álcool, tabaco, excessos). Olhar para as sombras da saúde.",
+                "CARREIRA": "Sede de poder e sucesso. Competitividade máxima. Projetos lucrativos que exigem malícia.",
+                "FAMILIA": "Tensões por controle ou dinheiro. Segredos familiares vêm à tona. Lide com suas próprias sombras no lar.",
+                "PROPOSITO": "Encarar seus demônios internos. Ver onde você se prende. Liberdade através da consciência das amarras."
+            },
+            "Q2": {
+                "AMOR": "Relacionamentos intensos e viciantes. Prazer sensorial elevado. Aprenda a equilibrar desejo e liberdade.",
+                "DINHEIRO": "Ganhos através de negócios astutos. Recursos que fluem através do carisma e poder de persuasão.",
+                "SAUDE": "Vitalidade física bruta. Exercícios intensos são bons, mas não abuse. Atenção ao sistema digestivo.",
+                "CARREIRA": "Ascensão rápida. Você sabe como o sistema funciona. Uso estratégico da influência pessoal.",
+                "FAMILIA": "Quebra de dependências familiares. Colocar limites em membros tóxicos. Assumir seu próprio poder.",
+                "PROPOSITO": "Magnetismo pessoal. O uso ético do poder. Atrair o que deseja sem manipular."
+            },
+            "Q3": {
+                "AMOR": "Vínculos profundos e magnéticos. Fidelidade através da escolha, não da obrigação. Transformação da paixão em poder.",
+                "DINHEIRO": "Colheita de lucros elevados. Sucesso em áreas de risco. Inteligência financeira superior.",
+                "SAUDE": "Vigor e regeneração rápida. Libido elevada. O corpo responde bem a estímulos fortes.",
+                "CARREIRA": "Domínio da sua área. Você é inabalável frente aos concorrentes. Reconhecimento pela perspicácia.",
+                "FAMILIA": "Resolução de conflitos de poder. A verdade liberta dos jogos psicológicos. Força familiar recuperada.",
+                "PROPOSITO": "Integração do instinto. Você aceita sua natureza humana com sabedoria. Poder de manifestação."
+            },
+            "Q4": {
+                "AMOR": "Amor apaixonado e consciente. Gratidão pela intensidade vivida. Celebração do prazer e da união.",
+                "DINHEIRO": "Planejamento ambicioso para 2025. Organização do patrimônio visando expansão. Foco em ativos fortes.",
+                "SAUDE": "Saúde robusta, mas evite excessos natalinos. Manter o autocontrole é a sua maior força.",
+                "CARREIRA": "Final de ano vitorioso. Bônus acima da média. Liderança carismática e influente.",
+                "FAMILIA": "Natal intenso e divertido. Celebre sem julgamentos. Gratidão pela força da sua linhagem.",
+                "PROPOSITO": "Libertação total. Você encarou a sombra e encontrou a luz. Mestre de si mesmo."
+            }
+        }
+    },
+    {
+        "arcanoId": 16,
+        "trimestres": {
+            "Q1": {
+                "AMOR": "Ruptura de ilusões. Fim de relacionamentos baseados em mentiras ou ego. Choque necessário para a verdade aparecer.",
+                "DINHEIRO": "Quebra de estruturas financeiras instáveis. Perdas repentinas que liberam de dívidas maiores. Reforme sua base.",
+                "SAUDE": "Erupções de saúde (inflamações, acidentes). Atenção total à segurança física. Mudança súbita de hábitos.",
+                "CARREIRA": "Queda de projetos sem fundamento. Crises profissionais que forçam a inovação. Seja resiliente.",
+                "FAMILIA": "Conflitos explosivos mas necessários. Revelação de verdades ocultas. Estruturas familiares abaladas.",
+                "PROPOSITO": "Iluminação súbita. Desconstrução para reconstruir com verdade. O raio que limpa o caminho."
+            },
+            "Q2": {
+                "AMOR": "Reconstrução do coração. Novos afetos em bases sólidas. Amor purificado pelo fogo das provações.",
+                "DINHEIRO": "Recuperação financeira resiliente. Novos lucros em áreas mais éticas e seguras. Base sólida.",
+                "SAUDE": "Recuperação rápida de crises. Energia de reconstrução celular. O corpo se sente mais forte após a limpeza.",
+                "CARREIRA": "Início de trajetória autêntica. Você não teme mais as quedas. Reconhecimento pela sua resiliência.",
+                "FAMILIA": "Nova dinâmica familiar honesta. Paz após a tormenta. Reconstrução dos laços com base na verdade.",
+                "PROPOSITO": "Sabedoria após a queda. Você entendeu que a segurança externa é ilusória. Força interior."
+            },
+            "Q3": {
+                "AMOR": "Relacionamentos sinceros e diretos. Nada de jogos. Amor que floresce na verdade absoluta.",
+                "DINHEIRO": "Prosperidade baseada no esforço real. Investimentos transparentes. Segurança conquistada através da ética.",
+                "SAUDE": "Equilíbrio físico e mental superior. Você superou o pior. Vitalidade que nasce da verdade interna.",
+                "CARREIRA": "Sucesso em reconstruções. Liderança em momentos de crise. Você é o pilar de confiança dos outros.",
+                "FAMILIA": "União inabalável após as crises. Orgulho da superação coletiva. Lar seguro e abençoado.",
+                "PROPOSITO": "Verdade como único guia. Você é autêntico e inabalável. Missão clara sob o céu limpo."
+            },
+            "Q4": {
+                "AMOR": "Gratidão pela proteção divina. Relacionamentos que resistiram a tudo. Amor à prova de raio.",
+                "DINHEIRO": "Planejamento prudente para 2025. Construção de reservas de segurança. Paz financeira.",
+                "SAUDE": "Saúde protegida. Manutenção vigilante. O sistema nervoso encontra paz e silêncio.",
+                "CARREIRA": "Final de ano estável. Você sobreviveu e prosperou. Reconhecimento pela sua integridade absoluta.",
+                "FAMILIA": "Natal de gratidão profunda. Celebração da união testada e aprovada. Lar de paz.",
+                "PROPOSITO": "Despertar. Você vê o mundo como ele realmente é. Conexão direta com o divino."
+            }
+        }
+    },
+    {
+        "arcanoId": 17,
+        "trimestres": {
+            "Q1": {
+                "AMOR": "Esperança e renovação afetiva. Novos começos sob uma estrela de sorte. Fé no amor. Inspiração romântica.",
+                "DINHEIRO": "Investimentos inspirados. Sorte financeira. Visão de longo prazo. Abundância que flui naturalmente.",
+                "SAUDE": "Vitalidade regenerativa. Energia das estrelas. Cura através da luz e do ar. Bem-estar espiritual.",
+                "CARREIRA": "Projetos inovadores e inspiradores. Reconhecimento pelo seu talento único. Sucesso em áreas criativas.",
+                "FAMILIA": "Harmonia e esperança no lar. Sonhos compartilhados. Inspiração mútua entre familiares.",
+                "PROPOSITO": "Seguir sua estrela-guia. Fé na sua missão. Você é um canal de esperança para o mundo."
+            },
+            "Q2": {
+                "AMOR": "Relacionamentos luminosos. Brilho pessoal atrativo. Sinceridade e transparência absoluta no amor.",
+                "DINHEIRO": "Prosperidade através da criatividade. Recursos que chegam por caminhos inspirados. Generosidade gratificante.",
+                "SAUDE": "Saúde em dia. Brilho na pele e nos olhos. Vigor físico e mental em perfeito equilíbrio.",
+                "CARREIRA": "Reconhecimento público. Sua luz brilha na sua área. Sucesso em projetos de comunicação ou arte.",
+                "FAMILIA": "Momentos de alegria e celebração em família. Viagens inesquecíveis. Orgulho dos laços construídos.",
+                "PROPOSITO": "Manifestação da sua verdade. Sua missão se torna visível para todos. Inspiração ativa."
+            },
+            "Q3": {
+                "AMOR": "Relacionamentos duradouros baseados em sonhos comuns. Amor que transcende as dificuldades do dia a dia.",
+                "DINHEIRO": "Estabilidade inspirada. Suas finanças estão protegidas por uma boa estrela. Investimentos em educação.",
+                "SAUDE": "Manutenção da vitalidade. Práticas de gratidão fortalecem o sistema imunológico. Paz interior.",
+                "CARREIRA": "Consolidação de autoridade inspiradora. Você é referência para outros buscadores. Sucesso constante.",
+                "FAMILIA": "União familiar espiritualizada. Valores de esperança e fé compartilhados. Lar de luz.",
+                "PROPOSITO": "Conexão total com o divino. Você entende seu lugar no cosmos. Paz profunda com o destino."
+            },
+            "Q4": {
+                "AMOR": "Amor eterno e sereno. Gratidão pela luz do parceiro em sua vida. Celebração de um ano de esperança.",
+                "DINHEIRO": "Balanço vitorioso e inspirador. Planejamento para 2025 com fé e visão. Abundância garantida.",
+                "SAUDE": "Saúde estável. Manutenção dos hábitos luminosos. Preparação para o novo ciclo com vigor.",
+                "CARREIRA": "Reconhecimento final de ano. Seu talento é premiado. Preparação para voos mais altos.",
+                "FAMILIA": "Natal de luz e sonhos. Tradições que elevam a alma. Gratidão pela proteção da Estrela.",
+                "PROPOSITO": "Missão em expansão. Sua luz ilumina mais pessoas a cada dia. Gratidão total."
+            }
+        }
+    },
+    {
+        "arcanoId": 18,
+        "trimestres": {
+            "Q1": {
+                "AMOR": "Intuição aguçada no amor. Cuidado com ilusões ou ciúmes infundados. Mergulho nas emoções profundas. Romance misterioso.",
+                "DINHEIRO": "Cuidado com investimentos obscuros. Verifique tudo antes de assinar. Intuição financeira valiosa mas subjetiva.",
+                "SAUDE": "Atenção ao sistema psíquico e sono. Sonhos reveladores. Práticas de meditação e terapia são cruciais.",
+                "CARREIRA": "Projetos que exigem criatividade inconsciente. Trabalho em bastidores. Cuidado com fofocas ou inimigos ocultos.",
+                "FAMILIA": "Segredos familiares podem surgir. Lide com sensibilidade e intuição. Emoções à flor da pele em casa.",
+                "PROPOSITO": "Exploração do inconsciente. Ver através das sombras. Sua missão envolve o mistério e a cura emocional."
+            },
+            "Q2": {
+                "AMOR": "Relacionamentos que exigem transparência. Superação de medos e inseguranças afetivas. Intimidade profunda.",
+                "DINHEIRO": "Recursos que chegam através de caminhos sutis. Intuição financeira confirmada pela realidade. Cautela constante.",
+                "SAUDE": "Cura através da água e das emoções. Registre seus sonhos. O corpo reflete as marés da alma.",
+                "CARREIRA": "Reconhecimento pela sua sensibilidade e percepção. Projetos que envolvem psicologia ou arte têm sucesso.",
+                "FAMILIA": "Resgate de laços emocionais profundos. Perdoar o que estava oculto. Harmonia lunar no lar.",
+                "PROPOSITO": "A jornada do herói através do medo. Sua força vem do enfrentamento da sombra. Sabedoria intuitiva."
+            },
+            "Q3": {
+                "AMOR": "Amor incondicional e empático. Conexão de almas que supera o tempo. Romance mágico e transformador.",
+                "DINHEIRO": "Estabilidade através da prudência intuitiva. Poupança protegida do olhar externo. Planejamento discreto.",
+                "SAUDE": "Equilíbrio psíquico pleno. Paz interior que reflete no corpo físico. Sonhos lúcidos e inspiradores.",
+                "CARREIRA": "Autoridade baseada na percepção profunda. Você vê o que outros ignoram. Sucesso como conselheiro ou artista.",
+                "FAMILIA": "Paz e mistério no lar. Tradições esotéricas famliares. Conexão espiritual entre parentes.",
+                "PROPOSITO": "Iluminação da noite escura da alma. Você encontrou o ouro nas sombras. Mestre da intuição."
+            },
+            "Q4": {
+                "AMOR": "Gratidão pela profundidade da união. O amor é um portal para o mistério. Celebração da cumplicidade.",
+                "DINHEIRO": "Planejamento intuitivo vitorioso. Suas percepções do ano se provaram corretas. Segurança no silêncio.",
+                "SAUDE": "Saúde em sintonia com a natureza. Respeite os ciclos de descanso. Vigor restaurado pela calma.",
+                "CARREIRA": "Final de ano estável e reconhecido. Sua sensibilidade foi sua maior arma. Preparação para o novo ciclo.",
+                "FAMILIA": "Natal místico e acolhedor. Celebrações que honram o que não se vê. Gratidão pela luz do luar.",
+                "PROPOSITO": "Integração total do consciente e inconsciente. Você é um canal para a verdade oculta. Missão cumprida."
+            }
+        }
+    },
+    {
+        "arcanoId": 19,
+        "trimestres": {
+            "Q1": {
+                "AMOR": "Sucesso total no amor. Relacionamentos claros, quentes e alegres. Brilho pessoal radiante. Novos encontros solares.",
+                "DINHEIRO": "Abundância e prosperidade visíveis. Ganhos merecidos. Invista em expansão. Sua estrela brilha no mercado.",
+                "SAUDE": "Energia física no auge. Vitalidade, alegria e vigor. Cura através do sol e da atividade física.",
+                "CARREIRA": "Sucesso público e reconhecimento. Você é o centro das atenções. Liderança radiante e inspiradora.",
+                "FAMILIA": "Alegria no lar. Nascimento de crianças ou novos projetos. Celebrações felizes constantes.",
+                "PROPOSITO": "Manifestar sua luz. Ser canal de alegria e vida. Sua missão é brilhar e iluminar outros."
+            },
+            "Q2": {
+                "AMOR": "Relacionamentos luminosos e férteis. União de almas alegres. Amor que traz felicidade genuína e visível.",
+                "DINHEIRO": "Crescimento explosivo dos recursos. Oportunidades que brilham. Sucesso em tudo que você colocar sua energia.",
+                "SAUDE": "Saúde robusta e radiante. Vigor físico invejável. A alegria de viver é o seu melhor remédio.",
+                "CARREIRA": "Promoções e conquistas importantes. Você está no topo e é amado por isso. Liderança solar premiada.",
+                "FAMILIA": "Fortalecimento dos laços através da alegria. Viagens em família com muito sol. Harmonia total.",
+                "PROPOSITO": "Autorrealização. Você atingiu um nível de clareza e poder pessoal invejável. Celebre sua vida."
+            },
+            "Q3": {
+                "AMOR": "Amor maduro e radiante. Parcerias baseadas em verdade e alegria mútua. Felicidade constante e protegida.",
+                "DINHEIRO": "Abundância estabilizada. Colheita de grandes lucros. Segurança financeira radiante. Generosidade alegre.",
+                "SAUDE": "Vitalidade perene. Energia disponível para grandes feitos. O corpo reflete a felicidade do espírito.",
+                "CARREIRA": "Consolidação de autoridade máxima. Você é a referência de sucesso na sua área. Brilho constante.",
+                "FAMILIA": "Legado de alegria e prosperidade para a família. Orgulho mútuo. Lar de luz e felicidade.",
+                "PROPOSITO": "Unidade com o Divino. Você vê a luz em tudo. Sua missão é manter essa chama acesa para sempre."
+            },
+            "Q4": {
+                "AMOR": "Celebração total do amor. Um ano de felicidade coroado. Gratidão pelo calor do parceiro em sua vida.",
+                "DINHEIRO": "Balanço anual extraordinário. Lucros recordes. Planejamento vibrante para 2025. Riqueza em todos os níveis.",
+                "SAUDE": "Saúde inabalável. Vigor pronto para novo ciclo. O inverno não apaga o seu brilho interno.",
+                "CARREIRA": "O maior reconhecimento do ano. Sua liderança foi impecável. Preparação para expandir ainda mais.",
+                "FAMILIA": "Natal solar e inesquecível. Festa da vida. Gratidão pela abundância e amor da família.",
+                "PROPOSITO": "Você é o Sol. Sua luz agora é fonte para outros. Gratidão infinita pela jornada vitoriosa."
+            }
+        }
+    },
+    {
+        "arcanoId": 20,
+        "trimestres": {
+            "Q1": {
+                "AMOR": "O Julgamento traz um chamado amoroso. Reavaliação de relações passadas. Redescobrir o amor. Despertar afetivo.",
+                "DINHEIRO": "Chamado para novas responsabilidades financeiras. Acertos de contas necessários. Recursos que ressurgem de fontes antigas.",
+                "SAUDE": "Renovação celular e vital. Despertar do corpo para uma nova saúde. Cura de condições crônicas repentinamente.",
+                "CARREIRA": "Vocação sendo colocada à prova. Mudanças profundas de carreira baseadas em propósito real. Reconhecimento tardio.",
+                "FAMILIA": "Reconciliações familiares definitivas. Perdoar o passado e começar de novo. O 'despertar' da consciência familiar.",
+                "PROPOSITO": "Ouvir o chamado da sua alma. Verdade absoluta sobre sua missão. Hora de assumir seu lugar no mundo."
+            },
+            "Q2": {
+                "AMOR": "Relacionamentos renovados pela consciência. Amor que ressurge das cinzas. Nova dinâmica afetiva mais pura.",
+                "DINHEIRO": "Recursos fluindo através do reconhecimento de erros passados. Novos investimentos em áreas de serviço ou cura.",
+                "SAUDE": "Recuperação total de energias. O sistema nervoso encontra um novo equilíbrio. Saúde consciente e vibrante.",
+                "CARREIRA": "Sucesso em áreas de comunicação ou ensino. Sua voz tem poder. Reconhecimento pela sua integridade vocacional.",
+                "FAMILIA": "Paz definitiva após o perdão. A família se une sob novos valores. Verdade que cura os laços.",
+                "PROPOSITO": "Manifestação da sua verdade. Você não consegue mais fingir ser quem não é. Assunção da sua maestria."
+            },
+            "Q3": {
+                "AMOR": "Amor incondicional e liberto. Vínculos de almas despertas. Companheirismo baseado em verdade e evolução mútua.",
+                "DINHEIRO": "Estabilidade consciente. Recursos usados para evolução pessoal e coletiva. Prosperidade ética inabalável.",
+                "SAUDE": "Equilíbrio físico e espiritual pleno. O corpo se torna um instrumento afinado da alma. Vigor sereno.",
+                "CARREIRA": "Autoridade moral consolidada. Você é ouvido e respeitado pela sua verdade. Liderança através do exemplo.",
+                "FAMILIA": "Legado espiritual para a família. União fortalecida pela consciência. Lar de despertar e cura.",
+                "PROPOSITO": "Libertação total do karma. Você entende seu papel no plano divino. Paz absoluta com a jornada."
+            },
+            "Q4": {
+                "AMOR": "Gratidão pela redenção amorosa. O amor é um portal para a consciência superior. Celebração da união desperta.",
+                "DINHEIRO": "Balanço vitorioso e consciente. Planejamento para 2025 alinhado com a missão espiritual. Abundância ética.",
+                "SAUDE": "Saúde em ordem. Manutenção da vibração elevada. O corpo pronto para a transição de ciclo com vigor.",
+                "CARREIRA": "Reconhecimento final do ano pela sua integridade. Sua vocação foi honrada. Preparação para novos chamados.",
+                "FAMILIA": "Natal de despertar e perdão. Celebrações que honram a alma. Gratidão pela consciência familiar.",
+                "PROPOSITO": "Missão Cumprida. Você ouviu o chamado e respondeu: 'Sim'. Gratidão eterna pela evolução."
+            }
+        }
+    },
+    {
+        "arcanoId": 21,
+        "trimestres": {
+            "Q1": {
+                "AMOR": "Completude amorosa total. Integração de todas as facetas do relacionamento. Novos horizontes mundiais a dois.",
+                "DINHEIRO": "Sucesso internacional ou global. Abundância absoluta em todos os níveis. Recursos ilimitados.",
+                "SAUDE": "Vitalidade plena e holística. Cura total do ser. O corpo está em perfeita harmonia com o cosmos.",
+                "CARREIRA": "Culminação de uma jornada de vida. Você atingiu o topo do seu mundo. Reconhecimento universal.",
+                "FAMILIA": "Harmonia total no lar e na linhagem. Celebração de vitórias mundiais da família. União absoluta.",
+                "PROPOSITO": "Unidade. Você é um com o Todo. Sua missão se funde com a evolução do planeta. Completude."
+            },
+            "Q2": {
+                "AMOR": "Expansão da rede social afetiva. Viagens globais ou mudanças de país por amor. Felicidade compartilhada.",
+                "DINHEIRO": "Investimentos que geram impacto positivo. Riqueza que flui de múltiplas fontes pelo mundo todo.",
+                "SAUDE": "Bem-estar exuberante. Energia contagiante que ilumina outros. Longevidade e vigor no auge.",
+                "CARREIRA": "Expansão para novos mercados ou áreas. O mundo é seu escritório. Sucesso em tudo que empreender.",
+                "FAMILIA": "Celebrações mundiais. Encontros de familiares de longe. Fortalecimento da herança cultural.",
+                "PROPOSITO": "Compartilhar a completude. Sua missão é levar luz a todos os cantos. Criatividade expansionista."
+            },
+            "Q3": {
+                "AMOR": "Amor universal e profundo. Relacionamentos que transcendem fronteiras e tempo. Êxtase afetivo protegido.",
+                "DINHEIRO": "Manutenção da abundância absoluta. Segurança financeira de nível global. Liberdade total de escolha.",
+                "SAUDE": "Saúde inabalável. O corpo físico se torna um canal de luz pura. Vigor perene e sereno.",
+                "CARREIRA": "Autoridade máxima consolidada internacionalmente. Você é a referência mundial na sua área. Sucesso eterno.",
+                "FAMILIA": "Legado global para a família. Orgulho inabalável da linhagem. O lar é o centro do universo em harmonia.",
+                "PROPOSITO": "Realização total. Você completou o ciclo e está pronto para voar ainda mais alto. Paz infinita."
+            },
+            "Q4": {
+                "AMOR": "Gratidão pelo mundo de amor construído. O amor é a chave da criação. Celebração da unidade plena.",
+                "DINHEIRO": "Balanço vitorioso incalculável. Planejamento para 2025 focado em masterizar novos mundos. Riqueza plena.",
+                "SAUDE": "Saúde plena. Vigor pronto para a eternidade. O corpo em sintonia com a música das esferas.",
+                "CARREIRA": "O maior reconhecimento possível. Sua jornada é celebrada por todos. Preparação para o próximo nível de existência.",
+                "FAMILIA": "Natal inesquecível e mundial. Celebração da vida em sua totalidade. Gratidão pela família e pelo mundo.",
+                "PROPOSITO": "Alpha e Omega. O fim é um novo começo em espiral. Você masterizou seu atual nível de consciência."
+            }
+        }
+    }
+]
