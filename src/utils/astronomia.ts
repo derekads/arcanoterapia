@@ -10,6 +10,7 @@ import type {
   Aspecto,
   TipoAspecto
 } from '../types';
+import { resolverNascimentoUTC } from './timezone';
 
 // --- CONSTANTES ---
 const OBLIQUIDADE_ECLIPTICA = 23.4367;
@@ -323,14 +324,17 @@ export function calcularMapaAstral(userData: UserBirthData): MapaAstralCalculado
     ? userData.localizacao.longitude
     : -46.6333;
 
-  const timezoneOffset = typeof userData.localizacao.timezoneOffset === 'number' && !isNaN(userData.localizacao.timezoneOffset)
+  const offsetSalvo = typeof userData.localizacao.timezoneOffset === 'number' && !isNaN(userData.localizacao.timezoneOffset)
     ? userData.localizacao.timezoneOffset
     : -3; // BRT default
 
-  const dateUTC = converterParaUTC(
+  // Prefere o fuso IANA (traz o horário de verão histórico); cai no offset
+  // gravado para perfis salvos antes de o campo `timezone` existir.
+  const { dataUTC: dateUTC, offsetHoras, origem } = resolverNascimentoUTC(
     userData.dataNascimento,
     userData.horaNascimento,
-    timezoneOffset
+    userData.localizacao.timezone,
+    offsetSalvo
   );
 
   const gst = Astronomy.SiderealTime(dateUTC);
@@ -433,6 +437,11 @@ export function calcularMapaAstral(userData: UserBirthData): MapaAstralCalculado
     lua,
     aspectos,
     dataCalculo: new Date().toISOString(),
-    dataNascimentoUTC: dateUTC.toISOString()
+    dataNascimentoUTC: dateUTC.toISOString(),
+    fuso: {
+      offsetHoras,
+      origem,
+      zone: userData.localizacao.timezone
+    }
   };
 }

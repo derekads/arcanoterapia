@@ -132,7 +132,16 @@ export const MapaAstralView: React.FC<MapaAstralProps> = ({ mapa }) => {
                         </p>
                     </div>
                     <span className="text-[10px] text-slate-500 hidden lg:block text-right leading-relaxed shrink-0">
-                        {mapa.meta.fusoHorario} · {mapa.meta.coordenadas}
+                        {mapa.meta.fusoHorario}
+                        {mapa.meta.fusoAproximado && (
+                            <span
+                                className="ml-1.5 text-amber-500/70"
+                                title="Perfil salvo antes do fuso preciso: o horário de verão pode não ter sido considerado. Refaça o mapa para corrigir."
+                            >
+                                aproximado
+                            </span>
+                        )}
+                        {' · '}{mapa.meta.coordenadas}
                         <br />
                         Casas: {mapa.meta.sistemaCasas}
                     </span>

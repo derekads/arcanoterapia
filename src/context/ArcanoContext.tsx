@@ -32,6 +32,7 @@ import matrixArcanoMoon from '../data/matrices/matrix_arcano_moon.json';
 import matrixArcanoSign from '../data/matrices/matrix_arcano_sign.json';
 import matrixYearTransition from '../data/matrices/matrix_year_transition.json';
 import { calculateMoonPhase, reduzirParaArcano } from '../utils/calculos';
+import { resolverNascimentoUTC } from '../utils/timezone';
 
 const ArcanoContext = createContext<ArcanoContextType | undefined>(undefined);
 
@@ -75,15 +76,23 @@ export const ArcanoProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         // Perfil Astral Pro
         const lat = u?.localizacao?.latitude || u?.latitude;
         const lng = u?.localizacao?.longitude || u?.longitude;
-        const tz = u?.localizacao?.timezoneOffset?.toString() || u?.timezone;
         const bTime = u?.horaNascimento || u?.birthTime;
+
+        // Mesma resolução de fuso usada pelo mapa astral, para os dois motores
+        // não discordarem do signo por causa do horário de verão.
+        const { offsetHoras } = resolverNascimentoUTC(
+            birthDate,
+            bTime || '12:00',
+            u?.localizacao?.timezone,
+            typeof u?.localizacao?.timezoneOffset === 'number' ? u.localizacao.timezoneOffset : -3
+        );
 
         const mapa = lat && lng ? calculateAstralProfilePro(
             birthDate,
             bTime,
             lat,
             lng,
-            tz ? parseInt(tz) : undefined
+            offsetHoras
         ) : null;
 
         // Matrizes Combinatórias (Missão 4)

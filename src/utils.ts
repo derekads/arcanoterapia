@@ -7,6 +7,7 @@ export function cn(...classes: (string | boolean | undefined)[]) {
 }
 
 import * as Astronomy from 'astronomy-engine';
+import { limparNomeParaCalculo } from './utils/calculos';
 
 // Signs Array in Order
 const SIGNS = [
@@ -18,7 +19,7 @@ const SIGNS = [
  * Calculates the Arcana number based on the provided name.
  */
 export const calculateArcanaNumber = (name: string): number => {
-  const cleanName = name.replace(/[^a-zA-Z]/g, '');
+  const cleanName = limparNomeParaCalculo(name);
   let count = cleanName.length;
 
   if (count === 0) return 0;
@@ -35,7 +36,7 @@ export const calculateArcanaNumber = (name: string): number => {
  * Returns detailed breakdown of the numerology calculation
  */
 export const getNumerologyDetails = (name: string) => {
-  const cleanName = name.replace(/[^a-zA-Z]/g, '').toUpperCase();
+  const cleanName = limparNomeParaCalculo(name).toUpperCase();
   const value = cleanName.length;
   const steps: string[] = [];
 

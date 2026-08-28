@@ -9,6 +9,7 @@
 
 import type { MapaAstralCalculado, PosicaoCelestial, UserBirthData } from '../types';
 import { interpretationsDB, getGenericInterpretation } from '../data/astrologyInterpretations';
+import { formatarOffset } from './timezone';
 import {
     ELEMENT_LABELS,
     MODALITY_LABELS,
@@ -104,6 +105,8 @@ export interface MapaViewModel {
         dataNascimento: string;
         horaNascimento: string;
         fusoHorario: string;
+        /** true quando o offset veio de um perfil antigo, sem horário de verão. */
+        fusoAproximado: boolean;
         sistemaCasas: string;
         coordenadas: string;
     };
@@ -248,15 +251,6 @@ function buildDistribution<K extends string>(
     }));
 }
 
-function formatarFuso(offset: number | undefined): string {
-    if (typeof offset !== 'number' || Number.isNaN(offset)) return 'UTC';
-    const sinal = offset >= 0 ? '+' : '−';
-    const abs = Math.abs(offset);
-    const horas = Math.floor(abs);
-    const minutos = Math.round((abs - horas) * 60);
-    return `UTC${sinal}${horas}${minutos ? `:${String(minutos).padStart(2, '0')}` : ''}`;
-}
-
 function formatarData(iso: string | undefined): string {
     if (!iso) return '—';
     const [ano, mes, dia] = iso.split('-');
@@ -341,7 +335,8 @@ export function buildMapaViewModel(
             cidade: userData?.localizacao?.nomeCidade || 'Local não informado',
             dataNascimento: formatarData(userData?.dataNascimento),
             horaNascimento: userData?.horaNascimento || '—',
-            fusoHorario: formatarFuso(userData?.localizacao?.timezoneOffset),
+            fusoHorario: formatarOffset(mapa.fuso.offsetHoras),
+            fusoAproximado: mapa.fuso.origem !== 'iana',
             sistemaCasas,
             coordenadas: [
                 formatarCoordenada(userData?.localizacao?.latitude, 'N', 'S'),

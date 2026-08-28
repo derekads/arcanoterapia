@@ -22,10 +22,26 @@ export const reduzirParaArcano = (n: number): number => {
 };
 
 /**
+ * Normaliza o nome para o cálculo do arcano.
+ *
+ * Decompõe os acentos (NFD) e remove só as marcas diacríticas, preservando a
+ * letra. Sem isso, `replace(/[^a-zA-Z]/g, '')` descartaria a letra inteira e
+ * "José" contaria 3 letras em vez de 4 — a mesma pessoa receberia arcanos
+ * diferentes conforme escrevesse o nome com ou sem acento.
+ *
+ * Ç vira C, Ã vira A. Trema, til e cedilha não mudam a identidade da letra.
+ */
+export const limparNomeParaCalculo = (nome: string): string =>
+    (nome || '')
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/[^a-zA-Z]/g, '');
+
+/**
  * Cálculo do Arcano do Nome
  */
 export const calcularArcanoNome = (nome: string): number => {
-    const cleanName = nome.replace(/[^a-zA-Z]/g, '');
+    const cleanName = limparNomeParaCalculo(nome);
     if (cleanName.length === 0) return 0;
     return reduzirParaArcano(cleanName.length);
 };
@@ -91,10 +107,10 @@ export const calculateAstralProfilePro = (
         const [ano, mes, dia] = dateString.split('-').map(Number);
         const [hora, minuto] = timeString.split(':').map(Number);
 
-        // CORREÇÃO CRÍTICA: Se não houver offset, usamos o nativo do Date para o local
-        // ou calculamos com base no ISO do usuário se disponível.
-        // Para fins de precisão mística, usaremos lon/15 como estimativa inicial
-        // mas permitiremos overwrite do sistema.
+        // O chamador deve passar o offset já resolvido a partir do fuso IANA
+        // (ver utils/timezone.ts). A estimativa por longitude fica só como
+        // último recurso: ela ignora horário de verão e erra em toda a Europa
+        // continental, na Argentina, na China e nos fusos de meia hora.
         const offset = timezoneOffset ?? Math.round(lon / 15);
 
         // Data UTC Real = Hora Local - Offset

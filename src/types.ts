@@ -4,7 +4,18 @@
 export interface Localizacao {
   latitude: number;
   longitude: number;
-  timezoneOffset: number;  // -3 para Brasil, +1 para Berlim, etc
+  /**
+   * Offset em horas no momento do nascimento. Mantido para os perfis salvos
+   * antes de `timezone` existir; quando `timezone` está presente, ele é a
+   * fonte de verdade e este campo é apenas um retrato do que foi calculado.
+   */
+  timezoneOffset: number;
+  /**
+   * Identificador IANA do fuso ("America/Sao_Paulo"), como a API de
+   * geocodificação devolve. É o que permite acertar horário de verão histórico
+   * — o offset sozinho não carrega essa informação.
+   */
+  timezone?: string;
   nomeCidade: string;
 }
 
@@ -69,6 +80,12 @@ export interface MapaAstralCalculado {
   aspectos: Aspecto[]; // Nova propriedade
   dataCalculo: string;    // ISO timestamp
   dataNascimentoUTC: string;
+  /** Como o fuso do nascimento foi resolvido — a UI mostra isso no cabeçalho. */
+  fuso: {
+    offsetHoras: number;
+    origem: 'iana' | 'offset-salvo';
+    zone?: string;
+  };
 }
 
 // === ESTADOS DA UI ===
