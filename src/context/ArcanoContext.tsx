@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, useMemo } from 'react';
 import { UserData, ArcanoData, MapaAstralCalculado } from '../types';
-import { ArcanoPessoalDB } from '../data/arcanos';
+import { ArcanoPessoalDB, numeroParaIndiceConteudo } from '../data/arcanos';
 import { calcularArcanoNome, calcularAnoPessoal2026, calculateAstralProfilePro } from '../utils/calculos';
 
 /**
@@ -97,10 +97,14 @@ export const ArcanoProvider: React.FC<{ children: React.ReactNode }> = ({ childr
 
         // Matrizes Combinatórias (Missão 4)
         const faseLua = calculateMoonPhase(hoje);
-        const keyDia = `${arcanoP?.numero || 0}-${arcanoD?.numero || 0}`;
-        const keyLua = `${arcanoP?.numero || 0}-${faseLua}`;
-        const keySigno = `${arcanoP?.numero || 0}-${mapa?.sunSign || 'Áries'}`;
-        const keyTransicao = `${num2026}-${num2027}`;
+        // As matrizes indexam O Louco como 0; o app o numera como 22.
+        const idxPessoal = numeroParaIndiceConteudo(arcanoP?.numero || 0);
+        const idxDia = numeroParaIndiceConteudo(arcanoD?.numero || 0);
+
+        const keyDia = `${idxPessoal}-${idxDia}`;
+        const keyLua = `${idxPessoal}-${faseLua}`;
+        const keySigno = `${idxPessoal}-${mapa?.sunSign || 'Áries'}`;
+        const keyTransicao = `${numeroParaIndiceConteudo(num2026)}-${numeroParaIndiceConteudo(num2027)}`;
 
         const insights = {
             dia: (matrixArcanoDay as any)[keyDia] || null,

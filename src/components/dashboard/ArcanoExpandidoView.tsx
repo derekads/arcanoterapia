@@ -35,7 +35,11 @@ interface Props {
 
 // --- THEME ENGINE ---
 function getArcanaTheme(element: string) {
-  switch (element?.toLowerCase()) {
+  // Alguns arcanos têm elemento composto ("Água/Fogo" n'O Carro, regido por
+  // Lua e Marte). O tema segue o primeiro, que é o dominante.
+  const principal = (element || '').split('/')[0].trim().toLowerCase();
+
+  switch (principal) {
     case 'fogo':
       return {
         gradient: 'from-orange-600 to-red-700',

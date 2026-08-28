@@ -4,15 +4,6 @@ import { ArrowLeft, BookOpen, Plus, Trash2, Clock, ChevronDown } from 'lucide-re
 import { ArcanoAdvanced } from '../../types';
 import { useUserProgress } from '../../hooks/useUserProgress';
 
-const JOURNAL_TEMPLATES: Record<number, string[]> = {
-    1: ['Hoje eu me comuniquei de forma autêntica quando...', 'Uma ideia que quero transformar em realidade é...', 'Notei minha dispersão quando...'],
-    2: ['Minha intuição me disse hoje que...', 'Um momento em que agi em vez de esperar foi...', 'Senti dependência emocional quando...'],
-    3: ['Criei algo bonito hoje quando...', 'Pratiquei o desapego quando...', 'Senti ciúmes ou posse quando...'],
-    4: ['Liderei com compaixão quando...', 'Permiti-me ser vulnerável quando...', 'Fui rígido demais quando...'],
-    5: ['Aprendi algo novo com alguém inesperado hoje:', 'Pratiquei coerência entre discurso e ação quando...', 'Fui dogmático quando...'],
-    22: ['Uma aventura inesperada de hoje foi...', 'Cumpri uma promessa quando...', 'Fugi de uma responsabilidade quando...'],
-};
-
 const DEFAULT_TEMPLATES = [
     'O que senti de mais forte hoje foi...',
     'Uma sombra que reconheci em mim hoje...',
@@ -33,7 +24,9 @@ export const JournalView: React.FC<Props> = ({ arcano, onClose, embedded }) => {
     const [showTemplates, setShowTemplates] = useState(true);
     const textareaRef = useRef<HTMLTextAreaElement>(null);
 
-    const templates = JOURNAL_TEMPLATES[arcano.numero] || DEFAULT_TEMPLATES;
+    // Os 22 arcanos têm perguntas próprias em `jornalTemplates` (arcanos.json).
+    // Antes esta tela usava uma tabela local que só cobria seis deles.
+    const templates = arcano.jornalTemplates?.length ? arcano.jornalTemplates : DEFAULT_TEMPLATES;
 
     useEffect(() => {
         if (showNewEntry && textareaRef.current) {

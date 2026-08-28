@@ -204,7 +204,6 @@ export interface SombraPro {
   sinais: string[];
   severidade: string;
   modalidade_terapia?: string;
-  modalbody_terapia?: string;
 }
 
 export type CategoriaGuia = 'CELEBRACAO' | 'REINVENTAO' | 'COMPARTILHAMENTO' | 'PRESENCA' | 'VULNERABILIDADE';

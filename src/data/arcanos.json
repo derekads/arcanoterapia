@@ -1176,7 +1176,7 @@
       "frequencia": "417",
       "nota_musical": "Lá",
       "chacra_regente": "Plexo Solar (Manipura)",
-      "elementos": "Água/Fogo",
+      "elemento": "Água/Fogo",
       "planeta_regente": "Lua/Marte",
       "signo_zodiacal": "Câncer",
       "carta_oposta": "O Torre (16)",
@@ -2086,7 +2086,7 @@
             "Doenças como forma de atenção",
             "Sacrificar-se por quem não pediu"
           ],
-          "modalbody_terapia": "Terapia Sistêmica - Lealdades Invisíveis"
+          "modalidade_terapia": "Terapia Sistêmica - Lealdades Invisíveis"
         },
         {
           "nome": "Paralisia por Análise",
@@ -2098,7 +2098,7 @@
             "Overthinking crônico",
             "Procrastinação espiritualizada ('não é a hora')"
           ],
-          "modalbody_terapia": "Terapia Cognitivo-Comportamental (TCC)"
+          "modalidade_terapia": "Terapia Cognitivo-Comportamental (TCC)"
         },
         {
           "nome": "Resistência ao Fluxo",
@@ -2110,7 +2110,7 @@
             "Manter posições só para não 'perder a face'",
             "Sofrimento desnecessário por orgulho"
           ],
-          "modalbody_terapia": "Ludoterapia ou Terapias Corporais"
+          "modalidade_terapia": "Ludoterapia ou Terapias Corporais"
         },
         {
           "nome": "Escapismo Espiritual",
@@ -2122,7 +2122,7 @@
             "Fuga em meditação excessiva",
             "Desprezo pelo mundo material"
           ],
-          "modalbody_terapia": "Ecodesenvolvimento ou Terapia de Ação"
+          "modalidade_terapia": "Ecodesenvolvimento ou Terapia de Ação"
         }
       ],
       "diretrizes": [
@@ -2227,7 +2227,7 @@
         "Fale uma verdade que encerra um ciclo",
         "Aceite um 'não' como um livramento"
       ],
-      "musicas_recommendedadas": [
+      "musicas_recomendadas": [
         "Música minimalista de piano",
         "Frequência 174Hz",
         "Sons de vento e silêncio profundo"
@@ -2256,7 +2256,7 @@
             "Incapacidade de desapego material",
             "Depressão melancólica"
           ],
-          "modalbody_terapia": "Terapia de Processamento de Luto"
+          "modalidade_terapia": "Terapia de Processamento de Luto"
         },
         {
           "nome": "Destruição Compulsiva",
@@ -2269,7 +2269,7 @@
             "Queimar pontes",
             "Vício em recomeços"
           ],
-          "modalbody_terapia": "Análise Bioenergética"
+          "modalidade_terapia": "Análise Bioenergética"
         },
         {
           "nome": "Medo da Morte/Luto",
@@ -2282,7 +2282,7 @@
             "Evitação de temas de finitude",
             "Dificuldade em lidar com perdas"
           ],
-          "modalbody_terapia": "Logoterapia - Sentido da Vida"
+          "modalidade_terapia": "Logoterapia - Sentido da Vida"
         },
         {
           "nome": "Depressão Nihilista",
@@ -2295,7 +2295,7 @@
             "Cinismo profundo",
             "Desinvestimento da vida"
           ],
-          "modalbody_terapia": "Psicologia Existencial-Humanista"
+          "modalidade_terapia": "Psicologia Existencial-Humanista"
         }
       ],
       "diretrizes": [
@@ -2400,7 +2400,7 @@
         "Beba água com a intenção de limpar e curar",
         "Seja o diplomata da sua própria vida hoje"
       ],
-      "musicas_recommendedadas": [
+      "musicas_recomendadas": [
         "Música clássica suave",
         "Frequência 639Hz",
         "Sons de harpa e violoncelo"
@@ -2429,7 +2429,7 @@
             "Exercício compulsivo",
             "Relacionamentos tudo-ou-nada"
           ],
-          "modalbody_terapia": "Psicoterapia com Foco em Vícios"
+          "modalidade_terapia": "Psicoterapia com Foco em Vícios"
         },
         {
           "nome": "Abstinência Rígida",
@@ -2442,7 +2442,7 @@
             "Moralismo alimentar",
             "Ascetismo compulsivo"
           ],
-          "modalbody_terapia": "Terapia de Aceitação e Compromisso (ACT)"
+          "modalidade_terapia": "Terapia de Aceitação e Compromisso (ACT)"
         },
         {
           "nome": "Ansiedade de Misturar",
@@ -2454,7 +2454,7 @@
             "Dificuldade em transitar entre papéis",
             "Rigidez de horários/contextos"
           ],
-          "modalbody_terapia": "Gestalt-terapia"
+          "modalidade_terapia": "Gestalt-terapia"
         },
         {
           "nome": "Cura de Outros vs Si",
@@ -2466,7 +2466,7 @@
             "Negligenciar própria saúde",
             "Síndrome do salvador"
           ],
-          "modalbody_terapia": "Análise Institucional ou Supervisão Clínica"
+          "modalidade_terapia": "Análise Institucional ou Supervisão Clínica"
         }
       ],
       "diretrizes": [
@@ -2600,7 +2600,7 @@
             "Incapacidade de dizer não",
             "Desdém por quem 'se restringe'"
           ],
-          "modalbody_terapia": "Terapia Cognitivo-Comportamental (TCC) - Prevenção de Recaída"
+          "modalidade_terapia": "Terapia Cognitivo-Comportamental (TCC) - Prevenção de Recaída"
         },
         {
           "nome": "Manipulação Sexual/Emocional",
@@ -2612,7 +2612,7 @@
             "Seduzir quem não vai amar",
             "Jogos de poder em relacionamentos"
           ],
-          "modalbody_terapia": "Psicodrama ou Terapia de Casal"
+          "modalidade_terapia": "Psicodrama ou Terapia de Casal"
         },
         {
           "nome": "Materialismo Compulsivo",
@@ -2624,7 +2624,7 @@
             "Valor pessoal medido por posses",
             "Medo irracional de perder bens"
           ],
-          "modalbody_terapia": "Minimalismo Terapêutico"
+          "modalidade_terapia": "Minimalismo Terapêutico"
         },
         {
           "nome": "Sombra Negada",
@@ -2637,7 +2637,7 @@
             "Julgamento de pessoas 'pecadoras'",
             "Discurso moralista mas vida oculta contraditória"
           ],
-          "modalbody_terapia": "Análise Junguiana - Integração da Sombra"
+          "modalidade_terapia": "Análise Junguiana - Integração da Sombra"
         }
       ],
       "diretrizes": [
@@ -2771,7 +2771,7 @@
             "Seguro contra tudo",
             "Viver em modo de sobrevivência permanente"
           ],
-          "modalbody_terapia": "Terapia de Exposição ou Somatic Experiencing"
+          "modalidade_terapia": "Terapia de Exposição ou Somatic Experiencing"
         },
         {
           "nome": "Destruição Compulsiva",
@@ -2783,7 +2783,7 @@
             "Vício em drama e crise",
             "Auto-sabotagem de tudo que constrói"
           ],
-          "modalbody_terapia": "Arteterapia ou Cerâmica"
+          "modalidade_terapia": "Arteterapia ou Cerâmica"
         },
         {
           "nome": "Negação do Caos",
@@ -2795,7 +2795,7 @@
             "Sorrir na dor",
             "Minimizar perdas"
           ],
-          "modalbody_terapia": "Logoterapia - Sentido no Sofrimento"
+          "modalidade_terapia": "Logoterapia - Sentido no Sofrimento"
         },
         {
           "nome": "Vitimização do Trauma",
@@ -2807,7 +2807,7 @@
             "Usar trauma como desculpa",
             "Recusa de reconstrução"
           ],
-          "modalbody_terapia": "Psicoterapia Positiva"
+          "modalidade_terapia": "Psicoterapia Positiva"
         }
       ],
       "diretrizes": [
@@ -2940,7 +2940,7 @@
             "Doar para perdidos crônicos",
             "Ignorar sinais de fracasso por otimismo cego"
           ],
-          "modalbody_terapia": "Psicologia Positiva Realista"
+          "modalidade_terapia": "Psicologia Positiva Realista"
         },
         {
           "nome": "Perfeccionismo Estético",
@@ -2952,7 +2952,7 @@
             "Fotos excessivamente editadas",
             "Não publicar/mostrar trabalho por não estar 'perfeito'"
           ],
-          "modalbody_terapia": "Arteterapia ou Expressividade Corporal"
+          "modalidade_terapia": "Arteterapia ou Expressividade Corporal"
         },
         {
           "nome": "Desconexão Terrena",
@@ -2964,7 +2964,7 @@
             "Planos grandiosos sem execução",
             "Dificuldade em tarefas mundanas"
           ],
-          "modalbody_terapia": "Ecopsicologia"
+          "modalidade_terapia": "Ecopsicologia"
         },
         {
           "nome": "Salvador Compulsivo",
@@ -2976,7 +2976,7 @@
             "Síndrome do herói",
             "Viver em função do brilho que outros projetam"
           ],
-          "modalbody_terapia": "Análise Transacional - Triângulo Dramático"
+          "modalidade_terapia": "Análise Transacional - Triângulo Dramático"
         }
       ],
       "diretrizes": [
@@ -3109,7 +3109,7 @@
             "Insônia por pensamentos paranóides",
             "Relacionamentos destruídos por ciúmes infundados"
           ],
-          "modalbody_terapia": "Terapia Cognitivo-Comportamental (TCC) - Reestruturação de Pensamentos"
+          "modalidade_terapia": "Terapia Cognitivo-Comportamental (TCC) - Reestruturação de Pensamentos"
         },
         {
           "nome": "Confusão Mental",
@@ -3121,7 +3121,7 @@
             "Decisões baseadas em 'sentimentos' não verificados",
             "Mudanças de humor inexplicáveis"
           ],
-          "modalbody_terapia": "Psicoterapia Existencial ou Mindful Breathing"
+          "modalidade_terapia": "Psicoterapia Existencial ou Mindful Breathing"
         },
         {
           "nome": "Fuga pela Fantasia",
@@ -3133,7 +3133,7 @@
             "Mundos imaginários mais vivos que a realidade",
             "Dificuldade em funcionar 'no mundo normal'"
           ],
-          "modalbody_terapia": "Terapia Ocupacional ou Gestalt-terapia"
+          "modalidade_terapia": "Terapia Ocupacional ou Gestalt-terapia"
         },
         {
           "nome": "Medos Ancestrais",
@@ -3145,7 +3145,7 @@
             "Pesadelos recorrentes",
             "Sensação de perigo em locais novos sem razão"
           ],
-          "modalbody_terapia": "Constelação Familiar ou Hipnose Ericksoniana"
+          "modalidade_terapia": "Constelação Familiar ou Hipnose Ericksoniana"
         }
       ],
       "diretrizes": [
@@ -3278,7 +3278,7 @@
             "Incapacidade de celebrar outros",
             "Inveja disfarçada de 'eu faria melhor'"
           ],
-          "modalbody_terapia": "Psicologia Positiva com Foco em Empatia"
+          "modalidade_terapia": "Psicologia Positiva com Foco em Empatia"
         },
         {
           "nome": "Positividade Tóxica",
@@ -3290,7 +3290,7 @@
             "Minimizar dor de outros com 'fique positivo'",
             "Negar problemas reais"
           ],
-          "modalbody_terapia": "Terapia de Aceitação e Compromisso (ACT)"
+          "modalidade_terapia": "Terapia de Aceitação e Compromisso (ACT)"
         },
         {
           "nome": "Burnout Solar",
@@ -3302,7 +3302,7 @@
             "Dificuldade em parar",
             "Associar valor à produtividade"
           ],
-          "modalbody_terapia": "Terapia de Redução de Estresse (MBSR)"
+          "modalidade_terapia": "Terapia de Redução de Estresse (MBSR)"
         },
         {
           "nome": "Infantilização",
@@ -3314,7 +3314,7 @@
             "Dificuldade em assuntos sérios",
             "Fuga pelo humor"
           ],
-          "modalbody_terapia": "Análise Transacional - Estado de Ego Adulto"
+          "modalidade_terapia": "Análise Transacional - Estado de Ego Adulto"
         }
       ],
       "diretrizes": [
@@ -3386,7 +3386,7 @@
       "frequencia": "741",
       "nota_musical": "Sol# (G#)",
       "chacra_regente": "Laringeo (Vishuddha)",
-      "element": "Fogo",
+      "elemento": "Fogo",
       "planeta_regente": "Plutão",
       "signo_zodiacal": "Peixes",
       "carta_oposta": "O Louco (0)",
@@ -3447,7 +3447,7 @@
             "Dificuldade em aceitar coisas boas",
             "Viver como se devesse algo ao mundo"
           ],
-          "modalbody_terapia": "Logoterapia ou Psicoterapia Humanista"
+          "modalidade_terapia": "Logoterapia ou Psicoterapia Humanista"
         },
         {
           "nome": "Surdez ao Chamado",
@@ -3459,7 +3459,7 @@
             "Permanecer em zona de conforto",
             "Dizer 'ainda não estou pronto' eternamente"
           ],
-          "modalbody_terapia": "Coaching Arquetípico ou TCC"
+          "modalidade_terapia": "Coaching Arquetípico ou TCC"
         },
         {
           "nome": "Fanatismo da Missao",
@@ -3471,7 +3471,7 @@
             "Sacrificar tudo pela 'causa'",
             "Síndrome messiânica"
           ],
-          "modalbody_terapia": "Análise Institucional ou Supervisão"
+          "modalidade_terapia": "Análise Institucional ou Supervisão"
         },
         {
           "nome": "Julgamento dos Outros",
@@ -3483,7 +3483,7 @@
             "Tribunal interno em constante sessão",
             "Incapacidade de perdoar"
           ],
-          "modalbody_terapia": "Comunicação Não-Violenta (CNV)"
+          "modalidade_terapia": "Comunicação Não-Violenta (CNV)"
         }
       ],
       "diretrizes": [
@@ -3616,7 +3616,7 @@
             "Dificuldade em publicar/entregar/terminar",
             "Sabotagem no final"
           ],
-          "modalbody_terapia": "Psicologia Positiva com Foco em Realização ou TCC"
+          "modalidade_terapia": "Psicologia Positiva com Foco em Realização ou TCC"
         },
         {
           "nome": "Síndrome do Eterno Estudante",
@@ -3628,7 +3628,7 @@
             "Dúvida crônica sobre própria competência",
             "Acúmulo de diplomas sem prática"
           ],
-          "modalbody_terapia": "Andragogia Terapêutica ou Mentoria"
+          "modalidade_terapia": "Andragogia Terapêutica ou Mentoria"
         },
         {
           "nome": "Arrogância de Conclusão",
@@ -3640,7 +3640,7 @@
             "Desprezo por quem está começando",
             "Estagnação por excesso de sucesso"
           ],
-          "modalbody_terapia": "Filosofia Clínica ou Budismo (Mente de Principiante)"
+          "modalidade_terapia": "Filosofia Clínica ou Budismo (Mente de Principiante)"
         },
         {
           "nome": "Melancolia do Sucesso",
@@ -3652,7 +3652,7 @@
             "Vazio existencial pós-sucesso",
             "Falta de propósito após grandes vitórias"
           ],
-          "modalbody_terapia": "Psicologia Existencial-Humanista"
+          "modalidade_terapia": "Psicologia Existencial-Humanista"
         }
       ],
       "diretrizes": [

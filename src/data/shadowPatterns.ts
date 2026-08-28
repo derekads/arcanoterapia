@@ -443,7 +443,7 @@ export function getShadowPatternsForArcano(arcanoId: number): ShadowPattern[] {
         exercicio: s.exercicio,
         sinaisAtencao: s.sinais,
         frequenciaSombra: SEVERITY_MAP[s.severidade] || 'MEDIA',
-        modalidadeTerapia: s.modalidade_terapia || s.modalbody_terapia || 'Psicologia Analítica',
+        modalidadeTerapia: s.modalidade_terapia || 'Psicologia Analítica',
         exercicioPratico: {
             titulo: s.nome,
             duracaoMinutos: 15,
