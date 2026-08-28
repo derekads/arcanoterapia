@@ -1,3 +1,5 @@
+import { outerPlanetInterpretations } from './outerPlanetInterpretations';
+
 export interface InterpretationData {
     hook: string;
     youAre?: string; // Standard or Sun/Moon/Merc/Mars
@@ -119,7 +121,7 @@ export function getGenericInterpretation(planet: string, sign: string): Interpre
     };
 }
 
-export const interpretationsDB: Record<string, InterpretationData> = {
+const baseInterpretations: Record<string, InterpretationData> = {
     // LOTE 1: SOL =========================================================
     "sun_aries": {
         "hook": "Você é daqueles que não espera a vida acontecer. Vai lá e faz. E se der errado, recomeça antes de todo mundo.",
@@ -939,4 +941,15 @@ export const interpretationsDB: Record<string, InterpretationData> = {
         "fear": "Medo de confusão mental, de loucura, de solidão espiritual, de não ser suficientemente compassivo.",
         "tryThis": "Estabeleça um limite claro com alguém que te usa hoje. Pratique o não."
     }
+};
+
+/**
+ * Banco completo. As entradas de Urano, Netuno, Plutão, Meio do Céu, Nó Norte
+ * e Lilith vivem em `outerPlanetInterpretations` — antes desses textos, esses
+ * seis pontos caíam sempre no fallback genérico, com a mesma leitura nos doze
+ * signos.
+ */
+export const interpretationsDB: Record<string, InterpretationData> = {
+    ...baseInterpretations,
+    ...outerPlanetInterpretations
 };

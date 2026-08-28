@@ -4,7 +4,12 @@ import { ArcanoAdvanced } from '../../types';
 import { motion, AnimatePresence } from 'framer-motion';
 
 interface Props {
-  persona: ArcanoAdvanced['personaAI'];
+  /**
+   * O arcano inteiro. O componente lê sombras, conselhos, elemento e
+   * palavras-chave daqui — antes recebia só `personaAI`, que não carrega
+   * nenhum desses campos, e as respostas saíam com "undefined" no texto.
+   */
+  arcano: ArcanoAdvanced;
   arcanaName: string;
 }
 
@@ -14,9 +19,21 @@ interface Message {
   text: string;
 }
 
-export const ChatOraculo: React.FC<Props> = ({ persona, arcanaName }) => {
+export const ChatOraculo: React.FC<Props> = ({ arcano, arcanaName }) => {
+  const persona = arcano.personaAI;
+
+  // Conteúdo real do arcano, com as várias grafias que a base usa.
+  const sombras = arcano.conteudo?.sombra ?? arcano.insights?.sombra ?? [];
+  const conselhos = arcano.conteudo?.conselho ?? arcano.insights?.conselho ?? arcano.conselho_diario ?? [];
+  const palavrasChave = arcano.palavrasChave ?? [];
+  const elemento = arcano.elemento ?? '';
+
   const [messages, setMessages] = useState<Message[]>([
-    { id: 1, role: 'bot', text: persona.fraseBoasVindas }
+    {
+      id: 1,
+      role: 'bot',
+      text: persona?.fraseBoasVindas || `Eu sou ${arcanaName}. O que deseja desvendar hoje?`
+    }
   ]);
   const [input, setInput] = useState('');
   const [isTyping, setIsTyping] = useState(false);
@@ -43,22 +60,24 @@ export const ChatOraculo: React.FC<Props> = ({ persona, arcanaName }) => {
       // 1. Keyword Matching
       const lowerInput = input.toLowerCase();
       if (lowerInput.includes('medo') || lowerInput.includes('sombra')) {
-        responseText = `Sua sombra em ${persona.nome} pede integração. ${persona.sombra ? persona.sombra[0] : "Olhe para onde você evita olhar."}`;
+        responseText = `Sua sombra em ${arcanaName} pede integração. ${sombras.length ? sombras[0] : 'Olhe para onde você evita olhar.'}`;
       } else if (lowerInput.includes('amor') || lowerInput.includes('relacionamento')) {
-        responseText = `Nos relacionamentos, lembre-se: ${persona.conselhos ? persona.conselhos[0] : "O outro é seu espelho."}`;
+        responseText = `Nos relacionamentos, lembre-se: ${conselhos.length ? conselhos[0] : 'O outro é seu espelho.'}`;
       } else if (lowerInput.includes('trabalho') || lowerInput.includes('carreira')) {
         responseText = "Sua vocação chama. Você está ouvindo ou apenas ocupado?";
       } else {
         // 2. Fallback to Persona/Element/Advice
         const genericResponses = [
-          `Como um arcano de ${persona.elemento}, sinto que fluxo é necessário agora.`,
+          elemento
+            ? `Como um arcano de ${elemento}, sinto que fluxo é necessário agora.`
+            : 'Sinto que o fluxo é necessário agora.',
           "A resposta está no silêncio entre seus pensamentos.",
           "Observe como os ciclos se repetem na sua vida. O que você fará diferente?",
-          `O conselho do arcano é: ${persona.conselhos ? persona.conselhos[Math.floor(Math.random() * persona.conselhos.length)] : "Confie no processo."}`,
+          `O conselho do arcano é: ${conselhos.length ? conselhos[Math.floor(Math.random() * conselhos.length)] : 'Confie no processo.'}`,
           "Essa dúvida ecoa uma sombra antiga. Você está pronto para enfrentá-la?",
           "O universo conspira a seu favor, mas exige movimento.",
           "Respire. A alquimia da sua alma já está transformando chumbo em ouro.",
-          `Medite sobre a palavra-chave: ${persona.palavrasChave ? persona.palavrasChave[Math.floor(Math.random() * persona.palavrasChave.length)] : "Transformação"}.`
+          `Medite sobre a palavra-chave: ${palavrasChave.length ? palavrasChave[Math.floor(Math.random() * palavrasChave.length)] : 'Transformação'}.`
         ];
         // Deterministic pseudo-random
         const responseIndex = (userMsg.text.length + Date.now()) % genericResponses.length;
@@ -84,7 +103,7 @@ export const ChatOraculo: React.FC<Props> = ({ persona, arcanaName }) => {
           </div>
           <div>
             <h3 className="text-white font-serif text-sm font-bold">{arcanaName}</h3>
-            <p className="text-[10px] text-mystic-gold uppercase tracking-wider">{persona.tomDeVoz}</p>
+            <p className="text-[10px] text-mystic-gold uppercase tracking-wider">{persona?.tomDeVoz}</p>
           </div>
         </div>
         <div className="p-2 bg-white/5 rounded-full">

@@ -9,7 +9,7 @@ import {
 import { useMapaAstral } from '../hooks/useMapaAstral';
 import { TimelineView } from './dashboard/TimelineView';
 import { MapaAstralView } from './dashboard/MapaAstralView';
-import { interpretationsDB, getGenericInterpretation } from '../data/astrologyInterpretations';
+import { buildMapaViewModel } from '../utils/mapaAstralAdapter';
 import { ArcanoExpandidoView } from './dashboard/ArcanoExpandidoView';
 import { FarmaciaAlquimica } from './dashboard/FarmaciaAlquimica';
 import { BottomNavigation } from './dashboard/BottomNavigation';
@@ -125,53 +125,16 @@ export const SanctuaryScreen: React.FC<Props> = ({
         {!isDashboard && viewAtiva !== 'ARCANO_EXPANDED' && (
           <ExpandedViewWrapper view={viewAtiva} onClose={() => setViewAtiva('ORACLE')}>
             {viewAtiva === 'ASTROLOGY_DETAIL' && (
-              <MapaAstralView
-                dados={(() => {
-                  const planetPtToEn: Record<string, string> = {
-                    'Sol': 'sun', 'Lua': 'moon', 'Mercúrio': 'mercury', 'Vênus': 'venus', 'Marte': 'mars',
-                    'Júpiter': 'jupiter', 'Saturno': 'saturn', 'Urano': 'uranus', 'Netuno': 'neptune', 'Plutão': 'pluto',
-                    'Ascendente': 'ascendant', 'MC': 'midheaven'
-                  };
-                  const signPtToEn: Record<string, string> = {
-                    'Áries': 'aries', 'Touro': 'taurus', 'Gêmeos': 'gemini', 'Câncer': 'cancer',
-                    'Leão': 'leo', 'Virgem': 'virgo', 'Libra': 'libra', 'Escorpião': 'scorpio',
-                    'Sagitário': 'sagittarius', 'Capricórnio': 'capricorn', 'Aquário': 'aquarius', 'Peixes': 'pisces'
-                  };
-
-                  const astros = mapa ? [...mapa.astros, mapa.ascendente] : [];
-                  const aspectos = mapa ? mapa.aspectos : [];
-
-                  return {
-                    nome: userData?.nome || 'Iniciado',
-                    planetas: astros.map(p => {
-                      const pKey = planetPtToEn[p.nome] || p.nome.toLowerCase();
-                      const signKey = signPtToEn[p.signo] || p.signo.toLowerCase();
-                      const dbKey = `${pKey}_${signKey}`;
-                      const dbEntry = interpretationsDB[dbKey] || getGenericInterpretation(p.nome, p.signo);
-
-                      return {
-                        planeta: p.nome,
-                        signo: p.signo,
-                        casa: p.casa,
-                        grau: `${String(p.grau).padStart(2, '0')}°${String(p.minuto).padStart(2, '0')}'`,
-                        elemento: p.elemento,
-                        interpretacao: {
-                          titulo: dbEntry.hook || `A energia de ${p.nome} em ${p.signo}`,
-                          potencialLuz: dbEntry.yourPower || dbEntry.youAre || 'Potencial evolutivo e consciência.',
-                          desafioSombra: dbEntry.yourTrap || dbEntry.hook || 'Obstáculos de sombra para integrar.',
-                          acaoPratica: dbEntry.tryThis || 'Observe como esse arquétipo age no seu dia.'
-                        }
-                      };
-                    }),
-                    aspectos: aspectos.map(a => ({
-                      planeta1: a.astroA,
-                      tipo: a.tipo,
-                      planeta2: a.astroB,
-                      orb: String(a.orb)
-                    }))
-                  };
-                })()}
-              />
+              mapa
+                ? <MapaAstralView mapa={buildMapaViewModel(mapa, userData as any)} />
+                : (
+                  <div className="min-h-screen bg-slate-950 flex items-center justify-center p-8 text-center">
+                    <p className="text-sm text-slate-400 font-serif italic max-w-xs">
+                      O céu ainda está sendo calculado. Confirme sua data, hora e local de nascimento
+                      para abrir o mapa.
+                    </p>
+                  </div>
+                )
             )}
             {viewAtiva === 'TIMELINE' && <TimelineView userData={userData} arcanoCiclos={arcana.ciclos} />}
             {viewAtiva === 'ALCHEMY' && (
@@ -181,7 +144,7 @@ export const SanctuaryScreen: React.FC<Props> = ({
                   <p className="text-white/40 text-center mb-10">Ferramentas de cura para o Arcano {arcana.nome}</p>
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-6" style={{ minHeight: '500px' }}>
                     <FarmaciaAlquimica alquimia={arcana.alquimia} />
-                    <ChatOraculo persona={arcana.personaAI} arcanaName={arcana.nome} />
+                    <ChatOraculo arcano={arcana} arcanaName={arcana.nome} />
                   </div>
                 </div>
               </div>

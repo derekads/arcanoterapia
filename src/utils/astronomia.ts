@@ -95,7 +95,9 @@ const INTERPRETACAO_PADRAO_PLANETA = {
   "Urano": "Revolução, o inesperado e a libertação.",
   "Netuno": "Ilusão, espiritualidade e inspiração artística.",
   "Plutão": "Poder, morte, renascimento e profundidade.",
-  "MC": "Vocação, imagem pública e meta de vida."
+  "MC": "Vocação, imagem pública e meta de vida.",
+  "Nó Norte": "A direção evolutiva: o território que a alma veio desbravar nesta vida.",
+  "Lilith": "O desejo indomado e a parte de você que se recusa a ser domesticada."
 };
 
 // --- HELPER FUNCTIONS ---
@@ -216,6 +218,44 @@ function calcularAspectos(astros: PosicaoCelestial[]): Aspecto[] {
   return aspectosEncontrados.sort((a, b) => a.orb - b.orb);
 }
 
+/**
+ * Séculos julianos decorridos desde J2000.0 — base das fórmulas de Meeus.
+ */
+function seculosJulianos(data: Date): number {
+  const jd = data.getTime() / 86400000 + 2440587.5;
+  return (jd - 2451545.0) / 36525;
+}
+
+/**
+ * Nó Norte médio (Cabeça do Dragão) — Meeus, Astronomical Algorithms, cap. 47.
+ * O nó médio tem movimento retrógrado constante (~19°20' por ano).
+ */
+function calcularNoNorteMedio(data: Date): number {
+  const T = seculosJulianos(data);
+  const omega =
+    125.0445479 -
+    1934.1362891 * T +
+    0.0020754 * T * T +
+    (T * T * T) / 467441 -
+    (T * T * T * T) / 60616000;
+  return normalizarGraus(omega);
+}
+
+/**
+ * Lilith média (Lua Negra) = perigeu lunar médio + 180°, ou seja, o apogeu
+ * da órbita da Lua. Perigeu médio conforme Meeus, cap. 47.
+ */
+function calcularLilithMedia(data: Date): number {
+  const T = seculosJulianos(data);
+  const perigeu =
+    83.3532465 +
+    4069.0137287 * T -
+    0.0103200 * T * T -
+    (T * T * T) / 80053 +
+    (T * T * T * T) / 18999000;
+  return normalizarGraus(perigeu + 180);
+}
+
 // --- CÁLCULOS PRINCIPAIS ---
 
 function calcularASC(ramcRad: number, epsRad: number, latRad: number): number {
@@ -334,6 +374,27 @@ export function calcularMapaAstral(userData: UserBirthData): MapaAstralCalculado
       retrogrado: isRetro,
       interpretacao: gerarInterpretacao(planeta.displayName, dadosGeo.signo)
     });
+  });
+
+  // Pontos lunares calculados (não são corpos físicos, mas fazem parte do mapa)
+  const noNorteVal = calcularNoNorteMedio(dateUTC);
+  const noNorteDados = longitudeParaDados(noNorteVal);
+  astrosCalculados.push({
+    nome: 'Nó Norte',
+    ...noNorteDados,
+    casa: calcularCasaDoPlaneta(noNorteDados.longitude, casas),
+    retrogrado: true, // o nó médio é sempre retrógrado
+    interpretacao: gerarInterpretacao('Nó Norte', noNorteDados.signo)
+  });
+
+  const lilithVal = calcularLilithMedia(dateUTC);
+  const lilithDados = longitudeParaDados(lilithVal);
+  astrosCalculados.push({
+    nome: 'Lilith',
+    ...lilithDados,
+    casa: calcularCasaDoPlaneta(lilithDados.longitude, casas),
+    retrogrado: false,
+    interpretacao: gerarInterpretacao('Lilith', lilithDados.signo)
   });
 
   // Adicionar ASC e MC à lista de "astros" para cálculo de aspectos e visualização unificada
