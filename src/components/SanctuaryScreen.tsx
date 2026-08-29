@@ -762,18 +762,37 @@ function PreviewDiretrizes({ arcanoNumero }: { arcanoNumero: number }) {
   );
 }
 
+/**
+ * Lê o progresso salvo pelo `useUserProgress`.
+ *
+ * Estes cartões liam `life_wheel_<n>` e `journal_entries_<n>`, chaves que
+ * NADA no app escreve — o progresso real sempre morou em
+ * `arcanoterapia_user_progress_<n>`. Resultado: por mais que o usuário
+ * preenchesse a Roda da Vida ou escrevesse no Diário, os cartões do painel
+ * continuavam dizendo "Avalie 6 áreas da sua vida" e "Comece a escrever
+ * suas reflexões".
+ */
+function lerProgresso(arcanoNumero: number): any | null {
+  try {
+    const raw = localStorage.getItem(`arcanoterapia_user_progress_${arcanoNumero}`);
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
+}
+
 function PreviewRodaVida({ arcanoNumero }: { arcanoNumero: number }) {
   const [avg, setAvg] = useState(0);
   useEffect(() => {
-    try {
-      const key = `life_wheel_${arcanoNumero}`;
-      const saved = localStorage.getItem(key);
-      if (saved) {
-        const data = JSON.parse(saved);
-        const values = Object.values(data) as number[];
-        if (values.length > 0) setAvg(Math.round((values.reduce((a, b) => a + b, 0) / values.length) * 10) / 10);
-      }
-    } catch { }
+    const progresso = lerProgresso(arcanoNumero);
+    const notas = (progresso?.areasVida || [])
+      .map((a: any) => a?.nota)
+      .filter((n: any) => typeof n === 'number');
+    if (notas.length > 0) {
+      setAvg(Math.round((notas.reduce((a: number, b: number) => a + b, 0) / notas.length) * 10) / 10);
+    } else {
+      setAvg(0);
+    }
   }, [arcanoNumero]);
   return (
     <div className="mt-4">
@@ -806,18 +825,17 @@ function PreviewJornal({ arcanoNumero }: { arcanoNumero: number }) {
   const [count, setCount] = useState(0);
   const [lastDate, setLastDate] = useState('');
   useEffect(() => {
-    try {
-      const key = `journal_entries_${arcanoNumero}`;
-      const saved = localStorage.getItem(key);
-      if (saved) {
-        const entries = JSON.parse(saved);
-        setCount(entries.length);
-        if (entries.length > 0) {
-          const last = new Date(entries[entries.length - 1].date || entries[entries.length - 1].data);
-          setLastDate(last.toLocaleDateString('pt-BR', { day: '2-digit', month: 'short' }));
-        }
-      }
-    } catch { }
+    const entries: any[] = lerProgresso(arcanoNumero)?.journalEntries || [];
+    setCount(entries.length);
+
+    // `addJournalEntry` insere no início da lista, então a mais recente é a
+    // primeira — pegar a última invertia a data mostrada.
+    const maisRecente = entries[0];
+    const iso = maisRecente?.data || maisRecente?.date;
+    const d = iso ? new Date(iso) : null;
+    setLastDate(d && !isNaN(d.getTime())
+      ? d.toLocaleDateString('pt-BR', { day: '2-digit', month: 'short' })
+      : '');
   }, [arcanoNumero]);
   return (
     <div className="mt-4">

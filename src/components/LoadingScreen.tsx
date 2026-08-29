@@ -1,5 +1,6 @@
-import React, { useEffect, useState, useMemo } from 'react';
+import React, { useEffect, useState, useMemo, useRef, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { LiquidOrb } from './orb/LiquidOrb';
 
 interface Props {
   onComplete: () => void;
@@ -12,32 +13,74 @@ const FRASES = [
   "Revelando o caminho...",
 ];
 
+/** Duração da abertura, em milissegundos. */
+const DURACAO_MS = 2000;
+
 const LoadingScreen: React.FC<Props> = ({ onComplete }) => {
   const [fraseIndex, setFraseIndex] = useState(0);
   const [progress, setProgress] = useState(0);
 
+  /**
+   * `onComplete` é recriado a cada render do App, então tê-lo nas dependências
+   * do efeito fazia o efeito remontar junto: a remontagem limpava o
+   * `setTimeout` de conclusão e recomeçava a contagem do zero. Bastava o App
+   * renderizar mais de uma vez a cada 2s — um toast, a sincronização de
+   * perfis, um evento `storage` de outra aba — para a tela nunca avançar e o
+   * usuário ficar preso em "Sintonizando energias...".
+   *
+   * Guardar o callback em uma ref desacopla as duas coisas: o efeito roda uma
+   * vez só, no mount, e ainda assim chama sempre a versão mais recente.
+   */
+  const onCompleteRef = useRef(onComplete);
+  useEffect(() => { onCompleteRef.current = onComplete; }, [onComplete]);
+
   useEffect(() => {
+    const inicio = Date.now();
+
     const textTimer = setInterval(() => {
       setFraseIndex((prev) => (prev + 1) % FRASES.length);
     }, 600);
 
+    // A barra acompanha o tempo decorrido de verdade. Somar uma fatia fixa a
+    // cada tique fazia a barra encher em ritmo próprio, e ela chegava a 100%
+    // antes (ou depois) da transição, conforme a carga da aba.
     const progressTimer = setInterval(() => {
-      setProgress((prev) => Math.min(prev + 1.6, 100));
+      setProgress(Math.min(((Date.now() - inicio) / DURACAO_MS) * 100, 100));
     }, 30);
 
     const completeTimer = setTimeout(() => {
-      onComplete();
-    }, 2000);
+      onCompleteRef.current();
+    }, DURACAO_MS);
 
     return () => {
       clearInterval(textTimer);
       clearInterval(progressTimer);
       clearTimeout(completeTimer);
     };
-  }, [onComplete]);
+    // Sem dependências: a abertura tem duração fixa e não deve reiniciar.
+  }, []);
 
   // Create cards for shuffle effect
   const cardItems = useMemo(() => Array.from({ length: 5 }, (_, i) => i), []);
+
+  /**
+   * O orbe é a animação principal; o embaralhar de cartas é a reserva.
+   *
+   * WebGPU ainda não está em todo lugar — Safari só habilitou há pouco, e boa
+   * parte dos Android intermediários que o app atende não tem. Começamos
+   * assumindo que dá para tentar e caímos para as cartas se o `LiquidOrb`
+   * avisar que não deu. Quem pediu menos movimento no sistema já entra direto
+   * nas cartas.
+   */
+  const prefereMenosMovimento = typeof window !== 'undefined'
+    && window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+
+  const [orbeDisponivel, setOrbeDisponivel] = useState(!prefereMenosMovimento);
+
+  const aoFalharOrbe = useCallback((motivo: string) => {
+    console.info('[LoadingScreen] orbe indisponível, usando as cartas:', motivo);
+    setOrbeDisponivel(false);
+  }, []);
 
   return (
     <motion.div
@@ -53,7 +96,17 @@ const LoadingScreen: React.FC<Props> = ({ onComplete }) => {
       <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-10 pointer-events-none" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-violet-600/[0.03] blur-[150px] animate-pulse" />
 
-      {/* 🔮 3D CARD SHUFFLE ANIMATION */}
+      {orbeDisponivel ? (
+        /* 🔮 ORBE LÍQUIDO (WebGPU) */
+        <div className="relative flex items-center justify-center w-48 h-72 mb-20">
+          <div
+            className="absolute w-56 h-56 rounded-full blur-[70px] pointer-events-none"
+            style={{ background: 'radial-gradient(circle, rgba(168,85,247,0.30), transparent 70%)' }}
+          />
+          <LiquidOrb tamanho={224} estado="thinking" aoFalhar={aoFalharOrbe} />
+        </div>
+      ) : (
+      /* 🔮 3D CARD SHUFFLE ANIMATION — reserva sem WebGPU */
       <div className="relative w-48 h-72 mb-20" style={{ perspective: '1000px' }}>
         {cardItems.map((i) => (
           <motion.div
@@ -96,6 +149,7 @@ const LoadingScreen: React.FC<Props> = ({ onComplete }) => {
         {/* Central Glow */}
         <div className="absolute inset-0 bg-amber-500/5 rounded-xl blur-3xl scale-125 z-0" />
       </div>
+      )}
 
       {/* RITUALISTIC TEXT */}
       <div className="h-12 flex flex-col items-center justify-center space-y-4">

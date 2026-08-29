@@ -33,13 +33,27 @@ import matrixArcanoSign from '../data/matrices/matrix_arcano_sign.json';
 import matrixYearTransition from '../data/matrices/matrix_year_transition.json';
 import { calculateMoonPhase, reduzirParaArcano } from '../utils/calculos';
 import { resolverNascimentoUTC } from '../utils/timezone';
+import { migrarDadosDoArcano } from '../utils/migracaoArcano';
 
 const ArcanoContext = createContext<ArcanoContextType | undefined>(undefined);
 
 export const ArcanoProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const [userData, setUserData] = useState<UserData | null>(() => {
-        const saved = localStorage.getItem('arcanoterapia_user_data');
-        return saved ? JSON.parse(saved) : null;
+        // Antes de qualquer leitura: reconciliar o diário, a roda da vida e o
+        // progresso que ficaram gravados sob o número antigo do arcano quando
+        // o cálculo mudou. Copia, nunca sobrescreve, e roda uma vez só —
+        // ver utils/migracaoArcano.ts.
+        migrarDadosDoArcano();
+
+        try {
+            const saved = localStorage.getItem('arcanoterapia_user_data');
+            return saved ? JSON.parse(saved) : null;
+        } catch {
+            // Um JSON corrompido no localStorage derrubava o app inteiro na
+            // primeira renderização, sem nada na tela.
+            console.warn('[ArcanoContext] dados do usuário ilegíveis; recomeçando do zero');
+            return null;
+        }
     });
 
     const [isLoading, setIsLoading] = useState(true);

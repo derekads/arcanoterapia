@@ -115,7 +115,20 @@ export function calcularArcanoBongo(nomeCompleto: string): ResultadoBongo {
         return true;
     });
 
-    const nomeConsiderado = consideradas.join(' ');
+    /**
+     * Se TODAS as partes forem sufixos de linhagem — alguém que digita só
+     * "Neto" ou "Junior Filho" —, descartar tudo zeraria a soma e devolveria
+     * o arcano 0, que não existe no baralho. O app então não encontrava a
+     * carta e renderizava uma tela em branco.
+     *
+     * A tradição manda ignorar o sufixo dentro de um nome maior; ela não
+     * prevê o caso em que o sufixo é o nome inteiro. Aqui a regra cede: se
+     * não sobra nada, o nome inteiro volta para a soma.
+     */
+    const partesFinais = consideradas.length > 0 ? consideradas : partes;
+    if (consideradas.length === 0) sufixosIgnorados.length = 0;
+
+    const nomeConsiderado = partesFinais.join(' ');
 
     const letras: LetraComValor[] = [];
     for (const ch of nomeConsiderado) {
