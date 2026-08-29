@@ -24,6 +24,7 @@ import { SombraQuiz } from '../terapia/SombraQuiz';
 import { TrilhaTransmutacao } from '../terapia/TrilhaTransmutacao';
 import { useArcano } from '../../context/ArcanoContext';
 import { deArcano } from '../../utils/calculos';
+import { paletaDoArcano, type PaletaArcano } from '../../utils/arcanoPalette';
 
 interface Props {
   arcano: ArcanoAdvanced;
@@ -33,6 +34,16 @@ interface Props {
   onNavigate: (view: ViewState) => void;
   initialTab?: ArcanoTab;
 }
+
+/** Cartão de atributo da assinatura numérica. */
+const Atributo: React.FC<{ rotulo: string; valor: string; paleta: PaletaArcano }> = ({ rotulo, valor, paleta }) => (
+  <div className="rounded-2xl border border-white/[0.07] bg-white/[0.02] px-5 py-4">
+    <p className="text-[9.5px] uppercase tracking-[0.18em] mb-1.5" style={{ color: paleta.tinta }}>
+      {rotulo}
+    </p>
+    <p className="text-[14.5px] text-white/85 leading-snug">{valor}</p>
+  </div>
+);
 
 // --- THEME ENGINE ---
 function getArcanaTheme(element: string) {
@@ -169,6 +180,12 @@ export const ArcanoExpandidoView: React.FC<Props> = ({
 
   // Dynamic Theme
   const theme = getArcanaTheme(arcano.elemento as string);
+  // Paleta do próprio arcano, com a luminosidade ajustada para o texto ficar
+  // legível sobre o fundo escuro. Ver utils/arcanoPalette.ts.
+  const paleta = useMemo(
+    () => paletaDoArcano((arcano as any).cor, (arcano as any).cor_secundaria),
+    [(arcano as any).cor, (arcano as any).cor_secundaria]
+  );
   const ElementIcon = theme.icon;
 
   // Extract Data with safe fallbacks
@@ -192,179 +209,203 @@ export const ArcanoExpandidoView: React.FC<Props> = ({
   };
 
   // Render the Essência tab content (original expanded view content)
-  const renderEssenciaTab = () => (
-    <div className="max-w-5xl mx-auto px-6 py-10 space-y-20">
-      {/* SÍNTESE PESSOAL */}
+  const renderEssenciaTab = () => {
+    // Atributos do arcano que estavam gravados no JSON e nenhuma aba exibia.
+    const ficha = [
+      { rotulo: 'Elemento', valor: arcano.elemento },
+      { rotulo: 'Regente', valor: arcano.planeta_regente || arcano.planeta },
+      { rotulo: 'Signo', valor: arcano.signo_zodiacal },
+      { rotulo: 'Dia', valor: (arcano as any).dia_semana },
+      { rotulo: 'Chacra', valor: arcano.chacra_regente },
+      { rotulo: 'Número', valor: (arcano as any).numero_sorte },
+    ].filter(f => f.valor && f.valor !== 'N/A');
+
+    const numerologia = (arcano as any).numerologia as
+      | { alma: number; personalidade: string; caminho: string; desafio: string }
+      | undefined;
+    const pergunta = (arcano as any).pergunta_junguiana as string | undefined;
+    const cartaOposta = (arcano as any).carta_oposta as string | undefined;
+
+    return (
+    <div className="max-w-4xl mx-auto px-5 md:px-6 py-10 space-y-14 md:space-y-20">
+
+      {/* ═══ CARTUCHO DE IDENTIDADE ═══ */}
       <section>
-        <div className="relative rounded-[2rem] overflow-hidden border border-white/10">
-          <div className={clsx("absolute inset-0 opacity-10 bg-gradient-to-r", theme.gradient)} />
-          <div className="relative z-10 p-8 md:p-12 flex flex-col md:flex-row gap-12 items-center">
-            <div className="w-full md:w-1/3 text-center md:text-right border-b md:border-b-0 md:border-r border-white/10 pb-8 md:pb-0 md:pr-12">
-              <div className={clsx("w-24 h-24 mx-auto md:ml-auto rounded-full border-2 flex items-center justify-center mb-4 shadow-2xl", theme.border, theme.bgIcon)}>
-                <User size={48} className={theme.text} />
+        <div
+          className="relative rounded-3xl overflow-hidden border"
+          style={{ borderColor: paleta.borda, background: `linear-gradient(160deg, ${paleta.lavagem}, transparent 70%)` }}
+        >
+          {/* filete de cor do arcano */}
+          <div className="absolute inset-x-0 top-0 h-[3px]" style={{ background: paleta.gradiente }} />
+
+          <div className="relative p-7 md:p-10">
+            <div className="flex items-start gap-5 md:gap-7">
+              <div
+                className="shrink-0 w-16 h-16 md:w-20 md:h-20 rounded-2xl border flex items-center justify-center text-3xl md:text-4xl"
+                style={{ borderColor: paleta.borda, background: paleta.lavagem, boxShadow: `0 0 34px ${paleta.lavagem}` }}
+                aria-hidden
+              >
+                {(arcano as any).simbolo || <ElementIcon size={30} style={{ color: paleta.tinta }} />}
               </div>
-              <h3 className="text-2xl font-serif text-white mb-2">{userData.nome.split(' ')[0]}</h3>
-              <p className="text-xs uppercase tracking-widest text-white/50">{userData.localizacao.nomeCidade.split(',')[0]}</p>
-            </div>
-            <div className="w-full md:w-2/3">
-              <div className="flex items-center gap-3 mb-4 opacity-60">
-                <Stars size={16} className={theme.accent} />
-                <span className="text-xs font-bold uppercase tracking-[0.2em]">O Mapa do Instante</span>
-              </div>
-              <div className="text-lg md:text-xl font-serif leading-relaxed text-white/90">
-                <p className="mb-4">
-                  A energia {deArcano(arcano.nome)} manifesta-se em sua vida trazendo o poder de <span className={theme.accent}>{arcano.palavrasChave[0]}</span>.
+
+              <div className="min-w-0 flex-1">
+                <p
+                  className="font-mono text-[11px] tracking-[0.28em] mb-1.5"
+                  style={{ color: paleta.tinta }}
+                >
+                  {arcano.numeroRomano} · ARCANO {arcano.numero}
                 </p>
-                <blockquote className={clsx("pl-6 border-l-4 italic text-xl md:text-2xl", theme.text, theme.border.replace('border-', 'border-l-'))}>
-                  "{conselho[0]?.split(':')[0]}"
-                </blockquote>
+                <h2 className="font-serif text-3xl md:text-5xl text-white leading-none mb-3 text-balance">
+                  {arcano.nome}
+                </h2>
+                <p className="text-sm md:text-base text-white/50 font-light">
+                  {(arcano as any).subtitulo || arcano.palavrasChave?.join(' • ')}
+                </p>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
 
-      {/* ESSÊNCIA PROFUNDA */}
-      <section>
-        <div className="flex flex-col items-center text-center max-w-4xl mx-auto relative">
-          <Quote className={clsx("absolute -top-12 left-0 w-16 h-16 opacity-10 rotate-180", theme.text)} />
-          <h2 className={clsx("text-xs font-bold uppercase tracking-[0.4em] mb-8 flex items-center gap-4", theme.accent)}>
-            <span className="w-12 h-[1px] bg-white/20" />
-            A Alma do Arquétipo
-            <span className="w-12 h-[1px] bg-white/20" />
-          </h2>
-          <div className="relative mb-12">
-            <p className="text-2xl md:text-4xl font-serif text-white leading-tight mb-6 drop-shadow-lg">
-              <span className={clsx("text-transparent bg-clip-text bg-gradient-to-r", theme.gradient)}>
-                {essenciaHighlight}
-              </span>.
-            </p>
-            <div className="w-16 h-1 mx-auto bg-gradient-to-r from-transparent via-white/20 to-transparent mb-6" />
-            <p className="text-lg md:text-xl text-slate-300 font-light leading-loose text-justify px-4 md:px-8">
-              {essenciaBody}
-            </p>
-          </div>
-          <div className={clsx("p-1 bg-gradient-to-r rounded-2xl w-full max-w-2xl", theme.gradient)}>
-            <div className="bg-[#0a0a0a] p-6 rounded-xl relative overflow-hidden text-center">
-              <Sparkles size={20} className={clsx("mx-auto mb-3", theme.accent)} />
-              <p className="text-lg text-white font-serif italic">"{arcano.mantra}"</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* LUZ & SOMBRA */}
-      <section>
-        <h2 className="text-center text-xs font-bold uppercase tracking-[0.4em] mb-12 flex items-center justify-center gap-4 text-white/40">
-          <span className="w-12 h-[1px] bg-white/20" />
-          Luz & Sombra
-          <span className="w-12 h-[1px] bg-white/20" />
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
-          <div className="bg-[#0a0a0a] border border-white/10 rounded-3xl overflow-hidden">
-            <div className="p-6 border-b border-white/5 flex items-center gap-3">
-              <Sparkles size={20} className="text-yellow-400" />
-              <h3 className="text-xl font-serif text-white">Luz & Potencial</h3>
-            </div>
-            <div className="p-8">
-              <ul className="space-y-4">
-                {luz.map((item, i) => (
-                  <li key={i} className="flex gap-4 text-slate-300 text-sm md:text-base font-light leading-relaxed group">
-                    <span className={clsx("mt-1.5 w-1.5 h-1.5 rounded-full flex-shrink-0 transition-all group-hover:scale-125", theme.accent, "bg-current shadow-[0_0_8px_currentColor]")} />
-                    {item}
-                  </li>
+            {/* ficha de atributos */}
+            {ficha.length > 0 && (
+              <dl className="mt-8 grid grid-cols-2 sm:grid-cols-3 gap-x-6 gap-y-5 pt-7 border-t" style={{ borderColor: paleta.borda }}>
+                {ficha.map(f => (
+                  <div key={f.rotulo}>
+                    <dt className="text-[9.5px] uppercase tracking-[0.18em] text-white/30 mb-1">{f.rotulo}</dt>
+                    <dd className="text-sm text-white/85 leading-snug">{f.valor}</dd>
+                  </div>
                 ))}
-              </ul>
-            </div>
-          </div>
-          <div className="bg-[#0a0a0a] border border-white/10 rounded-3xl overflow-hidden">
-            <div className="p-6 border-b border-white/5 flex items-center gap-3 bg-rose-900/10">
-              <Layers size={20} className="text-rose-400" />
-              <h3 className="text-xl font-serif text-white">Sombra & Desafios</h3>
-            </div>
-            <div className="p-8">
-              <ul className="space-y-4">
-                {sombra.map((item, i) => (
-                  <li key={i} className="flex gap-4 text-slate-300 text-sm md:text-base font-light leading-relaxed group">
-                    <span className="mt-1.5 w-1.5 h-1.5 rounded-full flex-shrink-0 bg-rose-500 shadow-[0_0_8px_rgba(244,63,94,0.5)] transition-all group-hover:scale-125" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
+              </dl>
+            )}
           </div>
         </div>
       </section>
 
-      {/* ÁREAS DA VIDA */}
+      {/* ═══ A ALMA DO ARQUÉTIPO ═══ */}
       <section>
-        <h2 className={clsx("text-xs font-bold uppercase tracking-[0.4em] mb-8 flex items-center gap-4", theme.accent)}>
-          <span className="w-8 h-[1px] bg-white/10" />
-          Influência Prática
-          <span className="w-8 h-[1px] bg-white/10" />
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="bg-[#0a0a0a] border border-white/10 p-6 rounded-2xl hover:border-white/20 transition-colors">
-            <Briefcase className="text-blue-400 mb-4" size={24} />
-            <h4 className="text-white font-serif text-lg mb-2">Carreira & Missão</h4>
-            <p className="text-sm text-slate-400 leading-relaxed">{carreira}</p>
+        <h3 className="text-[10px] font-bold uppercase tracking-[0.3em] mb-6" style={{ color: paleta.tinta }}>
+          A alma do arquétipo
+        </h3>
+        <p className="font-serif text-2xl md:text-3xl leading-[1.3] text-white mb-6 text-balance">
+          {essenciaHighlight}.
+        </p>
+        <p className="text-base md:text-lg text-white/60 font-light leading-relaxed max-w-[62ch]">
+          {essenciaBody}
+        </p>
+
+        <div
+          className="mt-9 rounded-2xl border px-6 py-5 flex items-start gap-4"
+          style={{ borderColor: paleta.borda, background: paleta.lavagem }}
+        >
+          <Sparkles size={17} className="mt-1 shrink-0" style={{ color: paleta.tinta }} />
+          <p className="font-serif italic text-lg md:text-xl text-white/90 leading-snug">
+            “{arcano.mantra}”
+          </p>
+        </div>
+      </section>
+
+      {/* ═══ A PERGUNTA ═══ */}
+      {pergunta && (
+        <section>
+          <h3 className="text-[10px] font-bold uppercase tracking-[0.3em] mb-6 text-white/35">
+            A pergunta que este arcano faz
+          </h3>
+          <blockquote
+            className="border-l-2 pl-6 md:pl-8 font-serif text-xl md:text-2xl leading-snug text-white/90 text-balance"
+            style={{ borderColor: paleta.tinta }}
+          >
+            {pergunta}
+          </blockquote>
+        </section>
+      )}
+
+      {/* ═══ LUZ & SOMBRA ═══ */}
+      <section>
+        <h3 className="text-[10px] font-bold uppercase tracking-[0.3em] mb-6 text-white/35">
+          Luz e sombra
+        </h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="rounded-2xl border border-white/[0.07] bg-white/[0.02] p-6">
+            <h4 className="text-[10px] uppercase tracking-[0.18em] mb-4" style={{ color: paleta.tinta }}>
+              Potencial
+            </h4>
+            <ul className="space-y-3">
+              {luz.map((item, i) => (
+                <li key={i} className="flex gap-3 text-[14.5px] text-white/70 font-light leading-relaxed">
+                  <span className="mt-[7px] w-1 h-1 rounded-full shrink-0" style={{ background: paleta.tinta }} />
+                  {item}
+                </li>
+              ))}
+            </ul>
           </div>
-          <div className="bg-[#0a0a0a] border border-white/10 p-6 rounded-2xl hover:border-white/20 transition-colors">
-            <Heart className="text-rose-400 mb-4" size={24} />
-            <h4 className="text-white font-serif text-lg mb-2">Amor & Relações</h4>
-            <p className="text-sm text-slate-400 leading-relaxed">{relacionamentos}</p>
-          </div>
-          <div className="bg-[#0a0a0a] border border-white/10 p-6 rounded-2xl hover:border-white/20 transition-colors flex flex-col">
-            <Activity className="text-emerald-400 mb-4" size={24} />
-            <h4 className="text-white font-serif text-lg mb-2">Vitalidade & Corpo</h4>
-            <p className="text-sm text-slate-300 leading-relaxed mb-4 italic">{saude.vulnerabilidade}</p>
-            <div className="mt-auto space-y-3">
-              <div>
-                <span className="text-[10px] uppercase font-bold text-red-400 flex items-center gap-1 mb-1">
-                  <AlertTriangle size={10} /> Sintomas Comuns
-                </span>
-                <div className="flex flex-wrap gap-1">
-                  {saude.sintomas.map((s, i) => (
-                    <span key={i} className="px-2 py-0.5 rounded bg-red-500/10 text-red-200 text-xs">{s}</span>
-                  ))}
-                </div>
-              </div>
-              <div>
-                <span className="text-[10px] uppercase font-bold text-emerald-400 flex items-center gap-1 mb-1">
-                  <ShieldCheck size={10} /> Prevenção
-                </span>
-                <ul className="text-xs text-slate-400 list-disc list-inside">
-                  {saude.prevencao.map((p, i) => (
-                    <li key={i}>{p}</li>
-                  ))}
-                </ul>
-              </div>
-            </div>
+
+          <div className="rounded-2xl border border-rose-500/15 bg-rose-500/[0.03] p-6">
+            <h4 className="text-[10px] uppercase tracking-[0.18em] text-rose-300/80 mb-4">Sombra</h4>
+            <ul className="space-y-3">
+              {sombra.map((item, i) => (
+                <li key={i} className="flex gap-3 text-[14.5px] text-white/70 font-light leading-relaxed">
+                  <span className="mt-[7px] w-1 h-1 rounded-full shrink-0 bg-rose-400/70" />
+                  {item}
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </section>
 
-      {/* CONSELHOS */}
-      <section className="pb-10">
-        <div className="bg-gradient-to-b from-[#0a0a0a] to-[#0f0f0f] border border-white/10 rounded-3xl p-8 md:p-12 relative overflow-hidden">
-          <div className={clsx("absolute top-0 left-0 w-full h-1 bg-gradient-to-r", theme.gradient)} />
-          <h2 className="text-2xl font-serif text-white mb-8 flex items-center gap-3">
-            <Lightbulb className={clsx(theme.accent)} />
-            Diretrizes Evolutivas
-          </h2>
-          <div className="columns-1 md:columns-2 gap-8 space-y-4">
+      {/* ═══ NUMEROLOGIA E CARTA OPOSTA ═══ */}
+      {(numerologia || cartaOposta) && (
+        <section>
+          <h3 className="text-[10px] font-bold uppercase tracking-[0.3em] mb-6 text-white/35">
+            Assinatura numérica
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {numerologia && (
+              <>
+                <Atributo rotulo="Personalidade" valor={numerologia.personalidade} paleta={paleta} />
+                <Atributo rotulo="Caminho" valor={numerologia.caminho} paleta={paleta} />
+                <Atributo rotulo="Desafio" valor={numerologia.desafio} paleta={paleta} />
+              </>
+            )}
+          </div>
+
+          {cartaOposta && (
+            <div
+              className="mt-4 rounded-2xl border px-6 py-5 flex flex-wrap items-baseline gap-x-3 gap-y-1"
+              style={{ borderColor: paleta.borda }}
+            >
+              <span className="text-[9.5px] uppercase tracking-[0.18em] text-white/30">Carta complementar</span>
+              <span className="font-serif text-lg text-white/90">{cartaOposta}</span>
+              <span className="text-[13px] text-white/40 font-light basis-full mt-1">
+                O arquétipo que equilibra {deArcano(arcano.nome)} — o que falta quando este está em excesso.
+              </span>
+            </div>
+          )}
+        </section>
+      )}
+
+      {/* ═══ CONSELHO ═══ */}
+      {conselho.length > 0 && (
+        <section className="pb-6">
+          <h3 className="text-[10px] font-bold uppercase tracking-[0.3em] mb-6 text-white/35">
+            Conselho do arcano
+          </h3>
+          <ol className="space-y-3">
             {conselho.map((item, i) => (
-              <div key={i} className="break-inside-avoid bg-white/5 p-4 rounded-xl border border-white/5 hover:bg-white/10 transition-colors">
-                <p className="text-slate-300 font-light text-sm leading-relaxed">
-                  "{item}"
-                </p>
-              </div>
+              <li key={i} className="flex gap-4 rounded-xl border border-white/[0.06] bg-white/[0.02] px-5 py-4">
+                <span
+                  className="font-mono text-[11px] shrink-0 mt-0.5 tabular-nums"
+                  style={{ color: paleta.tinta }}
+                >
+                  {String(i + 1).padStart(2, '0')}
+                </span>
+                <span className="text-[14.5px] text-white/70 font-light leading-relaxed">{item}</span>
+              </li>
             ))}
-          </div>
-        </div>
-      </section>
+          </ol>
+        </section>
+      )}
     </div>
-  );
+    );
+  };
 
   // Render active tab content
   const renderTabContent = () => {
@@ -422,11 +463,11 @@ export const ArcanoExpandidoView: React.FC<Props> = ({
           </button>
 
           <div className="flex items-center gap-3 flex-1 min-w-0">
-            <div className={clsx(
-              "w-9 h-9 rounded-full border flex items-center justify-center flex-shrink-0",
-              theme.border, theme.bgIcon
-            )}>
-              <span className={clsx("font-serif text-sm font-bold", theme.accent)}>
+            <div
+              className="w-9 h-9 rounded-full border flex items-center justify-center flex-shrink-0"
+              style={{ borderColor: paleta.borda, background: paleta.lavagem }}
+            >
+              <span className="font-serif text-sm font-bold" style={{ color: paleta.tinta }}>
                 {arcano.numeroRomano}
               </span>
             </div>
@@ -449,14 +490,21 @@ export const ArcanoExpandidoView: React.FC<Props> = ({
                 <button
                   key={tab.id}
                   onClick={() => switchTab(tab.id)}
+                  aria-current={isActive ? 'page' : undefined}
                   className={clsx(
                     "flex items-center gap-2 px-5 py-2.5 rounded-full text-[11px] font-bold uppercase tracking-widest transition-all whitespace-nowrap border",
                     isActive
-                      ? "bg-amber-500/10 text-amber-500 border-amber-500/30 shadow-[0_0_15px_rgba(245,158,11,0.15)]"
+                      ? "border"
                       : "text-slate-400 hover:text-slate-200 bg-transparent border-transparent hover:bg-white/5"
                   )}
+                  style={isActive ? {
+                    color: paleta.tinta,
+                    background: paleta.lavagem,
+                    borderColor: paleta.borda,
+                    boxShadow: `0 0 16px ${paleta.lavagem}`
+                  } : undefined}
                 >
-                  <Icon size={14} className={clsx(isActive ? "text-amber-500" : "text-slate-500")} />
+                  <Icon size={14} className={clsx(!isActive && "text-slate-500")} />
                   {tab.label}
                 </button>
               );

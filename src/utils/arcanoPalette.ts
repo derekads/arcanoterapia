@@ -1,0 +1,147 @@
+// src/utils/arcanoPalette.ts
+
+/**
+ * Paleta por arcano.
+ *
+ * Cada um dos 22 arcanos tem `cor` e `cor_secundaria` no arcanos.json e o app
+ * pintava tudo de âmbar, com um tema fixo por elemento. O resultado eram 22
+ * experiências visualmente idênticas.
+ *
+ * Usar a cor crua como texto não funciona: dez das 22 têm contraste abaixo de
+ * 4.5:1 sobre o fundo #030305 — A Lua (#581c87) fica em 1.8:1 e O Eremita
+ * (#1e293b) em 1.3:1, ilegíveis. Então derivamos:
+ *
+ *   · o MATIZ vem do arcano, e é o que dá identidade;
+ *   · a LUMINOSIDADE é ajustada até o contraste atingir o alvo.
+ *
+ * A cor crua segue disponível para preenchimentos, brilhos e lavagens de fundo,
+ * onde o contraste não se aplica.
+ */
+
+const FUNDO = '#030305';
+
+interface HSL { h: number; s: number; l: number }
+
+function hexParaRgb(hex: string): [number, number, number] {
+    const h = hex.replace('#', '').trim();
+    const full = h.length === 3 ? h.split('').map(c => c + c).join('') : h;
+    return [0, 2, 4].map(i => parseInt(full.slice(i, i + 2), 16)) as [number, number, number];
+}
+
+function rgbParaHex(r: number, g: number, b: number): string {
+    const c = (n: number) => Math.round(Math.max(0, Math.min(255, n))).toString(16).padStart(2, '0');
+    return `#${c(r)}${c(g)}${c(b)}`;
+}
+
+function hexParaHsl(hex: string): HSL {
+    const [r0, g0, b0] = hexParaRgb(hex).map(v => v / 255);
+    const max = Math.max(r0, g0, b0);
+    const min = Math.min(r0, g0, b0);
+    const l = (max + min) / 2;
+    if (max === min) return { h: 0, s: 0, l };
+
+    const d = max - min;
+    const s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+    let h: number;
+    if (max === r0) h = ((g0 - b0) / d + (g0 < b0 ? 6 : 0)) / 6;
+    else if (max === g0) h = ((b0 - r0) / d + 2) / 6;
+    else h = ((r0 - g0) / d + 4) / 6;
+    return { h: h * 360, s, l };
+}
+
+function hslParaHex({ h, s, l }: HSL): string {
+    const c = (1 - Math.abs(2 * l - 1)) * s;
+    const x = c * (1 - Math.abs(((h / 60) % 2) - 1));
+    const m = l - c / 2;
+    const seg = Math.floor(h / 60) % 6;
+    const [r, g, b] = [
+        [c, x, 0], [x, c, 0], [0, c, x], [0, x, c], [x, 0, c], [c, 0, x]
+    ][seg];
+    return rgbParaHex((r + m) * 255, (g + m) * 255, (b + m) * 255);
+}
+
+/** Luminância relativa (WCAG). */
+export function luminancia(hex: string): number {
+    const [r, g, b] = hexParaRgb(hex).map(v => {
+        const c = v / 255;
+        return c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
+    });
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+}
+
+/** Razão de contraste (WCAG) entre duas cores. */
+export function contraste(a: string, b: string): number {
+    const [la, lb] = [luminancia(a), luminancia(b)];
+    return (Math.max(la, lb) + 0.05) / (Math.min(la, lb) + 0.05);
+}
+
+/**
+ * Clareia a cor, preservando matiz e saturação, até atingir o contraste alvo
+ * sobre o fundo. Devolve a própria cor quando ela já passa.
+ */
+export function corLegivel(hex: string, alvo = 4.5, fundo = FUNDO): string {
+    if (contraste(hex, fundo) >= alvo) return hex;
+
+    const hsl = hexParaHsl(hex);
+    // Cinzas quase sem saturação ganham um mínimo, senão viram branco puro
+    // e o arcano perde a identidade cromática.
+    const s = Math.max(hsl.s, 0.18);
+
+    for (let l = hsl.l; l <= 0.95; l += 0.02) {
+        const tentativa = hslParaHex({ h: hsl.h, s, l });
+        if (contraste(tentativa, fundo) >= alvo) return tentativa;
+    }
+    return hslParaHex({ h: hsl.h, s, l: 0.95 });
+}
+
+export interface PaletaArcano {
+    /** Cor original, para preenchimentos e brilhos. */
+    bruta: string;
+    brutaSecundaria: string;
+    /** Texto e ícones sobre o fundo escuro — contraste ≥ 4.5:1. */
+    tinta: string;
+    /** Variante suave para textos de apoio — contraste ≥ 3:1. */
+    tintaSuave: string;
+    /** Cor de apoio, derivada da secundária. */
+    apoio: string;
+    /** Bordas e divisores. */
+    borda: string;
+    /** Lavagem de fundo dos cards. */
+    lavagem: string;
+    /** Brilho para sombras projetadas. */
+    brilho: string;
+    /** Gradiente de duas paradas para faixas e realces. */
+    gradiente: string;
+}
+
+const cache = new Map<string, PaletaArcano>();
+
+/**
+ * Monta a paleta acessível de um arcano a partir das duas cores do JSON.
+ */
+export function paletaDoArcano(cor?: string, corSecundaria?: string): PaletaArcano {
+    const bruta = cor && /^#[0-9a-f]{3,6}$/i.test(cor) ? cor : '#f59e0b';
+    const brutaSecundaria = corSecundaria && /^#[0-9a-f]{3,6}$/i.test(corSecundaria) ? corSecundaria : '#fbbf24';
+
+    const chave = `${bruta}|${brutaSecundaria}`;
+    const guardada = cache.get(chave);
+    if (guardada) return guardada;
+
+    const tinta = corLegivel(bruta, 4.5);
+    const apoio = corLegivel(brutaSecundaria, 4.5);
+
+    const paleta: PaletaArcano = {
+        bruta,
+        brutaSecundaria,
+        tinta,
+        tintaSuave: corLegivel(bruta, 3),
+        apoio,
+        borda: `${tinta}33`,
+        lavagem: `${bruta}14`,
+        brilho: `${tinta}66`,
+        gradiente: `linear-gradient(135deg, ${tinta}, ${apoio})`
+    };
+
+    cache.set(chave, paleta);
+    return paleta;
+}
