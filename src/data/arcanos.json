@@ -1538,7 +1538,7 @@
       ],
       "banho_terapeutico": "Banho de sálvia à luz de uma única vela (conexão interior)",
       "movimento_corporal": "Caminhada solitária no silêncio ou meditação Zen",
-      "essencia": "Você é a lanterna no escuro. O Eremita não foge do world, ele se retira para encontrar o que é essencial. Terapeuticamente, você trabalha o medo da solidão versus o prazer da solitude, e a busca pela verdade que não depende de aplausos externos.",
+      "essencia": "Você é a lanterna no escuro. O Eremita não foge do mundo, ele se retira para encontrar o que é essencial. Terapeuticamente, você trabalha o medo da solidão versus o prazer da solitude, e a busca pela verdade que não depende de aplausos externos.",
       "pergunta_junguiana": "O que eu estou tentando encontrar lá fora que só pode ser descoberto no meu mais profundo silêncio?",
       "meditacao_guiada": "Visualize-se subindo uma montanha à noite. Você carrega uma lanterna que ilumina apenas o próximo passo. Sinta o frio e o silêncio. No topo, há uma caverna aquecida por uma pequena tocha. Entre. O que o seu 'Eu Ancião' tem a lhe dizer?",
       "conselho_diario": [
@@ -2509,8 +2509,8 @@
           "check_diario": "Você nutriu seu corpo com a moderação necessária?"
         },
         "carreira": {
-          "baixa": "Burnout ou underemployment",
-          "media": "Work-life balance",
+          "baixa": "Esgotamento ou subaproveitamento",
+          "media": "Equilíbrio entre trabalho e vida",
           "alta": "Vocação que cura e prospera",
           "check_diario": "Seu trabalho de hoje foi fruto de esforço equilibrado ou estresse?"
         },
@@ -3701,7 +3701,7 @@
           "check_diario": "Sua obra de hoje foi uma peça completa do seu mosaico?"
         },
         "familia": {
-          "baixa": "Isolamento da família ou do world",
+          "baixa": "Isolamento da família ou do mundo",
           "media": "Família integrada e evoluída",
           "alta": "Linhagem inteira curada e elevada",
           "check_diario": "Você sentiu o pertencimento total ao seu clã hoje?"

@@ -78,16 +78,44 @@ export function getAffirmationsForArcano(arcanoId: number): Afirmacao[] {
     }));
 }
 
-export function getDailyAffirmations(arcanoId: number, count: number = 3): Afirmacao[] {
+/**
+ * Embaralhamento determinístico.
+ *
+ * O critério anterior era `id.charCodeAt(3)`: no id `af-13-2`, a posição 3 é o
+ * PRIMEIRO DÍGITO DO ARCANO, igual para todas as afirmações do mesmo arcano.
+ * Com todas as chaves idênticas a ordenação não trocava nada — as "afirmações
+ * do dia" eram sempre as três primeiras, no mesmo dia e em qualquer outro, e o
+ * botão de sortear não fazia efeito nenhum.
+ *
+ * Agora o hash percorre o id inteiro junto com a semente, então cada afirmação
+ * recebe uma chave própria.
+ */
+function embaralharComSemente<T extends { id: string }>(itens: T[], semente: number): T[] {
+    const chave = (id: string) => {
+        let h = semente >>> 0;
+        for (let i = 0; i < id.length; i++) {
+            h = (Math.imul(h ^ id.charCodeAt(i), 0x01000193)) >>> 0;
+        }
+        return h;
+    };
+    return [...itens].sort((a, b) => chave(a.id) - chave(b.id));
+}
+
+/**
+ * As afirmações do dia.
+ *
+ * @param variacao muda o sorteio sem esperar o dia seguinte — é o que o botão
+ *                 de recarregar da tela incrementa.
+ */
+export function getDailyAffirmations(arcanoId: number, count: number = 3, variacao = 0): Afirmacao[] {
     const all = getAffirmationsForArcano(arcanoId);
     if (all.length === 0) return [];
-    // Use date as seed for "daily" consistency
-    const today = new Date().toISOString().split('T')[0];
-    const seed = today.split('-').reduce((acc, n) => acc + parseInt(n), 0);
-    const shuffled = [...all].sort((a, b) => {
-        const hashA = (a.id.charCodeAt(3) * seed) % 100;
-        const hashB = (b.id.charCodeAt(3) * seed) % 100;
-        return hashA - hashB;
-    });
-    return shuffled.slice(0, count);
+
+    // A data entra como número (20260829), não como soma dos campos: somar
+    // fazia 2026+08+29 e 2026+09+28 caírem na mesma semente.
+    const hoje = new Date();
+    const dia = hoje.getFullYear() * 10000 + (hoje.getMonth() + 1) * 100 + hoje.getDate();
+    const semente = dia + arcanoId * 7919 + variacao * 104729;
+
+    return embaralharComSemente(all, semente).slice(0, count);
 }
