@@ -1,4 +1,5 @@
 import * as Astronomy from 'astronomy-engine';
+import { calcularArcanoBongo } from './bongo';
 
 /**
  * UTILS/CALCULOS.TS
@@ -38,13 +39,15 @@ export const limparNomeParaCalculo = (nome: string): string =>
         .replace(/[^a-zA-Z]/g, '');
 
 /**
- * Cálculo do Arcano do Nome
+ * Cálculo do Arcano Pessoal pelo nome.
+ *
+ * Usa a Gematria da Tabela de Bongo — somar o valor de cada letra —, que é o
+ * método que o app anuncia ao usuário na tela inicial. Antes contava a
+ * quantidade de letras (`nome.length`), o que dava outro arcano para
+ * praticamente todo nome.
  */
-export const calcularArcanoNome = (nome: string): number => {
-    const cleanName = limparNomeParaCalculo(nome);
-    if (cleanName.length === 0) return 0;
-    return reduzirParaArcano(cleanName.length);
-};
+export const calcularArcanoNome = (nome: string): number =>
+    calcularArcanoBongo(nome).arcano;
 
 /**
  * Ano Pessoal Dinâmico: (Dia + Mes + Ano Alvo) % 22

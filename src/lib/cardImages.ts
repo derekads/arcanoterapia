@@ -1,4 +1,19 @@
-// ARCANOS MAIORES (22 cartas) - Mapeamento exato dos seus arquivos
+/**
+ * ARCANOS MAIORES — mapeamento número → arquivo.
+ *
+ * O conteúdo do app segue a numeração francesa (Marselha): a Justiça é 8, a
+ * Força é 11 e O Louco é 22. Isso é unânime em `arcanos.json` e nas quatro
+ * matrizes combinatórias.
+ *
+ * As gravuras são do Rider Tarot (Waite/Colman Smith), que usa a numeração
+ * inglesa e inverte as duas cartas: o arquivo `08-Strength` traz A Força e o
+ * `11-Justice` traz A Justiça. Indexar direto pelo número servia a carta
+ * trocada para esses dois arcanos.
+ *
+ * Aqui o mapeamento é por CARTA, não por número do arquivo. O algarismo romano
+ * impresso na gravura continua sendo o do baralho inglês — é limitação da arte,
+ * não do mapeamento, e por isso o app não exibe o romano ao lado da imagem.
+ */
 export const MAJOR_ARCANA: Record<number, { file: string; name: string; roman: string }> = {
     0: { file: '/Cards/00-TheFool.jpg', name: 'O Louco', roman: '0' },
     1: { file: '/Cards/01-TheMagician.jpg', name: 'O Mago', roman: 'I' },
@@ -8,10 +23,10 @@ export const MAJOR_ARCANA: Record<number, { file: string; name: string; roman: s
     5: { file: '/Cards/05-TheHierophant.jpg', name: 'O Papa', roman: 'V' },
     6: { file: '/Cards/06-TheLovers.jpg', name: 'Os Enamorados', roman: 'VI' },
     7: { file: '/Cards/07-TheChariot.jpg', name: 'O Carro', roman: 'VII' },
-    8: { file: '/Cards/08-Strength.jpg', name: 'A Força', roman: 'VIII' },
+    8: { file: '/Cards/11-Justice.jpg', name: 'A Justiça', roman: 'VIII' },
     9: { file: '/Cards/09-TheHermit.jpg', name: 'O Eremita', roman: 'IX' },
     10: { file: '/Cards/10-WheelOfFortune.jpg', name: 'Roda da Fortuna', roman: 'X' },
-    11: { file: '/Cards/11-Justice.jpg', name: 'A Justiça', roman: 'XI' },
+    11: { file: '/Cards/08-Strength.jpg', name: 'A Força', roman: 'XI' },
     12: { file: '/Cards/12-TheHangedMan.jpg', name: 'O Enforcado', roman: 'XII' },
     13: { file: '/Cards/13-Death.jpg', name: 'A Morte', roman: 'XIII' },
     14: { file: '/Cards/14-Temperance.jpg', name: 'A Temperança', roman: 'XIV' },
@@ -22,6 +37,8 @@ export const MAJOR_ARCANA: Record<number, { file: string; name: string; roman: s
     19: { file: '/Cards/19-TheSun.jpg', name: 'O Sol', roman: 'XIX' },
     20: { file: '/Cards/20-Judgement.jpg', name: 'O Julgamento', roman: 'XX' },
     21: { file: '/Cards/21-TheWorld.jpg', name: 'O Mundo', roman: 'XXI' },
+    // O Louco é 22 nesta numeração. Antes caía no fallback e só acertava por acaso.
+    22: { file: '/Cards/00-TheFool.jpg', name: 'O Louco', roman: 'XXII' },
 };
 
 // VERSO DA CARTA

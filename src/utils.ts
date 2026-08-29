@@ -7,7 +7,7 @@ export function cn(...classes: (string | boolean | undefined)[]) {
 }
 
 import * as Astronomy from 'astronomy-engine';
-import { limparNomeParaCalculo } from './utils/calculos';
+import { calcularArcanoBongo } from './utils/bongo';
 
 // Signs Array in Order
 const SIGNS = [
@@ -16,58 +16,45 @@ const SIGNS = [
 ];
 
 /**
- * Calculates the Arcana number based on the provided name.
+ * Número do arcano a partir do nome.
+ *
+ * Delega para o cálculo único (Gematria da Tabela de Bongo). Antes esta função
+ * contava letras por conta própria, o que a fazia divergir de
+ * `calcularArcanoNome` — ninguém a chamava, mas a divergência era uma armadilha.
  */
-export const calculateArcanaNumber = (name: string): number => {
-  const cleanName = limparNomeParaCalculo(name);
-  let count = cleanName.length;
+export const calculateArcanaNumber = (name: string): number =>
+  calcularArcanoBongo(name).arcano;
 
-  if (count === 0) return 0;
-
-  while (count > 22) {
-    const digits = count.toString().split('').map(Number);
-    count = digits.reduce((sum, digit) => sum + digit, 0);
-  }
-
-  return count;
-};
-
-/**
- * Returns detailed breakdown of the numerology calculation
- */
 export const getNumerologyDetails = (name: string) => {
-  const cleanName = limparNomeParaCalculo(name).toUpperCase();
-  const value = cleanName.length;
+  const r = calcularArcanoBongo(name);
   const steps: string[] = [];
 
-  steps.push(`Nome limpo: "${cleanName}" (${cleanName.length} letras)`);
-
-  let current = value;
-  let history: number[] = [current];
-
-  while (current > 22) {
-    const digits = current.toString().split('').map(Number);
-    const textStart = `${current} ` + '→ ' + digits.join(' + ');
-    current = digits.reduce((sum, digit) => sum + digit, 0);
-    steps.push(`${textStart} = ${current}`);
-    history.push(current);
+  if (r.sufixosIgnorados.length) {
+    steps.push(`Sufixo de linhagem ignorado: ${r.sufixosIgnorados.join(', ')}`);
   }
 
-  if (value <= 22) {
-    steps.push(`Valor ${value} é menor ou igual a 22. Sem redução necessária.`);
-  }
+  // A soma, letra a letra, como a tradição a apresenta.
+  steps.push(
+    r.letras.map(l => `${l.original.toUpperCase()}=${l.valor}`).join(' + ') + ` = ${r.soma}`
+  );
 
-  // Se o resultado for 0, vira 22 (O Louco)
-  if (current === 0) {
-    steps.push("Resultado 0 é considerado 22 (O Louco)");
-    current = 22;
+  if (r.reducao.length === 1) {
+    steps.push(`${r.soma} já está entre 1 e 22. Sem redução necessária.`);
+  } else {
+    for (let i = 0; i < r.reducao.length - 1; i++) {
+      const de = r.reducao[i];
+      const para = r.reducao[i + 1];
+      steps.push(`${de} → ${String(de).split('').join(' + ')} = ${para}`);
+    }
   }
 
   return {
-    cleanName,
-    initialValue: value,
-    finalValue: current,
-    steps
+    cleanName: r.letras.map(l => l.letra).join(''),
+    initialValue: r.soma,
+    finalValue: r.arcano,
+    steps,
+    letras: r.letras,
+    sufixosIgnorados: r.sufixosIgnorados
   };
 };
 
