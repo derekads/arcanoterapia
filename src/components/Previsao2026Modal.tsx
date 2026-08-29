@@ -56,7 +56,7 @@ export function Previsao2026Modal({ isOpen, onClose, previsao, arcanoNome, trans
                         <div className="w-full md:w-1/3 bg-slate-950/50 p-8 flex flex-col items-center justify-center border-r border-white/5 min-h-[500px]">
                             <div className="flex items-center justify-center cursor-pointer" onClick={() => setIsFlipped(!isFlipped)}>
                                 <CardFlip3D
-                                    frontImage={MAJOR_ARCANA[previsao.id]?.file || "/Cards/00-TheFool.jpg"}
+                                    frontImage={MAJOR_ARCANA[previsao.id]?.file || MAJOR_ARCANA[0].file}
                                     backImage={BACK_IMAGE}
                                     isRevealed={isFlipped}
                                     arcanoNumero={previsao.id}

@@ -25,6 +25,7 @@ import { TrilhaTransmutacao } from '../terapia/TrilhaTransmutacao';
 import { useArcano } from '../../context/ArcanoContext';
 import { deArcano } from '../../utils/calculos';
 import { paletaDoArcano, type PaletaArcano } from '../../utils/arcanoPalette';
+import { MAJOR_ARCANA } from '../../lib/cardImages';
 
 interface Props {
   arcano: ArcanoAdvanced;
@@ -186,7 +187,6 @@ export const ArcanoExpandidoView: React.FC<Props> = ({
     () => paletaDoArcano((arcano as any).cor, (arcano as any).cor_secundaria),
     [(arcano as any).cor, (arcano as any).cor_secundaria]
   );
-  const ElementIcon = theme.icon;
 
   // Extract Data with safe fallbacks
   const luz = arcano.conteudo?.luz || [];
@@ -239,16 +239,26 @@ export const ArcanoExpandidoView: React.FC<Props> = ({
           <div className="absolute inset-x-0 top-0 h-[3px]" style={{ background: paleta.gradiente }} />
 
           <div className="relative p-7 md:p-10">
-            <div className="flex items-start gap-5 md:gap-7">
-              <div
-                className="shrink-0 w-16 h-16 md:w-20 md:h-20 rounded-2xl border flex items-center justify-center text-3xl md:text-4xl"
-                style={{ borderColor: paleta.borda, background: paleta.lavagem, boxShadow: `0 0 34px ${paleta.lavagem}` }}
-                aria-hidden
+            <div className="flex items-start gap-5 md:gap-8">
+              {/* A carta em si. Proporção 300×527 do baralho. */}
+              <figure
+                className="shrink-0 w-[92px] md:w-[132px] rounded-lg overflow-hidden border m-0"
+                style={{
+                  borderColor: paleta.borda,
+                  boxShadow: `0 12px 38px -12px ${paleta.brilho}, 0 0 0 1px rgba(0,0,0,0.4)`
+                }}
               >
-                {(arcano as any).simbolo || <ElementIcon size={30} style={{ color: paleta.tinta }} />}
-              </div>
+                <img
+                  src={MAJOR_ARCANA[arcano.numero]?.file || MAJOR_ARCANA[0].file}
+                  alt={`Carta ${arcano.nome}`}
+                  width={300}
+                  height={527}
+                  loading="lazy"
+                  className="block w-full h-auto"
+                />
+              </figure>
 
-              <div className="min-w-0 flex-1">
+              <div className="min-w-0 flex-1 pt-1">
                 <p
                   className="font-mono text-[11px] tracking-[0.28em] mb-1.5"
                   style={{ color: paleta.tinta }}
@@ -261,15 +271,30 @@ export const ArcanoExpandidoView: React.FC<Props> = ({
                 <p className="text-sm md:text-base text-white/50 font-light">
                   {(arcano as any).subtitulo || arcano.palavrasChave?.join(' • ')}
                 </p>
+
+                {/* Ficha ao lado da carta, para aproveitar a altura dela. */}
+                {ficha.length > 0 && (
+                  <dl
+                    className="hidden md:grid mt-7 grid-cols-2 gap-x-6 gap-y-4 pt-6 border-t"
+                    style={{ borderColor: paleta.borda }}
+                  >
+                    {ficha.map(f => (
+                      <div key={f.rotulo}>
+                        <dt className="text-[9.5px] uppercase tracking-[0.18em] text-white/30 mb-0.5">{f.rotulo}</dt>
+                        <dd className="text-sm text-white/85 leading-snug">{f.valor}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                )}
               </div>
             </div>
 
-            {/* ficha de atributos */}
+            {/* No mobile a ficha vai abaixo, em largura cheia. */}
             {ficha.length > 0 && (
-              <dl className="mt-8 grid grid-cols-2 sm:grid-cols-3 gap-x-6 gap-y-5 pt-7 border-t" style={{ borderColor: paleta.borda }}>
+              <dl className="md:hidden mt-7 grid grid-cols-2 gap-x-6 gap-y-4 pt-6 border-t" style={{ borderColor: paleta.borda }}>
                 {ficha.map(f => (
                   <div key={f.rotulo}>
-                    <dt className="text-[9.5px] uppercase tracking-[0.18em] text-white/30 mb-1">{f.rotulo}</dt>
+                    <dt className="text-[9.5px] uppercase tracking-[0.18em] text-white/30 mb-0.5">{f.rotulo}</dt>
                     <dd className="text-sm text-white/85 leading-snug">{f.valor}</dd>
                   </div>
                 ))}

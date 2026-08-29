@@ -376,7 +376,7 @@ function DashboardView({
         >
           {/* Background image */}
           <img
-            src={MAJOR_ARCANA[arcano.numero]?.file || "/Cards/00-TheFool.jpg"}
+            src={MAJOR_ARCANA[arcano.numero]?.file || MAJOR_ARCANA[0].file}
             className="absolute inset-0 w-full h-full object-cover z-0 opacity-40 transition-transform duration-[2s] group-hover:scale-105"
             alt={arcano.nome}
             loading="lazy"
