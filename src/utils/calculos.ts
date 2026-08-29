@@ -215,3 +215,21 @@ export const calculateMoonPhase = (date: Date = new Date()): string => {
 
     return "nova";
 };
+
+/**
+ * Contrai a preposição "de" com o artigo do nome do arcano.
+ *
+ * Os nomes vêm com o artigo colado ("A Morte", "O Louco", "Os Enamorados"),
+ * então concatenar `"d" + nome` produz "dA Morte", que não é português.
+ *
+ *   deArcano("A Morte")        → "da Morte"
+ *   deArcano("O Louco")        → "do Louco"
+ *   deArcano("Os Enamorados")  → "dos Enamorados"
+ *   deArcano("Ísis")           → "de Ísis"   (sem artigo, cai no genérico)
+ */
+export const deArcano = (nome: string | undefined): string => {
+    const limpo = (nome || '').trim();
+    const m = limpo.match(/^(A|O|As|Os)\s+(.+)$/);
+    if (!m) return limpo ? `de ${limpo}` : '';
+    return `d${m[1].toLowerCase()} ${m[2]}`;
+};

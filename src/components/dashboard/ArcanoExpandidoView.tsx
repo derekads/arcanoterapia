@@ -23,6 +23,7 @@ import { ArcanoCosmosView } from './ArcanoCosmosView';
 import { SombraQuiz } from '../terapia/SombraQuiz';
 import { TrilhaTransmutacao } from '../terapia/TrilhaTransmutacao';
 import { useArcano } from '../../context/ArcanoContext';
+import { deArcano } from '../../utils/calculos';
 
 interface Props {
   arcano: ArcanoAdvanced;
@@ -212,7 +213,7 @@ export const ArcanoExpandidoView: React.FC<Props> = ({
               </div>
               <div className="text-lg md:text-xl font-serif leading-relaxed text-white/90">
                 <p className="mb-4">
-                  A energia d{arcano.nome} manifesta-se em sua vida trazendo o poder de <span className={theme.accent}>{arcano.palavrasChave[0]}</span>.
+                  A energia {deArcano(arcano.nome)} manifesta-se em sua vida trazendo o poder de <span className={theme.accent}>{arcano.palavrasChave[0]}</span>.
                 </p>
                 <blockquote className={clsx("pl-6 border-l-4 italic text-xl md:text-2xl", theme.text, theme.border.replace('border-', 'border-l-'))}>
                   "{conselho[0]?.split(':')[0]}"

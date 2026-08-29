@@ -1,15 +1,18 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Music, Wind, Headphones, Play, Pause, Info, Sparkles, Volume2, Mic } from 'lucide-react';
 import { ArcanoAdvanced } from '../../types';
 import { cn } from '../../utils';
+import { deArcano } from '../../utils/calculos';
+import { useFrequencyTone } from '../../hooks/useFrequencyTone';
 
 interface Props {
     arcano: ArcanoAdvanced;
 }
 
 export const SoundTherapyView: React.FC<Props> = ({ arcano }) => {
-    const [isPlaying, setIsPlaying] = useState(false);
+    const frequenciaHz = parseInt(String(arcano.frequencia), 10) || 432;
+    const { tocando, niveis, alternar, suportado } = useFrequencyTone({ frequencia: frequenciaHz });
 
     return (
         <div className="max-w-4xl mx-auto px-6 py-10 space-y-12">
@@ -26,7 +29,7 @@ export const SoundTherapyView: React.FC<Props> = ({ arcano }) => {
                     <h3 className="text-xs font-bold uppercase tracking-[0.3em] text-amber-500/60 mb-2">Frequência Solfeggio</h3>
                     <p className="text-4xl font-serif text-white">{arcano.frequencia}Hz</p>
                     <p className="mt-4 text-sm text-slate-400 font-light leading-relaxed">
-                        Esta frequência ressoa com a energia d{arcano.nome}, auxiliando na {arcano.numero === 0 ? 'limpeza de medos' : 'ativação do potencial'}.
+                        Esta frequência ressoa com a energia {deArcano(arcano.nome)}, auxiliando na {arcano.numero === 22 ? 'limpeza de medos' : 'ativação do potencial'}.
                     </p>
                 </motion.div>
 
@@ -64,42 +67,46 @@ export const SoundTherapyView: React.FC<Props> = ({ arcano }) => {
                                 "{arcano.meditacao_guiada}"
                             </p>
 
-                            <div className="pt-6 flex flex-wrap gap-4">
-                                {isPlaying ? (
-                                    <div className="flex items-end gap-1 px-4 h-12">
-                                        {[1, 2, 3, 4, 5, 6, 7, 8].map(bar => (
-                                            <motion.div
-                                                key={bar}
-                                                animate={{
-                                                    height: [8, 24, 12, 32, 16],
-                                                }}
-                                                transition={{
-                                                    duration: 0.8 + Math.random() * 0.5,
-                                                    repeat: Infinity,
-                                                    repeatType: 'reverse',
-                                                    delay: bar * 0.1
-                                                }}
-                                                className="w-1.5 rounded-full bg-amber-500/60"
+                            <div className="pt-6 flex flex-wrap items-center gap-4">
+                                <button
+                                    onClick={alternar}
+                                    disabled={!suportado}
+                                    aria-pressed={tocando}
+                                    className={cn(
+                                        "flex items-center gap-3 px-8 py-4 rounded-2xl font-bold uppercase tracking-widest text-sm transition-all",
+                                        tocando
+                                            ? "bg-white/5 border border-white/10 text-white hover:bg-white/10"
+                                            : "bg-amber-500 text-black hover:scale-105 shadow-[0_0_30px_rgba(245,158,11,0.3)]",
+                                        !suportado && "opacity-40 cursor-not-allowed"
+                                    )}
+                                >
+                                    {tocando ? <Pause size={20} fill="currentColor" /> : <Play size={20} fill="currentColor" />}
+                                    {tocando ? `Tocando ${frequenciaHz}Hz` : 'Iniciar Meditação'}
+                                </button>
+
+                                {/* Visualizador ligado ao analisador: reflete o som real. */}
+                                {tocando && (
+                                    <div className="flex items-end gap-1 px-4 h-12" aria-hidden>
+                                        {niveis.map((nivel, i) => (
+                                            <div
+                                                key={i}
+                                                className="w-1.5 rounded-full bg-amber-500/60 transition-[height] duration-100"
+                                                style={{ height: `${8 + nivel * 32}px` }}
                                             />
                                         ))}
                                     </div>
-                                ) : (
-                                    <button
-                                        onClick={() => setIsPlaying(!isPlaying)}
-                                        className="flex items-center gap-3 px-8 py-4 rounded-2xl bg-amber-500 text-black font-bold uppercase tracking-widest text-sm hover:scale-105 transition-all shadow-[0_0_30px_rgba(245,158,11,0.3)]"
-                                    >
-                                        <Play size={20} fill="currentColor" />
-                                        Iniciar Meditação
-                                    </button>
                                 )}
 
-                                {isPlaying && (
-                                    <button
-                                        onClick={() => setIsPlaying(false)}
-                                        className="px-6 py-4 rounded-2xl bg-white/5 border border-white/10 text-white hover:bg-white/10 transition-colors uppercase tracking-widest text-xs font-bold"
-                                    >
-                                        Parar
-                                    </button>
+                                {tocando && (
+                                    <span className="text-[10px] uppercase tracking-widest text-white/30">
+                                        Use fones para sentir a vibração
+                                    </span>
+                                )}
+
+                                {!suportado && (
+                                    <span className="text-[11px] text-white/40">
+                                        Seu navegador não permite gerar áudio nesta página.
+                                    </span>
                                 )}
 
                                 <div className="flex items-center gap-2 px-6 py-4 rounded-2xl bg-white/5 border border-white/10 text-white/60 text-xs font-medium uppercase tracking-widest">

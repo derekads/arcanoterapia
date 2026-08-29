@@ -5,6 +5,7 @@ import { Star, Zap, AlignCenter, Globe, Compass, Sun, Moon, Sparkles } from 'luc
 import { ArcanoAdvanced, MapaAstralCalculado } from '../../types';
 import { calculateArcanoAlignment } from '../../utils/astroConnectionUtils';
 import { cn } from '../../utils';
+import { deArcano } from '../../utils/calculos';
 
 interface Props {
     arcano: ArcanoAdvanced;
@@ -84,9 +85,9 @@ export const ArcanoCosmosView: React.FC<Props> = ({ arcano, mapa, insights }) =>
                             <Sparkles size={24} />
                         </div>
                         <h4 className="text-xs font-bold uppercase tracking-[0.3em] text-purple-400/60 mb-2">Personalidade Híbrida</h4>
-                        <p className="text-3xl font-serif text-white mb-2">{arcano.nome} em {mapa.sunSign}</p>
+                        <p className="text-3xl font-serif text-white mb-2">{arcano.nome} em {mapa.sol.signo}</p>
                         <p className="text-sm text-slate-400 font-light leading-relaxed italic border-l-2 border-purple-500/30 pl-4 mb-4">
-                            {insights?.signo?.perfil || `A fusão entre o arquétipo d${arcano.nome} e o Sol em ${mapa.sunSign} cria uma expressão única de individualidade.`}
+                            {insights?.signo?.perfil || `A fusão entre o arquétipo ${deArcano(arcano.nome)} e o Sol em ${mapa.sol.signo} cria uma expressão única de individualidade.`}
                         </p>
                         {insights?.signo?.ponto_cego && (
                             <div className="text-[10px] uppercase font-bold text-rose-400/70 border border-rose-500/20 rounded-lg p-2 bg-rose-500/5">

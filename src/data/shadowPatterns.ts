@@ -1,5 +1,6 @@
 import { ShadowPattern, FrequenciaSombra } from '../types';
 import { getArcanoByNumero } from './arcanos';
+import { deArcano } from '../utils/calculos';
 
 // Rich shadow patterns for Arcanos 1-5 and 22(0)
 // Each pattern includes detailed description, antidote, warning signs, severity, and practical exercise
@@ -438,7 +439,7 @@ export function getShadowPatternsForArcano(arcanoId: number): ShadowPattern[] {
         id: `sp-${arcanoId}-${idx + 1}`,
         arcanoId,
         nomePadrao: s.nome,
-        descricao: s.descricao || `Trabalho com a sombra d${arcano.nome === 'O Sol' || arcano.nome === 'O Mundo' ? 'o' : 'a'} ${arcano.nome}.`,
+        descricao: s.descricao || `Trabalho com a sombra ${deArcano(arcano.nome)}.`,
         antidoto: s.antidoto,
         exercicio: s.exercicio,
         sinaisAtencao: s.sinais,
