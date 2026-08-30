@@ -1,137 +1,252 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ShieldCheck, Flame, Info, ChevronRight, CheckCircle2 } from 'lucide-react';
+import { ShieldCheck, Flame, RotateCcw, ChevronRight, Check } from 'lucide-react';
 import { useArcano } from '../../context/ArcanoContext';
+import { getShadowPatternsForArcano } from '../../data/shadowPatterns';
+import { paletaDoArcano } from '../../utils/arcanoPalette';
+import type { FrequenciaSombra, ShadowPattern } from '../../types';
 
 /**
- * SOMBRA QUIZ PRO
- * O Espelho da Alma: 5 Perguntas para Identificar a Sombra Ativa
+ * O ESPELHO — qual sombra está ativa agora
+ *
+ * Antes esta tela tinha uma tabela `SHADOW_QUESTIONS` com perguntas escritas à
+ * mão para dois arcanos e um comentário admitindo o resto: "Mock para outros
+ * arcanos (será expandido no JSON)". Quem não fosse O Mago recebia as cinco
+ * perguntas de O Louco — sobre largar tudo sem plano e medo de perder a
+ * liberdade — sob um título dizendo "Mergulho nas Sombras de A Morte". As
+ * perguntas erradas, com o nome certo em cima.
+ *
+ * Não era preciso escrever nada: os 22 arcanos já têm 4 sombras cada, com 3
+ * sinais próprios e uma severidade — 88 sombras, 264 sinais, tudo preenchido
+ * no arcanos.json. Agora o espelho pergunta por esses sinais, e o resultado
+ * aponta a sombra do próprio arcano, com o antídoto e o exercício que já
+ * existem para ela.
  */
 
-interface Question {
-    text: string;
-    impact: number; // Peso para severidade
-}
-
-const SHADOW_QUESTIONS: Record<number, Question[]> = {
-    0: [ // O Louco
-        { text: "Sinto uma necessidade impulsiva de largar tudo sem um plano?", impact: 2 },
-        { text: "Tenho evitado compromissos sérios por medo de perder a liberdade?", impact: 1 },
-        { text: "Minha vida financeira está caótica por gastos emocionais?", impact: 2 },
-        { text: "Duvido da minha capacidade de manter a disciplina?", impact: 1 },
-        { text: "Estou começando muitos projetos e não terminando nenhum?", impact: 2 }
-    ],
-    // Mock para outros arcanos (será expandido no JSON)
-    1: [ // O Mago
-        { text: "Sinto que manipulo conversas para obter o que quero?", impact: 2 },
-        { text: "Duvido que tenho as ferramentas necessárias agora?", impact: 1 },
-        { text: "Meu conhecimento parece superficial e não prático?", impact: 1 },
-        { text: "Tenho medo de assumir a liderança em uma situação?", impact: 2 },
-        { text: "Uso meu charme para mascarar inseguranças profundas?", impact: 2 }
-    ]
+/** Peso de cada severidade no cálculo da sombra dominante. */
+const PESO: Record<FrequenciaSombra, number> = {
+    BAIXA: 1,
+    MEDIA: 1.5,
+    ALTA: 2,
+    CRONICA: 2.5,
 };
+
+const ROTULO_SEVERIDADE: Record<FrequenciaSombra, string> = {
+    BAIXA: 'Leve',
+    MEDIA: 'Moderada',
+    ALTA: 'Intensa',
+    CRONICA: 'Crônica',
+};
+
+interface Resultado {
+    sombra: ShadowPattern;
+    marcados: number;
+    intensidade: number;
+}
 
 export const SombraQuiz: React.FC = () => {
     const { arcanoPessoal } = useArcano();
-    const [step, setStep] = useState(0);
-    const [score, setScore] = useState(0);
-    const [isFinished, setIsFinished] = useState(false);
+    const [marcados, setMarcados] = useState<Set<string>>(new Set());
+    const [revelado, setRevelado] = useState(false);
 
-    if (!arcanoPessoal) return null;
+    const sombras = useMemo(
+        () => (arcanoPessoal ? getShadowPatternsForArcano(arcanoPessoal.numero) : []),
+        [arcanoPessoal?.numero]
+    );
 
-    const questions = SHADOW_QUESTIONS[arcanoPessoal.numero] || SHADOW_QUESTIONS[0];
+    const paleta = useMemo(
+        () => paletaDoArcano((arcanoPessoal as any)?.cor, (arcanoPessoal as any)?.cor_secundaria),
+        [(arcanoPessoal as any)?.cor, (arcanoPessoal as any)?.cor_secundaria]
+    );
 
-    const handleAnswer = (val: boolean) => {
-        if (val) setScore(s => s + questions[step].impact);
+    const alternar = useCallback((chave: string) => {
+        setMarcados(anterior => {
+            const proximo = new Set(anterior);
+            if (proximo.has(chave)) proximo.delete(chave);
+            else proximo.add(chave);
+            return proximo;
+        });
+    }, []);
 
-        if (step < questions.length - 1) {
-            setStep(s => s + 1);
-        } else {
-            setIsFinished(true);
+    /**
+     * A sombra dominante: proporção de sinais reconhecidos, ponderada pela
+     * severidade. Proporção e não contagem — sombras com mais sinais listados
+     * não podem ganhar só por serem mais descritas.
+     */
+    const resultado = useMemo<Resultado | null>(() => {
+        let melhor: Resultado | null = null;
+        for (const s of sombras) {
+            const total = s.sinaisAtencao.length || 1;
+            const n = s.sinaisAtencao.filter((_, i) => marcados.has(`${s.id}:${i}`)).length;
+            if (n === 0) continue;
+            const intensidade = (n / total) * (PESO[s.frequenciaSombra] ?? 1.5);
+            if (!melhor || intensidade > melhor.intensidade) {
+                melhor = { sombra: s, marcados: n, intensidade };
+            }
         }
-    };
+        return melhor;
+    }, [sombras, marcados]);
 
-    const getSeverity = () => {
-        if (score >= 7) return "CRÍTICA";
-        if (score >= 4) return "LATENTE";
-        return "SUTIL";
-    };
+    if (!arcanoPessoal || sombras.length === 0) return null;
+
+    const totalSinais = sombras.reduce((acc, s) => acc + s.sinaisAtencao.length, 0);
+    const nenhum = marcados.size === 0;
 
     return (
-        <div className="p-8 rounded-[2rem] bg-[#020617]/80 border border-amber-500/20 backdrop-blur-xl relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-32 h-32 bg-amber-500/5 blur-3xl rounded-full" />
+        <section
+            className="rounded-[1.5rem] border overflow-hidden"
+            style={{
+                borderColor: paleta.borda,
+                background: `linear-gradient(170deg, ${paleta.lavagem}, transparent 70%)`,
+            }}
+        >
+            <div className="h-[3px]" style={{ background: paleta.gradiente }} />
 
-            <AnimatePresence mode="wait">
-                {!isFinished ? (
-                    <motion.div
-                        key="quiz"
-                        initial={{ opacity: 0, y: 10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: -10 }}
-                        className="space-y-8"
-                    >
-                        <header className="space-y-2">
-                            <span className="text-[10px] uppercase tracking-[0.3em] text-amber-500/60 font-medium">Auto-Sondagem</span>
-                            <h3 className="text-2xl font-serif text-amber-50/90 leading-tight">Mergulho nas Sombras do {arcanoPessoal.nome}</h3>
-                            <div className="h-1 w-full bg-white/5 rounded-full overflow-hidden">
-                                <motion.div
-                                    className="h-full bg-amber-500/40"
-                                    animate={{ width: `${((step + 1) / questions.length) * 100}%` }}
-                                />
+            <div className="p-6 md:p-8">
+                <header className="text-center mb-7">
+                    <p className="text-[10px] uppercase tracking-[0.3em] mb-2" style={{ color: paleta.tinta }}>
+                        O Espelho
+                    </p>
+                    <h3 className="font-serif text-2xl text-white/90 mb-2">
+                        Qual sombra está ativa agora
+                    </h3>
+                    <p className="text-sm text-white/50 max-w-md mx-auto leading-relaxed">
+                        Marque o que você reconhece em si nas últimas semanas. Nada aqui é
+                        diagnóstico — é um espelho para escolher por onde começar.
+                    </p>
+                </header>
+
+                {/* ── OS SINAIS, AGRUPADOS POR SOMBRA ─────────────────── */}
+                <div className="space-y-5">
+                    {sombras.map(sombra => (
+                        <div
+                            key={sombra.id}
+                            className="rounded-2xl border p-4"
+                            style={{ borderColor: 'rgba(255,255,255,0.07)', background: 'rgba(255,255,255,0.02)' }}
+                        >
+                            <div className="flex items-baseline justify-between gap-3 mb-3">
+                                <h4 className="font-serif text-white/80 text-[15px]">{sombra.nomePadrao}</h4>
+                                <span className="text-[9.5px] uppercase tracking-[0.16em] shrink-0" style={{ color: paleta.tintaSuave }}>
+                                    {ROTULO_SEVERIDADE[sombra.frequenciaSombra]}
+                                </span>
                             </div>
-                        </header>
 
-                        <div className="min-h-[120px] flex items-center">
-                            <p className="text-xl text-amber-100/80 font-light italic leading-relaxed">
-                                "{questions[step].text}"
-                            </p>
+                            <ul className="space-y-1.5 list-none p-0 m-0">
+                                {sombra.sinaisAtencao.map((sinal, i) => {
+                                    const chave = `${sombra.id}:${i}`;
+                                    const ativo = marcados.has(chave);
+                                    return (
+                                        <li key={chave}>
+                                            <button
+                                                onClick={() => { alternar(chave); setRevelado(false); }}
+                                                aria-pressed={ativo}
+                                                className="w-full flex items-start gap-3 text-left px-3 py-2.5 rounded-xl border transition-colors"
+                                                style={{
+                                                    borderColor: ativo ? paleta.borda : 'transparent',
+                                                    background: ativo ? paleta.lavagem : 'transparent',
+                                                }}
+                                            >
+                                                <span
+                                                    className="mt-0.5 w-4 h-4 rounded-[5px] border shrink-0 flex items-center justify-center"
+                                                    style={{
+                                                        borderColor: ativo ? paleta.tinta : 'rgba(255,255,255,0.22)',
+                                                        background: ativo ? paleta.tinta : 'transparent',
+                                                    }}
+                                                >
+                                                    {ativo && <Check size={11} className="text-black" strokeWidth={3} />}
+                                                </span>
+                                                <span className={ativo ? 'text-sm text-white/85' : 'text-sm text-white/55'}>
+                                                    {sinal}
+                                                </span>
+                                            </button>
+                                        </li>
+                                    );
+                                })}
+                            </ul>
                         </div>
+                    ))}
+                </div>
 
-                        <div className="flex gap-4">
-                            <button
-                                onClick={() => handleAnswer(true)}
-                                className="flex-1 py-4 bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 rounded-2xl text-amber-400 font-bold tracking-widest text-xs uppercase transition-all active:scale-95"
-                            >
-                                Sim, Reconheço
-                            </button>
-                            <button
-                                onClick={() => handleAnswer(false)}
-                                className="flex-1 py-4 bg-white/5 hover:bg-white/10 border border-white/10 rounded-2xl text-slate-400 font-bold tracking-widest text-xs uppercase transition-all"
-                            >
-                                Não no momento
-                            </button>
-                        </div>
-                    </motion.div>
-                ) : (
-                    <motion.div
-                        key="result"
-                        initial={{ opacity: 0, scale: 0.95 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        className="text-center space-y-6"
+                {/* ── AÇÃO ────────────────────────────────────────────── */}
+                <div className="mt-6 flex items-center justify-center gap-2">
+                    <button
+                        onClick={() => setRevelado(true)}
+                        disabled={nenhum}
+                        className="px-6 py-3 rounded-xl text-sm font-medium border transition-colors disabled:opacity-35 disabled:cursor-not-allowed"
+                        style={{ borderColor: paleta.borda, background: paleta.lavagem, color: paleta.tinta }}
                     >
-                        <div className="w-20 h-20 bg-amber-500/10 border border-amber-500/30 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <ShieldCheck className="text-amber-400" size={32} />
-                        </div>
-
-                        <div className="space-y-2">
-                            <h4 className="text-amber-200/60 text-[10px] uppercase tracking-[0.4em]">Frequência da Sombra</h4>
-                            <p className="text-4xl font-serif text-amber-100">{getSeverity()}</p>
-                        </div>
-
-                        <p className="text-slate-400 text-sm leading-relaxed max-w-sm mx-auto">
-                            O reconhecimento é o primeiro passo da alquimia. A sombra do {arcanoPessoal.nome} está tentando te proteger através do controle, mas você pode escolher a integração.
-                        </p>
-
-                        <button className="group relative w-full py-4 px-6 rounded-xl overflow-hidden active:scale-95 transition-transform">
-                            <div className="absolute inset-0 bg-gradient-to-r from-amber-600/20 to-amber-900/20 border border-amber-500/40 backdrop-blur-md rounded-xl" />
-                            <span className="relative flex items-center justify-center gap-3 text-amber-100 font-bold tracking-[0.2em] text-xs uppercase">
-                                Iniciar Trilha de Transmutação
-                                <ChevronRight size={16} className="text-amber-400" />
-                            </span>
+                        {nenhum
+                            ? 'Marque ao menos um sinal'
+                            : `Revelar a sombra ativa (${marcados.size} de ${totalSinais})`}
+                        {!nenhum && <ChevronRight size={14} className="inline ml-1.5 -mt-0.5" />}
+                    </button>
+                    {marcados.size > 0 && (
+                        <button
+                            onClick={() => { setMarcados(new Set()); setRevelado(false); }}
+                            className="w-11 h-11 rounded-xl border flex items-center justify-center hover:bg-white/5 transition-colors"
+                            style={{ borderColor: paleta.borda }}
+                            title="Limpar"
+                            aria-label="Limpar as marcações"
+                        >
+                            <RotateCcw size={15} style={{ color: paleta.tinta }} />
                         </button>
-                    </motion.div>
-                )}
-            </AnimatePresence>
-        </div>
+                    )}
+                </div>
+
+                {/* ── O RESULTADO ─────────────────────────────────────── */}
+                <AnimatePresence>
+                    {revelado && resultado && (
+                        <motion.div
+                            initial={{ opacity: 0, y: 12 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{ opacity: 0, y: -8 }}
+                            className="mt-7 pt-7 border-t"
+                            style={{ borderColor: paleta.borda }}
+                        >
+                            <div className="flex items-center gap-2 mb-4">
+                                <Flame size={14} style={{ color: paleta.tinta }} />
+                                <p className="text-[10px] uppercase tracking-[0.24em]" style={{ color: paleta.tinta }}>
+                                    Sombra mais ativa
+                                </p>
+                            </div>
+
+                            <h4 className="font-serif text-xl text-white/90 mb-1">
+                                {resultado.sombra.nomePadrao}
+                            </h4>
+                            <p className="text-xs text-white/40 mb-5">
+                                {resultado.marcados} de {resultado.sombra.sinaisAtencao.length} sinais reconhecidos ·
+                                intensidade {ROTULO_SEVERIDADE[resultado.sombra.frequenciaSombra].toLowerCase()}
+                            </p>
+
+                            <dl className="space-y-4 m-0">
+                                <div>
+                                    <dt className="flex items-center gap-1.5 text-[9.5px] uppercase tracking-[0.18em] mb-1.5" style={{ color: paleta.tintaSuave }}>
+                                        <ShieldCheck size={11} /> Antídoto
+                                    </dt>
+                                    <dd className="m-0 text-sm text-white/75 leading-relaxed">
+                                        {resultado.sombra.antidoto}
+                                    </dd>
+                                </div>
+                                {resultado.sombra.exercicio && (
+                                    <div>
+                                        <dt className="text-[9.5px] uppercase tracking-[0.18em] mb-1.5" style={{ color: paleta.tintaSuave }}>
+                                            Primeiro passo
+                                        </dt>
+                                        <dd className="m-0 text-sm text-white/75 leading-relaxed">
+                                            {resultado.sombra.exercicio}
+                                        </dd>
+                                    </div>
+                                )}
+                            </dl>
+
+                            <p className="mt-5 text-xs text-white/35">
+                                O programa completo desta sombra está logo abaixo, em
+                                “{resultado.sombra.nomePadrao}”.
+                            </p>
+                        </motion.div>
+                    )}
+                </AnimatePresence>
+            </div>
+        </section>
     );
 };

@@ -440,11 +440,16 @@ export const ArcanoExpandidoView: React.FC<Props> = ({
       case 'sombras':
         return (
           <div className="max-w-4xl mx-auto px-6 py-10 space-y-12">
+            {/*
+              O `opacity-40` que ficava aqui deixava o conteúdo REAL das sombras
+              — os 4 padrões do arcano, com antídoto, exercício e o programa de
+              21 dias — a 40% de opacidade, atrás de um quiz genérico e de uma
+              trilha de progresso falso. Era o material completo escondido para
+              destacar o que era mockup.
+            */}
             <SombraQuiz />
+            <ShadowView arcano={arcano} onClose={onClose} embedded />
             <TrilhaTransmutacao />
-            <div className="opacity-40">
-              <ShadowView arcano={arcano} onClose={onClose} embedded />
-            </div>
           </div>
         );
       case 'diretrizes':

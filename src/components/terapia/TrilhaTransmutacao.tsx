@@ -1,97 +1,170 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { motion } from 'framer-motion';
-import { Flame, Sparkles, Sprout, Lock, CheckCircle2 } from 'lucide-react';
+import { Check, Lock, Circle } from 'lucide-react';
 import { useArcano } from '../../context/ArcanoContext';
+import { getShadowPatternsForArcano } from '../../data/shadowPatterns';
+import { getProgressoSombra } from '../dashboard/SombraModal';
+import { paletaDoArcano } from '../../utils/arcanoPalette';
 
 /**
- * TRILHA DE TRANSMUTAÇÃO
- * UI Estilo Skill Tree para Trabalho de Sombras
+ * CAMINHO DE ALQUIMIA — onde o trabalho com as sombras está
+ *
+ * Esta trilha mostrava progresso inventado: `isCompleted={idx === 0}` e
+ * `isLocked={idx > 1}`, cravados no código. O primeiro passo aparecia
+ * concluído e o terceiro trancado para todo mundo, no primeiro acesso e para
+ * sempre, fizesse o usuário o que fizesse. Um medidor que não media nada.
+ *
+ * O progresso real já existia, gravado por sombra em
+ * `shadow-progress-<arcano>-<sombra>` pelo programa de 21 dias. Agora a
+ * trilha lê esse progresso e reflete as três fases que o programa de fato tem:
+ * observação (dias 1-7), diálogo (8-14) e integração (15-21).
  */
 
-interface TrailNodeProps {
-    index: number;
-    title: string;
-    description: string;
-    isLocked: boolean;
-    isCompleted: boolean;
+/** As três fases do programa de 21 dias, e o dia em que cada uma se completa. */
+const FASES = [
+    {
+        titulo: 'Observação',
+        descricao: 'Reconhecer o gatilho no momento em que ele acontece.',
+        ateODia: 7,
+    },
+    {
+        titulo: 'Diálogo Interno',
+        descricao: 'Perguntar à sombra que proteção ela acreditava estar oferecendo.',
+        ateODia: 14,
+    },
+    {
+        titulo: 'Integração',
+        descricao: 'Agir com consciência apesar do impulso — e sem se punir por senti-lo.',
+        ateODia: 21,
+    },
+];
+
+interface NoProps {
+    indice: number;
+    titulo: string;
+    descricao: string;
+    concluida: boolean;
+    trancada: boolean;
+    diasFeitos: number;
+    diasDaFase: number;
+    paleta: ReturnType<typeof paletaDoArcano>;
 }
 
-const TrailNode: React.FC<TrailNodeProps> = ({ index, title, description, isLocked, isCompleted }) => (
-    <div className="relative flex flex-col items-center group">
-        {/* Conector Vertical */}
-        {index > 0 && (
-            <div className={`absolute -top-12 w-0.5 h-12 ${isCompleted ? 'bg-amber-500/40' : 'bg-white/10'}`} />
+const No: React.FC<NoProps> = ({
+    indice, titulo, descricao, concluida, trancada, diasFeitos, diasDaFase, paleta,
+}) => (
+    <motion.li
+        initial={{ opacity: 0, y: 14 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: indice * 0.1 }}
+        className="relative flex gap-4 pb-8 last:pb-0"
+    >
+        {/* linha que liga os nós */}
+        {indice < FASES.length - 1 && (
+            <span
+                className="absolute left-[15px] top-9 bottom-0 w-px"
+                style={{ background: concluida ? paleta.borda : 'rgba(255,255,255,0.08)' }}
+            />
         )}
 
-        <motion.div
-            whileHover={!isLocked ? { scale: 1.05 } : {}}
-            className={`
-                w-16 h-16 rounded-2xl flex items-center justify-center relative z-10 transition-all duration-500
-                ${isCompleted ? 'bg-amber-500/20 border-amber-500/50 shadow-[0_0_20px_rgba(245,158,11,0.2)]' :
-                    isLocked ? 'bg-white/5 border-white/10 opacity-40' : 'bg-white/10 border-white/20 cursor-pointer hover:border-amber-500/40'}
-                border-2
-            `}
+        <span
+            className="relative z-10 w-8 h-8 rounded-full border flex items-center justify-center shrink-0"
+            style={{
+                borderColor: concluida ? paleta.tinta : trancada ? 'rgba(255,255,255,0.10)' : paleta.borda,
+                background: concluida ? paleta.tinta : '#0a0a0f',
+            }}
         >
-            {isCompleted ? <CheckCircle2 className="text-amber-400" size={24} /> :
-                isLocked ? <Lock className="text-slate-500" size={20} /> :
-                    index === 0 ? <Flame className="text-amber-500" size={24} /> :
-                        index === 1 ? <Sparkles className="text-amber-400" size={24} /> :
-                            <Sprout className="text-emerald-400" size={24} />}
+            {concluida
+                ? <Check size={14} className="text-black" strokeWidth={3} />
+                : trancada
+                    ? <Lock size={12} className="text-white/25" />
+                    : <Circle size={9} style={{ color: paleta.tinta }} fill="currentColor" />}
+        </span>
 
-            {/* Glow Aura */}
-            {!isLocked && !isCompleted && (
-                <div className="absolute inset-0 bg-amber-500/10 blur-xl rounded-full animate-pulse" />
-            )}
-        </motion.div>
-
-        <div className="mt-4 text-center max-w-[200px]">
-            <h4 className={`text-xs font-bold uppercase tracking-widest ${isLocked ? 'text-slate-600' : 'text-amber-200/90'}`}>
-                Passo {index + 1}: {title}
-            </h4>
-            <p className="mt-1 text-[10px] text-slate-500 leading-relaxed">
-                {isLocked ? "Complete o passo anterior" : description}
+        <div className="pt-1 min-w-0">
+            <div className="flex items-baseline gap-2 flex-wrap">
+                <h4 className={`font-serif text-[15px] m-0 ${trancada ? 'text-white/35' : 'text-white/85'}`}>
+                    {titulo}
+                </h4>
+                <span className="text-[10px] tabular-nums" style={{ color: paleta.tintaSuave }}>
+                    {Math.min(diasFeitos, diasDaFase)}/{diasDaFase} dias
+                </span>
+            </div>
+            <p className={`text-[13px] leading-relaxed mt-1 mb-0 ${trancada ? 'text-white/25' : 'text-white/50'}`}>
+                {descricao}
             </p>
         </div>
-    </div>
+    </motion.li>
 );
 
 export const TrilhaTransmutacao: React.FC = () => {
     const { arcanoPessoal } = useArcano();
 
-    // Mock de progresso (futuramente virá do Context/LocalStorage)
-    const steps = [
-        { title: "Observação", description: "Identificar o gatilho emocional no momento da reação." },
-        { title: "Diálogo Interno", description: "Questionar a intenção positiva da sombra (proteção)." },
-        { title: "Integração", description: "Agir de forma consciente apesar do impulso da sombra." }
-    ];
+    const paleta = useMemo(
+        () => paletaDoArcano((arcanoPessoal as any)?.cor, (arcanoPessoal as any)?.cor_secundaria),
+        [(arcanoPessoal as any)?.cor, (arcanoPessoal as any)?.cor_secundaria]
+    );
+
+    /**
+     * O andamento vem da sombra em que o usuário foi mais longe. Enquanto ele
+     * não tiver começado nenhuma, a trilha se apresenta como o mapa do que vem
+     * pela frente — sem fingir que a primeira fase já está feita.
+     */
+    const andamento = useMemo(() => {
+        if (!arcanoPessoal) return { dias: 0, sombra: null as string | null };
+        let melhor = { dias: 0, sombra: null as string | null };
+        for (const s of getShadowPatternsForArcano(arcanoPessoal.numero)) {
+            const p = getProgressoSombra(arcanoPessoal.numero, s.id);
+            const dias = p?.diasCompletos?.length ?? 0;
+            if (dias > melhor.dias) melhor = { dias, sombra: s.nomePadrao };
+        }
+        return melhor;
+    }, [arcanoPessoal?.numero]);
 
     if (!arcanoPessoal) return null;
 
+    const comecou = andamento.dias > 0;
+
     return (
-        <div className="py-12 px-6 flex flex-col items-center space-y-12">
-            <header className="text-center space-y-2">
-                <h3 className="font-serif text-3xl text-amber-100">Caminho de Alquimia</h3>
-                <p className="text-xs text-amber-500/60 uppercase tracking-[0.3em]">Sombras do {arcanoPessoal.nome}</p>
+        <section className="rounded-[1.5rem] border p-6 md:p-8" style={{ borderColor: paleta.borda }}>
+            <header className="mb-7">
+                <p className="text-[10px] uppercase tracking-[0.3em] mb-2" style={{ color: paleta.tinta }}>
+                    Caminho de Alquimia
+                </p>
+                <h3 className="font-serif text-2xl text-white/90 mb-1">
+                    {comecou ? 'Onde você está' : 'Como o trabalho acontece'}
+                </h3>
+                <p className="text-sm text-white/50">
+                    {comecou
+                        ? `${andamento.dias} de 21 dias em “${andamento.sombra}”.`
+                        : 'Três fases, 21 dias. Escolha uma sombra abaixo para começar.'}
+                </p>
             </header>
 
-            <div className="flex flex-col items-center gap-12">
-                {steps.map((step, idx) => (
-                    <TrailNode
-                        key={idx}
-                        index={idx}
-                        title={step.title}
-                        description={step.description}
-                        isCompleted={idx === 0} // Mock: primeiro completo
-                        isLocked={idx > 1}      // Mock: terceiro bloqueado
-                    />
-                ))}
-            </div>
+            <ol className="list-none p-0 m-0">
+                {FASES.map((fase, i) => {
+                    const inicioDaFase = i === 0 ? 0 : FASES[i - 1].ateODia;
+                    const diasDaFase = fase.ateODia - inicioDaFase;
+                    const diasFeitos = Math.max(0, andamento.dias - inicioDaFase);
+                    return (
+                        <No
+                            key={fase.titulo}
+                            indice={i}
+                            titulo={fase.titulo}
+                            descricao={fase.descricao}
+                            concluida={andamento.dias >= fase.ateODia}
+                            trancada={andamento.dias < inicioDaFase}
+                            diasFeitos={diasFeitos}
+                            diasDaFase={diasDaFase}
+                            paleta={paleta}
+                        />
+                    );
+                })}
+            </ol>
 
-            <div className="pt-8 text-center">
-                <p className="text-[10px] text-slate-500 uppercase tracking-widest max-w-xs mx-auto">
-                    A transmutação é um processo contínuo. Repita o ciclo a cada novo gatilho.
-                </p>
-            </div>
-        </div>
+            <p className="mt-6 pt-5 border-t text-[11px] text-white/30" style={{ borderColor: paleta.borda }}>
+                A transmutação é contínua. O ciclo recomeça a cada novo gatilho.
+            </p>
+        </section>
     );
 };
