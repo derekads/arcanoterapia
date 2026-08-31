@@ -2,6 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { MapaSVG } from './MapaSVG';
 import { PlanetAccordion } from './PlanetAccordion';
 import { AspectsTable } from './AspectsTable';
+import { CASAS, interpretarCasa, interpretarAstroNaCasa } from '../../data/casasInterpretacao';
 import { ELEMENT_COLORS } from '../../utils/astroRenderUtils';
 import type { ChartBody, MapaViewModel } from '../../utils/mapaAstralAdapter';
 
@@ -93,6 +94,13 @@ export const MapaAstralView: React.FC<MapaAstralProps> = ({ mapa }) => {
         () => mapa.todos.find(a => a.nome === astroAtivo) || null,
         [mapa.todos, astroAtivo]
     );
+
+    /**
+     * Qual casa está aberta. A lista de cúspides mostrava grau, signo e
+     * amplitude — e nenhuma palavra sobre o que cada casa É. Agora cada uma
+     * abre a interpretação e o que os astros dela significam ali.
+     */
+    const [casaAberta, setCasaAberta] = useState<number | null>(null);
 
     const aspectosDoAtivo = useMemo(() => {
         if (!astroAtivo) return [];
@@ -329,14 +337,19 @@ export const MapaAstralView: React.FC<MapaAstralProps> = ({ mapa }) => {
                                 {mapa.cuspides.map(cusp => {
                                     const habitantes = mapa.astros.filter(a => a.casa === cusp.casa);
                                     return (
-                                        <li
-                                            key={`cusp-${cusp.casa}`}
-                                            className={`flex items-center gap-3 p-3 rounded-xl ${
+                                        <li key={`cusp-${cusp.casa}`} className="sm:col-span-1">
+                                          <button
+                                            type="button"
+                                            onClick={() =>
+                                                setCasaAberta(casaAberta === cusp.casa ? null : cusp.casa)
+                                            }
+                                            aria-expanded={casaAberta === cusp.casa}
+                                            className={`w-full text-left flex items-center gap-3 p-3 rounded-xl transition-colors ${
                                                 cusp.eixo
                                                     ? 'bg-amber-500/5 border border-amber-500/20'
-                                                    : 'bg-black/20 border border-transparent'
+                                                    : 'bg-black/20 border border-transparent hover:bg-black/40'
                                             }`}
-                                        >
+                                          >
                                             <span className="w-7 h-7 shrink-0 rounded-lg bg-white/5 flex items-center justify-center text-[11px] font-bold text-slate-400">
                                                 {cusp.casa}
                                             </span>
@@ -364,6 +377,36 @@ export const MapaAstralView: React.FC<MapaAstralProps> = ({ mapa }) => {
                                                     )}
                                                 </span>
                                             </span>
+                                          </button>
+
+                                          {casaAberta === cusp.casa && (
+                                            <div className="mt-2 px-4 py-3 rounded-xl bg-black/30 border-l-2 border-amber-500/40 space-y-3">
+                                                <p className="text-[11px] uppercase tracking-[0.18em] text-amber-400/80 m-0">
+                                                    {CASAS[cusp.casa]?.titulo}
+                                                </p>
+                                                <p className="text-[13px] leading-relaxed text-slate-300 m-0">
+                                                    {interpretarCasa(cusp.casa, cusp.signo)}
+                                                </p>
+                                                <p className="text-[13px] leading-relaxed text-slate-400 m-0">
+                                                    <span className="text-slate-500">A pergunta desta casa: </span>
+                                                    {CASAS[cusp.casa]?.pergunta}
+                                                </p>
+                                                <p className="text-[13px] leading-relaxed text-slate-400 m-0">
+                                                    <span className="text-slate-500">Quando é evitada: </span>
+                                                    {CASAS[cusp.casa]?.sombra}
+                                                </p>
+                                                {habitantes.length > 0 && (
+                                                    <ul className="pt-2 mt-1 border-t border-white/5 space-y-1.5 list-none p-0">
+                                                        {habitantes.map(h => (
+                                                            <li key={h.nome} className="text-[12.5px] leading-relaxed text-slate-400">
+                                                                <span className="text-slate-200">{h.nome}</span>{' '}
+                                                                — {interpretarAstroNaCasa(h.nome, cusp.casa)}
+                                                            </li>
+                                                        ))}
+                                                    </ul>
+                                                )}
+                                            </div>
+                                          )}
                                         </li>
                                     );
                                 })}
