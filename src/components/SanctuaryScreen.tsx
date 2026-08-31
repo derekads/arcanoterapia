@@ -143,7 +143,7 @@ export const SanctuaryScreen: React.FC<Props> = ({
                   <h1 className="text-3xl md:text-4xl font-serif text-white mb-2 text-center uppercase tracking-widest">Botica Sagrada</h1>
                   <p className="text-white/40 text-center mb-10">Ferramentas de cura para o Arcano {arcana.nome}</p>
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-6" style={{ minHeight: '500px' }}>
-                    <FarmaciaAlquimica alquimia={arcana.alquimia} />
+                    <FarmaciaAlquimica arcano={arcana} />
                     <ChatOraculo arcano={arcana} arcanaName={arcana.nome} />
                   </div>
                 </div>

@@ -461,7 +461,7 @@ export const ArcanoExpandidoView: React.FC<Props> = ({
       case 'farmacia':
         return (
           <div className="max-w-3xl mx-auto px-6 py-10">
-            <FarmaciaAlquimica alquimia={arcano.alquimia} />
+            <FarmaciaAlquimica arcano={arcano} />
           </div>
         );
       case 'som':

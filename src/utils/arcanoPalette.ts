@@ -96,6 +96,32 @@ export function corLegivel(hex: string, alvo = 4.5, fundo = FUNDO): string {
     return hslParaHex({ h: hsl.h, s, l: 0.95 });
 }
 
+/**
+ * A cor de apoio, derivada da secundária — mas com identidade garantida.
+ *
+ * Quatorze dos vinte e dois arcanos têm uma `cor_secundaria` quase branca:
+ * `#ccfbf1` n'O Mundo, `#f3e8ff` na Lua, `#ffffff` cravado n'Os Enamorados.
+ * Passadas por `corLegivel`, elas já cumprem o contraste e voltam intactas — de
+ * modo que a "segunda cor do arcano" chegava à tela como branco. Os cards que
+ * existiam justamente para mostrar a outra face do arcano ficavam cinzentos.
+ *
+ * Então antes de checar contraste, a cor é trazida de volta para dentro de uma
+ * faixa em que ainda se lê como cor: luminosidade no máximo 0,72 e saturação
+ * mínima. Quando a secundária não tem matiz nenhum — o branco puro d'Os
+ * Enamorados —, não há hue para preservar, e ela empresta o da cor principal:
+ * um rosa claro ao lado do rosa do arcano diz mais do que um branco.
+ */
+function corDeApoio(secundaria: string, principal: string): string {
+    const s = hexParaHsl(secundaria);
+    const acromatica = s.s < 0.2;
+
+    const matiz = acromatica ? hexParaHsl(principal).h : s.h;
+    const saturacao = acromatica ? 0.55 : Math.max(s.s, 0.45);
+    const luz = Math.min(Math.max(s.l, 0.45), 0.72);
+
+    return corLegivel(hslParaHex({ h: matiz, s: saturacao, l: luz }), 4.5);
+}
+
 export interface PaletaArcano {
     /** Cor original, para preenchimentos e brilhos. */
     bruta: string;
@@ -165,7 +191,7 @@ export function paletaDoArcano(cor?: string, corSecundaria?: string): PaletaArca
     if (guardada) return guardada;
 
     const tinta = corLegivel(bruta, 4.5);
-    const apoio = corLegivel(brutaSecundaria, 4.5);
+    const apoio = corDeApoio(brutaSecundaria, bruta);
 
     const paleta: PaletaArcano = {
         bruta,
@@ -181,4 +207,35 @@ export function paletaDoArcano(cor?: string, corSecundaria?: string): PaletaArca
 
     cache.set(chave, paleta);
     return paleta;
+}
+
+/**
+ * A paleta do arcano como VARIÁVEIS CSS, para temar uma subárvore inteira.
+ *
+ * Aplicada uma vez no elemento de topo de uma aba, todos os descendentes podem
+ * usar `text-[var(--arc-tinta)]`, `border-[var(--arc-borda)]` etc. sem que cada
+ * componente precise receber a paleta por props ou chamar o contexto. É o que
+ * permitiu trocar dezenas de classes `amber-*` fixas de uma vez.
+ *
+ * Os degraus de alfa existem porque Tailwind não sabe aplicar opacidade a uma
+ * cor que vem de uma variável (`bg-[var(--x)]/20` não compila): então as
+ * variantes translúcidas são pré-calculadas aqui.
+ */
+export function variaveisDaPaleta(cor?: string, corSecundaria?: string): React.CSSProperties {
+    const p = paletaDoArcano(cor, corSecundaria);
+    return {
+        '--arc-tinta': p.tinta,
+        '--arc-suave': p.tintaSuave,
+        '--arc-apoio': p.apoio,
+        '--arc-forte': `${p.tinta}33`,
+        '--arc-lavagem': p.lavagem,
+        '--arc-borda': p.borda,
+        '--arc-borda-forte': `${p.tinta}66`,
+        // degraus de alfa para brilhos, preenchimentos e traçados
+        '--arc-a05': `${p.tinta}0d`,
+        '--arc-a18': `${p.tinta}2e`,
+        '--arc-a30': `${p.tinta}4d`,
+        '--arc-a50': `${p.tinta}80`,
+        '--arc-a60': `${p.tinta}99`,
+    } as React.CSSProperties;
 }
