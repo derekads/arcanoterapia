@@ -309,17 +309,4 @@ export const PREVISOES_2026: PrevisaoAno[] = [
         resumo: "Plenitude, conclusão e glória universal.",
         trimestres: { Q1: "Expansão global.", Q2: "Integração total.", Q3: "Viagens e êxito.", Q4: "Mundo em harmonia." }
     },
-    {
-        id: 22,
-        nome: "O Louco",
-        ano: 2026,
-        tema: "A Grande Travessia. Em 2026, seu espírito aventureiro encontra o portal necessário para um renascimento radical.",
-        fraseGuia: "Eu sou o desbravar do desconhecido.",
-        conselho: "Salte com consciência; o Universo sustenta quem ousa com verdade.",
-        amor: "Libertação de fardos emocionais do passado.",
-        carreira: "Sorte extraordinária para inícios pioneiros.",
-        saude: "Vitalidade em fluxo; atente-se ao equilíbrio mental.",
-        resumo: "Um ciclo de renovação total e ousadia sagrada. O salto que sua alma pede.",
-        trimestres: { Q1: "Definição do novo norte.", Q2: "O salto necessário.", Q3: "Exploração de novos mundos.", Q4: "Ancoragem da nova realidade." }
-    }
 ];

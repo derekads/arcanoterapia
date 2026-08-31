@@ -1,6 +1,7 @@
 import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { paletaDoArcano } from '../../utils/arcanoPalette';
+import { focoDoArcano } from '../../data/areaFocoArcano';
 import {
     ArrowLeft, Heart, Wallet, Activity, Briefcase, Users, Compass,
     ChevronLeft, ChevronRight, History, Sparkles, Save, FileText,
@@ -155,10 +156,17 @@ function OnboardingWizard({ arcano, onComplete, progress, updateLifeArea, getLif
     const getAreaScore = (area: AreaDaVida) =>
         getLifeAreaRating(area, ano, currentQ)?.nota ?? 5;
 
-    const filledCount = AREAS.filter(a => {
-        const r = getLifeAreaRating(a, ano, currentQ);
-        return r && r.nota !== 5;
-    }).length;
+    /** A área que o desafio do arcano aponta. Ver data/areaFocoArcano.ts. */
+    const foco = focoDoArcano(arcano.numero);
+
+    /**
+     * Áreas que o usuário realmente tocou. Antes a conta era `nota !== 5`, o
+     * que descartava quem avaliasse uma área honestamente como 5 — a pessoa
+     * mexia no slider, voltava ao meio, e o app dizia que ela não tinha
+     * avaliado. Agora conta o registro, não o valor.
+     */
+    const [areasTocadas, setAreasTocadas] = useState<Set<AreaDaVida>>(new Set());
+    const filledCount = areasTocadas.size;
 
     const canAdvanceStep0 = filledCount >= 3;
 
@@ -168,6 +176,38 @@ function OnboardingWizard({ arcano, onComplete, progress, updateLifeArea, getLif
                 : prev.length < 2 ? [...prev, area] : prev
         );
     };
+
+    /** Exemplo de meta na voz do arcano, em vez de "a força do Arcano X" para 21 dos 22. */
+    const exemploDeMeta = useMemo(() => {
+        const alvo = foco ? AREA_LABELS[foco.area] : 'uma área';
+        const chave = (arcano.subtitulo || '').split('•')[0].trim().toLowerCase() || 'presença';
+        return `Ex: até o fim do trimestre, dedicar 2 horas por semana a ${alvo.toLowerCase()}, praticando ${chave} — medido por...`;
+    }, [foco, arcano.subtitulo]);
+
+    /**
+     * Os três critérios de uma meta que dá para acompanhar. Cada um confere
+     * uma coisa concreta no texto; nenhum acende de graça.
+     */
+    const criteriosDaMeta = useMemo(() => {
+        const t = goalText.trim();
+        return [
+            {
+                label: 'Específica',
+                ok: t.split(/\s+/).filter(Boolean).length >= 6,
+                dica: 'Pelo menos 6 palavras — o suficiente para dizer o quê e como.',
+            },
+            {
+                label: 'Mensurável',
+                ok: /\d/.test(t) || /(por semana|por mês|por dia|toda semana|todo dia|vezes)/i.test(t),
+                dica: 'Um número ou uma frequência, para você saber se cumpriu.',
+            },
+            {
+                label: 'Com prazo',
+                ok: /(at[ée]|trimestre|m[êe]s|semana|dia \d|fim d)/i.test(t),
+                dica: 'Uma data ou um horizonte — "até o fim do trimestre".',
+            },
+        ];
+    }, [goalText]);
 
     const finish = () => {
         setShowConfetti(true);
@@ -182,8 +222,8 @@ function OnboardingWizard({ arcano, onComplete, progress, updateLifeArea, getLif
         },
         {
             title: 'Escolha Seu Foco',
-            subtitle: `O Arcano ${arcano.nome} indica onde sua energia deve fluir este trimestre. Selecione até 2 áreas prioritárias.`,
-            hint: 'Sugestão do Oráculo marcada em dourado',
+            subtitle: `${foco ? foco.porque : `${arcano.nome} pede foco neste trimestre.`} Escolha até 2 áreas.`,
+            hint: 'Marcadas: a área que o arcano aponta e as que você avaliou abaixo de 5',
         },
         {
             title: 'Defina Sua Meta Arcana',
@@ -248,7 +288,16 @@ function OnboardingWizard({ arcano, onComplete, progress, updateLifeArea, getLif
                                                 </div>
                                             </div>
                                             <input type="range" min="0" max="10" value={nota}
-                                                onChange={e => updateLifeArea(area, +e.target.value, undefined, { ano, trimestre: currentQ })}
+                                                onChange={e => {
+                                                    updateLifeArea(area, +e.target.value, undefined, { ano, trimestre: currentQ });
+                                                    setAreasTocadas(prev => new Set(prev).add(area));
+                                                }}
+                                                // Pegar no slider já conta como avaliar, mesmo que a
+                                                // pessoa acabe deixando no 5. Sem isto, quem está
+                                                // genuinamente satisfeito com o meio em três áreas
+                                                // não conseguia avançar do primeiro passo.
+                                                onPointerDown={() => setAreasTocadas(prev => new Set(prev).add(area))}
+                                                onKeyDown={() => setAreasTocadas(prev => new Set(prev).add(area))}
                                                 className="w-full h-1.5 appearance-none bg-white/10 rounded-full outline-none cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-5 [&::-webkit-slider-thumb]:h-5 [&::-webkit-slider-thumb]:bg-[var(--rv-tinta)] [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:shadow-[0_0_12px_var(--rv-borda-forte)]"
                                                 style={{ background: `linear-gradient(to right,var(--rv-tinta) 0%,var(--rv-tinta) ${nota * 10}%,rgba(255,255,255,0.05) ${nota * 10}%)` }}
                                             />
@@ -269,7 +318,13 @@ function OnboardingWizard({ arcano, onComplete, progress, updateLifeArea, getLif
                                     const Icon = AREA_ICONS[area];
                                     const nota = getAreaScore(area);
                                     const isPriority = selectedPriorities.includes(area);
-                                    const isOraculo = area === arcano.areaFoco || nota <= 4;
+                                    // `arcano.areaFoco` não existe em nenhum dos 22 arcanos do JSON,
+                                    // então este selo só refletia a nota baixa que o próprio usuário
+                                    // acabara de dar. Agora a sugestão vem do desafio numerológico
+                                    // do arcano, e as duas origens ficam distinguíveis.
+                                    const doArcano = foco?.area === area;
+                                    const notaBaixa = nota <= 4;
+                                    const isOraculo = doArcano || notaBaixa;
                                     return (
                                         <button key={area} onClick={() => togglePriority(area)}
                                             className={cn(
@@ -279,7 +334,11 @@ function OnboardingWizard({ arcano, onComplete, progress, updateLifeArea, getLif
                                             <div className="flex items-center gap-2 mb-2">
                                                 <Icon size={16} className={isPriority ? 'text-[var(--rv-tinta)]' : 'text-slate-400'} />
                                                 <span className={cn('text-sm font-serif', isPriority ? 'text-[var(--rv-tinta)]' : 'text-slate-300')}>{AREA_LABELS[area]}</span>
-                                                {isOraculo && <span className="ml-auto text-[9px] bg-[var(--rv-forte)] text-[var(--rv-tinta)] px-1.5 py-0.5 rounded font-bold">Oráculo</span>}
+                                                {isOraculo && (
+                                                    <span className="ml-auto text-[9px] bg-[var(--rv-forte)] text-[var(--rv-tinta)] px-1.5 py-0.5 rounded font-bold whitespace-nowrap">
+                                                        {doArcano ? arcano.nome : 'Nota baixa'}
+                                                    </span>
+                                                )}
                                             </div>
                                             <div className="text-xs text-slate-500">Atual: <span className="font-mono text-[var(--rv-tinta)]">{nota}</span>/10</div>
                                         </button>
@@ -294,7 +353,7 @@ function OnboardingWizard({ arcano, onComplete, progress, updateLifeArea, getLif
                                     <p className="text-[10px] uppercase tracking-widest text-[var(--rv-suave)] mb-3 font-bold">Foco Escolhido: {selectedPriorities.map(a => AREA_LABELS[a]).join(' + ') || 'Não definido'}</p>
                                     <label className="text-[11px] uppercase tracking-widest text-slate-500 mb-2 block">Sua Meta Arcana para este trimestre</label>
                                     <textarea rows={4}
-                                        placeholder={`Ex: Cultivar 2 novos hábitos que ativem a ${arcano.nome === 'O Louco' ? 'criatividade' : 'força'} do Arcano ${arcano.nome} até o fim do trimestre, medido por...`}
+                                        placeholder={exemploDeMeta}
                                         value={goalText}
                                         onChange={e => setGoalText(e.target.value)}
                                         className="w-full bg-slate-950/80 border border-white/5 rounded-xl p-4 text-sm text-slate-200 placeholder:text-slate-700 focus:border-[var(--rv-borda-forte)] transition-all outline-none resize-none"
@@ -302,10 +361,27 @@ function OnboardingWizard({ arcano, onComplete, progress, updateLifeArea, getLif
                                     <p className="text-[10px] text-slate-600 mt-2">
                                         {goalText.length < 10 ? `${10 - goalText.length} caracteres para uma meta válida` : '✓ Meta definida com clareza'}
                                     </p>
+                                    {/*
+                                      Estes três selos eram decorativos: apareciam sempre iguais,
+                                      independentemente do que a pessoa escrevesse. Agora cada um
+                                      confere uma coisa no texto e acende só quando ela está lá.
+                                    */}
                                     <div className="mt-4 grid grid-cols-3 gap-2">
-                                        {['Específica', 'Mensurável', 'Arcana'].map(label => (
-                                            <div key={label} className="text-center p-2 bg-white/[0.02] rounded-lg border border-white/5">
-                                                <p className="text-[9px] uppercase tracking-widest text-[var(--rv-suave)] font-bold">{label}</p>
+                                        {criteriosDaMeta.map(c => (
+                                            <div
+                                                key={c.label}
+                                                title={c.dica}
+                                                className="text-center p-2 rounded-lg border transition-colors"
+                                                style={c.ok
+                                                    ? { background: 'var(--rv-forte)', borderColor: 'var(--rv-borda-forte)' }
+                                                    : { background: 'rgba(255,255,255,0.02)', borderColor: 'rgba(255,255,255,0.05)' }}
+                                            >
+                                                <p
+                                                    className="text-[9px] uppercase tracking-widest font-bold"
+                                                    style={{ color: c.ok ? 'var(--rv-tinta)' : 'rgba(255,255,255,0.3)' }}
+                                                >
+                                                    {c.ok ? '✓ ' : ''}{c.label}
+                                                </p>
                                             </div>
                                         ))}
                                     </div>

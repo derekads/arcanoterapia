@@ -1,10 +1,11 @@
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Sparkles, Moon, Sun, Heart, Briefcase, Activity, Lock } from 'lucide-react';
 import { PrevisaoAno } from '../utils/arcanoDataExtended';
 import { CardFlip3D } from './CardFlip3D';
 import { MAJOR_ARCANA, BACK_IMAGE } from '../lib/cardImages';
+import { lerAnoPessoal } from '../data/anoPessoalInterpretacao';
 
 interface Props {
     isOpen: boolean;
@@ -12,10 +13,31 @@ interface Props {
     previsao?: PrevisaoAno;
     arcanoNome?: string;
     transitionInsight?: any;
+    /**
+     * O arcano PESSOAL de quem está lendo. Sem ele a previsão do ano é a mesma
+     * para todo mundo — era exatamente o que acontecia antes.
+     */
+    arcanoPessoalNumero?: number;
+    arcanoPessoalNome?: string;
 }
 
-export function Previsao2026Modal({ isOpen, onClose, previsao, arcanoNome, transitionInsight }: Props) {
+export function Previsao2026Modal({
+    isOpen, onClose, previsao, arcanoNome, transitionInsight,
+    arcanoPessoalNumero, arcanoPessoalNome,
+}: Props) {
     const [isFlipped, setIsFlipped] = useState(false);
+
+    /**
+     * O encontro entre quem a pessoa é e o ano que ela atravessa. É a leitura
+     * que faltava: antes o modal mostrava a carta do ano isolada, idêntica
+     * para O Eremita e para O Sol.
+     */
+    const leitura = useMemo(
+        () => (previsao && arcanoPessoalNumero && arcanoPessoalNome
+            ? lerAnoPessoal(arcanoPessoalNumero, previsao.id, arcanoPessoalNome, previsao.nome)
+            : null),
+        [previsao, arcanoPessoalNumero, arcanoPessoalNome]
+    );
 
     // Reset flip state when modal opens/closes
     useEffect(() => {
@@ -105,6 +127,46 @@ export function Previsao2026Modal({ isOpen, onClose, previsao, arcanoNome, trans
                                             {previsao.tema}
                                         </p>
                                     </header>
+
+                                    {leitura && (
+                                        <section className="rounded-2xl border border-amber-500/20 bg-amber-500/[0.04] p-6 space-y-4">
+                                            <div className="flex items-center gap-3">
+                                                <div className="p-2 rounded-lg bg-amber-500/10 border border-amber-500/20">
+                                                    <Sparkles className="w-4 h-4 text-amber-400" />
+                                                </div>
+                                                <div>
+                                                    <p className="text-[10px] uppercase tracking-[0.24em] text-amber-400/70">
+                                                        Este ano, para você
+                                                    </p>
+                                                    <h3 className="text-lg font-serif text-amber-100 leading-snug">
+                                                        {leitura.titulo}
+                                                    </h3>
+                                                </div>
+                                            </div>
+
+                                            <p className="text-[15px] leading-relaxed text-white/80 m-0">
+                                                {leitura.encontro}
+                                            </p>
+
+                                            <div className="pt-4 border-t border-amber-500/10">
+                                                <p className="text-[10px] uppercase tracking-[0.2em] text-amber-400/60 mb-1.5">
+                                                    Onde costuma travar
+                                                </p>
+                                                <p className="text-[15px] leading-relaxed text-white/70 m-0">
+                                                    {leitura.atrito}
+                                                </p>
+                                            </div>
+
+                                            <div className="pt-4 border-t border-amber-500/10">
+                                                <p className="text-[10px] uppercase tracking-[0.2em] text-amber-400/60 mb-1.5">
+                                                    O que fazer com isso
+                                                </p>
+                                                <p className="text-[15px] leading-relaxed text-white/70 m-0">
+                                                    {leitura.caminho}
+                                                </p>
+                                            </div>
+                                        </section>
+                                    )}
 
                                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                         <div className="bg-pink-950/20 border border-pink-500/10 rounded-xl p-6">

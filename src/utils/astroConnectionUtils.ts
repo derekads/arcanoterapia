@@ -27,7 +27,12 @@ export function calculateArcanoAlignment(
         insights: [],
     };
 
-    if (!mapa) return result;
+    // `mapa` já era verificado; `arcano` não era. Um arcano nulo — que acontece
+    // enquanto o contexto ainda calcula, ou quando o nome não chega a uma das
+    // 22 lâminas — derrubava a árvore inteira do React com
+    // "Cannot read properties of null (reading 'signo_zodiacal')", deixando a
+    // tela em branco sem nada no lugar.
+    if (!mapa || !arcano) return result;
 
     const arcanoSign = arcano.signo_zodiacal as SignoZodiacal;
     const arcanoPlanet = arcano.planeta_regente as AstroName;

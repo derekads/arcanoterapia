@@ -327,6 +327,8 @@ const App: React.FC = () => {
           onClose={() => setShowPrevisaoFromReveal(false)}
           previsao={arcano2026}
           arcanoNome={arcano2026?.nome || ''}
+          arcanoPessoalNumero={arcanoPessoal?.numero}
+          arcanoPessoalNome={arcanoPessoal?.nome}
         />
 
         <MobileValidator />

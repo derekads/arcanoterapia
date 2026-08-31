@@ -598,6 +598,8 @@ function DashboardView({
         onClose={() => setShowPrevisao(false)}
         previsao={previsao2026}
         arcanoNome={previsao2026?.nome || ''}
+        arcanoPessoalNumero={arcano.numero}
+        arcanoPessoalNome={arcano.nome}
         transitionInsight={insights?.transicao}
       />
     </div>
