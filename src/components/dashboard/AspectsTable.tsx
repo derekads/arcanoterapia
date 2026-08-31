@@ -1,5 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import { getAspectStyle, PLANET_SYMBOLS_PT } from '../../utils/astroRenderUtils';
+import { interpretarAspecto } from '../../data/aspectosInterpretacao';
 import type { ChartAspect } from '../../utils/mapaAstralAdapter';
 
 interface AspectsTableProps {
@@ -25,6 +26,13 @@ export const AspectsTable: React.FC<AspectsTableProps> = ({
     onSelecionarAstro
 }) => {
     const [filtro, setFiltro] = useState<Filtro>('todos');
+
+    /**
+     * Qual aspecto está aberto. A tabela mostrava só glifo, tipo e orbe — o
+     * usuário lia "Sol ☍ Lua · orbe 4,0°" e ficava sem saber o que era. Agora
+     * cada linha abre a interpretação.
+     */
+    const [aberto, setAberto] = useState<string | null>(null);
 
     const listaFiltrada = useMemo(() => {
         if (filtro === 'todos') return aspectos;
@@ -87,12 +95,18 @@ export const AspectsTable: React.FC<AspectsTableProps> = ({
                             const destacado =
                                 astroAtivo !== null &&
                                 (asp.astroA === astroAtivo || asp.astroB === astroAtivo);
+                            const chaveLinha = `${asp.astroA}-${asp.tipo}-${asp.astroB}-${i}`;
+                            const estaAberto = aberto === chaveLinha;
 
                             return (
-                                <li key={`${asp.astroA}-${asp.tipo}-${asp.astroB}-${i}`}>
+                                <li key={chaveLinha}>
                                     <button
                                         type="button"
-                                        onClick={() => onSelecionarAstro?.(asp.astroA)}
+                                        onClick={() => {
+                                            onSelecionarAstro?.(asp.astroA);
+                                            setAberto(estaAberto ? null : chaveLinha);
+                                        }}
+                                        aria-expanded={estaAberto}
                                         className={`w-full flex items-center gap-3 p-3 rounded-xl text-left transition-colors ${
                                             destacado
                                                 ? 'bg-amber-500/10 border border-amber-500/30'
@@ -143,6 +157,15 @@ export const AspectsTable: React.FC<AspectsTableProps> = ({
                                             </span>
                                         </span>
                                     </button>
+
+                                    {estaAberto && (
+                                        <p
+                                            className="mx-3 mt-2 mb-1 px-4 py-3 rounded-xl bg-black/30 border-l-2 text-[13px] leading-relaxed text-slate-300"
+                                            style={{ borderLeftColor: estilo.color }}
+                                        >
+                                            {interpretarAspecto(asp.astroA, asp.tipo, asp.astroB)}
+                                        </p>
+                                    )}
                                 </li>
                             );
                         })}

@@ -1041,7 +1041,7 @@
         "anoPessoal": "Ano das Decisões do Coração",
         "ciclos": "Junho: escolha crucial que define os próximos 7 anos",
         "conselho": "Não escolha com a cabeça nem só com o coração. Escolha com a alma. O que te faz expandir?",
-        "alerta_saude": ""
+        "alerta_saude": "Cuidado com ansiedade, tensão nos ombros e falta de ar por indecisão"
       },
       "sombras": [
         {
@@ -1054,7 +1054,7 @@
             "Definição de valor através do relacionamento",
             "Abandono de amigos/família pelo romance"
           ],
-          "modalidade_terapia": ""
+          "modalidade_terapia": "Teoria do Apego - Diferenciação do self"
         },
         {
           "nome": "Indecisão Crônica",
@@ -1066,7 +1066,7 @@
             "Mudança constante de opinião",
             "Paralisia diante de opções"
           ],
-          "modalidade_terapia": ""
+          "modalidade_terapia": "Terapia de Aceitação e Compromisso - Ação guiada por valores"
         },
         {
           "nome": "Idealização Tóxica",
@@ -1078,7 +1078,7 @@
             "Expectativas de conto de fadas",
             "Culpar o outro por não ser perfeito"
           ],
-          "modalidade_terapia": ""
+          "modalidade_terapia": "Psicologia Analítica - Retirada de projeções"
         },
         {
           "nome": "Fuga do Compromisso",
@@ -1090,7 +1090,7 @@
             "Sabotagem quando fica sério",
             "Busca constante por 'alguém melhor'"
           ],
-          "modalidade_terapia": ""
+          "modalidade_terapia": "Terapia Focada na Emoção - Construção de vínculo seguro"
         }
       ],
       "diretrizes": [
@@ -1118,53 +1118,68 @@
           "baixa": "Triângulos amorosos, indecisão entre dois",
           "media": "Relacionamento estável mas com dilemas",
           "alta": "União sagrada, almas gêmeas",
-          "check_diario": ""
+          "check_diario": "Você amou o outro hoje, ou a imagem que fez dele?"
         },
         "dinheiro": {
           "baixa": "Gastos por impulsividade emocional",
           "media": "Finanças compartilhadas estáveis",
           "alta": "Prosperidade através de parcerias comerciais",
-          "check_diario": ""
+          "check_diario": "Suas escolhas de dinheiro hoje foram suas ou do casal?"
         },
         "saude": {
           "baixa": "Doenças psicossomáticas por conflitos amorosos",
           "media": "Equilíbrio hormonal/emocional",
           "alta": "Cura através do amor e conexão",
-          "check_diario": ""
+          "check_diario": "Você respirou fundo antes de decidir alguma coisa hoje?"
         },
         "carreira": {
           "baixa": "Conflito entre paixão e trabalho",
           "media": "Parceria profissional harmoniosa",
           "alta": "Vocação que é também paixão",
-          "check_diario": ""
+          "check_diario": "Você escolheu um caminho hoje ou deixou tudo em aberto?"
         },
         "familia": {
           "baixa": "Dividido entre família de origem e parceiro",
           "media": "Harmonia entre laços familiares",
           "alta": "Família como escola de amor incondicional",
-          "check_diario": ""
+          "check_diario": "Você se relacionou como adulto ou como filho hoje?"
         },
         "proposito": {
           "baixa": "Vivendo para agradar outros",
           "media": "Servir através de relacionamentos",
           "alta": "Unir polaridades como caminho espiritual",
-          "check_diario": ""
+          "check_diario": "A escolha de hoje te aproximou de quem você é?"
         }
       },
       "cor_secundaria": "#ffffff",
-      "nota_musical": "N/A",
-      "chacra_regente": "N/A",
-      "planeta_regente": "N/A",
-      "signo_zodiacal": "N/A",
-      "carta_oposta": "N/A",
-      "dia_semana": "N/A",
+      "nota_musical": "Dó",
+      "chacra_regente": "Cardíaco (Anahata)",
+      "planeta_regente": "Mercúrio",
+      "signo_zodiacal": "Gêmeos",
+      "carta_oposta": "O Diabo (15)",
+      "dia_semana": "Quarta-feira",
       "numero_sorte": 6,
-      "alimentacao": [],
-      "banho_terapeutico": "",
-      "movimento_corporal": "",
-      "pergunta_junguiana": "",
-      "meditacao_guiada": "",
-      "musicas_recomendadas": []
+      "alimentacao": [
+        "Frutas vermelhas",
+        "Chocolate amargo",
+        "Mel puro",
+        "Chás florais"
+      ],
+      "banho_terapeutico": "Banho de pétalas de rosa e cardamomo para reconciliar razão e desejo",
+      "movimento_corporal": "Dança a dois, ou movimento livre diante do espelho",
+      "pergunta_junguiana": "O que eu amo no outro que, na verdade, é uma parte minha que eu ainda não assumi?",
+      "meditacao_guiada": "Visualize-se numa encruzilhada ao amanhecer. À esquerda, quem você deveria ser. À direita, quem você é quando ninguém olha. No centro, uma terceira figura espera por você. Aproxime-se devagar. Ela tem o seu rosto.",
+      "musicas_recomendadas": [
+        "Duetos e canções de amor",
+        "Bossa nova e MPB romântica",
+        "Frequência 528Hz"
+      ],
+      "conselho_diario": [
+        "Escolha uma coisa hoje e não volte atrás",
+        "Diga o que você sente, sem rodeio",
+        "Fique uma hora sozinho antes de decidir",
+        "Separe o que é seu do que é do outro"
+      ]
     },
     {
       "numero": 7,
