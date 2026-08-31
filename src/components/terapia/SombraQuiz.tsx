@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ShieldCheck, Flame, RotateCcw, ChevronRight, Check } from 'lucide-react';
 import { useArcano } from '../../context/ArcanoContext';
 import { getShadowPatternsForArcano } from '../../data/shadowPatterns';
-import { paletaDoArcano } from '../../utils/arcanoPalette';
+import { paletaDoArcano, bordaGradiente } from '../../utils/arcanoPalette';
 import type { FrequenciaSombra, ShadowPattern } from '../../types';
 
 /**
@@ -94,13 +94,9 @@ export const SombraQuiz: React.FC = () => {
 
     return (
         <section
-            className="rounded-[1.5rem] border overflow-hidden"
-            style={{
-                borderColor: paleta.borda,
-                background: `linear-gradient(170deg, ${paleta.lavagem}, transparent 70%)`,
-            }}
+            className="rounded-[1.5rem] overflow-hidden"
+            style={bordaGradiente(paleta, `linear-gradient(170deg, ${paleta.lavagem}, transparent 70%)`)}
         >
-            <div className="h-[3px]" style={{ background: paleta.gradiente }} />
 
             <div className="p-6 md:p-8">
                 <header className="text-center mb-7">

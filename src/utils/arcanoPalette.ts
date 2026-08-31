@@ -1,5 +1,7 @@
 // src/utils/arcanoPalette.ts
 
+import type React from 'react';
+
 /**
  * Paleta por arcano.
  *
@@ -112,6 +114,41 @@ export interface PaletaArcano {
     brilho: string;
     /** Gradiente de duas paradas para faixas e realces. */
     gradiente: string;
+}
+
+/**
+ * Borda de gradiente COMPLETA, nos quatro lados de um elemento arredondado.
+ *
+ * Antes os cards levavam um filete de 3px só no topo (`inset-x-0 top-0`). Uma
+ * borda de gradiente presa a um lado lê como recorte, não como acabamento — e
+ * some quando o card encosta em outro elemento.
+ *
+ * A técnica: duas camadas de background no mesmo elemento. A de baixo é o
+ * gradiente recortado na CAIXA DA BORDA; a de cima é o fundo do card recortado
+ * na CAIXA DE PADDING. Com a borda transparente, o gradiente só aparece na
+ * faixa entre as duas — ou seja, exatamente na borda, acompanhando o
+ * arredondamento.
+ *
+ * A camada opaca no meio é obrigatória: sem ela, o fundo translúcido do card
+ * deixaria o gradiente vazar por dentro e o card inteiro ficaria colorido.
+ *
+ * @param preenchimento  o fundo do card, geralmente um gradiente com a lavagem
+ * @param fundoOpaco     a cor da página atrás do card
+ * @param espessura      largura da borda em pixels
+ */
+export function bordaGradiente(
+    paleta: PaletaArcano,
+    preenchimento: string,
+    fundoOpaco = '#050505',
+    espessura = 1.5
+): React.CSSProperties {
+    return {
+        border: `${espessura}px solid transparent`,
+        background:
+            `${preenchimento} padding-box, ` +
+            `linear-gradient(${fundoOpaco}, ${fundoOpaco}) padding-box, ` +
+            `${paleta.gradiente} border-box`,
+    };
 }
 
 const cache = new Map<string, PaletaArcano>();

@@ -24,7 +24,7 @@ import { SombraQuiz } from '../terapia/SombraQuiz';
 import { TrilhaTransmutacao } from '../terapia/TrilhaTransmutacao';
 import { useArcano } from '../../context/ArcanoContext';
 import { deArcano } from '../../utils/calculos';
-import { paletaDoArcano, type PaletaArcano } from '../../utils/arcanoPalette';
+import { paletaDoArcano, bordaGradiente, type PaletaArcano } from '../../utils/arcanoPalette';
 import { MAJOR_ARCANA } from '../../lib/cardImages';
 
 interface Props {
@@ -232,11 +232,9 @@ export const ArcanoExpandidoView: React.FC<Props> = ({
       {/* ═══ CARTUCHO DE IDENTIDADE ═══ */}
       <section>
         <div
-          className="relative rounded-3xl overflow-hidden border"
-          style={{ borderColor: paleta.borda, background: `linear-gradient(160deg, ${paleta.lavagem}, transparent 70%)` }}
+          className="relative rounded-3xl overflow-hidden"
+          style={bordaGradiente(paleta, `linear-gradient(160deg, ${paleta.lavagem}, transparent 70%)`)}
         >
-          {/* filete de cor do arcano */}
-          <div className="absolute inset-x-0 top-0 h-[3px]" style={{ background: paleta.gradiente }} />
 
           <div className="relative p-7 md:p-10">
             <div className="flex items-start gap-5 md:gap-8">

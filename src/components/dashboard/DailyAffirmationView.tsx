@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, Sun, Moon, Heart, TrendingUp, AlertTriangle, Shuffle, Check, Copy } from 'lucide-react';
 import { ArcanoAdvanced, TipoAfirmacao } from '../../types';
 import { getDailyAffirmations, getAffirmationsForArcano } from '../../data/affirmations';
-import { paletaDoArcano } from '../../utils/arcanoPalette';
+import { paletaDoArcano, bordaGradiente } from '../../utils/arcanoPalette';
 
 const TIPOS: Record<TipoAfirmacao, { label: string; icon: React.FC<{ className?: string }>; }> = {
     MANHA: { label: 'Manhã', icon: Sun },
@@ -154,14 +154,12 @@ export const DailyAffirmationView: React.FC<Props> = ({ arcano, onClose, embedde
                             animate={{ opacity: 1, y: 0 }}
                             exit={{ opacity: 0, y: -12 }}
                             transition={{ duration: 0.45 }}
-                            className="relative rounded-[1.75rem] border overflow-hidden p-7 md:p-10 text-center"
+                            className="relative rounded-[1.75rem] overflow-hidden p-7 md:p-10 text-center"
                             style={{
-                                borderColor: paleta.borda,
-                                background: `linear-gradient(165deg, ${paleta.lavagem}, transparent 75%)`,
+                                ...bordaGradiente(paleta, `linear-gradient(165deg, ${paleta.lavagem}, transparent 75%)`),
                                 boxShadow: `0 24px 60px -32px ${paleta.brilho}`,
                             }}
                         >
-                            <div className="absolute inset-x-0 top-0 h-[3px]" style={{ background: paleta.gradiente }} />
 
                             <p className="text-[10px] uppercase tracking-[0.3em] mb-6" style={{ color: paleta.tinta }}>
                                 {SAUDACAO[destaque.tipo]}
