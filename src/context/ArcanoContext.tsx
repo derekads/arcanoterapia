@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect, useMemo } from 'react';
-import { UserData, ArcanoData, MapaAstralCalculado } from '../types';
+import { UserDataArmazenado, ArcanoData, MapaAstralCalculado } from '../types';
 import { ArcanoPessoalDB, numeroParaIndiceConteudo } from '../data/arcanos';
 import { calcularArcanoNome, calcularAnoPessoal2026, calculateAstralProfilePro } from '../utils/calculos';
 
@@ -9,7 +9,7 @@ import { calcularArcanoNome, calcularAnoPessoal2026, calculateAstralProfilePro }
  */
 
 interface ArcanoContextType {
-    userData: UserData | null;
+    userData: UserDataArmazenado | null;
     arcanoPessoal: ArcanoData | null;
     arcano2026: any | null;
     arcanoDia: ArcanoData | null;
@@ -21,7 +21,7 @@ interface ArcanoContextType {
         transicao: any;
         faseLua: string;
     } | null;
-    updateUserData: (data: Partial<UserData>) => void;
+    updateUserData: (data: Partial<UserDataArmazenado>) => void;
     isLoading: boolean;
     exportData: () => void;
 }
@@ -38,7 +38,7 @@ import { migrarDadosDoArcano } from '../utils/migracaoArcano';
 const ArcanoContext = createContext<ArcanoContextType | undefined>(undefined);
 
 export const ArcanoProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-    const [userData, setUserData] = useState<UserData | null>(() => {
+    const [userData, setUserData] = useState<UserDataArmazenado | null>(() => {
         // Antes de qualquer leitura: reconciliar o diário, a roda da vida e o
         // progresso que ficaram gravados sob o número antigo do arcano quando
         // o cálculo mudou. Copia, nunca sobrescreve, e roda uma vez só —
@@ -137,8 +137,8 @@ export const ArcanoProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         };
     }, [userData]);
 
-    const updateUserData = (newData: Partial<UserData>) => {
-        setUserData(prev => prev ? { ...prev, ...newData } : (newData as UserData));
+    const updateUserData = (newData: Partial<UserDataArmazenado>) => {
+        setUserData(prev => prev ? { ...prev, ...newData } : (newData as UserDataArmazenado));
     };
 
     const exportData = () => {

@@ -1,11 +1,12 @@
 import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, Sun, Moon, Heart, TrendingUp, AlertTriangle, Shuffle, Check, Copy } from 'lucide-react';
+import type { LucideIcon } from 'lucide-react';
 import { ArcanoAdvanced, TipoAfirmacao } from '../../types';
 import { getDailyAffirmations, getAffirmationsForArcano } from '../../data/affirmations';
 import { paletaDoArcano, bordaGradiente } from '../../utils/arcanoPalette';
 
-const TIPOS: Record<TipoAfirmacao, { label: string; icon: React.FC<{ className?: string }>; }> = {
+const TIPOS: Record<TipoAfirmacao, { label: string; icon: LucideIcon; }> = {
     MANHA: { label: 'Manhã', icon: Sun },
     NOITE: { label: 'Noite', icon: Moon },
     CRISIS: { label: 'Crise', icon: AlertTriangle },

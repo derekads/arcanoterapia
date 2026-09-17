@@ -12,7 +12,7 @@ passa por `asset()` com `import.meta.env.BASE_URL`, nunca por uma barra inicial.
 
 ```bash
 npm run build       # vite build (esbuild, sem checagem de tipos)
-npm run typecheck   # tsc --noEmit — há ~29 erros pré-existentes, não regrida
+npm run typecheck   # tsc --noEmit — está em ZERO erros; mantenha assim
 npm run preview     # serve o dist em http://localhost:3000/arcanoterapia/
 ```
 

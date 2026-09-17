@@ -250,10 +250,11 @@ const App: React.FC = () => {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1, ease: 'easeOut' }}
             >
+              {/* `arcano`, `userData` e `selectedFeature` não são passados:
+                  a SanctuaryScreen lê os três do ArcanoContext. Eram props que
+                  o componente nunca declarou nem destruturou — chegavam aqui e
+                  morriam, com um `as any` no meio para calar o compilador. */}
               <SanctuaryScreen
-                arcano={arcanoPessoal}
-                userData={userData as any}
-                selectedFeature={selectedFeature}
                 onReset={handleReset}
                 onOpenProfiles={handleOpenProfiles}
                 onSaveProfile={() => setSaveModalOpen(true)}

@@ -134,17 +134,37 @@ export interface AstrologyData {
   ascendantDegree?: number;
 }
 
-export interface UserData {
-  name: string;
-  birthDate: string;
-  birthTime: string;
-  birthCity: string;
+/**
+ * O formato que o app gravava no localStorage antes de os campos virarem
+ * português, mantido só para leitura.
+ *
+ * Havia dois tipos descrevendo o mesmo usuário: este, em inglês, e o
+ * `UserBirthData` acima. O app grava `UserBirthData` desde sempre
+ * (`ArcanoContext.tsx`, ao persistir), mas o contexto se anotava com o antigo —
+ * e por isso dezoito erros de tipo diziam `Property 'nome' does not exist on
+ * type 'UserData'`. Nada quebrava em runtime porque a leitura passava por
+ * `as any`; o custo era o TypeScript ter parado de proteger justamente o
+ * caminho dos dados de nascimento, que alimentam o arcano e o mapa astral.
+ *
+ * Quem instalou o app na versão antiga ainda tem uma chave nesse formato
+ * gravada no navegador, então o contexto continua aceitando os dois — mas
+ * agora declarando isso, em vez de silenciar o compilador. Todo campo é
+ * opcional: é um registro herdado, não um contrato.
+ */
+export interface UserDataLegado {
+  name?: string;
+  birthDate?: string;
+  birthTime?: string;
+  birthCity?: string;
   latitude?: number;
   longitude?: number;
   timezone?: string;
-  arcanaNumber: number | null;
-  astrology: AstrologyData;
+  arcanaNumber?: number | null;
+  astrology?: AstrologyData;
 }
+
+/** O usuário como o app o guarda hoje, mais o que possa ter sobrado da versão antiga. */
+export type UserDataArmazenado = UserBirthData & UserDataLegado;
 
 export interface ShadowItem {
   id: string;
