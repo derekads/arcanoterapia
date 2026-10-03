@@ -250,15 +250,46 @@ const App: React.FC = () => {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1, ease: 'easeOut' }}
             >
+              {/* `arcano`, `userData` e `selectedFeature` não são passados:
+                  a SanctuaryScreen lê os três do ArcanoContext. Eram props que
+                  o componente nunca declarou nem destruturou — chegavam aqui e
+                  morriam, com um `as any` no meio para calar o compilador. */}
               <SanctuaryScreen
-                arcano={arcanoPessoal}
-                userData={userData as any}
-                selectedFeature={selectedFeature}
                 onReset={handleReset}
                 onOpenProfiles={handleOpenProfiles}
                 onSaveProfile={() => setSaveModalOpen(true)}
                 hasProfiles={hasProfiles}
               />
+            </MotionDiv>
+          )}
+          {/*
+            Rede de segurança: `revelation` e `result` só renderizam quando
+            `arcanoPessoal` existe. Quando ele vem nulo — um nome cuja soma
+            não encontra carta, um JSON corrompido no localStorage — nenhum
+            dos dois ramos casava e a tela ficava simplesmente em branco,
+            sem erro no console e sem saída. Agora o usuário vê o que houve
+            e consegue recomeçar.
+          */}
+          {(currentStep === 'revelation' || currentStep === 'result') && !arcanoPessoal && (
+            <MotionDiv
+              key="sem-arcano"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              className="flex flex-col items-center justify-center min-h-screen p-6 text-center gap-4"
+            >
+              <h2 className="text-2xl font-serif text-white">
+                Não conseguimos revelar seu arcano
+              </h2>
+              <p className="text-blue-200/60 text-sm max-w-md">
+                O nome informado não chegou a uma das 22 lâminas. Tente com o
+                nome completo de batismo — é ele que o método usa.
+              </p>
+              <button
+                onClick={handleReset}
+                className="mt-2 px-6 py-3 rounded-xl border border-mystic-gold/40 text-mystic-gold hover:bg-mystic-gold/10 transition-colors"
+              >
+                Recomeçar
+              </button>
             </MotionDiv>
           )}
         </AnimatePresence>
@@ -297,6 +328,8 @@ const App: React.FC = () => {
           onClose={() => setShowPrevisaoFromReveal(false)}
           previsao={arcano2026}
           arcanoNome={arcano2026?.nome || ''}
+          arcanoPessoalNumero={arcanoPessoal?.numero}
+          arcanoPessoalNome={arcanoPessoal?.nome}
         />
 
         <MobileValidator />

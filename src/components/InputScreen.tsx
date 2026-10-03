@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Calendar, Clock, User, Sparkles, AlertCircle, Check, MapPin } from 'lucide-react';
 import { UserBirthData } from '../types';
 import { CityAutocomplete } from './CityAutocomplete';
+import { isValidTimeZone, resolverNascimentoUTC } from '../utils/timezone';
 
 interface Props {
   onSubmit: (data: UserBirthData) => void;
@@ -70,14 +71,16 @@ const InputScreen: React.FC<Props> = ({ onSubmit }) => {
   };
 
   const handleCitySelect = (cityData: any) => {
-    const estimatedOffset = Math.round(cityData.longitude / 15);
-
+    // Guardamos o identificador IANA devolvido pela API. O offset em horas é
+    // resolvido no envio, quando a data de nascimento já é conhecida — ele muda
+    // conforme o horário de verão vigente naquela data.
     setFormData(prev => ({
       ...prev,
       localizacao: {
         latitude: cityData.latitude,
         longitude: cityData.longitude,
-        timezoneOffset: estimatedOffset,
+        timezone: isValidTimeZone(cityData.timezone) ? cityData.timezone : undefined,
+        timezoneOffset: prev.localizacao.timezoneOffset,
         nomeCidade: `${cityData.name}, ${cityData.admin1 || cityData.country}`
       }
     }));
@@ -132,7 +135,20 @@ const InputScreen: React.FC<Props> = ({ onSubmit }) => {
       return;
     }
 
-    onSubmit(formData);
+    // Resolver o offset real para a data e o local informados, para que ele
+    // fique gravado no perfil junto com o fuso.
+    const { timezone, ...resto } = formData.localizacao;
+    const { offsetHoras } = resolverNascimentoUTC(
+      formData.dataNascimento,
+      formData.horaNascimento,
+      timezone,
+      formData.localizacao.timezoneOffset
+    );
+
+    onSubmit({
+      ...formData,
+      localizacao: { ...resto, timezone, timezoneOffset: offsetHoras }
+    });
   };
 
   return (

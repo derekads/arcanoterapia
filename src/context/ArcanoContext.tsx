@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, useMemo } from 'react';
-import { UserData, ArcanoData, MapaAstralCalculado } from '../types';
-import { ArcanoPessoalDB } from '../data/arcanos';
+import { UserDataArmazenado, ArcanoData, MapaAstralCalculado } from '../types';
+import { ArcanoPessoalDB, numeroParaIndiceConteudo } from '../data/arcanos';
 import { calcularArcanoNome, calcularAnoPessoal2026, calculateAstralProfilePro } from '../utils/calculos';
 
 /**
@@ -9,7 +9,7 @@ import { calcularArcanoNome, calcularAnoPessoal2026, calculateAstralProfilePro }
  */
 
 interface ArcanoContextType {
-    userData: UserData | null;
+    userData: UserDataArmazenado | null;
     arcanoPessoal: ArcanoData | null;
     arcano2026: any | null;
     arcanoDia: ArcanoData | null;
@@ -21,7 +21,7 @@ interface ArcanoContextType {
         transicao: any;
         faseLua: string;
     } | null;
-    updateUserData: (data: Partial<UserData>) => void;
+    updateUserData: (data: Partial<UserDataArmazenado>) => void;
     isLoading: boolean;
     exportData: () => void;
 }
@@ -32,13 +32,28 @@ import matrixArcanoMoon from '../data/matrices/matrix_arcano_moon.json';
 import matrixArcanoSign from '../data/matrices/matrix_arcano_sign.json';
 import matrixYearTransition from '../data/matrices/matrix_year_transition.json';
 import { calculateMoonPhase, reduzirParaArcano } from '../utils/calculos';
+import { resolverNascimentoUTC } from '../utils/timezone';
+import { migrarDadosDoArcano } from '../utils/migracaoArcano';
 
 const ArcanoContext = createContext<ArcanoContextType | undefined>(undefined);
 
 export const ArcanoProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-    const [userData, setUserData] = useState<UserData | null>(() => {
-        const saved = localStorage.getItem('arcanoterapia_user_data');
-        return saved ? JSON.parse(saved) : null;
+    const [userData, setUserData] = useState<UserDataArmazenado | null>(() => {
+        // Antes de qualquer leitura: reconciliar o diário, a roda da vida e o
+        // progresso que ficaram gravados sob o número antigo do arcano quando
+        // o cálculo mudou. Copia, nunca sobrescreve, e roda uma vez só —
+        // ver utils/migracaoArcano.ts.
+        migrarDadosDoArcano();
+
+        try {
+            const saved = localStorage.getItem('arcanoterapia_user_data');
+            return saved ? JSON.parse(saved) : null;
+        } catch {
+            // Um JSON corrompido no localStorage derrubava o app inteiro na
+            // primeira renderização, sem nada na tela.
+            console.warn('[ArcanoContext] dados do usuário ilegíveis; recomeçando do zero');
+            return null;
+        }
     });
 
     const [isLoading, setIsLoading] = useState(true);
@@ -75,23 +90,35 @@ export const ArcanoProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         // Perfil Astral Pro
         const lat = u?.localizacao?.latitude || u?.latitude;
         const lng = u?.localizacao?.longitude || u?.longitude;
-        const tz = u?.localizacao?.timezoneOffset?.toString() || u?.timezone;
         const bTime = u?.horaNascimento || u?.birthTime;
+
+        // Mesma resolução de fuso usada pelo mapa astral, para os dois motores
+        // não discordarem do signo por causa do horário de verão.
+        const { offsetHoras } = resolverNascimentoUTC(
+            birthDate,
+            bTime || '12:00',
+            u?.localizacao?.timezone,
+            typeof u?.localizacao?.timezoneOffset === 'number' ? u.localizacao.timezoneOffset : -3
+        );
 
         const mapa = lat && lng ? calculateAstralProfilePro(
             birthDate,
             bTime,
             lat,
             lng,
-            tz ? parseInt(tz) : undefined
+            offsetHoras
         ) : null;
 
         // Matrizes Combinatórias (Missão 4)
         const faseLua = calculateMoonPhase(hoje);
-        const keyDia = `${arcanoP?.numero || 0}-${arcanoD?.numero || 0}`;
-        const keyLua = `${arcanoP?.numero || 0}-${faseLua}`;
-        const keySigno = `${arcanoP?.numero || 0}-${mapa?.sunSign || 'Áries'}`;
-        const keyTransicao = `${num2026}-${num2027}`;
+        // As matrizes indexam O Louco como 0; o app o numera como 22.
+        const idxPessoal = numeroParaIndiceConteudo(arcanoP?.numero || 0);
+        const idxDia = numeroParaIndiceConteudo(arcanoD?.numero || 0);
+
+        const keyDia = `${idxPessoal}-${idxDia}`;
+        const keyLua = `${idxPessoal}-${faseLua}`;
+        const keySigno = `${idxPessoal}-${mapa?.sunSign || 'Áries'}`;
+        const keyTransicao = `${numeroParaIndiceConteudo(num2026)}-${numeroParaIndiceConteudo(num2027)}`;
 
         const insights = {
             dia: (matrixArcanoDay as any)[keyDia] || null,
@@ -110,8 +137,8 @@ export const ArcanoProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         };
     }, [userData]);
 
-    const updateUserData = (newData: Partial<UserData>) => {
-        setUserData(prev => prev ? { ...prev, ...newData } : (newData as UserData));
+    const updateUserData = (newData: Partial<UserDataArmazenado>) => {
+        setUserData(prev => prev ? { ...prev, ...newData } : (newData as UserDataArmazenado));
     };
 
     const exportData = () => {

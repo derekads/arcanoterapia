@@ -295,7 +295,7 @@
         "Hoje [O Mago] me lembra que já tenho...",
         "O que estou pronto para manifestar materialmente...",
         "Minha ferramenta mais poderosa neste momento é...",
-        "Como uso meu charme de forma consciente/consciente..."
+        "Como uso meu charme de forma consciente e não manipuladora..."
       ],
       "rodadaVida": {
         "amor": {
@@ -541,7 +541,7 @@
       "movimento_corporal": "Dança do ventre ou yoga restaurativo",
       "essencia": "Você é o jardim em flor. A Imperatriz governa a capacidade de nutrir, gerar e dar frutos - sejam filhos, projetos ou abundância material. Terapeuticamente, você trabalha a relação com a mãe (interna e externa) e a crença de que merece prosperar sem culpa.",
       "pergunta_junguiana": "Onde eu estou negando minha própria fertilidade criativa por medo de responsabilidade?",
-      "meditacao_guiada": "Visualize-se em um jardim exuberante. Toque a terra fértil. Plante uma semente dourada em seu ventre/coração. Sinta-a germinar, crescer, florescer. Você é the vaso e a flor simultaneamente.",
+      "meditacao_guiada": "Visualize-se em um jardim exuberante. Toque a terra fértil. Plante uma semente dourada em seu ventre/coração. Sinta-a germinar, crescer, florescer. Você é o vaso e a flor simultaneamente.",
       "conselho_diario": [
         "Cozinhe algo com as próprias mãos",
         "Toque em uma planta ou animal",
@@ -626,7 +626,7 @@
         "manha": "Sou um canal de abundância ilimitada. Tudo que toco floresce",
         "noite": "Minha criatividade descansa na certeza de renovação",
         "crise": "Mesmo no inverno, sei que sou terra fértil",
-        "prosperidade": "Dinheiro flui para mim como rios para the oceano",
+        "prosperidade": "Dinheiro flui para mim como rios para o oceano",
         "amor": "Sou amor maternal/paternal divino encarnado"
       },
       "jornalTemplates": [
@@ -652,7 +652,7 @@
           "baixa": "Problemas ginecológicos/andrológicos, peso",
           "media": "Saúde estável, corpo acolhedor",
           "alta": "Fertilidade perfeita, vitalidade de Vênus",
-          "check_diario": "Você se nutriu com amor ou negligenciou the corpo?"
+          "check_diario": "Você se nutriu com amor ou negligenciou o corpo?"
         },
         "carreira": {
           "baixa": "Empregada doméstica mal paga",
@@ -708,9 +708,9 @@
       ],
       "banho_terapeutico": "Água com sal marinho e alecrim (fortalecimento de limites)",
       "movimento_corporal": "Musculação, corrida ou artes marciais",
-      "essencia": "Você é o trono. O Imperador estabelece leis, limites e estruturas que protegem the reino. Terapeuticamente, você trabalha o pai interno - a capacidade de dizer não, de estabelecer disciplina sem crueldade, e de liderar sem dominar.",
+      "essencia": "Você é o trono. O Imperador estabelece leis, limites e estruturas que protegem o reino. Terapeuticamente, você trabalha o pai interno - a capacidade de dizer não, de estabelecer disciplina sem crueldade, e de liderar sem dominar.",
       "pergunta_junguiana": "Onde eu abdiquei da minha autoridade pessoal para manter a paz?",
-      "meditacao_guiada": "Visualize-se sentado em um trono de pedra. Sob seus pés, the mapa do seu território (vida). Trace os limites com uma espada de luz. Sinta a responsabilidade do comando e a solidez da estrutura.",
+      "meditacao_guiada": "Visualize-se sentado em um trono de pedra. Sob seus pés, o mapa do seu território (vida). Trace os limites com uma espada de luz. Sinta a responsabilidade do comando e a solidez da estrutura.",
       "conselho_diario": [
         "Estabeleça uma regra clara e a mantenha",
         "Organize uma área caótica",
@@ -775,7 +775,7 @@
           "nome": "Supressão da Criança Interior",
           "severidade": "Baixa",
           "exercicio": "Brincar de forma estruturada (esporte, jogo de tabuleiro) sem competitividade",
-          "antidoto": "O Imperador sábio deixa the príncipe brincar",
+          "antidoto": "O Imperador sábio deixa o príncipe brincar",
           "sinais": [
             "Vida sem prazer, só deveres",
             "Dificuldade em relaxar",
@@ -794,7 +794,7 @@
       "afirmacoes": {
         "manha": "Eu construo impérios através de disciplina amorosa",
         "noite": "Minha estrutura me protege enquanto descanso",
-        "crise": "Sou the rochedo inabalável no meio da tempestade",
+        "crise": "Sou o rochedo inabalável no meio da tempestade",
         "prosperidade": "Abundância vem através de gestão sábia e estratégia",
         "amor": "Protejo quem amo através de limites claros e presença forte"
       },
@@ -1041,7 +1041,7 @@
         "anoPessoal": "Ano das Decisões do Coração",
         "ciclos": "Junho: escolha crucial que define os próximos 7 anos",
         "conselho": "Não escolha com a cabeça nem só com o coração. Escolha com a alma. O que te faz expandir?",
-        "alerta_saude": ""
+        "alerta_saude": "Cuidado com ansiedade, tensão nos ombros e falta de ar por indecisão"
       },
       "sombras": [
         {
@@ -1054,7 +1054,7 @@
             "Definição de valor através do relacionamento",
             "Abandono de amigos/família pelo romance"
           ],
-          "modalidade_terapia": ""
+          "modalidade_terapia": "Teoria do Apego - Diferenciação do self"
         },
         {
           "nome": "Indecisão Crônica",
@@ -1066,7 +1066,7 @@
             "Mudança constante de opinião",
             "Paralisia diante de opções"
           ],
-          "modalidade_terapia": ""
+          "modalidade_terapia": "Terapia de Aceitação e Compromisso - Ação guiada por valores"
         },
         {
           "nome": "Idealização Tóxica",
@@ -1078,7 +1078,7 @@
             "Expectativas de conto de fadas",
             "Culpar o outro por não ser perfeito"
           ],
-          "modalidade_terapia": ""
+          "modalidade_terapia": "Psicologia Analítica - Retirada de projeções"
         },
         {
           "nome": "Fuga do Compromisso",
@@ -1090,7 +1090,7 @@
             "Sabotagem quando fica sério",
             "Busca constante por 'alguém melhor'"
           ],
-          "modalidade_terapia": ""
+          "modalidade_terapia": "Terapia Focada na Emoção - Construção de vínculo seguro"
         }
       ],
       "diretrizes": [
@@ -1118,53 +1118,68 @@
           "baixa": "Triângulos amorosos, indecisão entre dois",
           "media": "Relacionamento estável mas com dilemas",
           "alta": "União sagrada, almas gêmeas",
-          "check_diario": ""
+          "check_diario": "Você amou o outro hoje, ou a imagem que fez dele?"
         },
         "dinheiro": {
           "baixa": "Gastos por impulsividade emocional",
           "media": "Finanças compartilhadas estáveis",
           "alta": "Prosperidade através de parcerias comerciais",
-          "check_diario": ""
+          "check_diario": "Suas escolhas de dinheiro hoje foram suas ou do casal?"
         },
         "saude": {
           "baixa": "Doenças psicossomáticas por conflitos amorosos",
           "media": "Equilíbrio hormonal/emocional",
           "alta": "Cura através do amor e conexão",
-          "check_diario": ""
+          "check_diario": "Você respirou fundo antes de decidir alguma coisa hoje?"
         },
         "carreira": {
           "baixa": "Conflito entre paixão e trabalho",
           "media": "Parceria profissional harmoniosa",
           "alta": "Vocação que é também paixão",
-          "check_diario": ""
+          "check_diario": "Você escolheu um caminho hoje ou deixou tudo em aberto?"
         },
         "familia": {
           "baixa": "Dividido entre família de origem e parceiro",
           "media": "Harmonia entre laços familiares",
           "alta": "Família como escola de amor incondicional",
-          "check_diario": ""
+          "check_diario": "Você se relacionou como adulto ou como filho hoje?"
         },
         "proposito": {
           "baixa": "Vivendo para agradar outros",
           "media": "Servir através de relacionamentos",
           "alta": "Unir polaridades como caminho espiritual",
-          "check_diario": ""
+          "check_diario": "A escolha de hoje te aproximou de quem você é?"
         }
       },
       "cor_secundaria": "#ffffff",
-      "nota_musical": "N/A",
-      "chacra_regente": "N/A",
-      "planeta_regente": "N/A",
-      "signo_zodiacal": "N/A",
-      "carta_oposta": "N/A",
-      "dia_semana": "N/A",
+      "nota_musical": "Dó",
+      "chacra_regente": "Cardíaco (Anahata)",
+      "planeta_regente": "Mercúrio",
+      "signo_zodiacal": "Gêmeos",
+      "carta_oposta": "O Diabo (15)",
+      "dia_semana": "Quarta-feira",
       "numero_sorte": 6,
-      "alimentacao": [],
-      "banho_terapeutico": "",
-      "movimento_corporal": "",
-      "pergunta_junguiana": "",
-      "meditacao_guiada": "",
-      "musicas_recomendadas": []
+      "alimentacao": [
+        "Frutas vermelhas",
+        "Chocolate amargo",
+        "Mel puro",
+        "Chás florais"
+      ],
+      "banho_terapeutico": "Banho de pétalas de rosa e cardamomo para reconciliar razão e desejo",
+      "movimento_corporal": "Dança a dois, ou movimento livre diante do espelho",
+      "pergunta_junguiana": "O que eu amo no outro que, na verdade, é uma parte minha que eu ainda não assumi?",
+      "meditacao_guiada": "Visualize-se numa encruzilhada ao amanhecer. À esquerda, quem você deveria ser. À direita, quem você é quando ninguém olha. No centro, uma terceira figura espera por você. Aproxime-se devagar. Ela tem o seu rosto.",
+      "musicas_recomendadas": [
+        "Duetos e canções de amor",
+        "Bossa nova e MPB romântica",
+        "Frequência 528Hz"
+      ],
+      "conselho_diario": [
+        "Escolha uma coisa hoje e não volte atrás",
+        "Diga o que você sente, sem rodeio",
+        "Fique uma hora sozinho antes de decidir",
+        "Separe o que é seu do que é do outro"
+      ]
     },
     {
       "numero": 7,
@@ -1176,7 +1191,7 @@
       "frequencia": "417",
       "nota_musical": "Lá",
       "chacra_regente": "Plexo Solar (Manipura)",
-      "elementos": "Água/Fogo",
+      "elemento": "Água/Fogo",
       "planeta_regente": "Lua/Marte",
       "signo_zodiacal": "Câncer",
       "carta_oposta": "O Torre (16)",
@@ -1538,7 +1553,7 @@
       ],
       "banho_terapeutico": "Banho de sálvia à luz de uma única vela (conexão interior)",
       "movimento_corporal": "Caminhada solitária no silêncio ou meditação Zen",
-      "essencia": "Você é a lanterna no escuro. O Eremita não foge do world, ele se retira para encontrar o que é essencial. Terapeuticamente, você trabalha o medo da solidão versus o prazer da solitude, e a busca pela verdade que não depende de aplausos externos.",
+      "essencia": "Você é a lanterna no escuro. O Eremita não foge do mundo, ele se retira para encontrar o que é essencial. Terapeuticamente, você trabalha o medo da solidão versus o prazer da solitude, e a busca pela verdade que não depende de aplausos externos.",
       "pergunta_junguiana": "O que eu estou tentando encontrar lá fora que só pode ser descoberto no meu mais profundo silêncio?",
       "meditacao_guiada": "Visualize-se subindo uma montanha à noite. Você carrega uma lanterna que ilumina apenas o próximo passo. Sinta o frio e o silêncio. No topo, há uma caverna aquecida por uma pequena tocha. Entre. O que o seu 'Eu Ancião' tem a lhe dizer?",
       "conselho_diario": [
@@ -2086,7 +2101,7 @@
             "Doenças como forma de atenção",
             "Sacrificar-se por quem não pediu"
           ],
-          "modalbody_terapia": "Terapia Sistêmica - Lealdades Invisíveis"
+          "modalidade_terapia": "Terapia Sistêmica - Lealdades Invisíveis"
         },
         {
           "nome": "Paralisia por Análise",
@@ -2098,7 +2113,7 @@
             "Overthinking crônico",
             "Procrastinação espiritualizada ('não é a hora')"
           ],
-          "modalbody_terapia": "Terapia Cognitivo-Comportamental (TCC)"
+          "modalidade_terapia": "Terapia Cognitivo-Comportamental (TCC)"
         },
         {
           "nome": "Resistência ao Fluxo",
@@ -2110,7 +2125,7 @@
             "Manter posições só para não 'perder a face'",
             "Sofrimento desnecessário por orgulho"
           ],
-          "modalbody_terapia": "Ludoterapia ou Terapias Corporais"
+          "modalidade_terapia": "Ludoterapia ou Terapias Corporais"
         },
         {
           "nome": "Escapismo Espiritual",
@@ -2122,7 +2137,7 @@
             "Fuga em meditação excessiva",
             "Desprezo pelo mundo material"
           ],
-          "modalbody_terapia": "Ecodesenvolvimento ou Terapia de Ação"
+          "modalidade_terapia": "Ecodesenvolvimento ou Terapia de Ação"
         }
       ],
       "diretrizes": [
@@ -2227,7 +2242,7 @@
         "Fale uma verdade que encerra um ciclo",
         "Aceite um 'não' como um livramento"
       ],
-      "musicas_recommendedadas": [
+      "musicas_recomendadas": [
         "Música minimalista de piano",
         "Frequência 174Hz",
         "Sons de vento e silêncio profundo"
@@ -2256,7 +2271,7 @@
             "Incapacidade de desapego material",
             "Depressão melancólica"
           ],
-          "modalbody_terapia": "Terapia de Processamento de Luto"
+          "modalidade_terapia": "Terapia de Processamento de Luto"
         },
         {
           "nome": "Destruição Compulsiva",
@@ -2269,7 +2284,7 @@
             "Queimar pontes",
             "Vício em recomeços"
           ],
-          "modalbody_terapia": "Análise Bioenergética"
+          "modalidade_terapia": "Análise Bioenergética"
         },
         {
           "nome": "Medo da Morte/Luto",
@@ -2282,7 +2297,7 @@
             "Evitação de temas de finitude",
             "Dificuldade em lidar com perdas"
           ],
-          "modalbody_terapia": "Logoterapia - Sentido da Vida"
+          "modalidade_terapia": "Logoterapia - Sentido da Vida"
         },
         {
           "nome": "Depressão Nihilista",
@@ -2295,7 +2310,7 @@
             "Cinismo profundo",
             "Desinvestimento da vida"
           ],
-          "modalbody_terapia": "Psicologia Existencial-Humanista"
+          "modalidade_terapia": "Psicologia Existencial-Humanista"
         }
       ],
       "diretrizes": [
@@ -2400,7 +2415,7 @@
         "Beba água com a intenção de limpar e curar",
         "Seja o diplomata da sua própria vida hoje"
       ],
-      "musicas_recommendedadas": [
+      "musicas_recomendadas": [
         "Música clássica suave",
         "Frequência 639Hz",
         "Sons de harpa e violoncelo"
@@ -2429,7 +2444,7 @@
             "Exercício compulsivo",
             "Relacionamentos tudo-ou-nada"
           ],
-          "modalbody_terapia": "Psicoterapia com Foco em Vícios"
+          "modalidade_terapia": "Psicoterapia com Foco em Vícios"
         },
         {
           "nome": "Abstinência Rígida",
@@ -2442,7 +2457,7 @@
             "Moralismo alimentar",
             "Ascetismo compulsivo"
           ],
-          "modalbody_terapia": "Terapia de Aceitação e Compromisso (ACT)"
+          "modalidade_terapia": "Terapia de Aceitação e Compromisso (ACT)"
         },
         {
           "nome": "Ansiedade de Misturar",
@@ -2454,7 +2469,7 @@
             "Dificuldade em transitar entre papéis",
             "Rigidez de horários/contextos"
           ],
-          "modalbody_terapia": "Gestalt-terapia"
+          "modalidade_terapia": "Gestalt-terapia"
         },
         {
           "nome": "Cura de Outros vs Si",
@@ -2466,7 +2481,7 @@
             "Negligenciar própria saúde",
             "Síndrome do salvador"
           ],
-          "modalbody_terapia": "Análise Institucional ou Supervisão Clínica"
+          "modalidade_terapia": "Análise Institucional ou Supervisão Clínica"
         }
       ],
       "diretrizes": [
@@ -2509,8 +2524,8 @@
           "check_diario": "Você nutriu seu corpo com a moderação necessária?"
         },
         "carreira": {
-          "baixa": "Burnout ou underemployment",
-          "media": "Work-life balance",
+          "baixa": "Esgotamento ou subaproveitamento",
+          "media": "Equilíbrio entre trabalho e vida",
           "alta": "Vocação que cura e prospera",
           "check_diario": "Seu trabalho de hoje foi fruto de esforço equilibrado ou estresse?"
         },
@@ -2600,7 +2615,7 @@
             "Incapacidade de dizer não",
             "Desdém por quem 'se restringe'"
           ],
-          "modalbody_terapia": "Terapia Cognitivo-Comportamental (TCC) - Prevenção de Recaída"
+          "modalidade_terapia": "Terapia Cognitivo-Comportamental (TCC) - Prevenção de Recaída"
         },
         {
           "nome": "Manipulação Sexual/Emocional",
@@ -2612,7 +2627,7 @@
             "Seduzir quem não vai amar",
             "Jogos de poder em relacionamentos"
           ],
-          "modalbody_terapia": "Psicodrama ou Terapia de Casal"
+          "modalidade_terapia": "Psicodrama ou Terapia de Casal"
         },
         {
           "nome": "Materialismo Compulsivo",
@@ -2624,7 +2639,7 @@
             "Valor pessoal medido por posses",
             "Medo irracional de perder bens"
           ],
-          "modalbody_terapia": "Minimalismo Terapêutico"
+          "modalidade_terapia": "Minimalismo Terapêutico"
         },
         {
           "nome": "Sombra Negada",
@@ -2637,7 +2652,7 @@
             "Julgamento de pessoas 'pecadoras'",
             "Discurso moralista mas vida oculta contraditória"
           ],
-          "modalbody_terapia": "Análise Junguiana - Integração da Sombra"
+          "modalidade_terapia": "Análise Junguiana - Integração da Sombra"
         }
       ],
       "diretrizes": [
@@ -2771,7 +2786,7 @@
             "Seguro contra tudo",
             "Viver em modo de sobrevivência permanente"
           ],
-          "modalbody_terapia": "Terapia de Exposição ou Somatic Experiencing"
+          "modalidade_terapia": "Terapia de Exposição ou Somatic Experiencing"
         },
         {
           "nome": "Destruição Compulsiva",
@@ -2783,7 +2798,7 @@
             "Vício em drama e crise",
             "Auto-sabotagem de tudo que constrói"
           ],
-          "modalbody_terapia": "Arteterapia ou Cerâmica"
+          "modalidade_terapia": "Arteterapia ou Cerâmica"
         },
         {
           "nome": "Negação do Caos",
@@ -2795,7 +2810,7 @@
             "Sorrir na dor",
             "Minimizar perdas"
           ],
-          "modalbody_terapia": "Logoterapia - Sentido no Sofrimento"
+          "modalidade_terapia": "Logoterapia - Sentido no Sofrimento"
         },
         {
           "nome": "Vitimização do Trauma",
@@ -2807,7 +2822,7 @@
             "Usar trauma como desculpa",
             "Recusa de reconstrução"
           ],
-          "modalbody_terapia": "Psicoterapia Positiva"
+          "modalidade_terapia": "Psicoterapia Positiva"
         }
       ],
       "diretrizes": [
@@ -2940,7 +2955,7 @@
             "Doar para perdidos crônicos",
             "Ignorar sinais de fracasso por otimismo cego"
           ],
-          "modalbody_terapia": "Psicologia Positiva Realista"
+          "modalidade_terapia": "Psicologia Positiva Realista"
         },
         {
           "nome": "Perfeccionismo Estético",
@@ -2952,7 +2967,7 @@
             "Fotos excessivamente editadas",
             "Não publicar/mostrar trabalho por não estar 'perfeito'"
           ],
-          "modalbody_terapia": "Arteterapia ou Expressividade Corporal"
+          "modalidade_terapia": "Arteterapia ou Expressividade Corporal"
         },
         {
           "nome": "Desconexão Terrena",
@@ -2964,7 +2979,7 @@
             "Planos grandiosos sem execução",
             "Dificuldade em tarefas mundanas"
           ],
-          "modalbody_terapia": "Ecopsicologia"
+          "modalidade_terapia": "Ecopsicologia"
         },
         {
           "nome": "Salvador Compulsivo",
@@ -2976,7 +2991,7 @@
             "Síndrome do herói",
             "Viver em função do brilho que outros projetam"
           ],
-          "modalbody_terapia": "Análise Transacional - Triângulo Dramático"
+          "modalidade_terapia": "Análise Transacional - Triângulo Dramático"
         }
       ],
       "diretrizes": [
@@ -3109,7 +3124,7 @@
             "Insônia por pensamentos paranóides",
             "Relacionamentos destruídos por ciúmes infundados"
           ],
-          "modalbody_terapia": "Terapia Cognitivo-Comportamental (TCC) - Reestruturação de Pensamentos"
+          "modalidade_terapia": "Terapia Cognitivo-Comportamental (TCC) - Reestruturação de Pensamentos"
         },
         {
           "nome": "Confusão Mental",
@@ -3121,7 +3136,7 @@
             "Decisões baseadas em 'sentimentos' não verificados",
             "Mudanças de humor inexplicáveis"
           ],
-          "modalbody_terapia": "Psicoterapia Existencial ou Mindful Breathing"
+          "modalidade_terapia": "Psicoterapia Existencial ou Mindful Breathing"
         },
         {
           "nome": "Fuga pela Fantasia",
@@ -3133,7 +3148,7 @@
             "Mundos imaginários mais vivos que a realidade",
             "Dificuldade em funcionar 'no mundo normal'"
           ],
-          "modalbody_terapia": "Terapia Ocupacional ou Gestalt-terapia"
+          "modalidade_terapia": "Terapia Ocupacional ou Gestalt-terapia"
         },
         {
           "nome": "Medos Ancestrais",
@@ -3145,7 +3160,7 @@
             "Pesadelos recorrentes",
             "Sensação de perigo em locais novos sem razão"
           ],
-          "modalbody_terapia": "Constelação Familiar ou Hipnose Ericksoniana"
+          "modalidade_terapia": "Constelação Familiar ou Hipnose Ericksoniana"
         }
       ],
       "diretrizes": [
@@ -3278,7 +3293,7 @@
             "Incapacidade de celebrar outros",
             "Inveja disfarçada de 'eu faria melhor'"
           ],
-          "modalbody_terapia": "Psicologia Positiva com Foco em Empatia"
+          "modalidade_terapia": "Psicologia Positiva com Foco em Empatia"
         },
         {
           "nome": "Positividade Tóxica",
@@ -3290,7 +3305,7 @@
             "Minimizar dor de outros com 'fique positivo'",
             "Negar problemas reais"
           ],
-          "modalbody_terapia": "Terapia de Aceitação e Compromisso (ACT)"
+          "modalidade_terapia": "Terapia de Aceitação e Compromisso (ACT)"
         },
         {
           "nome": "Burnout Solar",
@@ -3302,7 +3317,7 @@
             "Dificuldade em parar",
             "Associar valor à produtividade"
           ],
-          "modalbody_terapia": "Terapia de Redução de Estresse (MBSR)"
+          "modalidade_terapia": "Terapia de Redução de Estresse (MBSR)"
         },
         {
           "nome": "Infantilização",
@@ -3314,7 +3329,7 @@
             "Dificuldade em assuntos sérios",
             "Fuga pelo humor"
           ],
-          "modalbody_terapia": "Análise Transacional - Estado de Ego Adulto"
+          "modalidade_terapia": "Análise Transacional - Estado de Ego Adulto"
         }
       ],
       "diretrizes": [
@@ -3386,7 +3401,7 @@
       "frequencia": "741",
       "nota_musical": "Sol# (G#)",
       "chacra_regente": "Laringeo (Vishuddha)",
-      "element": "Fogo",
+      "elemento": "Fogo",
       "planeta_regente": "Plutão",
       "signo_zodiacal": "Peixes",
       "carta_oposta": "O Louco (0)",
@@ -3447,7 +3462,7 @@
             "Dificuldade em aceitar coisas boas",
             "Viver como se devesse algo ao mundo"
           ],
-          "modalbody_terapia": "Logoterapia ou Psicoterapia Humanista"
+          "modalidade_terapia": "Logoterapia ou Psicoterapia Humanista"
         },
         {
           "nome": "Surdez ao Chamado",
@@ -3459,7 +3474,7 @@
             "Permanecer em zona de conforto",
             "Dizer 'ainda não estou pronto' eternamente"
           ],
-          "modalbody_terapia": "Coaching Arquetípico ou TCC"
+          "modalidade_terapia": "Coaching Arquetípico ou TCC"
         },
         {
           "nome": "Fanatismo da Missao",
@@ -3471,7 +3486,7 @@
             "Sacrificar tudo pela 'causa'",
             "Síndrome messiânica"
           ],
-          "modalbody_terapia": "Análise Institucional ou Supervisão"
+          "modalidade_terapia": "Análise Institucional ou Supervisão"
         },
         {
           "nome": "Julgamento dos Outros",
@@ -3483,7 +3498,7 @@
             "Tribunal interno em constante sessão",
             "Incapacidade de perdoar"
           ],
-          "modalbody_terapia": "Comunicação Não-Violenta (CNV)"
+          "modalidade_terapia": "Comunicação Não-Violenta (CNV)"
         }
       ],
       "diretrizes": [
@@ -3579,7 +3594,7 @@
       ],
       "banho_terapeutico": "Banho de celebração (rosas brancas e sândalo) para integração e plenitude",
       "movimento_corporal": "Dança circular ou movimentos que englobem todo o corpo em harmonia",
-      "essencia": "Você é the dança cósmica. O Mundo representa a conclusão de um grande ciclo e a integração de tudo que foi aprendido. Terapeuticamente, você trabalha o medo de completar coisas, a dificuldade de celebrar e a saudade do futuro.",
+      "essencia": "Você é a dança cósmica. O Mundo representa a conclusão de um grande ciclo e a integração de tudo que foi aprendido. Terapeuticamente, você trabalha o medo de completar coisas, a dificuldade de celebrar e a saudade do futuro.",
       "pergunta_junguiana": "O que ainda falta integrar em mim para que eu me sinta completo, ou eu já estou completo e apenas não consigo aceitar a minha perfeição?",
       "meditacao_guiada": "Visualize-se no centro de uma mandala gigante cercada pelos quatro elementos. Você dança livremente. Todos os arcanos anteriores estão ao redor, aplaudindo sua jornada. Sinta que não há mais nada a buscar fora de você. O Mundo está aos seus pés e dentro do seu peito.",
       "conselho_diario": [
@@ -3616,7 +3631,7 @@
             "Dificuldade em publicar/entregar/terminar",
             "Sabotagem no final"
           ],
-          "modalbody_terapia": "Psicologia Positiva com Foco em Realização ou TCC"
+          "modalidade_terapia": "Psicologia Positiva com Foco em Realização ou TCC"
         },
         {
           "nome": "Síndrome do Eterno Estudante",
@@ -3628,7 +3643,7 @@
             "Dúvida crônica sobre própria competência",
             "Acúmulo de diplomas sem prática"
           ],
-          "modalbody_terapia": "Andragogia Terapêutica ou Mentoria"
+          "modalidade_terapia": "Andragogia Terapêutica ou Mentoria"
         },
         {
           "nome": "Arrogância de Conclusão",
@@ -3640,7 +3655,7 @@
             "Desprezo por quem está começando",
             "Estagnação por excesso de sucesso"
           ],
-          "modalbody_terapia": "Filosofia Clínica ou Budismo (Mente de Principiante)"
+          "modalidade_terapia": "Filosofia Clínica ou Budismo (Mente de Principiante)"
         },
         {
           "nome": "Melancolia do Sucesso",
@@ -3652,7 +3667,7 @@
             "Vazio existencial pós-sucesso",
             "Falta de propósito após grandes vitórias"
           ],
-          "modalbody_terapia": "Psicologia Existencial-Humanista"
+          "modalidade_terapia": "Psicologia Existencial-Humanista"
         }
       ],
       "diretrizes": [
@@ -3701,7 +3716,7 @@
           "check_diario": "Sua obra de hoje foi uma peça completa do seu mosaico?"
         },
         "familia": {
-          "baixa": "Isolamento da família ou do world",
+          "baixa": "Isolamento da família ou do mundo",
           "media": "Família integrada e evoluída",
           "alta": "Linhagem inteira curada e elevada",
           "check_diario": "Você sentiu o pertencimento total ao seu clã hoje?"

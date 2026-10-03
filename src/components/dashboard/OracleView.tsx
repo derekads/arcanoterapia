@@ -28,7 +28,7 @@ export const OracleView: React.FC<Props> = ({ arcano, userData, onNavigate, open
                     className="absolute inset-0 z-0"
                 >
                     <img
-                        src={MAJOR_ARCANA[arcano.numero]?.file || "/Cards/00-TheFool.jpg"}
+                        src={MAJOR_ARCANA[arcano.numero]?.file || MAJOR_ARCANA[0].file}
                         alt={arcano.nome}
                         className="w-full h-full object-cover"
                     />

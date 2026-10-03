@@ -233,7 +233,7 @@ export const EVOLUTIVE_GUIDELINES: Record<number, DiretrizEvolutiva[]> = {
         {
             id: 'eg-21-1', arcanoId: 21, categoria: 'REINVENTAO',
             titulo: 'Finalize um ciclo',
-            descricao: 'Dê publish em algo incompleto hoje',
+            descricao: 'Entregue hoje algo que está incompleto, em vez de esperar ficar pronto.',
             icone: 'CheckCircle', corCard: '#14b8a6',
             acaoPratica: 'Escolha um projeto parado em 90% e finalize agora, mesmo imperfeito.',
             tempo: '20 min',
@@ -332,23 +332,41 @@ const ICONS = ['Target', 'Sparkles', 'Zap', 'Droplets', 'Globe'];
 const TIMES = ['5 min', '10 min', '15 min', '20 min', 'Hoje'];
 const COLORS = ['#14b8a6', '#10b981', '#8b5cf6', '#3b82f6', '#ec4899'];
 
+/**
+ * As práticas de um arcano.
+ *
+ * Sete dos vinte e dois arcanos têm práticas escritas à mão acima, com título,
+ * diretriz e uma ação concreta para hoje. Os outros quinze caem nas cinco
+ * `diretrizes` do arcanos.json — que já são boas ações, curtas e no imperativo.
+ *
+ * O que estava errado era o modo de encaixá-las neste formato: o título saía de
+ * `d.split(" ").slice(0, 3).join(" ") + "..."`, ou seja, as três primeiras
+ * palavras da frase seguidas de reticências, e a frase inteira repetia logo
+ * abaixo como descrição. O card mostrava "Comece algo novo..." e, um centímetro
+ * depois, "Comece algo novo hoje, mesmo que pequeno". Duas vezes a mesma coisa,
+ * uma delas cortada no meio.
+ *
+ * Agora a diretriz é o título — ela já é uma frase completa — e a descrição
+ * fica vazia, com a tela sabendo não abrir espaço para ela.
+ */
 export function getGuidelinesForArcano(arcanoId: number): DiretrizEvolutiva[] {
     if (EVOLUTIVE_GUIDELINES[arcanoId]) {
         return EVOLUTIVE_GUIDELINES[arcanoId];
     }
-    // Fallback: convert arcanos.json diretrizes to DiretrizEvolutiva format
+
     const arcano = getArcanoByNumero(arcanoId);
     if (!arcano || !arcano.diretrizes) return [];
+
     return arcano.diretrizes.map((d, idx) => ({
         id: `eg-${arcanoId}-${idx + 1}`,
         arcanoId,
         categoria: CATEGORIAS[idx % CATEGORIAS.length],
-        titulo: d.split(" ").slice(0, 3).join(" ") + "...",
-        descricao: d,
+        titulo: d,
+        descricao: '',
         icone: ICONS[idx % ICONS.length],
         corCard: COLORS[idx % COLORS.length],
         acaoPratica: d,
-        checkinDiario: idx < 3, // first 3 are daily check-ins
+        checkinDiario: idx < 3,
         tempo: TIMES[idx % TIMES.length],
         prioritaria: idx === 0
     }));

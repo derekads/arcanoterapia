@@ -9,7 +9,7 @@ import {
 import { useMapaAstral } from '../hooks/useMapaAstral';
 import { TimelineView } from './dashboard/TimelineView';
 import { MapaAstralView } from './dashboard/MapaAstralView';
-import { interpretationsDB, getGenericInterpretation } from '../data/astrologyInterpretations';
+import { buildMapaViewModel } from '../utils/mapaAstralAdapter';
 import { ArcanoExpandidoView } from './dashboard/ArcanoExpandidoView';
 import { FarmaciaAlquimica } from './dashboard/FarmaciaAlquimica';
 import { BottomNavigation } from './dashboard/BottomNavigation';
@@ -125,53 +125,16 @@ export const SanctuaryScreen: React.FC<Props> = ({
         {!isDashboard && viewAtiva !== 'ARCANO_EXPANDED' && (
           <ExpandedViewWrapper view={viewAtiva} onClose={() => setViewAtiva('ORACLE')}>
             {viewAtiva === 'ASTROLOGY_DETAIL' && (
-              <MapaAstralView
-                dados={(() => {
-                  const planetPtToEn: Record<string, string> = {
-                    'Sol': 'sun', 'Lua': 'moon', 'Mercúrio': 'mercury', 'Vênus': 'venus', 'Marte': 'mars',
-                    'Júpiter': 'jupiter', 'Saturno': 'saturn', 'Urano': 'uranus', 'Netuno': 'neptune', 'Plutão': 'pluto',
-                    'Ascendente': 'ascendant', 'MC': 'midheaven'
-                  };
-                  const signPtToEn: Record<string, string> = {
-                    'Áries': 'aries', 'Touro': 'taurus', 'Gêmeos': 'gemini', 'Câncer': 'cancer',
-                    'Leão': 'leo', 'Virgem': 'virgo', 'Libra': 'libra', 'Escorpião': 'scorpio',
-                    'Sagitário': 'sagittarius', 'Capricórnio': 'capricorn', 'Aquário': 'aquarius', 'Peixes': 'pisces'
-                  };
-
-                  const astros = mapa ? [...mapa.astros, mapa.ascendente] : [];
-                  const aspectos = mapa ? mapa.aspectos : [];
-
-                  return {
-                    nome: userData?.nome || 'Iniciado',
-                    planetas: astros.map(p => {
-                      const pKey = planetPtToEn[p.nome] || p.nome.toLowerCase();
-                      const signKey = signPtToEn[p.signo] || p.signo.toLowerCase();
-                      const dbKey = `${pKey}_${signKey}`;
-                      const dbEntry = interpretationsDB[dbKey] || getGenericInterpretation(p.nome, p.signo);
-
-                      return {
-                        planeta: p.nome,
-                        signo: p.signo,
-                        casa: p.casa,
-                        grau: `${String(p.grau).padStart(2, '0')}°${String(p.minuto).padStart(2, '0')}'`,
-                        elemento: p.elemento,
-                        interpretacao: {
-                          titulo: dbEntry.hook || `A energia de ${p.nome} em ${p.signo}`,
-                          potencialLuz: dbEntry.yourPower || dbEntry.youAre || 'Potencial evolutivo e consciência.',
-                          desafioSombra: dbEntry.yourTrap || dbEntry.hook || 'Obstáculos de sombra para integrar.',
-                          acaoPratica: dbEntry.tryThis || 'Observe como esse arquétipo age no seu dia.'
-                        }
-                      };
-                    }),
-                    aspectos: aspectos.map(a => ({
-                      planeta1: a.astroA,
-                      tipo: a.tipo,
-                      planeta2: a.astroB,
-                      orb: String(a.orb)
-                    }))
-                  };
-                })()}
-              />
+              mapa
+                ? <MapaAstralView mapa={buildMapaViewModel(mapa, userData as any)} />
+                : (
+                  <div className="min-h-screen bg-slate-950 flex items-center justify-center p-8 text-center">
+                    <p className="text-sm text-slate-400 font-serif italic max-w-xs">
+                      O céu ainda está sendo calculado. Confirme sua data, hora e local de nascimento
+                      para abrir o mapa.
+                    </p>
+                  </div>
+                )
             )}
             {viewAtiva === 'TIMELINE' && <TimelineView userData={userData} arcanoCiclos={arcana.ciclos} />}
             {viewAtiva === 'ALCHEMY' && (
@@ -180,8 +143,8 @@ export const SanctuaryScreen: React.FC<Props> = ({
                   <h1 className="text-3xl md:text-4xl font-serif text-white mb-2 text-center uppercase tracking-widest">Botica Sagrada</h1>
                   <p className="text-white/40 text-center mb-10">Ferramentas de cura para o Arcano {arcana.nome}</p>
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-6" style={{ minHeight: '500px' }}>
-                    <FarmaciaAlquimica alquimia={arcana.alquimia} />
-                    <ChatOraculo persona={arcana.personaAI} arcanaName={arcana.nome} />
+                    <FarmaciaAlquimica arcano={arcana} />
+                    <ChatOraculo arcano={arcana} arcanaName={arcana.nome} />
                   </div>
                 </div>
               </div>
@@ -413,7 +376,7 @@ function DashboardView({
         >
           {/* Background image */}
           <img
-            src={MAJOR_ARCANA[arcano.numero]?.file || "/Cards/00-TheFool.jpg"}
+            src={MAJOR_ARCANA[arcano.numero]?.file || MAJOR_ARCANA[0].file}
             className="absolute inset-0 w-full h-full object-cover z-0 opacity-40 transition-transform duration-[2s] group-hover:scale-105"
             alt={arcano.nome}
             loading="lazy"
@@ -635,6 +598,8 @@ function DashboardView({
         onClose={() => setShowPrevisao(false)}
         previsao={previsao2026}
         arcanoNome={previsao2026?.nome || ''}
+        arcanoPessoalNumero={arcano.numero}
+        arcanoPessoalNome={arcano.nome}
         transitionInsight={insights?.transicao}
       />
     </div>
@@ -799,18 +764,37 @@ function PreviewDiretrizes({ arcanoNumero }: { arcanoNumero: number }) {
   );
 }
 
+/**
+ * Lê o progresso salvo pelo `useUserProgress`.
+ *
+ * Estes cartões liam `life_wheel_<n>` e `journal_entries_<n>`, chaves que
+ * NADA no app escreve — o progresso real sempre morou em
+ * `arcanoterapia_user_progress_<n>`. Resultado: por mais que o usuário
+ * preenchesse a Roda da Vida ou escrevesse no Diário, os cartões do painel
+ * continuavam dizendo "Avalie 6 áreas da sua vida" e "Comece a escrever
+ * suas reflexões".
+ */
+function lerProgresso(arcanoNumero: number): any | null {
+  try {
+    const raw = localStorage.getItem(`arcanoterapia_user_progress_${arcanoNumero}`);
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
+}
+
 function PreviewRodaVida({ arcanoNumero }: { arcanoNumero: number }) {
   const [avg, setAvg] = useState(0);
   useEffect(() => {
-    try {
-      const key = `life_wheel_${arcanoNumero}`;
-      const saved = localStorage.getItem(key);
-      if (saved) {
-        const data = JSON.parse(saved);
-        const values = Object.values(data) as number[];
-        if (values.length > 0) setAvg(Math.round((values.reduce((a, b) => a + b, 0) / values.length) * 10) / 10);
-      }
-    } catch { }
+    const progresso = lerProgresso(arcanoNumero);
+    const notas = (progresso?.areasVida || [])
+      .map((a: any) => a?.nota)
+      .filter((n: any) => typeof n === 'number');
+    if (notas.length > 0) {
+      setAvg(Math.round((notas.reduce((a: number, b: number) => a + b, 0) / notas.length) * 10) / 10);
+    } else {
+      setAvg(0);
+    }
   }, [arcanoNumero]);
   return (
     <div className="mt-4">
@@ -843,18 +827,17 @@ function PreviewJornal({ arcanoNumero }: { arcanoNumero: number }) {
   const [count, setCount] = useState(0);
   const [lastDate, setLastDate] = useState('');
   useEffect(() => {
-    try {
-      const key = `journal_entries_${arcanoNumero}`;
-      const saved = localStorage.getItem(key);
-      if (saved) {
-        const entries = JSON.parse(saved);
-        setCount(entries.length);
-        if (entries.length > 0) {
-          const last = new Date(entries[entries.length - 1].date || entries[entries.length - 1].data);
-          setLastDate(last.toLocaleDateString('pt-BR', { day: '2-digit', month: 'short' }));
-        }
-      }
-    } catch { }
+    const entries: any[] = lerProgresso(arcanoNumero)?.journalEntries || [];
+    setCount(entries.length);
+
+    // `addJournalEntry` insere no início da lista, então a mais recente é a
+    // primeira — pegar a última invertia a data mostrada.
+    const maisRecente = entries[0];
+    const iso = maisRecente?.data || maisRecente?.date;
+    const d = iso ? new Date(iso) : null;
+    setLastDate(d && !isNaN(d.getTime())
+      ? d.toLocaleDateString('pt-BR', { day: '2-digit', month: 'short' })
+      : '');
   }, [arcanoNumero]);
   return (
     <div className="mt-4">

@@ -1,4 +1,5 @@
 import arcanosData from './arcanos.json';
+import { PREVISOES_2026 } from '../utils/arcanoDataExtended';
 
 import { ArcanoAdvanced as ArcanoCompleto, SombraPro } from '../types';
 
@@ -81,6 +82,13 @@ export const ArcanoPessoalDB = {
         const arcano = ArcanoPessoalDB.getByNumero(numero);
         if (!arcano) return null;
 
+        // Previsão escrita à mão para este arcano, com trimestres próprios.
+        const escrita = PREVISOES_2026.find(p => p.id === numero);
+        if (escrita) return escrita;
+
+        // Sem entrada escrita, derivamos do JSON. Os trimestres genéricos são
+        // o único trecho que não é específico do arcano — todos os 22 têm
+        // entrada em PREVISOES_2026, então este caminho é só uma rede de segurança.
         return {
             id: arcano.numero,
             nome: arcano.nome,
@@ -101,6 +109,21 @@ export const ArcanoPessoalDB = {
         };
     }
 };
+
+/**
+ * Converte o número do arcano usado pelo app no índice usado pelas bases de
+ * conteúdo combinatório.
+ *
+ * O app segue a numeração de Marselha, em que O Louco é 22 (e a Justiça é 8,
+ * a Força é 11). As quatro matrizes e o `seasonalInsights.json` indexam de
+ * 0 a 21, com O Louco em 0. Para 1–21 os dois esquemas coincidem; só O Louco
+ * precisa de tradução.
+ *
+ * Sem isso, quem tem O Louco como arcano não encontra nada em nenhuma das
+ * cinco bases, e todo o conteúdo escrito para ele fica inalcançável.
+ */
+export const numeroParaIndiceConteudo = (numero: number): number =>
+    numero === 22 ? 0 : numero;
 
 /**
  * Lookup arcano by number.

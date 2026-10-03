@@ -1,4 +1,5 @@
 import * as Astronomy from 'astronomy-engine';
+import { calcularArcanoBongo } from './bongo';
 
 /**
  * UTILS/CALCULOS.TS
@@ -22,13 +23,31 @@ export const reduzirParaArcano = (n: number): number => {
 };
 
 /**
- * Cálculo do Arcano do Nome
+ * Normaliza o nome para o cálculo do arcano.
+ *
+ * Decompõe os acentos (NFD) e remove só as marcas diacríticas, preservando a
+ * letra. Sem isso, `replace(/[^a-zA-Z]/g, '')` descartaria a letra inteira e
+ * "José" contaria 3 letras em vez de 4 — a mesma pessoa receberia arcanos
+ * diferentes conforme escrevesse o nome com ou sem acento.
+ *
+ * Ç vira C, Ã vira A. Trema, til e cedilha não mudam a identidade da letra.
  */
-export const calcularArcanoNome = (nome: string): number => {
-    const cleanName = nome.replace(/[^a-zA-Z]/g, '');
-    if (cleanName.length === 0) return 0;
-    return reduzirParaArcano(cleanName.length);
-};
+export const limparNomeParaCalculo = (nome: string): string =>
+    (nome || '')
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/[^a-zA-Z]/g, '');
+
+/**
+ * Cálculo do Arcano Pessoal pelo nome.
+ *
+ * Usa a Gematria da Tabela de Bongo — somar o valor de cada letra —, que é o
+ * método que o app anuncia ao usuário na tela inicial. Antes contava a
+ * quantidade de letras (`nome.length`), o que dava outro arcano para
+ * praticamente todo nome.
+ */
+export const calcularArcanoNome = (nome: string): number =>
+    calcularArcanoBongo(nome).arcano;
 
 /**
  * Ano Pessoal Dinâmico: (Dia + Mes + Ano Alvo) % 22
@@ -91,10 +110,10 @@ export const calculateAstralProfilePro = (
         const [ano, mes, dia] = dateString.split('-').map(Number);
         const [hora, minuto] = timeString.split(':').map(Number);
 
-        // CORREÇÃO CRÍTICA: Se não houver offset, usamos o nativo do Date para o local
-        // ou calculamos com base no ISO do usuário se disponível.
-        // Para fins de precisão mística, usaremos lon/15 como estimativa inicial
-        // mas permitiremos overwrite do sistema.
+        // O chamador deve passar o offset já resolvido a partir do fuso IANA
+        // (ver utils/timezone.ts). A estimativa por longitude fica só como
+        // último recurso: ela ignora horário de verão e erra em toda a Europa
+        // continental, na Argentina, na China e nos fusos de meia hora.
         const offset = timezoneOffset ?? Math.round(lon / 15);
 
         // Data UTC Real = Hora Local - Offset
@@ -198,4 +217,22 @@ export const calculateMoonPhase = (date: Date = new Date()): string => {
     if (phase >= 225 && phase < 315) return "minguante";
 
     return "nova";
+};
+
+/**
+ * Contrai a preposição "de" com o artigo do nome do arcano.
+ *
+ * Os nomes vêm com o artigo colado ("A Morte", "O Louco", "Os Enamorados"),
+ * então concatenar `"d" + nome` produz "dA Morte", que não é português.
+ *
+ *   deArcano("A Morte")        → "da Morte"
+ *   deArcano("O Louco")        → "do Louco"
+ *   deArcano("Os Enamorados")  → "dos Enamorados"
+ *   deArcano("Ísis")           → "de Ísis"   (sem artigo, cai no genérico)
+ */
+export const deArcano = (nome: string | undefined): string => {
+    const limpo = (nome || '').trim();
+    const m = limpo.match(/^(A|O|As|Os)\s+(.+)$/);
+    if (!m) return limpo ? `de ${limpo}` : '';
+    return `d${m[1].toLowerCase()} ${m[2]}`;
 };

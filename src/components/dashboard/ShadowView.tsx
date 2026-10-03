@@ -112,8 +112,8 @@ export const ShadowView: React.FC<Props> = ({ arcano, onClose, embedded }) => {
               <div className="flex items-start gap-4 relative z-10">
                 <div className={cn(
                   "w-14 h-14 rounded-2xl flex items-center justify-center text-3xl shadow-inner",
-                  status === 'completo' ? "bg-emerald-500/20" :
-                    status === 'iniciado' ? "bg-amber-500/20" :
+                  status === 'integrada' ? "bg-emerald-500/20" :
+                    status === 'transmutando' ? "bg-amber-500/20" :
                       "bg-white/10"
                 )}>
                   {sombra.frequenciaSombra === 'BAIXA' ? '🌿' :
