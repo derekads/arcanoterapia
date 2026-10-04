@@ -164,12 +164,14 @@ export const CityAutocomplete: React.FC<Props> = ({ onSelect, initialValue = '' 
 
   return (
     <div ref={wrapperRef} className="relative w-full group">
-      <label className="text-xs text-mystic-gold uppercase tracking-widest font-bold mb-1 ml-1 flex items-center gap-1">
+      <label htmlFor="campo-cidade" className="text-xs text-mystic-gold uppercase tracking-widest font-bold mb-1 ml-1 flex items-center gap-1">
         <MapPin size={12} /> Cidade de Nascimento
       </label>
 
       <div className="relative">
         <input
+          id="campo-cidade"
+          name="birthCity"
           type="text"
           value={query}
           onChange={(e) => {
@@ -181,6 +183,7 @@ export const CityAutocomplete: React.FC<Props> = ({ onSelect, initialValue = '' 
           autoComplete="off"
           role="combobox"
           aria-expanded={mostrarPainel}
+          aria-controls="campo-cidade-sugestoes"
           aria-autocomplete="list"
           className="w-full bg-black/20 border border-white/10 rounded-xl py-3 pl-4 pr-10 text-white placeholder-white/20 focus:outline-none focus:border-mystic-gold/50 focus:bg-black/40 transition-all font-sans"
         />
@@ -202,7 +205,7 @@ export const CityAutocomplete: React.FC<Props> = ({ onSelect, initialValue = '' 
           >
             {suggestions.length > 0 ? (
               <>
-                <ul role="listbox">
+                <ul id="campo-cidade-sugestoes" role="listbox" aria-label="Sugestões de cidade">
                   {suggestions.map((city) => (
                     <li
                       key={city.chave}
