@@ -17,7 +17,6 @@ interface ArcanoContextType {
     insightsCombinados: {
         dia: any;
         lua: any;
-        signo: any;
         transicao: any;
         faseLua: string;
     } | null;
@@ -29,7 +28,6 @@ interface ArcanoContextType {
 // Importação das Matrizes
 import matrixArcanoDay from '../data/matrices/matrix_arcano_day.json';
 import matrixArcanoMoon from '../data/matrices/matrix_arcano_moon.json';
-import matrixArcanoSign from '../data/matrices/matrix_arcano_sign.json';
 import matrixYearTransition from '../data/matrices/matrix_year_transition.json';
 import { calculateMoonPhase, reduzirParaArcano } from '../utils/calculos';
 import { resolverNascimentoUTC } from '../utils/timezone';
@@ -117,13 +115,11 @@ export const ArcanoProvider: React.FC<{ children: React.ReactNode }> = ({ childr
 
         const keyDia = `${idxPessoal}-${idxDia}`;
         const keyLua = `${idxPessoal}-${faseLua}`;
-        const keySigno = `${idxPessoal}-${mapa?.sunSign || 'Áries'}`;
         const keyTransicao = `${numeroParaIndiceConteudo(num2026)}-${numeroParaIndiceConteudo(num2027)}`;
 
         const insights = {
             dia: (matrixArcanoDay as any)[keyDia] || null,
             lua: (matrixArcanoMoon as any)[keyLua] || null,
-            signo: (matrixArcanoSign as any)[keySigno] || null,
             transicao: (matrixYearTransition as any)[keyTransicao] || null,
             faseLua
         };

@@ -27,6 +27,21 @@ Botica.
 
 Bordas de gradiente usam `bordaGradiente()`, que fecha os quatro lados.
 
+## Conteúdo por composição
+
+As matrizes em `src/data/matrices/*.json` dão cobertura de 100% por template: a
+mesma frase com variáveis trocadas, que lida de perto não diz nada. Onde isso
+foi corrigido — aspectos, casas e signos — a estratégia é a mesma: peças curtas
+escritas à mão para cada eixo e uma função que compõe.
+
+- `aspectosInterpretacao.ts` — 15 astros × 5 aspectos
+- `casasInterpretacao.ts` — 15 astros × 12 casas, + o signo na cúspide
+- `signosInterpretacao.ts` — 22 arcanos × 12 signos, + 16 pares de elemento e 3
+  modalidades (`lerArcanoNoSigno`)
+
+Ao acrescentar conteúdo, prefira esse caminho a gerar mais uma matriz: 34 peças
+escritas rendem 264 textos específicos, e cada peça pode ser revisada sozinha.
+
 ## gstack
 
 Este repositório usa o [gstack](https://github.com/garrytan/gstack) — uma suíte

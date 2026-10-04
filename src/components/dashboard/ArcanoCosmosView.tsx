@@ -6,6 +6,7 @@ import { calculateArcanoAlignment } from '../../utils/astroConnectionUtils';
 import { deArcano } from '../../utils/calculos';
 import { variaveisDaPaleta, paletaDoArcano, bordaGradiente } from '../../utils/arcanoPalette';
 import { ASTROS } from '../../data/aspectosInterpretacao';
+import { lerArcanoNoSigno } from '../../data/signosInterpretacao';
 import { useUserProgress } from '../../hooks/useUserProgress';
 
 /**
@@ -24,6 +25,11 @@ import { useUserProgress } from '../../hooks/useUserProgress';
  * ternário `arcano.numero === 1` era o único texto próprio da tela. Cada astro
  * agora fala pela sua função real, a mesma que a tabela de aspectos usa.
  *
+ * O signo: o card "Personalidade Híbrida" lia `matrix_arcano_sign.json`, cujas
+ * 264 entradas eram a mesma frase com variáveis trocadas — o signo entrava como
+ * substantivo e não dizia nada. Agora a leitura vem de `signosInterpretacao.ts`,
+ * que compõe arquétipo × temperamento solar e tem o que dizer sobre os dois.
+ *
  * O botão: "Marcar Prática" não tinha `onClick`. Era um botão que não fazia
  * nada, ao lado de um desafio que ninguém podia concluir. Agora ele registra um
  * check-in de verdade, no mesmo contador de sequência das Diretrizes.
@@ -32,7 +38,6 @@ import { useUserProgress } from '../../hooks/useUserProgress';
 interface Props {
     arcano: ArcanoAdvanced;
     mapa: MapaAstralCalculado | null;
-    insights?: any;
 }
 
 /** Identificador do check-in desta prática no histórico de progresso. */
@@ -61,7 +66,7 @@ function nucleoDoRegente(regente?: string): string | null {
     return ASTROS[nome]?.nucleo ?? null;
 }
 
-export const ArcanoCosmosView: React.FC<Props> = ({ arcano, mapa, insights }) => {
+export const ArcanoCosmosView: React.FC<Props> = ({ arcano, mapa }) => {
     const alignment = calculateArcanoAlignment(arcano, mapa);
     const { checkinGuideline, isGuidelineCheckedToday, getGuidelineCheckinCount } =
         useUserProgress(arcano.numero);
@@ -84,6 +89,7 @@ export const ArcanoCosmosView: React.FC<Props> = ({ arcano, mapa, insights }) =>
         );
     }
 
+    const leitura = lerArcanoNoSigno(arcano as any, mapa.sol.signo);
     const funcao = funcaoDoRegente(arcano.planeta_regente);
     const nucleo = nucleoDoRegente(arcano.planeta_regente);
     const marcadaHoje = isGuidelineCheckedToday(PRATICA_ID);
@@ -153,18 +159,21 @@ export const ArcanoCosmosView: React.FC<Props> = ({ arcano, mapa, insights }) =>
                         <h4 className="text-[10px] font-bold uppercase tracking-[0.3em] mb-2" style={{ color: 'var(--arc-suave)' }}>
                             Personalidade Híbrida
                         </h4>
-                        <p className="text-3xl font-serif text-white mb-3">{arcano.nome} em {mapa.sol.signo}</p>
+                        <p className="text-3xl font-serif text-white mb-1">
+                            {leitura?.titulo ?? `${arcano.nome} em ${mapa.sol.signo}`}
+                        </p>
+                        {leitura && (
+                            <p className="text-[10px] uppercase tracking-[0.2em] text-slate-500 mb-4">
+                                {leitura.signo.glifo} {leitura.assinatura}
+                                {leitura.ressonancia && ' • ressonância'}
+                            </p>
+                        )}
                         <p
-                            className="text-sm text-slate-400 font-light leading-relaxed italic pl-4 mb-4"
+                            className="text-sm text-slate-300 font-light leading-relaxed italic pl-4 mb-4"
                             style={{ borderLeft: `2px solid ${paleta.borda}` }}
                         >
-                            {insights?.signo?.perfil || `A fusão entre o arquétipo ${deArcano(arcano.nome)} e o Sol em ${mapa.sol.signo} cria uma expressão única de individualidade.`}
+                            {leitura?.perfil ?? `A fusão entre o arquétipo ${deArcano(arcano.nome)} e o Sol em ${mapa.sol.signo} cria uma expressão única de individualidade.`}
                         </p>
-                        {insights?.signo?.ponto_cego && (
-                            <div className="text-[10px] uppercase font-bold text-rose-400/70 border border-rose-500/20 rounded-lg p-2 bg-rose-500/5">
-                                ⚠️ Ponto Cego: {insights.signo.ponto_cego}
-                            </div>
-                        )}
                     </div>
                 </motion.div>
 
@@ -204,6 +213,72 @@ export const ArcanoCosmosView: React.FC<Props> = ({ arcano, mapa, insights }) =>
                     </div>
                 </motion.div>
             </section>
+
+            {/* ── O ARCANO LIDO PELO SIGNO SOLAR ────────────────────────── */}
+            {leitura && (
+                <section className="bg-white/[0.02] border border-white/5 rounded-[3rem] p-8 md:p-12">
+                    <div className="flex items-start gap-4 mb-8">
+                        <div
+                            className="w-10 h-10 shrink-0 rounded-full flex items-center justify-center"
+                            style={{ background: 'var(--arc-lavagem)', color: 'var(--arc-tinta)' }}
+                        >
+                            <Sun size={20} />
+                        </div>
+                        <div>
+                            <h2 className="text-2xl font-serif text-white">O Sol em {leitura.signo.nome}</h2>
+                            <p className="text-[10px] uppercase tracking-[0.2em] text-slate-500">
+                                Como o arquétipo se expressa pelo seu temperamento solar
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="space-y-6">
+                        <div className="p-6 rounded-2xl border border-rose-500/20 bg-rose-500/5">
+                            <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-rose-400/80 block mb-2">
+                                Ponto cego
+                            </span>
+                            <p className="text-sm md:text-base text-slate-300 font-light leading-relaxed">{leitura.pontoCego}</p>
+                        </div>
+
+                        <div className="p-6 rounded-2xl bg-white/[0.03] border border-white/5">
+                            <span className="text-[10px] font-bold uppercase tracking-[0.3em] block mb-2" style={{ color: 'var(--arc-suave)' }}>
+                                A tensão entre os dois
+                            </span>
+                            <p className="text-sm md:text-base text-slate-300 font-light leading-relaxed">{leitura.tensao}</p>
+                        </div>
+
+                        <div className="p-6 rounded-2xl bg-white/[0.03] border border-white/5">
+                            <span className="text-[10px] font-bold uppercase tracking-[0.3em] block mb-2" style={{ color: 'var(--arc-suave)' }}>
+                                Experimento de hoje
+                            </span>
+                            <p className="text-sm md:text-base text-slate-300 font-light leading-relaxed">{leitura.pratica}</p>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div
+                                className="p-6 rounded-2xl"
+                                style={{ background: 'var(--arc-lavagem)', border: '1px solid var(--arc-borda)' }}
+                            >
+                                <span className="text-[10px] font-bold uppercase tracking-[0.3em] block mb-2" style={{ color: 'var(--arc-tinta)' }}>
+                                    A pergunta
+                                </span>
+                                <p className="text-base md:text-lg font-serif italic text-white leading-relaxed">
+                                    {leitura.pergunta}
+                                </p>
+                            </div>
+                            <div className="p-6 rounded-2xl bg-white/[0.03] border border-white/5">
+                                <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-slate-500 block mb-2">
+                                    Onde isso fala no corpo
+                                </span>
+                                <p className="text-sm text-slate-400 font-light leading-relaxed">{leitura.corpo}</p>
+                                <p className="text-[10px] text-slate-600 mt-2">
+                                    Leitura simbólica tradicional de {leitura.signo.nome}, não diagnóstico.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            )}
 
             {/* ── MAPA DE SINCRONICIDADE ────────────────────────────────── */}
             <section className="bg-white/[0.02] border border-white/5 rounded-[3rem] p-8 md:p-12">

@@ -22,7 +22,6 @@ import { SoundTherapyView } from './SoundTherapyView';
 import { ArcanoCosmosView } from './ArcanoCosmosView';
 import { SombraQuiz } from '../terapia/SombraQuiz';
 import { TrilhaTransmutacao } from '../terapia/TrilhaTransmutacao';
-import { useArcano } from '../../context/ArcanoContext';
 import { deArcano } from '../../utils/calculos';
 import { paletaDoArcano, bordaGradiente, type PaletaArcano } from '../../utils/arcanoPalette';
 import { MAJOR_ARCANA } from '../../lib/cardImages';
@@ -177,7 +176,6 @@ export const ArcanoExpandidoView: React.FC<Props> = ({
 }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [activeTab, setActiveTab] = useState<ArcanoTab>(initialTab);
-  const { insightsCombinados } = useArcano();
 
   // Dynamic Theme
   const theme = getArcanaTheme(arcano.elemento as string);
@@ -467,7 +465,7 @@ export const ArcanoExpandidoView: React.FC<Props> = ({
       case 'som':
         return <SoundTherapyView arcano={arcano} />;
       case 'cosmos':
-        return <ArcanoCosmosView arcano={arcano} mapa={mapa} insights={insightsCombinados} />;
+        return <ArcanoCosmosView arcano={arcano} mapa={mapa} />;
       default:
         return renderEssenciaTab();
     }
