@@ -1,9 +1,18 @@
 # Arcanoterapia
 
-App de tarô + astrologia em pt-BR. React 19 + Vite 6 + TypeScript, Tailwind pelo
-CDN (`cdn.tailwindcss.com`, no `index.html` — não há build local de Tailwind).
-Publicado no GitHub Pages: 100% estático, sem backend, sem login, sem LLM em
-tempo de execução. Tudo o que o usuário produz fica no `localStorage`.
+App de tarô + astrologia em pt-BR. React 19 + Vite 6 + TypeScript, Tailwind
+compilado no build (PostCSS). Publicado no GitHub Pages: 100% estático, sem
+backend, sem login, sem LLM em tempo de execução. Tudo o que o usuário produz
+fica no `localStorage`.
+
+O CSS sai pronto no `dist` e é servido pela própria origem — **o app não depende
+de nenhuma CDN para renderizar**. Era assim até outubro de 2026: o `index.html`
+carregava `cdn.tailwindcss.com` em tempo de execução, e com esse host fora do ar
+a página virava texto preto sobre fundo escuro. O tema (fontes, cores, keyframes)
+mora em `tailwind.config.js`; antes era um `tailwind.config = {...}` inline.
+
+Classe montada por concatenação (`bg-${cor}-500/10`) o scanner não enxerga: ou
+escreva a classe inteira, ou declare no `safelist` do config.
 
 `base: '/arcanoterapia/'` no `vite.config.ts` — por isso todo caminho de imagem
 passa por `asset()` com `import.meta.env.BASE_URL`, nunca por uma barra inicial.
@@ -11,7 +20,7 @@ passa por `asset()` com `import.meta.env.BASE_URL`, nunca por uma barra inicial.
 ## Comandos
 
 ```bash
-npm run build       # vite build (esbuild, sem checagem de tipos)
+npm run build       # vite build (esbuild, sem checagem de tipos) + Tailwind via PostCSS
 npm run typecheck   # tsc --noEmit — está em ZERO erros; mantenha assim
 npm run preview     # serve o dist em http://localhost:3000/arcanoterapia/
 ```
