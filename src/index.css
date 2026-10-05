@@ -1,6 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* ==========================================
    Arcanoterapia v2 — Global CSS Utilities
    ========================================== */
+
+/* --- Base da página --- */
+/* Estava numa <style> inline no index.html, junto da CDN do Tailwind. Veio para
+   cá quando o Tailwind passou a ser compilado no build. Fica depois das
+   diretivas para vencer o preflight. */
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #0b1021;
+}
+
+/* --- Barra de rolagem da página --- */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b1021;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b5952f;
+}
 
 /* --- 3D Transform Utilities --- */
 /* Used by TimelineView flip cards */

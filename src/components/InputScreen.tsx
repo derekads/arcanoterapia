@@ -180,10 +180,11 @@ const InputScreen: React.FC<Props> = ({ onSubmit }) => {
 
           {/* Nome */}
           <div className="group">
-            <label className="text-xs text-mystic-gold uppercase tracking-widest font-bold mb-1 ml-1 flex items-center gap-1">
+            <label htmlFor="campo-nome" className="text-xs text-mystic-gold uppercase tracking-widest font-bold mb-1 ml-1 flex items-center gap-1">
               <User size={12} /> Nome Completo
             </label>
             <input
+              id="campo-nome"
               type="text"
               name="name"
               value={formData.nome}
@@ -196,10 +197,11 @@ const InputScreen: React.FC<Props> = ({ onSubmit }) => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             {/* Data (Masked) */}
             <div className="group">
-              <label className="text-xs text-mystic-gold uppercase tracking-widest font-bold mb-1 ml-1 flex items-center gap-1">
+              <label htmlFor="campo-nascimento" className="text-xs text-mystic-gold uppercase tracking-widest font-bold mb-1 ml-1 flex items-center gap-1">
                 <Calendar size={12} /> Data de Nascimento
               </label>
               <input
+                id="campo-nascimento"
                 type="text"
                 inputMode="numeric"
                 name="birthDate"
@@ -212,17 +214,19 @@ const InputScreen: React.FC<Props> = ({ onSubmit }) => {
 
             {/* Hora */}
             <div className="group">
-              <label className="text-xs text-mystic-gold uppercase tracking-widest font-bold mb-1 ml-1 flex items-center gap-1">
+              <label htmlFor="campo-hora" className="text-xs text-mystic-gold uppercase tracking-widest font-bold mb-1 ml-1 flex items-center gap-1">
                 <Clock size={12} /> Hora de Nascimento
               </label>
               <input
+                id="campo-hora"
                 type="time"
                 name="birthTime"
+                aria-describedby="campo-hora-ajuda"
                 value={formData.horaNascimento}
                 onChange={handleTimeChange}
                 className="w-full bg-black/20 border border-white/10 rounded-xl py-3 px-4 text-white focus:outline-none focus:border-mystic-gold/50 focus:bg-black/40 transition-all [color-scheme:dark]"
               />
-              <span className="text-[10px] text-gray-400 ml-1 mt-1 block flex items-center gap-1">
+              <span id="campo-hora-ajuda" className="text-[10px] text-gray-400 ml-1 mt-1 block flex items-center gap-1">
                 <AlertCircle size={10} /> Use formato 24h (Ex: 08:00 manhã / 20:00 noite)
               </span>
             </div>

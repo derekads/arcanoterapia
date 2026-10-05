@@ -142,7 +142,12 @@ export const EvolutiveGuidelinesView: React.FC<Props> = ({ arcano, embedded }) =
                     className="relative rounded-[2rem] p-8 mb-8 overflow-hidden"
                     style={bordaGradiente(paleta, `linear-gradient(150deg, ${paleta.lavagem}, transparent 75%)`)}
                 >
-                    <div className="absolute top-6 right-6">
+                    {/* O selo ficava em `absolute top-6 right-6` e o título reservava
+                        espaço com um `pr-32` fixo. Abaixo de uns 500px de largura o selo
+                        é mais largo que a reserva e passava por cima do título. Em fluxo
+                        normal, alinhado à direita, ele nunca sobrepõe nada — em nenhuma
+                        largura e por mais longo que o título seja. */}
+                    <div className="flex justify-end mb-3">
                         <span
                             className="text-[10px] uppercase font-bold tracking-widest px-3 py-1.5 rounded-full border"
                             style={{ color: 'var(--arc-tinta)', background: 'var(--arc-lavagem)', borderColor: 'var(--arc-borda)' }}
@@ -153,7 +158,7 @@ export const EvolutiveGuidelinesView: React.FC<Props> = ({ arcano, embedded }) =
 
                     <button
                         onClick={() => abrir(prioritaria)}
-                        className="flex items-center gap-5 mb-6 text-left group w-full pr-32"
+                        className="flex items-center gap-5 mb-6 text-left group w-full"
                     >
                         <div
                             className="w-16 h-16 rounded-2xl flex items-center justify-center shadow-inner shrink-0"
